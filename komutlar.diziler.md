@@ -90,3 +90,9 @@ Tüm bu veri yapılarının açıklanması bu kılavuzun amacını aşar. Fakat,
 ```usort``` Bir diziyi kullanıcı tanımlı bir işlev kullanarak değerlerine göre sıralar
 
 Ayrıca bakınız: ```is_array()```, ```explode()```, ```implode()```, ```split()```, ```preg_split()``` ve ```unset()```. 
+
+
+## Dizilerde Sıralama
+
+Şu sayfadaki tablo eklenecek:
+http://php.net/manual/tr/array.sorting.php 
