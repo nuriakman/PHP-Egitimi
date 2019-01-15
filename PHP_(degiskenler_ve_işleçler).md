@@ -90,6 +90,7 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 
 
 ### Aritmetik İşleçler
+
 | İşlem  |     Anlamı    |
 |----------|:-------------:|------:|
 | +$a    |   Özdeşlik 	$a'nın int veya float'a dönüşümü.|
@@ -109,6 +110,7 @@ $a = "Merhaba ";
 $a .= "Dünyalı!";     // $a artık "Merhaba Dünyalı!" içeriyor
 ```
 ### Mantıksal İşleçler
+
 $a and $b 	Ve 	$a ve $b her ikisi de doğruysa sonuç doğrudur (TRUE).
 $a or $b 	Veya 	$a veya $b doğruysa sonuç doğrudur.
 $a xor $b 	Ayrıcalıklı Veya 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
@@ -118,6 +120,7 @@ $a || $b 	Veya 	$a veya $b doğruysa sonuç doğrudur.
 
 
 ### Arttırım ve Eksiltim işleçleri
+
 | İşlem  |     Anlamı    |
 |----------|:-------------:|------:|
 |++$a |	Önceden arttırım 	$a bir arttırıldıktan sonra döndürülür.|
