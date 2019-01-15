@@ -10,9 +10,11 @@ PHP muhtemelen internetteki en popüler betik dilidir. Web sayfalarını gelişt
 ### PHP etiketleri
 PHP bir dosyayı çözümlerken, hangi bölümü yorumlayıp hangi bölümü yorumlamadan geçeceğine karar vermek için <?php ve ?> açılış ve kapanış etiketlerine bakar. Bu şekilde çözümleme PHP'nin her çeşit farklı belgeye gömülmesini sağlar, çünkü bir çift açılış ve kapanış etiketinin dışındaki her şey PHP çözümleyicisi tarafından gözardı edilir.
 
-PHP ayrıca kısa başlangıç etiketine de <? izin verir.
+PHP ayrıca kısa başlangıç etiketine de ```<?``` izin verir.
 
 Bir dosya saf PHP kodu ise, dosyanın sonunda PHP kapanış etiketini koymamak tercih edilir.
+
+PHP kodları ```php <?php .... ?>```etiketleri arasına yazılır.
 
 ### Deyim Ayrımı
 PHP de deyimlerin birbirlerinden her bir deyimin sonuna konulacak noktalı virgülle ayrılmasını gerektirir.
@@ -20,23 +22,26 @@ PHP de deyimlerin birbirlerinden her bir deyimin sonuna konulacak noktalı virg�
 
 ### DEĞİŞKENLER
  PHP'de değişkenler dolar işaretini takip eden bir değişken adı ile gösterilir. Değişken adı büyük-küçük harf duyarlıdır. Geçerli bir değişken ismi bir harf veya alt çizgi imi ile başlar, herhangi sayıda harf, sayı veya alt çizgi iminden oluşur.
-```
+```php
 $var = 'Kemal';
 $Var = 'gel';
 echo "$var, $Var";    // "Kemal, gel" yazdırır
 ```
 
 ### SABİT TANIMLAMA
-```
+```php
 define("KDVORANI", 18);
 $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 ```
 
 ### HTML'den Kaçmak
+
 ```
+
 <p>Bu bölüm PHP tarafından gözardı edilecek ve tarayıcıda gösterilecek.</p>
 <?php echo 'Bu bölüm PHP tarafından çözümlenecektir.'; ?>
 <p>Bu bölüm de PHP tarafından gözardı edilecek ve tarayıcıda gösterilecek.</p>
+
 ```
 Örnek 1
 ```
@@ -55,6 +60,7 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 ```
 <?php echo $SEHIR; ?> //Ekrana sehir değişkenini yazdırır.
 ```
+
 ### PHP Kodu içine açıklama eklemek
 
 Örnekler:
@@ -88,19 +94,19 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 
 ### Aritmetik İşleçler
 
-İşlem | Açıklaması
-------------|-------------
-+$a    |   Özdeşlik 	$a'nın int veya float'a dönüşümü.
--$a 	   |     Olumsuzlama 	$a'nın eksi işaretlisi.
-$a + $b | 	Toplama 	$a ile $b'nin toplamı.
-$a - $b | 	Çıkarma 	$a'nın $b'den farkı.
-$a * $b | 	Çarpma 	$a ile $b'nin çarpımı.
-$a / $b | 	Bölme 	$a'nın $b'ye bölümü.
-$a % $b | 	Kalan 	$a'nın $b'ye bölümünden kalan.
-$a ** $b|  Üs 	$a üssü $b. PHP 5.6 ile eklendi.
+İşlem |Anlamı| Açıklaması|
+------------|-------------|-------------
++$a    |   Özdeşlik |	$a'nın int veya float'a dönüşümü.
+-$a 	   |     Olumsuzlama |	$a'nın eksi işaretlisi.
+$a + $b | 	Toplama |	$a ile $b'nin toplamı.
+$a - $b | 	Çıkarma |	$a'nın $b'den farkı.
+$a * $b | 	Çarpma |	$a ile $b'nin çarpımı.
+$a / $b | 	Bölme |	$a'nın $b'ye bölümü.
+$a % $b | 	Kalan |	$a'nın $b'ye bölümünden kalan.
+$a ** $b|  Üs |	$a üssü $b. PHP 5.6 ile eklendi.
 
 ### String İşleçler
-```
+```PHP
 $a = "Merhaba ";
 $b = $a . "Dünyalı!"; // $b artık "Merhaba Dünyalı!" içeriyor
 $a = "Merhaba ";
@@ -128,7 +134,7 @@ $a-- |	Sonradan eksiltim |	$a döndürüldükten sonra değeri bir eksiltilir.
 
 
 ### Çalıştırma İşleci (Ters Tırnak)
-```
+```PHP
 $output = `ls -al`;
 echo "<pre>$output</pre>";
 
@@ -138,7 +144,7 @@ echo `ping -n 3 {$host}`;
 safe_mode etkinse veya shell_exec() işlevi etkin değilse, çalıştırma işleci etkin değildir.
 
 ### Hata Denetim İşleçleri
-```
+```PHP
 $dosyam = @file('var_olmayan_dosya_adi');
 if(!$dosyam) echo "Dosya açılamadı...";
 ```
@@ -168,7 +174,7 @@ $a << $b|    Sola kaydırma |  $a'nın bitleri $b adım sola kaydırılır (her 
 $a >> $b|    Sağa kaydırma |  $a'nın bitleri $b adım sağa kaydırılır (her adım ikiye bölme işlemine denktir).
 
 ### Atama İşleçi
-```
+```PHP
 $a = ($b = 4) + 5; // $a'nın değeri 9, $b'nin değeri 4 olur.
 $a = 3;
 $a += 5; // $a'nın değeri 8 olur, asıl işlem: $a = $a + 5;
@@ -177,7 +183,7 @@ $b .= "Merhaba!"; // $b'nin değeri "Herkese Merhaba!" olur.
                   // asıl işlem: $b = $b . "Merhaba!";
 ```
 ### Gönderimli Atama İşleçi (by Referance)
-```
+```PHP
 $a = 3;
 $b = &$a; // $b, $a'ya bir gönderimdir
 print "$a\n"; // 3 basar
@@ -187,11 +193,11 @@ print "$b\n"; // 3 basar
 # DENETİM YAPILARI
 
 ### if
-```
+```PHP
 if ($a > $b) echo "a büyüktür b";
 ```
 ### if / else
-```
+```PHP
 if ($a > $b) {
     echo "a büyüktür b";
 } else {
@@ -199,7 +205,7 @@ if ($a > $b) {
 }
 ```
 ### elseif
-```
+```PHP
 if ($a == 5):
     echo "a eşittir 5";
     echo "...";
@@ -211,14 +217,16 @@ else:
 endif;
 ```
 ### while
+
+```PHP
 /* örnek 1 */
-```
 $i = 1;
 while ($i <= 10) {
     echo $i++;
     $i++;
 }
 
+/* örnek 2 */
 $i = 1;
 while ($i <= 10):
     echo $i;
@@ -226,28 +234,28 @@ while ($i <= 10):
 endwhile;
 ```
 ### do - while
-```
+```PHP
 $i = 0;
 do {
     echo $i;
 } while ($i > 0);
 ```
 ### for
-```
+```PHP
 for ($i = 1; $i <= 10; $i++) {
     echo $i;
 }
 ```
 ### foreach
-/* Örnek 1 */
-```
+Örnek 1
+```PHP
 $dizi = array(1, 2, 3, 4);
 foreach ($dizi as $deger) {
     echo $deger;
 }
 ```
-/* Örnek 2 */
-```
+Örnek 2
+```PHP
 $arr1 = array("a" => 1, "b" => 2, "c" => 3);
 foreach ($arr2 as $key => $val) {
     echo  "<p>$key elemanının değeri: $val</p>";
@@ -260,8 +268,8 @@ break deyimi, for, foreach, while, do-while ve switch yapılarının çalışmas
 continue deyimi, for, foreach, while ve do-while döngü yapılarının içinde kullanılır. Bu deyim kullanıldığında, döngünün kalan kısmı atlanır ve sonraki yineleme başlatılır.
 
 ### switch
-/* Örnek 1 */
-```
+Örnek 1
+```PHP
 switch ($i) {
 case "elma":
     echo "i bir elmadır";
@@ -276,8 +284,8 @@ default;
     echo 'Lütfen yeniden seçiniz...';
 }
 ```
-/* Örnek 2 */
-```
+Örnek 2
+```PHP
 switch ($i) {
     case 0:
     case 1:
@@ -292,7 +300,8 @@ switch ($i) {
 ```
 ### return
 return program denetimini çağrıldığı modüle döndürür ve program kendinden sonra gelen ifadeden itibaren çalışmayı sürdürür.
-```
+
+```PHP
 /* Çağrıan modüle dön */
 
 return;
@@ -305,10 +314,8 @@ return $Sonuc;
 
 /* Birden fazla deger dönme */
 
-return array(7889, "Ankara", 678); 
-    // Dönen değeri alabilmek için:  list($sayi1, $sehir, $sayi2) = fonksiyonadi();
+return array(7889, "Ankara", 678); // list($sayi1, $sehir, $sayi2) = fonksiyonadi(); //seklinde kullanılır
 ```
-
 
 ### include
 include deyimi belirtilen dosyayı betiğe ekler ve içeriğini değerlendirir.
@@ -323,25 +330,11 @@ require deyimi bir başarısızlıkta ölümcül bir hata vermesi dışında inc
 require_once deyimi, dosyayı evvelce dahil edilmişse tekrar dahil etmemesi dışında require deyimiyle aynıdır.
 
 ### goto
-```
+```PHP
 goto SONUC;
 echo $a;
 
 SONUC:
 
 echo 'Sonuç etiketine yönlendik';
-```
-
-### try - catch
- Olası istisnaların yakalanabilmesi için, kod bir try bloğu içine alınabilir. Her try bloğuna karşılık en az bir tane catch veya finally bloğu olması gerekir. 
-
-```
-try {
-    // hata verebilecek bir işlem 
-} catch (Exception $e) {
-    // hata olursa çalışacak kısım
-    // Hataya ilişkin bilgiler $e nesnesinin içindedir
-} finally {
-    // Hata olsun veya olmasın buradaki kod çalışır
-}
 ```
