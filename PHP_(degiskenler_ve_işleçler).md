@@ -91,16 +91,16 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 
 ### Aritmetik İşleçler
 
-| İşlem  |     Anlamı    |
-|----------|:-------------:|------:|
-| +$a    |   Özdeşlik 	$a'nın int veya float'a dönüşümü.|
-|-$a 	   |     Olumsuzlama 	$a'nın eksi işaretlisi.|
-|$a + $b | 	Toplama 	$a ile $b'nin toplamı.|
-|$a - $b | 	Çıkarma 	$a'nın $b'den farkı.|
-|$a * $b | 	Çarpma 	$a ile $b'nin çarpımı.|
-|$a / $b | 	Bölme 	$a'nın $b'ye bölümü.|
-|$a % $b | 	Kalan 	$a'nın $b'ye bölümünden kalan.|
-|$a ** $b|  Üs 	$a üssü $b. PHP 5.6 ile eklendi.|
+İşlem | Açıklaması
+------------|-------------
++$a    |   Özdeşlik 	$a'nın int veya float'a dönüşümü.
+-$a 	   |     Olumsuzlama 	$a'nın eksi işaretlisi.
+$a + $b | 	Toplama 	$a ile $b'nin toplamı.
+$a - $b | 	Çıkarma 	$a'nın $b'den farkı.
+$a * $b | 	Çarpma 	$a ile $b'nin çarpımı.
+$a / $b | 	Bölme 	$a'nın $b'ye bölümü.
+$a % $b | 	Kalan 	$a'nın $b'ye bölümünden kalan.
+$a ** $b|  Üs 	$a üssü $b. PHP 5.6 ile eklendi.
 
 ### String İşleçler
 ```
@@ -121,12 +121,12 @@ $a || $b 	Veya 	$a veya $b doğruysa sonuç doğrudur.
 
 ### Arttırım ve Eksiltim işleçleri
 
-| İşlem  |     Anlamı    |
-|----------|:-------------:|------:|
-|++$a |	Önceden arttırım 	$a bir arttırıldıktan sonra döndürülür.|
-|$a++ |	Sonradan arttırım 	$a döndürüldükten sonra değeri bir arttırılır.|
-|--$a |	Önceden eksiltim 	$a bir eksiltildikten sonra döndürülür.|
-|$a-- |	Sonradan eksiltim 	$a döndürüldükten sonra değeri bir eksiltilir.|
+İşlem | Açıklaması
+------------|-------------
+++$a |	Önceden arttırım 	$a bir arttırıldıktan sonra döndürülür.
+$a++ |	Sonradan arttırım 	$a döndürüldükten sonra değeri bir arttırılır.
+--$a |	Önceden eksiltim 	$a bir eksiltildikten sonra döndürülür.
+$a-- |	Sonradan eksiltim 	$a döndürüldükten sonra değeri bir eksiltilir.
 
 
 ### Çalıştırma İşleci (Ters Tırnak)
@@ -146,28 +146,28 @@ if(!$dosyam) echo "Dosya açılamadı...";
 ```
 
 ### Karşılaştırma İşleçleri
-| İşlem  |     Anlamı    |
-|----------|:-------------:|------:|
-|$a == $b|    Eşittir     Tür dönüşümünden sonra, $a ve $b aynı değere sahipse sonuç TRUE olur.|
-|$a === $b|   Aynıdır     $a ve $b aynı değere sahipse ve türleri de aynıysa sonuç TRUE olur.|
-|$a != $b|    Eşit değildir   Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.|
-|$a <> $b|    Eşit değildir   Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.|
-|$a !== $|b   Farklıdır   $a ve $b aynı değere sahip değilse veya türleri aynı değilse sonuç TRUE olur.|
-|$a < $b |    Küçüktür    $a kesin olarak $b'den küçükse sonuç TRUE olur.|
-|$a > $b |    Büyüktür    $a kesin olarak $b'den büyükse sonuç TRUE olur.|
-|$a <= $b|    Küçük veya eşittir  $a, $b'den küçük veya ona eşitse sonuç TRUE olur.|
-|$a >= $b|    Büyük veya eşittir  $a, $b'den büyük veya ona eşitse sonuç TRUE olur.|
+İşlem | Açıklaması
+------------|-------------
+$a == $b|    Eşittir     Tür dönüşümünden sonra, $a ve $b aynı değere sahipse sonuç TRUE olur.
+$a === $b|   Aynıdır     $a ve $b aynı değere sahipse ve türleri de aynıysa sonuç TRUE olur.
+$a != $b|    Eşit değildir   Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
+$a <> $b|    Eşit değildir   Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
+$a !== $|b   Farklıdır   $a ve $b aynı değere sahip değilse veya türleri aynı değilse sonuç TRUE olur.
+$a < $b |    Küçüktür    $a kesin olarak $b'den küçükse sonuç TRUE olur.
+$a > $b |    Büyüktür    $a kesin olarak $b'den büyükse sonuç TRUE olur.
+$a <= $b|    Küçük veya eşittir  $a, $b'den küçük veya ona eşitse sonuç TRUE olur.
+$a >= $b|    Büyük veya eşittir  $a, $b'den büyük veya ona eşitse sonuç TRUE olur.
 
 
 ### Bitsel İşleçler
-| İşlem  |     Anlamı    |
-|----------|:-------------:|------:|
-|$a & $b |    Ve  Hem $a hem de $b'de 1 olan bitler sonuçta 1 yapılır.|
-|$a &#x7c; $b  |    Veya    $a veya $b'de 1 olan bitler sonuçta 1 yapılır.|
-|$a ^ $b |    Ayrıcalıklı Veya    Hem $a hem de $b'de 0 veya 1 olan bitler sonuçta 0, diğerleri 1 yapılır.|
-|~ $a    |    Değil   $a'nın 0 olan bitleri 1, 1 olanları 0 yapılır.|
-|$a << $b|    Sola kaydırma   $a'nın bitleri $b adım sola kaydırılır (her adım ikiyle çarpma işlemine denktir).|
-|$a >> $b|    Sağa kaydırma   $a'nın bitleri $b adım sağa kaydırılır (her adım ikiye bölme işlemine denktir).|
+İşlem | Açıklaması
+------------|-------------
+$a & $b |    Ve  Hem $a hem de $b'de 1 olan bitler sonuçta 1 yapılır.
+$a &#x7c; $b  |    Veya    $a veya $b'de 1 olan bitler sonuçta 1 yapılır.
+$a ^ $b |    Ayrıcalıklı Veya    Hem $a hem de $b'de 0 veya 1 olan bitler sonuçta 0, diğerleri 1 yapılır.
+~ $a    |    Değil   $a'nın 0 olan bitleri 1, 1 olanları 0 yapılır.
+$a << $b|    Sola kaydırma   $a'nın bitleri $b adım sola kaydırılır (her adım ikiyle çarpma işlemine denktir).
+$a >> $b|    Sağa kaydırma   $a'nın bitleri $b adım sağa kaydırılır (her adım ikiye bölme işlemine denktir).
 
 ### Atama İşleçi
 ```
