@@ -1,10 +1,10 @@
 # Dizi Komutları
 
-Bu işlevler dizilerle çeşitli yollarla etkileşmek ve dizilerde değişiklik yapmak için kullanılır. Diziler esasen değişken kümeleri üzerinde işlemler yapmak, bunları değiştirmek ve saklamak içindir. 
+Bu işlevler dizilerle çeşitli yollarla etkileşmek ve dizilerde değişiklik yapmak için kullanılır. Diziler esasen değişken kümeleri üzerinde işlemler yapmak, bunları değiştirmek ve saklamak içindir.
 
 PHP'de bir dizi aslında sıralı bir eşlemdir. Bir eşlem, değerleri anahtarlarla ilişkilendiren bir veri türüdür. Bu veri türü farklı kullanım amaçları için en iyilenebilir; bir dizi, bir yöneysel liste, bir isim-değer çiftleri tablosu, bir sözlük, bir nesne listesi, yığıt, kuyruk ve daha bir sürü başka şey olarak ele alınabilir. Dizilerin değerleri, ağaçlar, diziler ve hatta çok boyutlu diziler bile olabilir.
 
-Tüm bu veri yapılarının açıklanması bu kılavuzun amacını aşar. Fakat, en azından her biri için birer örnek verilebilir. Bu konuda daha fazla bilgi edinmek için bu konuyla ilgili olarak yayımlanmış eserleri inceleyiniz. 
+Tüm bu veri yapılarının açıklanması bu kılavuzun amacını aşar. Fakat, en azından her biri için birer örnek verilebilir. Bu konuda daha fazla bilgi edinmek için bu konuyla ilgili olarak yayımlanmış eserleri inceleyiniz.
 
 ## Komut Listesi
 - ```array_change_key_case``` Bir dizideki tüm anahtarların harf büyüklüğünü değiştirir
@@ -89,10 +89,23 @@ Tüm bu veri yapılarının açıklanması bu kılavuzun amacını aşar. Fakat,
 - ```uksort``` Bir diziyi kullanıcı tanımlı bir işlev kullanarak anahtarlarına göre sıralar
 - ```usort``` Bir diziyi kullanıcı tanımlı bir işlev kullanarak değerlerine göre sıralar
 
-Ayrıca bakınız: ```is_array()```, ```explode()```, ```implode()```, ```split()```, ```preg_split()``` ve ```unset()```. 
+Ayrıca bakınız: ```is_array()```, ```explode()```, ```implode()```, ```split()```, ```preg_split()``` ve ```unset()```.
 
 
 ## Dizilerde Sıralama
 
-Şu sayfadaki tablo eklenecek:
-http://php.net/manual/tr/array.sorting.php 
+İşlev ismi |	Sıralama yeri |	Anahtar değer ilişkisi |	Sıralama kuralı |	İlgili işlevler
+------------|-------------|-------------|-------------|-------------
+array_multisort() |	değer |	ilişkiselse korunur, sayısalsa korunmaz |	ilk dizi veya sıralama seçenekleri |	array_walk()
+asort() |	değer| 	korunur |	küçükten büyüğe 	|arsort()
+arsort() |	değer |	korunur |	büyükten küçüğe 	|asort()
+krsort() |	key |	korunur |	büyükten küçüğe | ksort()
+ksort() |	key |	korunur| 	küçükten büyüğe 	| asort()
+natcasesort() |	değer |	korunur |	doğal, harf büyüklüğüne duyarsız 	    | natsort()
+natsort() |	değer |	korunur| 	doğal 	|natcasesort()
+rsort() |	değer |	korunmaz |	büyükten küçüğe |	sort()
+shuffle() |	değer |	korunmaz| 	rasgele |	array_rand()
+sort() |	değer |	korunmaz |	küçükten büyüğe 	|rsort()
+uasort() |	değer |	korunur |	kullanıcı tanımlı |	uksort()
+uksort() |	key| 	korunur |	kullanıcı tanımlı |	uasort()
+usort() |	değer |	korunmaz |	kullanıcı tanımlı 	|uasort()
