@@ -117,7 +117,7 @@ $a or $b 	Veya 	| $a veya $b  doğruysa sonuç doğrudur.
 $a xor $b 	Ayrıcalıklı Veya | 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
 !$a 	Değil 	| $a doğru değilse sonuç doğrudur.
 $a && $b 	Ve |	$a ve $b her ikisi de doğruysa sonuç doğrudur.
-$a &#x7c;&#x7c;&#x7c; $b 	Veya 	| $a veya $b doğruysa sonuç doğrudur.
+$a &#x7c;&#x7c; $b 	Veya 	| $a veya $b doğruysa sonuç doğrudur.
 
 
 ### Arttırım ve Eksiltim işleçleri
