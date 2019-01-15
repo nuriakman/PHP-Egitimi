@@ -120,7 +120,7 @@ $a &#x7c;&#x7c; $b |	Veya 	| $a veya $b doğruysa sonuç doğrudur.
 ### Arttırım ve Eksiltim işleçleri
 
 İşlem |Anlamı| Açıklaması
-------------|-------------
+------------|-------------|-------------
 ++$a |	Önceden arttırım |	$a bir arttırıldıktan sonra döndürülür.
 $a++ |	Sonradan arttırım |	$a döndürüldükten sonra değeri bir arttırılır.
 --$a |	Önceden eksiltim |	$a bir eksiltildikten sonra döndürülür.
@@ -145,7 +145,7 @@ if(!$dosyam) echo "Dosya açılamadı...";
 
 ### Karşılaştırma İşleçleri
 İşlem | Anlamı|Açıklaması
-------------|-------------
+------------|-------------|-------------
 $a == $b|    Eşittir   |  Tür dönüşümünden sonra, $a ve $b aynı değere sahipse sonuç TRUE olur.
 $a === $b|   Aynıdır   |  $a ve $b aynı değere sahipse ve türleri de aynıysa sonuç TRUE olur.
 $a != $b|    Eşit değildir |  Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
@@ -159,7 +159,7 @@ $a >= $b|    Büyük veya eşittir | $a, $b'den büyük veya ona eşitse sonuç 
 
 ### Bitsel İşleçler
 İşlem | Anlamı |Açıklaması
-------------|-------------
+------------|-------------|-------------
 $a & $b |    Ve | Hem $a hem de $b'de 1 olan bitler sonuçta 1 yapılır.
 $a &#x7c; $b  |    Veya |   $a veya $b'de 1 olan bitler sonuçta 1 yapılır.
 $a ^ $b |    Ayrıcalıklı Veya  |  Hem $a hem de $b'de 0 veya 1 olan bitler sonuçta 0, diğerleri 1 yapılır.
