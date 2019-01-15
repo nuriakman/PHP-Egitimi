@@ -45,39 +45,36 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 <?php else: ?>
   İfade doğru değilse bu gösterilir.
 <?php endif; ?>
-?>
+
 ```
 Örnek 2
 ```
-<?= $SEHIR; ?>
+<?= $SEHIR; ?> //Ekrana sehir değişkenini yazdırır.
 ```
 Örnek 3
 ```
-<?php echo $SEHIR; ?>
+<?php echo $SEHIR; ?> //Ekrana sehir değişkenini yazdırır.
 ```
 ### PHP Kodu içine açıklama eklemek
 
 Örnekler:
 ```
 // This is a single line quote.
-```
-```
+
 /* Title Here Notice the First Letters are Capitalized */
-```
-```
+
 //======================================================================
 // CATEGORY LARGE FONT
 //======================================================================
-```
-```
+
 //-----------------------------------------------------
 // Sub-Category Smaller Font
 //-----------------------------------------------------
-```
-### Option 1
-### Option 2
-### Option 3
-```
+
+#Option 1
+#Option 2
+#Option 3
+
 /*
 * This is a detailed explanation
 * of something that should require
@@ -110,24 +107,24 @@ $a = "Merhaba ";
 $a .= "Dünyalı!";     // $a artık "Merhaba Dünyalı!" içeriyor
 ```
 ### Mantıksal İşleçler
-İşlem | Açıklaması
+İşlem |Anlamı|Açıklaması
 ------------|-------------
-$a and $b 	Ve |  	$a ve $b  her ikisi de doğruysa sonuç doğrudur (TRUE).
-$a or $b 	Veya 	| $a veya $b  doğruysa sonuç doğrudur.
-$a xor $b 	Ayrıcalıklı Veya | 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
-!$a 	Değil 	| $a doğru değilse sonuç doğrudur.
-$a && $b 	Ve |	$a ve $b her ikisi de doğruysa sonuç doğrudur.
-$a &#x7c;&#x7c; $b 	Veya 	| $a veya $b doğruysa sonuç doğrudur.
+$a and $b |	Ve |  	$a ve $b  her ikisi de doğruysa sonuç doğrudur (TRUE).
+$a or $b |	Veya 	| $a veya $b  doğruysa sonuç doğrudur.
+$a xor $b |	Ayrıcalıklı Veya | 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
+!$a 	|Değil 	| $a doğru değilse sonuç doğrudur.
+$a && $b |	Ve |	$a ve $b her ikisi de doğruysa sonuç doğrudur.
+$a &#x7c;&#x7c; $b |	Veya 	| $a veya $b doğruysa sonuç doğrudur.
 
 
 ### Arttırım ve Eksiltim işleçleri
 
-İşlem | Açıklaması
+İşlem |Anlamı| Açıklaması
 ------------|-------------
-++$a |	Önceden arttırım 	$a bir arttırıldıktan sonra döndürülür.
-$a++ |	Sonradan arttırım 	$a döndürüldükten sonra değeri bir arttırılır.
---$a |	Önceden eksiltim 	$a bir eksiltildikten sonra döndürülür.
-$a-- |	Sonradan eksiltim 	$a döndürüldükten sonra değeri bir eksiltilir.
+++$a |	Önceden arttırım |	$a bir arttırıldıktan sonra döndürülür.
+$a++ |	Sonradan arttırım |	$a döndürüldükten sonra değeri bir arttırılır.
+--$a |	Önceden eksiltim |	$a bir eksiltildikten sonra döndürülür.
+$a-- |	Sonradan eksiltim |	$a döndürüldükten sonra değeri bir eksiltilir.
 
 
 ### Çalıştırma İşleci (Ters Tırnak)
@@ -147,28 +144,28 @@ if(!$dosyam) echo "Dosya açılamadı...";
 ```
 
 ### Karşılaştırma İşleçleri
-İşlem | Açıklaması
+İşlem | Anlamı|Açıklaması
 ------------|-------------
-$a == $b|    Eşittir     Tür dönüşümünden sonra, $a ve $b aynı değere sahipse sonuç TRUE olur.
-$a === $b|   Aynıdır     $a ve $b aynı değere sahipse ve türleri de aynıysa sonuç TRUE olur.
-$a != $b|    Eşit değildir   Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
-$a <> $b|    Eşit değildir   Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
-$a !== $|b   Farklıdır   $a ve $b aynı değere sahip değilse veya türleri aynı değilse sonuç TRUE olur.
-$a < $b |    Küçüktür    $a kesin olarak $b'den küçükse sonuç TRUE olur.
-$a > $b |    Büyüktür    $a kesin olarak $b'den büyükse sonuç TRUE olur.
-$a <= $b|    Küçük veya eşittir  $a, $b'den küçük veya ona eşitse sonuç TRUE olur.
-$a >= $b|    Büyük veya eşittir  $a, $b'den büyük veya ona eşitse sonuç TRUE olur.
+$a == $b|    Eşittir   |  Tür dönüşümünden sonra, $a ve $b aynı değere sahipse sonuç TRUE olur.
+$a === $b|   Aynıdır   |  $a ve $b aynı değere sahipse ve türleri de aynıysa sonuç TRUE olur.
+$a != $b|    Eşit değildir |  Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
+$a <> $b|    Eşit değildir  | Tür dönüşümünden sonra, $a ve $b aynı değere sahip değilse sonuç TRUE olur.
+$a !== $b |  Farklıdır   |$a ve $b aynı değere sahip değilse veya türleri aynı değilse sonuç TRUE olur.
+$a < $b |    Küçüktür  |  $a kesin olarak $b'den küçükse sonuç TRUE olur.
+$a > $b |    Büyüktür  |  $a kesin olarak $b'den büyükse sonuç TRUE olur.
+$a <= $b|    Küçük veya eşittir | $a, $b'den küçük veya ona eşitse sonuç TRUE olur.
+$a >= $b|    Büyük veya eşittir | $a, $b'den büyük veya ona eşitse sonuç TRUE olur.
 
 
 ### Bitsel İşleçler
-İşlem | Açıklaması
+İşlem | Anlamı |Açıklaması
 ------------|-------------
-$a & $b |    Ve  Hem $a hem de $b'de 1 olan bitler sonuçta 1 yapılır.
-$a &#x7c; $b  |    Veya    $a veya $b'de 1 olan bitler sonuçta 1 yapılır.
-$a ^ $b |    Ayrıcalıklı Veya    Hem $a hem de $b'de 0 veya 1 olan bitler sonuçta 0, diğerleri 1 yapılır.
-~ $a    |    Değil   $a'nın 0 olan bitleri 1, 1 olanları 0 yapılır.
-$a << $b|    Sola kaydırma   $a'nın bitleri $b adım sola kaydırılır (her adım ikiyle çarpma işlemine denktir).
-$a >> $b|    Sağa kaydırma   $a'nın bitleri $b adım sağa kaydırılır (her adım ikiye bölme işlemine denktir).
+$a & $b |    Ve | Hem $a hem de $b'de 1 olan bitler sonuçta 1 yapılır.
+$a &#x7c; $b  |    Veya |   $a veya $b'de 1 olan bitler sonuçta 1 yapılır.
+$a ^ $b |    Ayrıcalıklı Veya  |  Hem $a hem de $b'de 0 veya 1 olan bitler sonuçta 0, diğerleri 1 yapılır.
+~ $a    |    Değil |  $a'nın 0 olan bitleri 1, 1 olanları 0 yapılır.
+$a << $b|    Sola kaydırma |  $a'nın bitleri $b adım sola kaydırılır (her adım ikiyle çarpma işlemine denktir).
+$a >> $b|    Sağa kaydırma |  $a'nın bitleri $b adım sağa kaydırılır (her adım ikiye bölme işlemine denktir).
 
 ### Atama İşleçi
 ```
@@ -201,7 +198,7 @@ if ($a > $b) {
     echo "a büyük değildir b";
 }
 ```
-### elseif/else if ¶
+### elseif
 ```
 if ($a == 5):
     echo "a eşittir 5";
@@ -244,12 +241,14 @@ for ($i = 1; $i <= 10; $i++) {
 }
 ```
 ### foreach
+/* Örnek 1 */
 ```
 $dizi = array(1, 2, 3, 4);
 foreach ($dizi as $deger) {
     echo $deger;
 }
 ```
+/* Örnek 2 */
 ```
 $arr1 = array("a" => 1, "b" => 2, "c" => 3);
 foreach ($arr2 as $key => $val) {
@@ -289,30 +288,27 @@ switch ($i) {
         break;
     case 3:
         echo "i eşittir 3";
-default;
-    echo 'Lütfen yeniden seçiniz...';
+    default;
+        echo 'Lütfen yeniden seçiniz...';
 }
 ```
 ### return
 return program denetimini çağrıldığı modüle döndürür ve program kendinden sonra gelen ifadeden itibaren çalışmayı sürdürür.
 
+```
 /* Çağrıan modüle dön */
-```
+
 return;
-```
+
 /* Tek bir değer dön */*
-```
+
 return 'Merhaba!';
-```
-```
+
 return $Sonuc;
-```
+
 /* Birden fazla deger dönme */
-```
-return array(7889, "Ankara", 678);
-```
-```
-// list($sayi1, $sehir, $sayi2) = fonksiyonadi(); //seklinde kullanılır
+
+return array(7889, "Ankara", 678); // list($sayi1, $sehir, $sayi2) = fonksiyonadi(); //seklinde kullanılır
 ```
 
 ### include
@@ -331,8 +327,8 @@ require_once deyimi, dosyayı evvelce dahil edilmişse tekrar dahil etmemesi dı
 ```
 goto SONUC;
 echo $a;
-```
+
 SONUC:
-```
+
 echo 'Sonuç etiketine yönlendik';
 ```
