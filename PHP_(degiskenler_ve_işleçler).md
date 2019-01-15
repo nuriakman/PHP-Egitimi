@@ -107,8 +107,8 @@ $a = "Merhaba ";
 $a .= "Dünyalı!";     // $a artık "Merhaba Dünyalı!" içeriyor
 ```
 ### Mantıksal İşleçler
-İşlem |Anlamı|Açıklaması|
-------------|-------------
+İşlem |Anlamı|Açıklaması
+------------|-------------|-------------
 $a and $b |	Ve |  	$a ve $b  her ikisi de doğruysa sonuç doğrudur (TRUE).
 $a or $b |	Veya 	| $a veya $b  doğruysa sonuç doğrudur.
 $a xor $b |	Ayrıcalıklı Veya | 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
