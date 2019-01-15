@@ -110,13 +110,14 @@ $a = "Merhaba ";
 $a .= "Dünyalı!";     // $a artık "Merhaba Dünyalı!" içeriyor
 ```
 ### Mantıksal İşleçler
-
-$a and $b 	Ve 	$a ve $b her ikisi de doğruysa sonuç doğrudur (TRUE).
-$a or $b 	Veya 	$a veya $b doğruysa sonuç doğrudur.
-$a xor $b 	Ayrıcalıklı Veya 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
-! $a 	Değil 	$a doğru değilse sonuç doğrudur.
-$a && $b 	Ve 	$a ve $b her ikisi de doğruysa sonuç doğrudur.
-$a || $b 	Veya 	$a veya $b doğruysa sonuç doğrudur.
+İşlem | Açıklaması
+------------|-------------
+$a and $b 	Ve |  	$a ve $b  her ikisi de doğruysa sonuç doğrudur (TRUE).
+$a or $b 	Veya 	| $a veya $b  doğruysa sonuç doğrudur.
+$a xor $b 	Ayrıcalıklı Veya | 	$a veya $b doğruysa sonuç doğru, her ikiside doğruysa sonuç yanlıştır (FALSE).
+!$a 	Değil 	| $a doğru değilse sonuç doğrudur.
+$a && $b 	Ve |	$a ve $b her ikisi de doğruysa sonuç doğrudur.
+$a || $b 	Veya 	| $a veya $b doğruysa sonuç doğrudur.
 
 
 ### Arttırım ve Eksiltim işleçleri
