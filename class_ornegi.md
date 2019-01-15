@@ -24,7 +24,7 @@ Belirtilen değişkeni tanımsız yapar
 Dizi tanımlamak için kullanılır
 
 
-```
+```PHP
 <?php
 
 class uyeler {
