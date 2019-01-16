@@ -1,8 +1,8 @@
 # Atom Eklentileri
 ## [Emmet](https://atom.io/packages/emmet)
-Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlıyor. 
+Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlıyor.
 
-```ul>(li>a{Menu Linki})*5``` yazıp TAB tuşuna basarsak şunu elde ederiz:
+```ul>(li>a{Menu Linki})*5``` yazıp <kbd>TAB</kbd> tuşuna basarsak şunu elde ederiz:
 
 ```html
 <ul>
@@ -38,7 +38,7 @@ Highlight-selected, Sublime Text veya Notepad++ gibi anahtar kelimenin veya değ
 ***
 ## [Sublime Style Column Selection](https://atom.io/packages/sublime-style-column-selection)
 
-Bu eklenti kodları satırları sütun bazında bozmadan kopyalamaya olanak sağlıyor. Tek yapmanız gereken “Alt” tuşuna basarak kopyalama yapmak.
+Bu eklenti kodları satırları sütun bazında bozmadan kopyalamaya olanak sağlıyor. Tek yapmanız gereken <kbd>Alt</kbd> tuşuna basarak kopyalama yapmak.
 
 ![alt text](img/atom_eklentileri/sublime-style-column-selection.gif)
 
@@ -52,21 +52,21 @@ File-icons, dosyaların türlerini solda ağaç görünümünde ve sekme sırala
 
 ***
 ## [Atom Beautify](https://atom.io/packages/atom-beautify)
-HTML, CSS, PHP başta olmak üzere daha pek çok dilde çalışabilen bu eklenti kodların dizilimini düzelterek okunabilir hale getirmekte. Böylece kodlar daha düzgün, sıralı ve okunabilir hale geliyor. “CTRL + SHIFT + P” basılması yeterlidir.
+HTML, CSS, PHP başta olmak üzere daha pek çok dilde çalışabilen bu eklenti kodların dizilimini düzelterek okunabilir hale getirmekte. Böylece kodlar daha düzgün, sıralı ve okunabilir hale geliyor. <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> basılması yeterlidir.
 
 ![alt text](img/atom_eklentileri/atomBf.gif)
 
 ***
 ## [Color Picker](https://atom.io/packages/color-picker)
 
-Color-picker, editör üzerinde renk paleti kullanmanızı sağlar. Color-picker’ı kullanmak için sağ tıklayabilir veya CMD/CTRL+SHIFT+C kısayolunu kullanabilirsiniz.
+Color-picker, editör üzerinde renk paleti kullanmanızı sağlar. Color-picker’ı kullanmak için sağ tıklayabilir veya <kbd>CMD/CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd> kısayolunu kullanabilirsiniz.
 
 ![alt text](img/atom_eklentileri/color-picker.gif)
 
 ***
 ## [Markdown Preview](https://github.com/atom/markdown-preview)
 
-Bu paket sayesinde markdown ile yazdığınız dosyayı tarayıcıya gerek duymadan editör içinde görebiliyorsunuz. Çalıştırmak için CTRL+SHIFT+M veya packpages sekmesinden Markdown Preview menusüne gelip Toggle Preview ile çalıştırabilirsiniz.
+Bu paket sayesinde markdown ile yazdığınız dosyayı tarayıcıya gerek duymadan editör içinde görebiliyorsunuz. Çalıştırmak için <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd> veya packpages sekmesinden Markdown Preview menusüne gelip Toggle Preview ile çalıştırabilirsiniz.
 
 ![alt text](img/atom_eklentileri/markdown.png)
 
@@ -104,7 +104,7 @@ Geliştiricilerin çalışma alanlarını ekip üyeleriyle paylaşmalarını ve 
 ***
 
 ## [Todo Show](https://atom.io/packages/todo-show)
-Kod dosyaları içinde, programcının yapılasını unutmamak amacıyla aldığı notların (Örnek: TODO, FIXME, CHANGED, XXX, IDEA, HACK, NOTE, REVIEW, NB, BUG, QUESTION, COMBAK, TEMP) toplanarak listelenmesini sağlar. 
-Mac OSX'de kısayolu: CTRL + SHIFT + T  Windows ve Linux'de kısayolu: ALT + SHIFT + T
+Kod dosyaları içinde, programcının yapacağını unutmamak amacıyla aldığı notların (Örnek: TODO, FIXME, CHANGED, XXX, IDEA, HACK, NOTE, REVIEW, NB, BUG, QUESTION, COMBAK, TEMP) toplanarak listelenmesini sağlar.
+Mac OSX'de kısayolu: <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>  Windows ve Linux'de kısayolu: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>
 
 ![alt text](img/atom_eklentileri/todo-show.png)
