@@ -22,7 +22,7 @@ Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlend
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır.Örnek olarak bir
 web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun
 sonucunda sunucu,istenen verileri istemciye ulaştırır.
-
+***
 ### Sunucu Nedir ?
 Sunucu ise bu bilgileri tutan bilgisayarlardır.Bunların donanımla,yüksek performansla çalışmaları gerekir.
 Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde
@@ -89,3 +89,4 @@ Browser render işleminde html ile layout’u, css ile tasarımı
 Javascript ise yukarıdaki işlemler yapıldıktan sonra hem
 css hem html üzerinde (DOM) değişiklikler yaparak sayfaya
 dinamik bir yapı kazandırır.
+***
