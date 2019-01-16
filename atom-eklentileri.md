@@ -72,3 +72,34 @@ Atom ile birlikte gelen bir pakettir.Bu paket sayesinde markdown ile yazdığın
 Aynı kelimeleri minimap üzerinden göstermemizi sağlar.Highlight selected paketi gibidir.
 
 ![alt text](img/atom_eklentileri/minimap-highlight-selected.png)
+***
+## [Autoclose](https://atom.io/packages/autoclose)
+HTML taglarını otomatik olarak kapatır.
+
+![alt text](img/atom_eklentileri/autoclose.gif)
+***
+## [Highlight Line Package](https://atom.io/packages/highlight-line)
+Editördeki mevcut satırı vurgular
+
+![alt text](img/atom_eklentileri/highlight-line-package.png)
+***
+
+## [Git Time Machine Package](https://atom.io/packages/git-time-machine)
+git-time-machine, zamanda geri yolculuk etmenizi sağlayan Atom için bir pakettir.
+
+![alt text](img/atom_eklentileri/gittimemachine.gif)
+
+## [Drag Relative Path](https://atom.io/packages/drag-relative-path)
+Dosyaları elle yazmak yerine , sürekleyerek otomatik sayfaya eklememizi sağlıyor..
+
+![alt text](img/atom_eklentileri/drag-relative-path.gif)
+***
+## [Teletype for Atom](https://atom.io/packages/teletype)
+Geliştiricilerin çalışma alanlarını ekip üyeleriyle paylaşmalarını ve kod üzerinde gerçek zamanlı olarak işbirliği yapmalarını sağlayan bir Atom paketi.
+
+![alt text](img/atom_eklentileri/teletype-for-atom.gif)
+***
+
+## [Todo Show Package](https://atom.io/packages/todo-show)
+
+![alt text](img/atom_eklentileri/todo-show.png)
