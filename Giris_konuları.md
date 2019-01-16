@@ -12,6 +12,10 @@ ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kada
 sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz.
 Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
+![alt text](img/how-dns-works3.png "DNS")
+
+![alt text](img/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
+
 ### İstemci Nedir ?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır.Örnek olarak bir
 web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun
@@ -26,6 +30,8 @@ birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
 çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar.Html ile yazı,resim ve videoları birbirine
 bağlayıp kullanıcılara sunabiliriz.
+![alt text](img/newsletter-layouts1.png "HTML")
+
 
 ### CSS Nedir ?
 CSS (Cascading Style Sheet) basit ve kullanışlı bir işaretleme dilidir. CSS diğer bir adıyla Stil şablonları
