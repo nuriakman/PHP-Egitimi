@@ -1,7 +1,7 @@
 ### Hyper Text Transfer Protocol - HTTP
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
 
-![alt text](img/http.jfif "HTTP")
+![alt text](img/giris_konulari/http.jfif "HTTP")
 ***
 ### World Wide Web - WWW
 World Wide Web belgeler ve diğer web kaynaklarının  URL'ler tarafından tanımlandığı, köprü metin bağlantılarıyla birbirine bağlandığı ve internet
@@ -14,9 +14,9 @@ ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kada
 sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz.
 Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
-![alt text](img/how-dns-works3.png "DNS")
+![alt text](img/giris_konulari/how-dns-works3.png "DNS")
 
-![alt text](img/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
+![alt text](img/giris_konulari/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
 ***
 ### İstemci Nedir ?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır.Örnek olarak bir
@@ -28,14 +28,14 @@ Sunucu ise bu bilgileri tutan bilgisayarlardır.Bunların donanımla,yüksek per
 Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde
 birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 
-![alt text](img/istemci_sunucu.jfif "DNS")
+![alt text](img/giris_konulari/istemci_sunucu.jfif "DNS")
 ***
 ### Hyper Text Markup Language - HTML
 Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
 çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar.Html ile yazı,resim ve videoları birbirine
 bağlayıp kullanıcılara sunabiliriz.
 
-![alt text](img/newsletter-layouts1.png "HTML")
+![alt text](img/giris_konulari/newsletter-layouts1.png "HTML")
 
 ***
 ### CSS Nedir ?
@@ -44,7 +44,7 @@ yazı,resim, bağlantı, kenar çizgileri vb. HTML öğelerine sitil vermek yani
 CSS kullanımı sayesinde yüzlerce sayfayı tek bir dosya ile biçimlendirebiliriz. Bu sayede hızlı ve esnek web
 sayfaları oluşturabiliriz.
 
-![alt text](img/css.jfif "HTML")
+![alt text](img/giris_konulari/css.jfif "CSS")
 ***
 ### JAVASCRIPT Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese
