@@ -338,3 +338,24 @@ SONUC:
 
 echo 'Sonuç etiketine yönlendik';
 ```
+
+
+### Öntanımlı Değişkenler / Süper küreseller
+
+Süper küreseller — Süper küreseller bütün etki alanlarında daima mevcut olan yerleşik değişkenlerdir
+
+ PHP'de öntanımlı değişkenlerin çoğu "süper küresel"dir. Bu, betik boyunca bütün etki alanlarında kullanılabilir oldukları anlamına gelir. İşlevler veya yöntemler içinde bu değişkenlere erişmek için global $değişken; yapmak gerekmez. 
+
+
+Değişken |Anlamı|
+------------|-------------|
+```$GLOBALS``` | Küresel alanda bulunan bütün değişkenleri içerir
+```$_SERVER``` | Sunucu ve işletme ortamı bilgisi
+```$_GET``` | HTTP GET değişkenleri
+```$_POST``` | HTTP POST değişkenleri
+```$_FILES``` | HTTP Dosya Yükleme değişkenleri
+```$_REQUEST``` | HTTP İstek değişkenleri
+```$_SESSION``` | Oturum değişkenleri
+```$_ENV``` | Ortam değişkenleri
+```$_COOKIE``` | HTTP Çerezleri
+
