@@ -10,7 +10,10 @@ Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlı
    <li><a href="">Menu Linki</a></li>
  </ul>
 ```
-![alt text](img/atom_eklentileri/emmet.gif)
+Bunu yazarsak:
+![alt text](img/atom_eklentileri/emmet1.png)
+Bunu elde ederiz:
+![alt text](img/atom_eklentileri/emmet2.png)
 
 https://atom.io/packages/emmet
 ## 2-Minimap
@@ -29,6 +32,8 @@ Malum kodları satır bazlı seçerken biraz sıkıntı yaşıyoruz. Bu eklenti 
 
 ![alt text](img/atom_eklentileri/sublime-style-column-selection.gif)
 
+https://atom.io/packages/sublime-style-column-selection
+
 ## 5-File Icons
 Dosyalar için simge paketi.
 
@@ -36,7 +41,11 @@ Dosyalar için simge paketi.
 
 ![alt text](img/atom_eklentileri/file-icons-example.png)
 
+https://atom.io/packages/file-icons
+
 ## 6-Atom Beautify (atom-beautify)
 HTML, CSS, PHP başta olmak üzere daha pek çok dilde çalışabilen bu eklenti kodların dizilimini düzelterek okunabilir hale getirmekte. Böylece kodlar daha düzgün, sıralı ve okunabilir hale geliyor. “CTRL + SHIFT + P” dedikten sonra aşağıda ki örnek üzerinden devam edebilirsiniz.
 
 ![alt text](img/atom_eklentileri/atomBf.gif)
+
+https://atom.io/packages/atom-beautify
