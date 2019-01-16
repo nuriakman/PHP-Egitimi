@@ -42,6 +42,8 @@ yazı,resim, bağlantı, kenar çizgileri vb. HTML öğelerine sitil vermek yani
 CSS kullanımı sayesinde yüzlerce sayfayı tek bir dosya ile biçimlendirebiliriz. Bu sayede hızlı ve esnek web
 sayfaları oluşturabiliriz.
 
+![alt text](img/css.jfif "HTML")
+
 ### JAVASCRIPT Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese
 de Java ve JavaScript birbirinden farklı teknolojilerdir.
