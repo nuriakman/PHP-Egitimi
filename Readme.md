@@ -1,3 +1,0 @@
-## İçerik Hakkında
-
-PHP eğitimi.
