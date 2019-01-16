@@ -2,12 +2,12 @@
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
 
 ![alt text](img/http.jfif "HTTP")
-
+***
 ### World Wide Web - WWW
 World Wide Web belgeler ve diğer web kaynaklarının  URL'ler tarafından tanımlandığı, köprü metin bağlantılarıyla birbirine bağlandığı ve internet
 üzerinden erişilebileceği bir bilgi alanıdır.
 World Wide Web internet üzerinden çok sayıda belge, bilgi, dokümanlara ulaşmak için kullanılan bir internet hizmetidir.
-
+***
 ### Domain Name System - DNS
 DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet
 ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir
@@ -17,7 +17,7 @@ Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlend
 ![alt text](img/how-dns-works3.png "DNS")
 
 ![alt text](img/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
-
+***
 ### İstemci Nedir ?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır.Örnek olarak bir
 web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun
@@ -29,7 +29,7 @@ Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (b
 birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 
 ![alt text](img/istemci_sunucu.jfif "DNS")
-
+***
 ### Hyper Text Markup Language - HTML
 Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
 çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar.Html ile yazı,resim ve videoları birbirine
@@ -37,7 +37,7 @@ bağlayıp kullanıcılara sunabiliriz.
 
 ![alt text](img/newsletter-layouts1.png "HTML")
 
-
+***
 ### CSS Nedir ?
 CSS (Cascading Style Sheet) basit ve kullanışlı bir işaretleme dilidir. CSS diğer bir adıyla Stil şablonları
 yazı,resim, bağlantı, kenar çizgileri vb. HTML öğelerine sitil vermek yani biçimlendirmek için kullanılır.
@@ -45,11 +45,11 @@ CSS kullanımı sayesinde yüzlerce sayfayı tek bir dosya ile biçimlendirebili
 sayfaları oluşturabiliriz.
 
 ![alt text](img/css.jfif "HTML")
-
+***
 ### JAVASCRIPT Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese
 de Java ve JavaScript birbirinden farklı teknolojilerdir.
-
+***
 ### Genel HTTP Yaşam Döngüsü
 1. Girilen domain IP adresine çevrilir (DNS)
 2. IP adresine TCP bağlantısı (request) açılır
