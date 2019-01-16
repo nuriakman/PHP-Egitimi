@@ -1,7 +1,7 @@
 ## Atom Eklentileri
 #### 1-Emmet
 Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlıyor.Örneğin:```ul>(li>a{Menu Linki})*5``` yazıp tab tuşuna basarsanız aşağıda ki kodlar oluşacaktır.
-
+```html
 <ul>
    <li><a href="">Menu Linki</a></li>
    <li><a href="">Menu Linki</a></li>
@@ -9,7 +9,7 @@ Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlı
    <li><a href="">Menu Linki</a></li>
    <li><a href="">Menu Linki</a></li>
  </ul>
-
+```
 ![alt text](img/emmet.gif)
 
 https://atom.io/packages/emmet
