@@ -71,4 +71,4 @@ Atom ile birlikte gelen bir pakettir.Bu paket sayesinde markdown ile yazdığın
 ## [Minimap Highlight Selected](https://atom.io/packages/minimap-highlight-selected)
 Aynı kelimeleri minimap üzerinden göstermemizi sağlar.Highlight selected paketi gibidir.
 
-![alt text](img/atom_eklentileri/minimap-highlight selected.png)
+![alt text](img/atom_eklentileri/minimap-highlight-selected.png)
