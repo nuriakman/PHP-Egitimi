@@ -19,6 +19,7 @@ https://atom.io/packages/minimap
 ![alt text](img/minimap.gif)
 #### 3-Highlight Selected
 Highlight-selected, Sublime Text veya Notepad++ gibi anahtar kelimenin veya değişkenin üzerine çift tıkladığınızda aynı kelimeleri çerceve içine alır. Aynı kelimeleri hızlı ve güvenilir bir şekilde bulmanızı sağlar. Satır satır aramanızı engeller. Minimap ile beraber başarılıdır.
+
 ![alt text](img/Highlight_Selected.gif)
 
 #### 4 - Sublime Tarzı Kolon Seçici (sublime-style-column-selection)
