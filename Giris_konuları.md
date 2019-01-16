@@ -32,6 +32,7 @@ birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
 çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar.Html ile yazı,resim ve videoları birbirine
 bağlayıp kullanıcılara sunabiliriz.
+
 ![alt text](img/newsletter-layouts1.png "HTML")
 
 
