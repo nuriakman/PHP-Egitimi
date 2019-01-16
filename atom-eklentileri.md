@@ -13,6 +13,7 @@ Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlı
 Bunu yazarsak:
 
 ![alt text](img/atom_eklentileri/emmet1.png)
+
 Bunu elde ederiz:
 
 ![alt text](img/atom_eklentileri/emmet2.png)
