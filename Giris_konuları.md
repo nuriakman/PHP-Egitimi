@@ -1,7 +1,7 @@
 ### Hyper Text Transfer Protocol - HTTP
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
 
-![alt text](img/http.jfif "DNS")
+![alt text](img/http.jfif "HTTP")
 
 ### World Wide Web - WWW
 World Wide Web belgeler ve diğer web kaynaklarının  URL'ler tarafından tanımlandığı, köprü metin bağlantılarıyla birbirine bağlandığı ve internet
@@ -27,6 +27,8 @@ sonucunda sunucu,istenen verileri istemciye ulaştırır.
 Sunucu ise bu bilgileri tutan bilgisayarlardır.Bunların donanımla,yüksek performansla çalışmaları gerekir.
 Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde
 birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
+
+![alt text](img/istemci_sunucu.jfif "DNS")
 
 ### Hyper Text Markup Language - HTML
 Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
