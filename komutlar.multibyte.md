@@ -3,7 +3,7 @@
 Türkçe karakterde sorun çıkarabilmektedir. Bunun olmaması için ```php.ini``` dosyasında mbstring.language değişkenin değerinin Turkish olarak ayarlanması gerekmektedir.
 
 
-ini_set('mbstring.language','Turkish');
+```ini_set('mbstring.language','Turkish');```
 
 ## Komut Listesi
 
