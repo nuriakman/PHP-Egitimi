@@ -15,8 +15,10 @@ Kısa yolları kullanarak hızlı bir şekilde HTML kodları yazmamızı sağlı
 https://atom.io/packages/emmet
 #### 2-Minimap
 Sayfanın tam kaynak kodunu ekranın sağ üstünde göstermek için kullanılır.
-https://atom.io/packages/minimap
+
 ![alt text](img/minimap.gif)
+
+https://atom.io/packages/minimap
 #### 3-Highlight Selected
 Highlight-selected, Sublime Text veya Notepad++ gibi anahtar kelimenin veya değişkenin üzerine çift tıkladığınızda aynı kelimeleri çerceve içine alır. Aynı kelimeleri hızlı ve güvenilir bir şekilde bulmanızı sağlar. Satır satır aramanızı engeller. Minimap ile beraber başarılıdır.
 
