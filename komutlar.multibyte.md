@@ -6,9 +6,9 @@ Türkçe karakterde sorun çıkarabilmektedir. Bunun olmaması için ```php.ini`
 ```ini_set('mbstring.language','Turkish');```
 
 ## Komut Listesi
-Komut |Anlamı| 
+Komut |Anlamı|
 ------------|-------------|
-- ```mb_check_encoding``` |Dizgenin belirtilen kodlama için geçerli olup olmadığını sınar
+- mb_check_encoding |Dizgenin belirtilen kodlama için geçerli olup olmadığını sınar
 - ```mb_chr```| Get a specific character
 - ```mb_convert_case```| Bir dizgeye büyük-küçük harf dönüşümü uygular
 - ```mb_convert_encoding``` |Karakter kodlaması dönüşümü yapar
