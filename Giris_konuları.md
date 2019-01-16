@@ -1,7 +1,7 @@
 ### Hyper Text Transfer Protocol - HTTP
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
 
-![alt text](img/giris_konulari/http.jfif "HTTP")
+![alt text](img/giris_konulari/http.jpg "HTTP")
 ***
 ### World Wide Web - WWW
 World Wide Web belgeler ve diğer web kaynaklarının  URL'ler tarafından tanımlandığı, köprü metin bağlantılarıyla birbirine bağlandığı ve internet
@@ -28,7 +28,7 @@ Sunucu ise bu bilgileri tutan bilgisayarlardır.Bunların donanımla,yüksek per
 Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde
 birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 
-![alt text](img/giris_konulari/istemci_sunucu.jfif "DNS")
+![alt text](img/giris_konulari/istemci_sunucu.jpg "DNS")
 ***
 ### Hyper Text Markup Language - HTML
 Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
@@ -44,7 +44,7 @@ yazı,resim, bağlantı, kenar çizgileri vb. HTML öğelerine sitil vermek yani
 CSS kullanımı sayesinde yüzlerce sayfayı tek bir dosya ile biçimlendirebiliriz. Bu sayede hızlı ve esnek web
 sayfaları oluşturabiliriz.
 
-![alt text](img/giris_konulari/css.jfif "CSS")
+![alt text](img/giris_konulari/css.jpg "CSS")
 ***
 ### JAVASCRIPT Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese
