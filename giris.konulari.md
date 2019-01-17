@@ -1,3 +1,10 @@
+### İnternetin  Tarihi
+İnternet'in tarihi,  1950'lerde bilgisayarların gelişmesi ile başlar. Paket ağlarının ilk tasarımları ABD, İngiltere ve Fransa'daki çeşitli laboratuvarlarda şekillenmiştir.
+
+60'ların başında ABD Savunma Bakanlığı tarafından desteklenen ağ çalışmalarından birisi, İnternet Protokolü'nü (IP) kullanan ilk ağ olan ARPANET'tir. ARPANET üzerinden ilk mesaj, Los Angeles'taki Kaliforniya Üniversitesi (UCLA)'daki Profesör Leonard Kleinrock'un laboratuvarından, Stanford Araştırma Enstitüsü(ISR)'de bulunan bir bilgisayara gönderildi.
+
+1960'ların sonlarında ve 1970'lerin başlarında birçok haberleşme protokolü kullanılarak ARPANET, NPL network , CYCLADES, Merit Network, Tymnet ve Telenet gibi paket-anahtarlamalı ağlar geliştirildi. Donald Davies, İngiltere Ulusal Fizik Laboratuvarı'nda dünyada kendi sınıfında bir ilk olan paket-anahtarlamalı bir ağ kurarak, paket anahtarlamalı ağ teorisini pratiğe dönüştüren ilk kişi oldu.Bu çalışma İngiltere'de kendisinden sonraki 20 yıl boyunca yapılacak çalışmalar için bir mihenk taşı oldu.  
+
 ### Hyper Text Transfer Protocol - HTTP
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
 
@@ -89,4 +96,6 @@ Browser render işleminde html ile layout’u, css ile tasarımı
 Javascript ise yukarıdaki işlemler yapıldıktan sonra hem
 css hem html üzerinde (DOM) değişiklikler yaparak sayfaya
 dinamik bir yapı kazandırır.
-***
+
+
+![MyVideo](https://www.youtube.com/watch?v=MkW3hILexKE)
