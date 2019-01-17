@@ -64,15 +64,3 @@
 
 ## Adım 22:
 <img src="ekranlar/kurulum.atom/022.jpg" width=500px height=300px>
-
-## Adım 23:
-<img src="ekranlar/kurulum.atom/023.jpg" width=500px height=300px>
-
-## Adım 24:
-<img src="ekranlar/kurulum.atom/024.jpg" width=500px height=300px>
-
-## Adım 26:
-<img src="ekranlar/kurulum.atom/025.jpg" width=500px height=300px>
-
-## Adım 26:
-<img src="ekranlar/kurulum.atom/026.jpg" width=500px height=300px>
