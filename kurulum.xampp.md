@@ -1,3 +1,5 @@
+# XAMPP KURULUMU
+
 ## Adım 1:
 <img src="ekranlar/kurulum.xampp/001.jpg" width=500px height=300px>
 
@@ -21,8 +23,8 @@
 
 ## Adım 8:
 <img src="ekranlar/kurulum.xampp/008.jpg" width=500px height=300px>
-## Adım 9:
 
+## Adım 9:
 <img src="ekranlar/kurulum.xampp/009.jpg" width=500px height=300px>
 
 ## Adım 10:
