@@ -5,6 +5,8 @@
 
 1960'ların sonlarında ve 1970'lerin başlarında birçok haberleşme protokolü kullanılarak ARPANET, NPL network , CYCLADES, Merit Network, Tymnet ve Telenet gibi paket-anahtarlamalı ağlar geliştirildi. Donald Davies, İngiltere Ulusal Fizik Laboratuvarı'nda dünyada kendi sınıfında bir ilk olan paket-anahtarlamalı bir ağ kurarak, paket anahtarlamalı ağ teorisini pratiğe dönüştüren ilk kişi oldu.Bu çalışma İngiltere'de kendisinden sonraki 20 yıl boyunca yapılacak çalışmalar için bir mihenk taşı oldu.  
 
+[![IMAGE ALT TEXT HERE](http://i3.ytimg.com/vi/MkW3hILexKE/hqdefault.jpg)](https://www.youtube.com/watch?v=MkW3hILexKE)
+
 ### Hyper Text Transfer Protocol - HTTP
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
 
@@ -96,5 +98,3 @@ Browser render işleminde html ile layout’u, css ile tasarımı
 Javascript ise yukarıdaki işlemler yapıldıktan sonra hem
 css hem html üzerinde (DOM) değişiklikler yaparak sayfaya
 dinamik bir yapı kazandırır.
-
-[![IMAGE ALT TEXT HERE](http://i3.ytimg.com/vi/MkW3hILexKE/hqdefault.jpg)](https://www.youtube.com/watch?v=MkW3hILexKE)
