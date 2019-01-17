@@ -74,4 +74,4 @@
 <img src="ekranlar/xampp_kurulumu/025.jpg" width=500px height=300px>
 
 ## Adım 26:
-<img src="ekranlar/xampp_kurulumu/026.jpg" width=400px height=300px>
+<img src="ekranlar/xampp_kurulumu/026.jpg" width=500px height=300px>
