@@ -20,10 +20,9 @@
 <img src="ekranlar/xampp_kurulumu/007.jpg" width=500px height=300px>
 
 ## Adım 8:
-<i
-mg src="ekranlar/xampp_kurulumu/008.jpg" width=500px height=300px
->
+<img src="ekranlar/xampp_kurulumu/008.jpg" width=500px height=300px>
 ## Adım 9:
+
 <img src="ekranlar/xampp_kurulumu/009.jpg" width=500px height=300px>
 
 ## Adım 10:
