@@ -46,6 +46,16 @@ bağlayıp kullanıcılara sunabiliriz.
 
 ![alt text](img/giris_konulari/newsletter-layouts1.png "HTML")
 
+## [HTTP Status Code](https://www.loggly.com/blog/http-status-code-diagram/)
+İstamci bir sunucu içeriğine HTTP kullanarak ulaşmaya çalıştığında sunucu yanıtın durumunu belirten bir sayısal kod gönderir. Bazı durumlarda  HTTP durum kodu (HTTP Status Code) istemcinin tarayıcısında da gösterilerbilir Örn: 200, 301, 302, 404 ve 500 kodları en yaygın olanlardır.
+
+Durum kodlarında 1'den 5'e kadar gruplandırılmıştır.
+
+- 1xx      Bilgi
+- 2xx     Başarı
+- 3xx     Yönlendirme
+- 4xx     Tarayıcı Hatası
+- 5xx     Sunucu Hatası
 
 ### CSS Nedir ?
 CSS (Cascading Style Sheet) basit ve kullanışlı bir işaretleme dilidir. CSS diğer bir adıyla Stil şablonları
