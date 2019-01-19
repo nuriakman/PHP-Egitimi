@@ -1,4 +1,4 @@
-# Regular expression (regex),
+# Regular expression (regex)
  Türkçesiyle düzenli ifadeler metinlerde bir biçimsel dil kullanarak tarif edilen kısımları seçip ayırmamıza yarayan bir programdır.
 
 Regex'i kullanabilmemiz için php de bilmemiz gereken bazı fonksiyonlar vardır.
