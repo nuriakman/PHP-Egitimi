@@ -16,7 +16,7 @@ print_r($dizi);
 ```
 Yukarıdaki örnekte Kemal.Mutlu yazısını parçaladık.a-zA-Z büyük küçük farketmeden bütün harfleri almamızı sağlar.Parantez içine aldığımızda ise bunları gruplar.```([a-zA-Z]+).``` bu bölüm bize "." ya kadar olan bölümü bir grup yaptı.Diğer grubada aynı işlemi uyguladığımızda Kemal'i ve Mutlu'yu ayırmış oluyoruz.
 
-Php de desen yazarken bir sınırlayıcı belirtmemiz şarttır.Örnek vericek olursak:
+Php de desen yazarken bir sınırlayıcı belirtmemiz şarttır.Örnek verecek olursak:
 - /desen/
 - #desen#
 - @desen@
