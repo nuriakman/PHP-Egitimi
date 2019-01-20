@@ -29,9 +29,8 @@ Aşağıdaki örneği ele alalım.Bir dosyamız var ve ieçrisindeki şehirleri 
 
 Dosyamızın içerisinde bu bilgilerin olduğunu düşünelim:
 
-- AFYON: Mehmet Zeybek
-- ANKARA: Mehmet Özhaseki
-- BALIKESİR: Yücel Yılmaz
+- ANKARA: Nuri Akman
+- ÇANAKKALE: Kemal Mutlu
 
 Bunun için şöyle bir desen yazabiliriz:
 ```php
