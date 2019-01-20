@@ -2,7 +2,8 @@
 
 ## Matematiksel
 
-### ceil
+### ceil ![favori](img/favori.png)
+
 ```php
 $a = 789.89;
 echo ceil($a); // 3
