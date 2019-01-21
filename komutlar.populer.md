@@ -33,6 +33,13 @@ echo floor(-3.14); // -4
 
 ## Dizi
 ### count
+```php
+$a[0] = 1;
+$a[1] = 3;
+$a[2] = 5;
+echo $sonuç = count($a); //3
+```
+
 ###
 ###
 ###
