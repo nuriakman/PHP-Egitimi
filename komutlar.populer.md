@@ -489,6 +489,33 @@ echo "Nuri"; //Nuri
 print "Kemal" //Kemal
 ```
 
+### post
+POST metodu ise URL’ de görünmesini istemediğimiz veriler olduğunda, dosya yükleyeceğimiz zaman, querystring’in çok büyük olduğu durumlarda kullanılır. POST yönteminde gönderebileceğimiz verinin boyutu ile ilgili bir sınır yoktur.
+
+### get
+GET methodu HTTP istekleri arasındaki varsayılan yöntemdir.  GET metodu ile yapılan istekler tarayıcının adres satırında görünür. Sadece belirli boyutta veri gönderileceği zaman kullanılır.
+
+### session
+Türkçesi oturum anlamına gelen session bilgilerin saklanması için kullanılan mantıksal bir nesnedir.Session oturum yönetimini kullanarak şifreli sayfalar oluşturarak ve bu sayfaları belirlediğiniz kullanıcıların görmesini sağlayabilirsiniz.
+```php
+    // Session başlatır
+    session_start();
+    // Session'a veri ekleme
+    $_SESSION["kullanici_adi"] = "x";
+    $_SESSION["sepet"] = "laptop";
+```
+### glob
+Bir kalıpla eşleşen dosya yollarını bulur.
+```php
+foreach (glob("*.txt") as $dosya) {
+    echo "$dosya boyu " . filesize($dosya) . "\n";
+}
+// funclist.txt boyu 44686
+// funcsummary.txt boyu 267625
+// quickref.txt boyu 137820
+```
+
+
 ## Dosya
 ### require
 require deyimi bir başarısızlıkta E_COMPILE_ERROR seviyesinden ölümcül bir hata vermesi dışında include deyimi ile aynıdır. Başka bir deyişle, include deyiminin sadece bir uyarı (E_WARNING) vererek çalışmayı sürdürdüğü durumda require deyimi betiğin hata vererek durmasına sebep olur.
