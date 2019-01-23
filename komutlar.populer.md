@@ -3,7 +3,7 @@
 ## Matematiksel
 
 ### ceil &#9734;
-
+Sayıları yuvalamak için kullanılır.
 ```php
 $a = 789.89;
 echo ceil($a); // 3
@@ -443,21 +443,6 @@ echo "2003 yılı Ağustos ayında $num gün vardır";
 // 2003 yılı Ağustos ayında 31 gün vardır
 ```
 
-### session
-Türkçesi oturum anlamına gelen session bilgilerin saklanması için kullanılan mantıksal bir nesnedir.Session oturum yönetimini kullanarak şifreli sayfalar oluşturarak ve bu sayfaları belirlediğiniz kullanıcıların görmesini sağlayabilirsiniz.
-
-``` php
-
-    // Session başlatır
-    session_start();
-    // Session'a veri ekleme
-    $_SESSION["kullanici_adi"] = "x";
-    $_SESSION["sepet"] = "laptop";
-```
-
-
-
-
 ### empty
 ### die
 Bir ileti çıktılayıp çalışmakta olan betiği sonlandırır.
@@ -480,7 +465,7 @@ echo '<?xml version="1.0" encoding="ISO-8859-1" ?>';
 header('Content-Type: text/html; charset=utf-8');
 ```
 ### echo / print
-### function_exists
+
 
 ## Dosya
 ### require
@@ -525,4 +510,3 @@ file_put_contents('my_file.txt', 'Hello', FILE_APPEND); // Will append 'Hello' t
 $ip = $_SERVER['REMOTE_ADDR']; // Get client's IP address
 file_put_contents('ips.txt',"\n".$ip, FILE_APPEND);
 ```
-### file_get_contents
