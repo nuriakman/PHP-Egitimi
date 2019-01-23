@@ -9,6 +9,7 @@ $a = 789.89;
 echo ceil($a); // 3
 ```
 ### floor
+Floor fonksiyonu ceil fonksiyonun tam tersi işlem yapar yani rakamı aşağıya yuvarlar.
 ```php
 echo floor(4.3);   // 4
 echo floor(9.999); // 9
@@ -444,6 +445,22 @@ echo "2003 yılı Ağustos ayında $num gün vardır";
 ```
 
 ### empty
+Bir değişkenin boş olup olmadığını saptar.
+```php
+
+// Basit bir empty() / isset() karşılaştırması
+$var = 0;
+
+// $var boş olduğundan sonuç true olur
+if (empty($var)) {
+    echo '$var ya 0, ya boş ya da tanımsızdır';
+}
+
+// $var tanımlı olduğundan sonuç true olur
+if (isset($var)) {
+    echo '$var boş olsa da tanımlıdır';
+}
+```
 ### die
 Bir ileti çıktılayıp çalışmakta olan betiği sonlandırır.
 ```php
@@ -465,7 +482,12 @@ echo '<?xml version="1.0" encoding="ISO-8859-1" ?>';
 header('Content-Type: text/html; charset=utf-8');
 ```
 ### echo / print
+Bir veya daha fazla dizgeyi çıktılar.
 
+```php
+echo "Nuri"; //Nuri
+print "Kemal" //Kemal
+```
 
 ## Dosya
 ### require
