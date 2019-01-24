@@ -90,7 +90,7 @@
 
 - jumbotron'unun içeriğini tasarımdaki içerik ile değiştirdim.```<a class="btn btn-primary btn-lg" href="#" role="button">Tamam</a>``` class'ındaki btn-primary class'ını ```<a class="btn btn-success btn-lg" href="#" role="button">Tamam</a>``` olarak değiştirdim.
 
-- Tasarımda navbar yazan yeri TUGM Telefon Rehberi olarak değiştirdim.Renginin gri olduğunu görünce title etiketlerinin altında style etikerleri açıp şu css dosyasını yazdım.
+- Tasarımda navbar yazan yeri TUGM Telefon Rehberi olarak değiştirdim.Renginin gri olduğunu görünce title etiketlerinin altında style etikerleri açıp şu css kodlarını yazdım.
 ```
 <style  type="text/css">
 
