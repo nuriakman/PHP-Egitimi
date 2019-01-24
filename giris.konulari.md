@@ -210,6 +210,7 @@ https://mertcangokgoz.com/faydali-git-komutlari/
 
 ### 5 Dakikada BOOTSTRAP
 ![alt text](img/giris_konulari/responsive-grid.gif)
+
 ![alt text](img/giris_konulari/1 8wu3JgB2Vj1lYzbUQbsAwg.gif)
 
 ### Örnek Linkler
