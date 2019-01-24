@@ -209,9 +209,11 @@ FAYDALI GİT KOMUTLARI
 https://mertcangokgoz.com/faydali-git-komutlari/
 
 ### 5 Dakikada BOOTSTRAP
-![alt text](img/giris_konulari/responsive-grid.gif)
 
 ![alt text](img/giris_konulari/1_8wu3JgB2Vj1lYzbUQbsAwg.gif)
+
+![alt text](img/giris_konulari/responsive-grid.gif)
+
 
 ### Örnek Linkler
 Front End:
