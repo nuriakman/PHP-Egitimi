@@ -101,9 +101,8 @@
 ```
 - Important yazmamızın nedeni bootstrap'in kendi css kodları bizim css kodlarımıza izin vermiyor.İlk o tanımlandığı için.Important yazdığımız zaman bizim kodumuzu geçerli kılıyor.
 
-- kisiler.html sayfası oluşturdum ve index.html sayfasındaki jumbotron kodları hariç bütün kodları oraya yapıştırdım.
 
-- kisiler.html sayfasında bir container oluşturdum ve mt-2 class'ı ile yukardan boşluk verdim.
+- Daha sonra container oluşturdum ve mt-2 class'ı ile yukardan boşluk verdim.
 
 - ardından bir h2 etiketi oluşturdum ve Arama sonucu yazdıp h2 etiketini kapattım.
 
@@ -222,6 +221,16 @@ data-toggle="modal" data-target="#exampleModal"
 
 - Açılan modal'da tablo aşağıda kaldığı için bir row class'ı ile satır oluşturdum ve col-3 ile resmimi col-9 class'ı ile tablomu tek bir satıra yerleştirdim.
 
-- kayit.yok.html adında bir dosya açtım ve index.html sayfasındaki jumbotron kodları hariç bütün kodları oraya yapıştırdım.
+- Bir container-row class'ı daha açtım.Sonra img etiketi ile kayit yok resmimi ekledim.
 
-- Daha sonra img etiketi ile kayit yok resmimi ekledim.
+- En son sitemizin altında bir footer ekledim.Bu footer kodlarını almak için Examples bölümünde sticky-footer örneğine girdim.Sağ tıkladım ve kaynağı görüntüle dedim ve şu kodlar aldım.
+
+```html
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+  </div>
+</footer>
+```
+
+- Daha sonra tasarımla uyumlu olması için footer class'ına bg-dark class'ını ekledim.
