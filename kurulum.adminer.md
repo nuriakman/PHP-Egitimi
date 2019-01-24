@@ -35,6 +35,3 @@
 
 ## Adım 12:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.adminer/012.jpg" width=500px height=300px>
-
-## Adım 13:
-<img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.adminer/013.jpg" width=500px height=300px>
