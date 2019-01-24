@@ -221,3 +221,7 @@ data-toggle="modal" data-target="#exampleModal"
 - Bölümünü ekledim ve fazla satırları çıkartıp tasarıma göre ad-Soyad,telefon , oda no gibi bölümleri ekledim.Daha sonra açılan pencerenin küçük olduğunu farkettim ve components/modal/ kısmında Optional sizes başlığı altındaki classları inceleyip ```<div class="modal-dialog modal-lg" role="document">``` model-lg class'ını ekledim.
 
 - Açılan modal'da tablo aşağıda kaldığı için bir row class'ı ile satır oluşturdum ve col-3 ile resmimi col-9 class'ı ile tablomu tek bir satıra yerleştirdim.
+
+- kayit.yok.html adında bir dosya açtım ve index.html sayfasındaki jumbotron kodları hariç bütün kodları oraya yapıştırdım.
+
+- Daha sonra img etiketi ile kayit yok resmimi ekledim.
