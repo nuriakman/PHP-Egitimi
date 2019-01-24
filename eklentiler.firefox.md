@@ -12,7 +12,7 @@ Youtube üzerinden video izlerken gelen reklamları engelliyor.
 
 Tarayıcının önbelleğini yeniler.Bir html kodu yazdınız ve resim eklediniz.Daha sonra o resmi kaldırdınız ama sitede hala o resim görünüyordur.Bunun sebebi önbellekte durmasıdır.Hard Refresh yaparak önbelleği yeniler.
 
-## [Short URL](https://addons.mozilla.org/en-US/firefox/addon/shorten_me/?src=search)
+## [Short URL](https://addons.mozilla.org/tr/firefox/addon/copy-shorturl/)
 
 Uzun linkleri kısa link haline getirir.Örneğin uzun bir link düşünelim.www.facebook.com/asdasdasddsafdffssd/sfsdfsd diye giden bir link.Short url sayesinde bu linki www.goo.gl/zFkEd tarzı bir linke dönüştürebiliriz.
 
@@ -26,3 +26,11 @@ Hızlı bir şekilde html renk kodları seçmemizi sağlar.
 ## [Country Flags & IP Whois](https://addons.mozilla.org/en-US/firefox/addon/country-flags-ip-whois/)
 
 Girdiğimiz sitelerin ip ve lokasyon bilgisi verir.
+
+## [Dark Reader](https://addons.mozilla.org/tr/firefox/addon/darkreader/)
+
+Sitelerin temalarını (dark)karanlık görünüme getirir.Gözü yoran beyaz ışıklardan kurtulursunuz.
+
+## [Google™ Translator](https://addons.mozilla.org/tr/firefox/addon/google-translator-webextension/)
+
+Seçtiğiniz yazının çevirisini yapar.
