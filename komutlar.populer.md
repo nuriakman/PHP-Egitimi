@@ -1,6 +1,6 @@
 # Sık Kullanılan PHP Komutları
 
-## Matematiksel
+# MATEMATİKSEL
 
 ### ceil &#9734;
 Sayıları yuvalamak için kullanılır.
@@ -82,7 +82,7 @@ ABS  fonksiyonu herhangi bir sayı değerini pozitif yapar.
 $a = -5;
 echo abs($a); // 5
 ```
-## Dizge (String)
+# DİZGE (String)
 
 ### ucwords
 Dizgedeki her sözcüğün ilk harfini büyük harf yapar.
@@ -175,7 +175,7 @@ Dizgenin başındaki ve sonundaki boşlukları (veya diğer karakterleri) yok ed
 echo trim('  Nuri Akman    '); // Nuri Akman
 ```
 
-## Dizi
+# DİZİ
 ### count
 ```php
 $a[0] = 1;
@@ -240,7 +240,7 @@ foreach ($fruits as $key => $val) {
 
 
 
-## MySQL
+# MYSQL
 ###
 ###
 ###
@@ -248,7 +248,7 @@ foreach ($fruits as $key => $val) {
 ###
 ###
 
-## Genel
+# GENEL
 ### unset
  Belirtilen değişkeni tanımsız yapar
 ```php
@@ -532,7 +532,14 @@ require_once('index.php'); //index.php dosyasını çağırır.
 
 ### file_put_contents
 Bir dizgeyi bir dosyaya yazar.
+
 ```php
+/* Örnek 1 */
+file_put_contents('my_file.txt', 'Hello', FILE_APPEND); // Will append 'Hello' to the specified file
+/* Örnek 2 */
+$ip = $_SERVER['REMOTE_ADDR']; // Get client's IP address
+file_put_contents('ips.txt',"\n".$ip, FILE_APPEND);
+/* Örnek 2 */
 $file = 'people.txt';
 // İçeriğini almak için dosyayı açalım
 $içerik = file_get_contents($file);
@@ -551,11 +558,3 @@ echo $homepage; //deneme.txt dosyasının içeriğini dizge olarak döndürdü.
 
 ###
 ###
-### file_put_contents 2
-```php
-/* Örnek 1 */
-file_put_contents('my_file.txt', 'Hello', FILE_APPEND); // Will append 'Hello' to the specified file
-/* Örnek 2 */
-$ip = $_SERVER['REMOTE_ADDR']; // Get client's IP address
-file_put_contents('ips.txt',"\n".$ip, FILE_APPEND);
-```
