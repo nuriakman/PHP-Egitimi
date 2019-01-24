@@ -119,11 +119,14 @@ https://medium.com/@atarikguney/neden-komut-sat%C4%B1r%C4%B1n%C4%B1-%C3%B6%C4%9F
 
 ### Kullanıcı Yetkileri
 ![alt text](img/giris_konulari/linux-users-permissions-for-beginners-4-638.jpg)
-![alt text](img/giris_konulari/images.jpg)
-![alt text](img/giris_konulari/Figure2.png)
-![alt text](img/giris_konulari/permissions2.png)
-![alt text](img/giris_konulari/permissions1.png)
 
+![alt text](img/giris_konulari/images.jpg)
+
+![alt text](img/giris_konulari/Figure2.png)
+
+![alt text](img/giris_konulari/permissions2.png)
+
+![alt text](img/giris_konulari/permissions1.png)
 
 
 ### Developer RoadMap
