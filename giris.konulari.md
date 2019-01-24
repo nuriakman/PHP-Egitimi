@@ -115,22 +115,101 @@ https://medium.com/@gokhansengun/linux-metin-i%C5%9Fleme-ara%C3%A7lar%C4%B1-awk-
 Neden komut satırını öğrenmek lazım?
 https://medium.com/@atarikguney/neden-komut-sat%C4%B1r%C4%B1n%C4%B1-%C3%B6%C4%9Frenmek-laz%C4%B1m-f7c708bbaa1b
 
-### [Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
+### Kullanıcı Yetkileri
+![alt text](img/giris_konulari/linux-users-permissions-for-beginners-4-638.jpg)
+![alt text](img/giris_konulari/images.jpg)
+![alt text](img/giris_konulari/Figure2.png)
+![alt text](img/giris_konulari/permissions2.png)
+![alt text](img/giris_konulari/permissions1.png)
 
-### [PHP Giriş Eğitimi](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
 
-### [HTML Giriş Eğitimi](https://learnxinyminutes.com/docs/html/)
 
-### [CSS Giriş Eğitimi](https://learnxinyminutes.com/docs/tr-tr/css-tr/)
-
-### [SQL Giriş Eğitimi](https://learnxinyminutes.com/docs/sql/)
+### Developer RoadMap
+https://github.com/kamranahmedse/developer-roadmap
+### PHP Giriş Eğitimi
+https://learnxinyminutes.com/docs/tr-tr/php-tr/
+### HTML Giriş Eğitimi
+https://learnxinyminutes.com/docs/html/
+### CSS Giriş Eğitimi
+https://learnxinyminutes.com/docs/tr-tr/css-tr/
+### SQL Giriş Eğitimi
+https://learnxinyminutes.com/docs/sql/
 Örnek DB: https://github.com/datacharmer/test_db
 
-### [How Browser Work?](https://superuser.com/questions/31468/what-exactly-happens-when-you-browse-a-website-in-your-browser)
+### How Browser Work?
+https://superuser.com/questions/31468/what-exactly-happens-when-you-browse-a-website-in-your-browser
+### How web works?
+https://github.com/vasanthk/how-web-works
+### What happens when you type google.com into your browser and press enter
+https://github.com/alex/what-happens-when
+### Github Kullanımı
+https://github.com/aliozgur/git101_book
+### Online php komut uygulaması
+http://sandbox.onlinephpfunctions.com/
+### SQL Notları
+https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
+Limit ve Offset
+```sql
+$sql = "SELECT * FROM Orders LIMIT 10 OFFSET 15";
+```
+With PHP, you can connect to and manipulate databases.
 
-### [How web works?](https://github.com/vasanthk/how-web-works)
+MySQL is the most popular database system used with PHP.
+What is MySQL?
 
-### [What happens when you type google.com into your browser and press enter](https://github.com/alex/what-happens-when)
+    MySQL is a database system used on the web
+    MySQL is a database system that runs on a server
+    MySQL is ideal for both small and large applications
+    MySQL is very fast, reliable, and easy to use
+    MySQL uses standard SQL
+    MySQL compiles on a number of platforms
+    MySQL is free to download and use
+    MySQL is developed, distributed, and supported by Oracle Corporation
+    MySQL is named after co-founder Monty Widenius's daughter: My
 
+The data in a MySQL database are stored in tables. A table is a collection of related data, and it consists of columns and rows.
 
-### [Github Kullanımı](https://github.com/aliozgur/git101_book)
+Databases are useful for storing information categorically. A company may have a database with the following tables:
+
+    Employees
+    Products
+    Customers
+    Orders
+
+### 5 Dakikada GİT eğitimi
+http://rogerdudler.github.io/git-guide/index.tr.html
+
+https://git-scm.com/book/tr/v1/Git-in-Temelleri-Uzak-U%C3%A7birimlerle-%C3%87al%C4%B1%C5%9Fmak
+
+https://medium.com/kodcular/k%C4%B1saca-git-ba0877d56663
+
+https://medium.com/kodgemisi/yeni-baslayanlar-icin-git-ee548b2abb36
+
+http://kod5.org/git-nedir-ve-neden-kullanmaliyiz/  (TANIMLAR VAR)
+
+http://kod5.org/baslica-git-komutlari/
+
+##### Repository – Depo
+
+Repository veya Repo, bir yazılımın proje dosyalarının içerisinde bulundurulduğu URL adresidir. GitHub üzerindeki herkes kolayca ve benzersiz bir Repo oluşturarak bu Repo adresi üzerinde istediği projelerini ve projelerin kaynak kodlarını paylaşabilir. Her proje kendi içerisinde ayrıca benzersiz ve kolayca ulaşılabilen URL’ye sahiptir.
+
+##### Forking
+
+Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler yapmanız işlemidir. Forking Repo işlemi sayesinde diğer yazılımcılar açık kaynaklı yazılımlar üzerinde değişiklikler gerçekleştirip, yazılımın iyileştirilmesini sağlayabilirler.
+
+##### Github nedir?
+Git ile Github aynı değildir. Git bir versiyon kontrol sistemidir, Oysa Github versiyon kontrol sistemleri için uzak bir depo(repository)dur.
+
+FAYDALI GİT KOMUTLARI
+https://mertcangokgoz.com/faydali-git-komutlari/
+
+### 5 Dakikada BOOTSTRAP
+https://cdn-images-1.medium.com/max/800/1*8wu3JgB2Vj1lYzbUQbsAwg.gif
+https://cdn.dribbble.com/users/172206/screenshots/3083524/responsive-grid.gif
+
+### Örnek Linkler
+Front End:
+https://frontendmasters.com/books/front-end-handbook/2018/
+
+User Interface:
+http://uigoodies.com/icons-symbols.html
