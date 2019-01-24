@@ -62,7 +62,7 @@
 
 - Tasarımda dropdown menüm sola yaslanmış şekildeydi.```<ul class="navbar-nav mr-auto">```  mr-auto class'ını ml-auto yaptım.
 
-- Daha sonra li class'ının içerisine ```  <li class="nav-item active mr-2">``` mr-2 class'ını ekledim ve buttonlar ile arama bölümü arasında boşluk bıraktım.
+- Daha sonra li class'ının içerisine ```  <li class="nav-item active mr-3">``` mr-2 class'ını ekledim ve buttonlar ile arama bölümü arasında boşluk bıraktım.
 
 - Dropdown menümün rengini yeşil yapmak için Components bölümünde button sekmesine tıkladım ve butonları inceledim.```btn btn-success``` class'ı ile butonumu yeşil yaptım ve Unvanlar ismini verdim.
 
@@ -90,7 +90,7 @@
 
 - jumbotron'unun içeriğini tasarımdaki içerik ile değiştirdim.```<a class="btn btn-primary btn-lg" href="#" role="button">Tamam</a>``` class'ındaki btn-primary class'ını ```<a class="btn btn-success btn-lg" href="#" role="button">Tamam</a>``` olarak değiştirdim.
 
-- Tasarımda navbar yazan yeri TUGM Telefon Rehberi olarak değiştirdim.Renginin gri olduğunu görünce title etiketlerinin altında style etikerleri açıp şu css kodlarını yazdım.
+- Tasarımda navbar yazan yeri TUGM Telefon Rehberi olarak değiştirdim.Renginin gri olduğunu görünce title etiketlerinin altında style etikerleri açıp şu css dosyasını yazdım.
 ```
 <style  type="text/css">
 
@@ -100,3 +100,124 @@
 </style>
 ```
 - Important yazmamızın nedeni bootstrap'in kendi css kodları bizim css kodlarımıza izin vermiyor.İlk o tanımlandığı için.Important yazdığımız zaman bizim kodumuzu geçerli kılıyor.
+
+- kisiler.html sayfası oluşturdum ve index.html sayfasındaki jumbotron kodları hariç bütün kodları oraya yapıştırdım.
+
+- kisiler.html sayfasında bir container oluşturdum ve mt-2 class'ı ile yukardan boşluk verdim.
+
+- ardından bir h2 etiketi oluşturdum ve Arama sonucu yazdıp h2 etiketini kapattım.
+
+- ardından bir hr etiketi ile çizgi çektim.
+
+- Bir row classı yazıp satır oluşturdum.Ardından sütünlar için ```<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">```
+bu grid yapısını kullandım.
+
+- Sonra bir center etiketi açtım ve arasına img etiketi ile resmimi dahil ettim. ```<img src="personel.resimleri/avatar.png" alt="" class="img-rounded" width="150" height="200">```
+
+- Arından bir div etiketi açtım ve  Documentation bölümünde sol tarafta bulunan Utilities/text sekmesinden text classlarını inceledim.Div etiketime text-muted classını verdim.
+
+- Daha sonra tasarımda fotoğraflara tıklayınca bir pencere açıldığını gördüm.Documentation sekmesinde components/modal/ bölümünden şu şablonu kopyaladım.
+```
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+- Benim tasarımımda button olmadığı için button'u sildim ve button'dan şu classları koyaladım.
+```
+data-toggle="modal" data-target="#exampleModal"
+```
+
+- Buradaki classları şu class'ıma ekledim.
+```
+<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" data-toggle="modal" data-target="#exampleModal"">
+```
+- Burada yapmak istediğimiz resimlere tıklanınca pencerede gelmesini istememiz.Az önce button'a tıklanınca geliyordu.data-target bölümünde verdiğimiz ismi nereye bağlarsak orası açılır.
+
+- Tıkladığımız zaman bizim modalımız açılır.O kodlar şuradadır.
+```
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+- Burayı tasarıma göre düzenlemeye başladım.
+- Modal title bölümüne isim-soyisim yazdım.
+- Save changes butonunu sildim ve close butonuna kapat ismini verdim.
+- Daha sonra ```  <div class="modal-body">``` altına resimimi ekledim şu kod ile ```img src="personel.resimleri/avatar.png" alt="" class="img-rounded" width="150" height="200">```
+- Documentation/Content/Table sekmelerinden şu şablonu kopyaladım.
+```
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+- Bölümünü ekledim ve fazla satırları çıkartıp tasarıma göre ad-Soyad,telefon , oda no gibi bölümleri ekledim.Daha sonra açılan pencerenin küçük olduğunu farkettim ve components/modal/ kısmında Optional sizes başlığı altındaki classları inceleyip ```<div class="modal-dialog modal-lg" role="document">``` model-lg class'ını ekledim.
+
+- Açılan modal'da tablo aşağıda kaldığı için bir row class'ı ile satır oluşturdum ve col-3 ile resmimi col-9 class'ı ile tablomu tek bir satıra yerleştirdim.
