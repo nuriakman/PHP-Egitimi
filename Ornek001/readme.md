@@ -117,7 +117,7 @@ bu grid yapısını kullandım.
 - Arından bir div etiketi açtım ve  Documentation bölümünde sol tarafta bulunan Utilities/text sekmesinden text classlarını inceledim.Div etiketime text-muted classını verdim.
 
 - Daha sonra tasarımda fotoğraflara tıklayınca bir pencere açıldığını gördüm.Documentation sekmesinde components/modal/ bölümünden şu şablonu kopyaladım.
-```
+```html
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
@@ -157,7 +157,7 @@ data-toggle="modal" data-target="#exampleModal"
 - Burada yapmak istediğimiz resimlere tıklanınca pencerede gelmesini istememiz.Az önce button'a tıklanınca geliyordu.data-target bölümünde verdiğimiz ismi nereye bağlarsak orası açılır.
 
 - Tıkladığımız zaman bizim modalımız açılır.O kodlar şuradadır.
-```
+```html
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -185,7 +185,7 @@ data-toggle="modal" data-target="#exampleModal"
 - Save changes butonunu sildim ve close butonuna kapat ismini verdim.
 - Daha sonra ```  <div class="modal-body">``` altına resimimi ekledim şu kod ile ```img src="personel.resimleri/avatar.png" alt="" class="img-rounded" width="150" height="200">```
 - Documentation/Content/Table sekmelerinden şu şablonu kopyaladım.
-```
+```html
 <table class="table table-striped">
   <thead>
     <tr>
