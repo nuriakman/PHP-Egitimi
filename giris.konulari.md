@@ -110,9 +110,11 @@ dinamik bir yapı kazandırır.
 ### Neden Linux ve Komut Satırı
 
 Linux metin işleme araçları — awk, sed ve diğerleri
+
 https://medium.com/@gokhansengun/linux-metin-i%C5%9Fleme-ara%C3%A7lar%C4%B1-awk-sed-ve-di%C4%9Ferleri-d53b27ab692b
 
 Neden komut satırını öğrenmek lazım?
+
 https://medium.com/@atarikguney/neden-komut-sat%C4%B1r%C4%B1n%C4%B1-%C3%B6%C4%9Frenmek-laz%C4%B1m-f7c708bbaa1b
 
 ### Kullanıcı Yetkileri
