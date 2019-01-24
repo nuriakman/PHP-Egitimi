@@ -62,7 +62,7 @@
 
 - Tasarımda dropdown menüm sola yaslanmış şekildeydi.```<ul class="navbar-nav mr-auto">```  mr-auto class'ını ml-auto yaptım.
 
-- Daha sonra li class'ının içerisine ```  <li class="nav-item active mr-3">``` mr-2 class'ını ekledim ve buttonlar ile arama bölümü arasında boşluk bıraktım.
+- Daha sonra li class'ının içerisine ```  <li class="nav-item active mr-2">``` mr-2 class'ını ekledim ve buttonlar ile arama bölümü arasında boşluk bıraktım.
 
 - Dropdown menümün rengini yeşil yapmak için Components bölümünde button sekmesine tıkladım ve butonları inceledim.```btn btn-success``` class'ı ile butonumu yeşil yaptım ve Unvanlar ismini verdim.
 
