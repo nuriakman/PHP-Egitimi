@@ -71,3 +71,41 @@
   * **Country Flags & IP Whois**
   * **Dark Reader**
   * **Google™ Translator**
+- **PHP'ye giriş**
+  * **[Değişkenler ve İşleçler](https://github.com/kemtake/PHP-Egitimi/blob/master/degiskenler.islecler.md)**
+    + **PHP Nedir?**
+    + **PHP etiketleri**
+    + **Deyim Ayrımı**
+    + **Değişkenler**
+    + **Sabit Tanımlama**
+    + **HTML'den Kaçmak**
+    + **PHP Kodu içine açıklama eklemek**
+    + **Php'de İşleçler**
+      + **Aritmetik İşleçler**
+      + **String İşleçler**
+      + **Mantıksal İşleçler**
+      + **Arttırım ve Eksiltim işleçleri**
+      + **Çalıştırma İşleci (Ters Tırnak)**
+      + **Hata Denetim İşleçleri**
+      + **Karşılaştırma İşleçleri**
+      + **Bitsel İşleçler**
+      + **Atama İşleçi**
+      + **Gönderimli Atama İşleçi (by Referance)**
+    + **DENETİM YAPILARI**
+      + **if**
+      + **if / else**
+      + **elseif**
+      + **while**
+      + **do - while**
+      + **for**
+      + **foreach**
+      + **break**
+      + **continue**
+      + **switch**
+      + **return**
+      + **include**
+      + **include_once**
+      + **require**
+      + **require_once**
+      + **goto**
+    + **Öntanımlı Değişkenler / Süper küreseller**
