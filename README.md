@@ -45,7 +45,22 @@
   * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md)**
   * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.adminer.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
-
+- **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
+ * **Emmet**
+ * **Minimap**
+ * **Highlight Selected**
+ * **Sublime Style Column Selection**
+ * **File Icons**
+ * **Atom Beautify**
+ * **Color Picker**
+ * **Markdown Preview**
+ * **Minimap Highlight Selected**
+ * **Auto Close HTML**
+ * **Highlight Line**
+ * **Git Time Machine Package**
+ * **Drag Relative Path**
+ * **Teletype for Atom**
+ * **Todo Show**
 - **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
  * **adBlock**
  * **adblock youtube**
@@ -56,4 +71,5 @@
  * **Country Flags & IP Whois**
  * **Dark Reader**
  * **Google™ Translator**
-- **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
+
+ 
