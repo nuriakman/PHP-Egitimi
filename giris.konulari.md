@@ -214,6 +214,11 @@ https://mertcangokgoz.com/faydali-git-komutlari/
 
 ![alt text](img/giris_konulari/responsive-grid.gif)
 
+## Algoritma Nedir ?
+Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yol anlamına gelir, matematikte ve bilgisayar biliminde bir işi yapmak için tanımlanan, bir başlangıç durumundan başladığında, açıkça belirlenmiş bir son durumunda sonlanan, sonlu işlemler kümesine denir.
+
+![alt text](img/giris_konulari/algoritma.png)
+
 
 ### Örnek Linkler
 Front End:
