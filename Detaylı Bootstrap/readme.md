@@ -42,4 +42,3 @@ Kullanımı ```<div class="col-lg-12">``` şeklindedir.
 768px ile 1200px arası ekranlar bu şekilde görüntülecektir.
 ![alt text](img/2.png)
 768px'den küçük ekranlarda ise bu şekilde.
-![alt text](img/3.png)
