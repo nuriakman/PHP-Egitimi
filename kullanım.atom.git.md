@@ -72,17 +72,20 @@
 ## Adım 24:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/024.jpg" width=500px height=300px>
 
-## Adım 26:
+## Adım 25:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/025.jpg" width=500px height=300px>
 
-## Adım 27:
+## Adım 26:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/026.jpg" width=500px height=300px>
 
-## Adım 28:
+## Adım 27:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/027.jpg" width=500px height=300px>
 
-## Adım 29:
+## Adım 28:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/028.jpg" width=500px height=300px>
+
+## Adım 29:
+<img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/029.jpg" width=500px height=300px>
 
 ## Adım 30:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/030.jpg" width=500px height=300px>
