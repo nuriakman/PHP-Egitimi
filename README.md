@@ -39,6 +39,9 @@
    * **Github nedir?**
   * **5 Dakikada BOOTSTRAP**
   * **Örnek Linkler**
+  * **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
+    + **İnternetin tarihi**
+    + **Arduino - Açık Kaynak Yazılım - Açık Kaynak Donanım**
 - **Gerekli Ortamların Kurulumu**
   * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.git.md)**
   * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.atom.md)**
@@ -109,3 +112,68 @@
       + **require_once**
       + **goto**
     + **Öntanımlı Değişkenler / Süper küreseller**
+  * **[Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.populer.md)**
+    + **Matematiksel**
+      + **ceil**
+      + **floor**
+      + **Round**
+      + **Rand**
+      + **intval**
+      + **md5**
+      + **sha1**
+      + **abs**
+    + **Dizge (String)**
+      + **ucwords**
+      + **ucfirst**
+      + **sprintf**
+      + **substr**
+      + **lcfirst**
+      + **shuffle**
+      + **str_repeat**
+      + **str_replace**
+      + **strlen**
+      + **strrev**
+      + **strtolower**
+      + **strtoupper**
+      + **trim**
+    + **Dizİ**
+      + **count**
+      + **implode / explode**
+      + **in_array**
+      + **list**
+      + **sort**
+    + **MYSQL**
+    + **Genel**
+      + **unset**
+      + **nl2br**
+      + **mkdir**
+      + **chdir**
+      + **strtotime**
+      + **isset**
+      + **is_string**
+      + **is_null**
+      + **is_int**
+      + **is_dir**
+      + **is_file**
+      + **if-else**
+      + **Line if**
+      + **gettype**
+      + **function_exists**
+      + **getcwd**
+      + **foreach**
+      + **for**
+      + **date**
+      + **cal_days_in_month**
+      + **empty**
+      + **die**
+      + **header**
+      + **echo / print**
+      + **post**
+      + **get**
+      + **session**
+      + **glob**
+    + **Dosya**
+      + **require**
+      + **require_once**
+      + **file_put_contents**
+      + **file_get_contents**
