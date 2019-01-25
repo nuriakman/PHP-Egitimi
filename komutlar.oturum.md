@@ -2,7 +2,7 @@
 
 Bu işlevlerin hepsi dizgelerde çeşitli yollarla değişiklik yapmak için kullanılır. Daha özelleştirilmiş işlevleri düzenli ifadeler ve URL işlevleri bölümlerinde bulabilirsiniz.
 
-Dizgelerin davranışları, özellikle de çift tırnak, tek tırnak ve önceleme dizilimleri kullanımları hakkında bilgi edinmek için Türler bölümündeki strings belgesine bakınız. 
+Dizgelerin davranışları, özellikle de çift tırnak, tek tırnak ve önceleme dizilimleri kullanımları hakkında bilgi edinmek için Türler bölümündeki strings belgesine bakınız.
 
 
 ## Komut Listesi
@@ -106,5 +106,3 @@ Komut |Anlamı|
 ```vprintf``` | Biçemli bir dizge çıktılar
 ```vsprintf``` | Biçemli bir dizge döndürür
 ```wordwrap``` | Bir dizgeyi belli bir uzunlukta katlar
-
-
