@@ -1,11 +1,8 @@
-# PHP ve MySQL ile Web Programlamaya Giriş
 
-Bu proje ile, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa Akgül Özgür Yazılım Kış Kampı" çerçevesindeki "PHP ve MySQL ile Web Programlamaya Giriş" eğitimi için öğrencilere materyal olması hedeflenmiştir.
+<h2 align="center"><code>PHP ve MySQL ile Web Programlamaya Giriş</code></h2>
+<i>Bu proje ile, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa Akgül Özgür Yazılım Kış Kampı" çerçevesindeki "PHP ve MySQL ile Web Programlamaya Giriş" eğitimi için öğrencilere materyal olması hedeflenmiştir.</i>
 
-<h2 align="center"><code>iÇİNDEKİLER</code></h2>
-
-****
-## KONULAR
+## İçindekiler
 
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
   * **İnternetin Tarihi**
@@ -37,13 +34,26 @@ Bu proje ile, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Must
   * **Online php komut uygulaması**
   * **SQL Notları**
   * **5 Dakikada GİT eğitimi**
+   * **Repository – Depo**
+   * **Forking**
+   * **Github nedir?**
   * **5 Dakikada BOOTSTRAP**
-  * ** **
-  * ** **
-  * ** **
-  * ** **
-  * ** **
-  * ** **
-  * ** **
-  * ** **
-  * ** **
+  * **Örnek Linkler**
+- **Gerekli Ortamların Kurulumu**
+  * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.git.md)**
+  * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.atom.md)**
+  * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md)**
+  * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.adminer.md)**
+- **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
+
+- **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
+ * **adBlock**
+ * **adblock youtube**
+ * **Hard Refresh**
+ * **Short URL**
+ * **Ghostery**
+ * **Material Design Color Palette**
+ * **Country Flags & IP Whois**
+ * **Dark Reader**
+ * **Google™ Translator**
+- **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
