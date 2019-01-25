@@ -80,6 +80,3 @@
 
 ## Adım 27:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.wamp/027.jpg" width=500px height=300px>
-
-## Adım 28:
-<img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.wamp/028.jpg" width=500px height=300px>
