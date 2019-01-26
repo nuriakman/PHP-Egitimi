@@ -44,7 +44,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/011.jpg" width=500px height=300px>
 
 ## Adım 12:
-#### Merhaba dünya yazdırırken ";" koymayı unutmuşuz.Hemen düzenleme yaptık.Görüldüğü gibi sarı renk dosyamız pencereye geldi.
+#### Merhaba dünya yazdırırken ";" koymayı unutmuşuz.Hemen düzenleme yaptık.Görüldüğü gibi dosyamız sarı renkte pencereye geldi.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/012.jpg" width=500px height=300px>
 
 ## Adım 13:
