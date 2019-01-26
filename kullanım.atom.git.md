@@ -148,5 +148,5 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/039.jpg" width=500px height=300px>
 
 ## Adım 38:
-#### Dosyalarımızız depomuza yüklendiği gördük.
+#### Dosyalarımızın depomuza yüklendiği gördük.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/040.jpg" width=500px height=300px>
