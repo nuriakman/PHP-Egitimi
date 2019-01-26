@@ -40,7 +40,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/010.jpg" width=500px height=300px>
 
 ## Adım 11:
-#### Yaptığımız commitleri açıklamalarıyla görüldüğü gibi listelemektedir.
+#### Yaptığımız commitler açıklamalarıyla görüldüğü gibi listelemektedir.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/011.jpg" width=500px height=300px>
 
 ## Adım 12:
