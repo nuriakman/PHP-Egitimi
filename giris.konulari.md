@@ -219,6 +219,15 @@ Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tas
 
 ![alt text](img/giris_konulari/algoritma.png)
 
+## Ağaçlar (tree)
+Bir graf şayet bağlı grafsa ve hiç döngü içermiyorsa bu grafa ağaç adı verilir.
+Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
+
+![alt text](img/giris_konulari/agac.jpg)
+
+Örneğin yukarıdaki ağaç tasvirinde 7 düğümden (node) oluşan ve yapraklarında (leaf) 4 düğüm bulunan bir ağaç gösterilmiştir. Bu ağacın derinliği (depth) 2 dir ve her seviyenin(level) değeri yanında verilmiştir. Ağaçların 1 tane başlangıç düğümü bulunur ve bu başlangıç düğümüne kök(root) denilir.
+Özel olarak yukarıdaki ağacın her düğümünden sadece ikişer alt düğüme bağlantı bulunduğu için bu ağaca ikili ağaç (binary tree) adı da verilebilir.
+
 
 ### Örnek Linkler
 Front End:
