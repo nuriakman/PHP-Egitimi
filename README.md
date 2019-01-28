@@ -5,176 +5,30 @@
 ## İçindekiler
 
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
-  * **İnternetin Tarihi**
-  * **Hyper Text Transfer Protocol - HTTP**
-  * **World Wide Web - WWW**
-  * **Domain Name System - DNS**
-  * **İstemci Nedir ?**
-  * **Sunucu Nedir ?**
-  * **Hyper Text Markup Language - HTML**
-  * **HTTP Status Code**
-  * **CSS Nedir ?**
-  * **JAVASCRIPT Nedir ?**
-  * **Genel HTTP Yaşam Döngüsü**
-   + **Domainin IP ‘ye çevrilmesi (DNS)**
-   + **IP adresine TCP isteği (request)**
-   + **Server ‘ın cevabı (response)**
-   + **Cevabın ekrana basılması (render)**
-  * **Neden Linux ve Komut Satırı**
-  * **Kullanıcı Yetkileri**
-  * **Developer RoadMap**
-  * **PHP Giriş Eğitimi**
-  * **HTML Giriş Eğitimi**
-  * **CSS Giriş Eğitimi**
-  * **SQL Giriş Eğitimi**
-  * **How Browser Work?**
-  * **How web works?**
-  * **What happens when you type google.com into your browser and press enter**
-  * **Github Kullanımı**
-  * **Online php komut uygulaması**
-  * **SQL Notları**
-  * **5 Dakikada GİT eğitimi**
-   * **Repository – Depo**
-   * **Forking**
-   * **Github nedir?**
-  * **5 Dakikada BOOTSTRAP**
-  * **Örnek Linkler**
-  * **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
-    + **İnternetin tarihi**
-    + **Arduino - Açık Kaynak Yazılım - Açık Kaynak Donanım**
+- **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
 - **Gerekli Ortamların Kurulumu**
   * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.git.md)**
   * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.atom.md)**
   * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md)**
+  * **[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.wamp.md)**
   * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.adminer.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
 - **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
-  * **Emmet**
-  * **Minimap**
-  * **Highlight Selected**
-  * **Sublime Style Column  Selection**
-  * **File Icons**
-  * **Atom Beautify**
-  * **Color Picker**
-  * **Markdown Preview**
-  * **Minimap Highlight Selected**
-  * **Auto Close HTML**
-  * **Highlight Line**
-  * **Git Time Machine Package**
-  * **Drag Relative Path**
-  * **Teletype for Atom**
-  * **Todo Show**
 - **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
-  * **adBlock**
-  * **adblock youtube**
-  * **Hard Refresh**
-  * **Short URL**
-  * **Ghostery**
-  * **Material Design Color   Palette**
-  * **Country Flags & IP Whois**
-  * **Dark Reader**
-  * **Google™ Translator**
+- **[Bootstrap Grid Yapısı](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap.grid)**
+- **[Bootstrap Örnekleri](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap_ornekleri)**
 - **PHP'ye giriş**
   * **[Değişkenler ve İşleçler](https://github.com/kemtake/PHP-Egitimi/blob/master/degiskenler.islecler.md)**
-    + **PHP Nedir?**
-    + **PHP etiketleri**
-    + **Deyim Ayrımı**
-    + **Değişkenler**
-    + **Sabit Tanımlama**
-    + **HTML'den Kaçmak**
-    + **PHP Kodu içine açıklama eklemek**
-    + **Php'de İşleçler**
-      + **Aritmetik İşleçler**
-      + **String İşleçler**
-      + **Mantıksal İşleçler**
-      + **Arttırım ve Eksiltim işleçleri**
-      + **Çalıştırma İşleci (Ters Tırnak)**
-      + **Hata Denetim İşleçleri**
-      + **Karşılaştırma İşleçleri**
-      + **Bitsel İşleçler**
-      + **Atama İşleçi**
-      + **Gönderimli Atama İşleçi (by Referance)**
-    + **DENETİM YAPILARI**
-      + **if**
-      + **if / else**
-      + **elseif**
-      + **while**
-      + **do - while**
-      + **for**
-      + **foreach**
-      + **break**
-      + **continue**
-      + **switch**
-      + **return**
-      + **include**
-      + **include_once**
-      + **require**
-      + **require_once**
-      + **goto**
-    + **Öntanımlı Değişkenler / Süper küreseller**
+  * **[Matematiksel Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.matematik.md)**
+  * **[String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.dizge.md)**
+  * **[Dizi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.diziler.md)**
+  * **[Multi Byte Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.multibyte.md)**
+  * **[Dosya Sistemi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.dosyasistemi.md)**
+  * **[Oturum Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.oturum.md)**
+  * **[Çıktı Tamponu Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.ciktitamponu.md)**
+  * **[Tarih ve Zaman Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.tarihzaman.md)**
   * **[Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.populer.md)**
-    + **Matematiksel**
-      + **ceil**
-      + **floor**
-      + **Round**
-      + **Rand**
-      + **intval**
-      + **md5**
-      + **sha1**
-      + **abs**
-    + **Dizge (String)**
-      + **ucwords**
-      + **ucfirst**
-      + **sprintf**
-      + **substr**
-      + **lcfirst**
-      + **shuffle**
-      + **str_repeat**
-      + **str_replace**
-      + **strlen**
-      + **strrev**
-      + **strtolower**
-      + **strtoupper**
-      + **trim**
-    + **Dizİ**
-      + **count**
-      + **implode / explode**
-      + **in_array**
-      + **list**
-      + **sort**
-    + **MYSQL**
-    + **Genel**
-      + **unset**
-      + **nl2br**
-      + **mkdir**
-      + **chdir**
-      + **strtotime**
-      + **isset**
-      + **is_string**
-      + **is_null**
-      + **is_int**
-      + **is_dir**
-      + **is_file**
-      + **if-else**
-      + **Line if**
-      + **gettype**
-      + **function_exists**
-      + **getcwd**
-      + **foreach**
-      + **for**
-      + **date**
-      + **cal_days_in_month**
-      + **empty**
-      + **die**
-      + **header**
-      + **echo / print**
-      + **post**
-      + **get**
-      + **session**
-      + **glob**
-    + **Dosya**
-      + **require**
-      + **require_once**
-      + **file_put_contents**
-      + **file_get_contents**
-    
+  * **[Composer Kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullanim.composer.md)**
+  * **[PHP Sınıf Örneği](https://github.com/kemtake/PHP-Egitimi/blob/master/class.ornegi.md)**
+  * **[CURL](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
+  * **[Düzenli İfadeler](https://github.com/kemtake/PHP-Egitimi/blob/master/php.regex.md)**
