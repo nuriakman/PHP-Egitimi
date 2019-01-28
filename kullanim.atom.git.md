@@ -1,4 +1,4 @@
-# ATOM EDİTÖRÜ İÇİNDE GİT KURULUMU
+# ATOM EDİTÖRÜ İÇİNDE GİT KULLANIMI
 
 ## Adım 1:
 #### <code>A</code> tuşuna basıp bir dosya oluşturuyoruz.

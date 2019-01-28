@@ -69,7 +69,7 @@ Bu kütüphane, program dizini altında ```logs``` adında bir dizin içinde iz 
 	$arrUrunler[] = "Yaş Pasta";
 
 	$logger = new Katzgrau\KLogger\Logger(__DIR__.'/logs');
-	
+
 	$logger->debug('Dizi içindeki değerler ', $arrUrunler);
 	$logger->info("Bu LOG kaydı 'info' için bir örnektir.");
 	$logger->error("Bu LOG kaydı 'error' için bir örnektir.");
@@ -81,4 +81,3 @@ Bu kütüphane, program dizini altında ```logs``` adında bir dizin içinde iz 
 	$logger->critical("Bu LOG kaydı 'critical' için bir örnektir.");
 	$logger->alert("Bu LOG kaydı 'alert' için bir örnektir.");
 ```
-
