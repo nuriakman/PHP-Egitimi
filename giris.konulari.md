@@ -150,7 +150,7 @@ https://github.com/vasanthk/how-web-works
 ### What happens when you type google.com into your browser and press enter
 https://github.com/alex/what-happens-when
 ### Github Kullanımı
-https://github.com/aliozgur/git101_book
+https://github.com/aliozgur/git101_book (Benim de küçük bir katkım oldu)
 ### Online php komut uygulaması
 http://sandbox.onlinephpfunctions.com/
 ### SQL Notları
@@ -184,6 +184,9 @@ Databases are useful for storing information categorically. A company may have a
     Orders
 
 ### 5 Dakikada GİT eğitimi
+
+https://aliozgur.gitbooks.io/git101/content/ GIT 101 (Temel Kitap)
+
 http://rogerdudler.github.io/git-guide/index.tr.html
 
 https://git-scm.com/book/tr/v1/Git-in-Temelleri-Uzak-U%C3%A7birimlerle-%C3%87al%C4%B1%C5%9Fmak
