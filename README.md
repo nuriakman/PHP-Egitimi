@@ -12,9 +12,9 @@
   * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md)**
   * **[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.wamp.md)**
   * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.adminer.md)**
+  * **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
+  * **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
-- **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
-- **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
 - **[Bootstrap Grid Yapısı](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap.grid)**
 - **[Bootstrap Örnekleri](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap_ornekleri)**
 - **PHP'ye giriş**
