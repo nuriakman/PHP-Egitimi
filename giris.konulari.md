@@ -26,30 +26,32 @@ Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlend
 ![alt text](img/giris_konulari/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
 
 ### İstemci Nedir ?
-İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır.Örnek olarak bir
+İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir
 web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun
 sonucunda sunucu,istenen verileri istemciye ulaştırır.
 
 ### Sunucu Nedir ?
-Sunucu ise bu bilgileri tutan bilgisayarlardır.Bunların donanımla,yüksek performansla çalışmaları gerekir.
+Sunucu ise bu bilgileri tutan bilgisayarlardır. Bunların donanımla,yüksek performansla çalışmaları gerekir.
 Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde
 birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 
 ![alt text](img/giris_konulari/istemci_sunucu.jpg "DNS")
 
 ### Hyper Text Markup Language - HTML
-Web programlama için gereken en temel dildir.HTML bir programlama dili değil bir betik dilidir.Html kendi başına
-çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar.Html ile yazı,resim ve videoları birbirine
+Web programlama için gereken en temel dildir. HTML bir programlama dili değil bir betik dilidir. Html kendi başına
+çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar. Html ile yazı,resim ve videoları birbirine
 bağlayıp kullanıcılara sunabiliriz.
 
 ![alt text](img/giris_konulari/newsletter-layouts1.png "HTML")
 
-## [HTTP Status Code](https://www.loggly.com/blog/http-status-code-diagram/)
-İstamci bir sunucu içeriğine HTTP kullanarak ulaşmaya çalıştığında sunucu yanıtın durumunu belirten bir sayısal kod gönderir. Bazı durumlarda  HTTP durum kodu (HTTP Status Code) istemcinin tarayıcısında da gösterilerbilir Örn: 200, 301, 302, 404 ve 500 kodları en yaygın olanlardır.
+## HTTP Durum Kodu (Status Code)
+İstemci bir sunucu içeriğine HTTP kullanarak ulaşmaya çalıştığında sunucu yanıtın durumunu belirten bir sayısal kod gönderir. Bazı durumlarda  HTTP durum kodu (HTTP Status Code) istemcinin tarayıcısında da gösterilebilir Örn: 200, 301, 302, 404 ve 500 kodları en yaygın olanlardır.
+
+Aslında, sunucu üzerindeki [detaylı iş akışı](https://www.loggly.com/blog/http-status-code-diagram/) iş akışı oldukça detaylıdır.
 
 Durum kodlarında 1'den 5'e kadar gruplandırılmıştır.
 
-- 1xx      Bilgi
+- 1xx     Bilgi
 - 2xx     Başarı
 - 3xx     Yönlendirme
 - 4xx     Tarayıcı Hatası
@@ -226,8 +228,12 @@ Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlard�
 ![alt text](img/giris_konulari/agac.jpg)
 
 Örneğin yukarıdaki ağaç tasvirinde 7 düğümden (node) oluşan ve yapraklarında (leaf) 4 düğüm bulunan bir ağaç gösterilmiştir. Bu ağacın derinliği (depth) 2 dir ve her seviyenin(level) değeri yanında verilmiştir. Ağaçların 1 tane başlangıç düğümü bulunur ve bu başlangıç düğümüne kök(root) denilir.
-Özel olarak yukarıdaki ağacın her düğümünden sadece ikişer alt düğüme bağlantı bulunduğu için bu ağaca ikili ağaç (binary tree) adı da verilebilir.
 
+Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır. 
+
+ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutulamayacak hiyerarşik veri yoktur ve bu yöntem sıklıkla kullanılır.
+
+Yukarıdaki görselde özel olarak yukarıdaki ağacın her düğümünden sadece ikişer alt düğüme bağlantı bulunduğu için bu ağaca ikili ağaç (binary tree) adı da verilebilir.
 
 ### Örnek Linkler
 Front End:
