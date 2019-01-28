@@ -54,6 +54,8 @@ Bu kütüphaneyi programımıza dahil etmek için programın başına ```require
 
 Program çalışırken ekrana yansımayan taraflarda ne olup bittiğini takip etmek için iz belleğine ihtiyaç duyarız.
 
+Bu kütüphane, program dizini altında ```logs``` adında bir dizin içinde iz belleği kayıtlarını saklar.
+
 ```composer require katzgrau/klogger:dev-master```
 
 ### Örnek Program Kodu
