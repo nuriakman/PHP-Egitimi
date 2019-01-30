@@ -83,6 +83,7 @@ Komut |Anlamı|
 
 ## Kopya Kağıdı 1: 
 Uzak Depoda bulunan projenizi yeni bir bilgisayarda devam ettirmek.
+
 Komut |Anlamı|
 ------------|-------------|
 ```mkdir ProjeAdı```| Dizin oluşturduk
@@ -94,6 +95,7 @@ Komut |Anlamı|
 
 ## Kopya Kağıdı 2: 
 Yerel git kullanmadığımız projeyi git deposuna çevirmek.
+
 Komut |Anlamı|
 ------------|-------------|
 ```chdir ProjeAdı```| Proje dizinine geçtik
@@ -104,6 +106,7 @@ Komut |Anlamı|
 
 ## Kopya Kağıdı 3: 
 Yerelde git kullanarak geliştirdiğimiz projeyi GitHub'a (uzak depoya) yeni bir depo olarak yüklemek.
+
 Komut |Anlamı|
 ------------|-------------|
 ```GitHub Sitesinde Yapılacak Görev```| GitHub üzerinde yeni bir repo açılır ve adresi kopyalanır.
@@ -114,8 +117,17 @@ Komut |Anlamı|
 
 ## Kopya Kağıdı 4: 
 Uzak Depoda bulunan projeyi yerele indirmek.
+
 Komut |Anlamı|
 ------------|-------------|
 ```git clone git@github/username/repo.git```|Uzak git depomuzu bulunduğumuz dizin altında proje ismi ilse aynı dizine indirdik
 
+
+## Faydalı Linkler
+
+- git - Basit Rehber: http://rogerdudler.github.io/git-guide/index.tr.html
+- Türkçe Git 101 Kitabı: https://aliozgur.gitbooks.io/git101/content/
+- Orjinal Kaynağından Belge: https://git-scm.com/book/tr/v2
+- GitHub Cheat Sheet (PDF): https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+- Visual Git Cheat Sheet (SVG | PNG): http://ndpsoftware.com/git-cheatsheet.html
 

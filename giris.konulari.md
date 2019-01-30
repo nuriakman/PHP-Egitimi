@@ -149,8 +149,6 @@ https://superuser.com/questions/31468/what-exactly-happens-when-you-browse-a-web
 https://github.com/vasanthk/how-web-works
 ### What happens when you type google.com into your browser and press enter
 https://github.com/alex/what-happens-when
-### Github Kullanımı
-https://github.com/aliozgur/git101_book (Benim de küçük bir katkım oldu)
 ### Online php komut uygulaması
 http://sandbox.onlinephpfunctions.com/
 ### SQL Notları
@@ -182,36 +180,6 @@ Databases are useful for storing information categorically. A company may have a
     Products
     Customers
     Orders
-
-### 5 Dakikada GİT eğitimi
-
-https://aliozgur.gitbooks.io/git101/content/ GIT 101 (Temel Kitap)
-
-http://rogerdudler.github.io/git-guide/index.tr.html
-
-https://git-scm.com/book/tr/v1/Git-in-Temelleri-Uzak-U%C3%A7birimlerle-%C3%87al%C4%B1%C5%9Fmak
-
-https://medium.com/kodcular/k%C4%B1saca-git-ba0877d56663
-
-https://medium.com/kodgemisi/yeni-baslayanlar-icin-git-ee548b2abb36
-
-http://kod5.org/git-nedir-ve-neden-kullanmaliyiz/  (TANIMLAR VAR)
-
-http://kod5.org/baslica-git-komutlari/
-
-##### Repository – Depo
-
-Repository veya Repo, bir yazılımın proje dosyalarının içerisinde bulundurulduğu URL adresidir. GitHub üzerindeki herkes kolayca ve benzersiz bir Repo oluşturarak bu Repo adresi üzerinde istediği projelerini ve projelerin kaynak kodlarını paylaşabilir. Her proje kendi içerisinde ayrıca benzersiz ve kolayca ulaşılabilen URL’ye sahiptir.
-
-##### Forking
-
-Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler yapmanız işlemidir. Forking Repo işlemi sayesinde diğer yazılımcılar açık kaynaklı yazılımlar üzerinde değişiklikler gerçekleştirip, yazılımın iyileştirilmesini sağlayabilirler.
-
-##### Github nedir?
-Git ile Github aynı değildir. Git bir versiyon kontrol sistemidir, Oysa Github versiyon kontrol sistemleri için uzak bir depo(repository)dur.
-
-FAYDALI GİT KOMUTLARI
-https://mertcangokgoz.com/faydali-git-komutlari/
 
 ### 5 Dakikada BOOTSTRAP
 
