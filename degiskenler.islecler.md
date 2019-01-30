@@ -89,10 +89,10 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 ```
 
 
-# PHP'DE İŞLEÇLER
+# PHP'DE Operatörler
 
 
-### Aritmetik İşleçler
+### Aritmetik Operatörler
 
 İşlem |Anlamı| Açıklaması|
 ------------|-------------|-------------
@@ -105,7 +105,7 @@ $a / $b | 	Bölme |	$a'nın $b'ye bölümü.
 $a % $b | 	Kalan |	$a'nın $b'ye bölümünden kalan.
 $a ** $b|  Üs |	$a üssü $b. PHP 5.6 ile eklendi.
 
-### String İşleçler
+### String Operatörler
 ```PHP
 $a = "Merhaba ";
 $b = $a . "Dünyalı!"; // $b artık "Merhaba Dünyalı!" içeriyor
@@ -344,7 +344,7 @@ echo 'Sonuç etiketine yönlendik';
 
 Süper küreseller — Süper küreseller bütün etki alanlarında daima mevcut olan yerleşik değişkenlerdir
 
- PHP'de öntanımlı değişkenlerin çoğu "süper küresel"dir. Bu, betik boyunca bütün etki alanlarında kullanılabilir oldukları anlamına gelir. İşlevler veya yöntemler içinde bu değişkenlere erişmek için global $değişken; yapmak gerekmez. 
+ PHP'de öntanımlı değişkenlerin çoğu "süper küresel"dir. Bu, betik boyunca bütün etki alanlarında kullanılabilir oldukları anlamına gelir. İşlevler veya yöntemler içinde bu değişkenlere erişmek için global $değişken; yapmak gerekmez.
 
 
 Değişken |Anlamı|
@@ -358,4 +358,3 @@ Değişken |Anlamı|
 ```$_SESSION``` | Oturum değişkenleri
 ```$_ENV``` | Ortam değişkenleri
 ```$_COOKIE``` | HTTP Çerezleri
-

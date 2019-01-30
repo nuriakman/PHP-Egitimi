@@ -15,10 +15,11 @@
   * **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
   * **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
+- **[Git ve Github](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.git.md)**
 - **[Bootstrap Grid Yapısı](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap.grid)**
 - **[Bootstrap Örnekleri](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap_ornekleri)**
 - **PHP'ye giriş**
-  * **[Değişkenler ve İşleçler](https://github.com/kemtake/PHP-Egitimi/blob/master/degiskenler.islecler.md)**
+    * **[Değişkenler ve Operatörler](https://github.com/kemtake/PHP-Egitimi/blob/master/degiskenler.islecler.md)**
   * **[Matematiksel Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.matematik.md)**
   * **[String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.dizge.md)**
   * **[Dizi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.diziler.md)**
