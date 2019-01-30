@@ -81,7 +81,8 @@ Komut |Anlamı|
 ```git checkout master```| Tüm proje dizin ve dosyalarını en son commit zamanına getirir.
 
 
-## Kopya Kağıdı 1: Uzak Depoda bulunan projenizi yeni bir bilgisayarda devam ettirme
+## Kopya Kağıdı 1: 
+Uzak Depoda bulunan projenizi yeni bir bilgisayarda devam ettirmek.
 Komut |Anlamı|
 ------------|-------------|
 ```mkdir ProjeAdı```| Dizin oluşturduk
@@ -91,7 +92,8 @@ Komut |Anlamı|
 ```git pull -u origin master```|Uzak git depomuzun tüm dosyalarını ve geçmişini bu dizine indirdik
 
 
-## Kopya Kağıdı 2: Yerel git kullanmadığımız projeyi git deposuna çevirmek.
+## Kopya Kağıdı 2: 
+Yerel git kullanmadığımız projeyi git deposuna çevirmek.
 Komut |Anlamı|
 ------------|-------------|
 ```chdir ProjeAdı```| Proje dizinine geçtik
@@ -100,7 +102,8 @@ Komut |Anlamı|
 ```git commit -m "git kullanmaya geçiş"```| İlk commit mesajımızı ekledik
 
 
-## Kopya Kağıdı 3: Yerelde git kullanarak geliştirdiğimiz projeyi GitHub'a (uzak depoya) yeni bir depo olarak yüklemek
+## Kopya Kağıdı 3: 
+Yerelde git kullanarak geliştirdiğimiz projeyi GitHub'a (uzak depoya) yeni bir depo olarak yüklemek.
 Komut |Anlamı|
 ------------|-------------|
 ```GitHub Sitesinde Yapılacak Görev```| GitHub üzerinde yeni bir repo açılır ve adresi kopyalanır.
@@ -109,5 +112,10 @@ Komut |Anlamı|
 ```git push -u origin master```|Yereldeki proje dosyamızın GitHub'a yüklenmesini sağladık
 
 
+## Kopya Kağıdı 4: 
+Uzak Depoda bulunan projeyi yerele indirmek.
+Komut |Anlamı|
+------------|-------------|
+```git clone git@github/username/repo.git```|Uzak git depomuzu bulunduğumuz dizin altında proje ismi ilse aynı dizine indirdik
 
 
