@@ -4,8 +4,19 @@ HTML (Hyper Text Markup Language) internet üzerinde web sayfası oluşturmak i�
 
 HTML belgelerinizde kullanabileceğiniz tüm HTML etiketleri bu sayfada toplanmıştır.
 
-## HTML'in Yapısı
-[](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png)
+
+## HTML DOM Yapısı
+![](https://www.igyaddel.hu/blog-10.png)
+
+
+## HTML Etiketi Yapısı
+![](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png)
+![](https://tutorial.techaltum.com/images/element.png)
+![](http://www.squalorsurvivors.com/images/html_tag.gif)
+
+
+## HTML Sayfa Yapısı
+![](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/html5_sectioning_high_level.jpg)
 
 
 ## HTML Etiketleri Tam Listesi

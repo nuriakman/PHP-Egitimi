@@ -2,26 +2,16 @@
 
 İşaretleme dili olan Html, web sayfalarının hazırlanmasında kullanılan sistemdir. Bir programlama dili olmayan Html bilgisayarlarımızda kullandığımız web sitelerinin oluşturulmasında kullanılır. Chrome, Fİrefox ve İnternet Explorer gibi tarayıcılar html kodlarını işleyerek bu kodları web sayfasına dönüştürür.
 
-HTML “Hyper Text Markup Language” kelimelerinin kısaltılmasından oluşur. Türkçe anlamı Zengin metin işaretleme dilidir. Web sitesi oluşturmak için kullanılan bir betik dilidir. Uzantısı .html veya .htm şeklinde tanımlanır.
+HTML "Hyper Text Markup Language" kelimelerinin kısaltılmasından oluşur. Türkçe anlamı Zengin metin işaretleme dilidir. Web sitesi oluşturmak için kullanılan bir betik dilidir. Uzantısı .html veya .htm şeklinde tanımlanır.
 
-HTML dili tag (etiket) yapısından oluşur. Genel olarak <etiket></etiket> şeklinde tanımlanmış alanlar arasında işlemler yapılır. Burada dikkat edilmesi gereken nokta, etiketlerin açılması (<etiket>) ve kapatılması</etiket> olayıdır.
+HTML dili tag (etiket) yapısından oluşur. Genel olarak ```<etiket></etiket>`` şeklinde tanımlanmış alanlar arasında işlemler yapılır. Burada dikkat edilmesi gereken nokta, etiketlerin açılması ```<etiket>``` ve kapatılması ```</etiket>``` olayıdır.
 
 İstisnalar olsa da genel anlamda her etiketin kapatılması gerekir.
 
 HTML bir programlama dili olmadığı için derlenme gibi bir gereksinimi yoktur. Standart bir metin belgesinin uzantısını .html yapıp kaydetmemiz halinde dosyamızı direk tarayıcı üzerinde görüntüleyebilir ve değişikler yapabiliriz. 
 
 
-HTML için güzel bir sunum: https://marcysutton.github.io/gdi-core-html-css/class1.html
-
-
-[](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png)
-
-[](https://www.igyaddel.hu/blog-10.png)
-[](https://tutorial.techaltum.com/images/element.png)
-[](http://www.squalorsurvivors.com/images/html_tag.gif)
-[](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/html5_sectioning_high_level.jpg)
-
-
+## Örnek Bir HTML Sayfası
 
 ```HTML
 <!DOCTYPE html>
@@ -117,5 +107,7 @@ HTML için güzel bir sunum: https://marcysutton.github.io/gdi-core-html-css/cla
 ```
 
 KAYNAK: https://github.com/uguryuce/HTML_CSS sayfasından alınmıştır.
+
+HTML için güzel bir sunum: https://marcysutton.github.io/gdi-core-html-css/class1.html
 
 
