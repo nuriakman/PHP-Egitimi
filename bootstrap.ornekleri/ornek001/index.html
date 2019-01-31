@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,165 +8,164 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Telefon Rehberi</title>
     <style  type="text/css">
-
-   .navbar-brand {
-     color:gray !important;
-   }
- </style>
-
+       .navbar-brand {
+         color:gray !important;
+       }
+    </style>
 
   </head>
   <body>
+
+      <!-- NAV Bloğu -->
       <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#212121;">
-        <a class="navbar-brand" href="#">TUGM Telefon Rehberi</a>
+        <a class="navbar-brand" href="#">Telefon Rehberi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active mr-2">
-              <div class="dropdown ">
-                <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Daireler
-                </a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active mr-2">
+                <div class="dropdown ">
+                  <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Daireler
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Daire 1</a>
+                    <a class="dropdown-item" href="#">Daire 2</a>
+                    <a class="dropdown-item" href="#">Daire 3</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item active mr-2">
+                <div class="dropdown">
+                  <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Unvanlar
+                  </a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Unvan 1</a>
+                    <a class="dropdown-item" href="#">Unvan 2</a>
+                    <a class="dropdown-item" href="#">Unvan 3</a>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li class="nav-item active mr-2">
-              <div class="dropdown">
-                <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Unvanlar
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Bul!</button>
+              </li>
+            </ul>
+          <form class="form-inline my-2 my-lg-0" method="GET" action="">
+            <input class="form-control mr-sm-2" type="search" placeholder="arama yapın..." aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Ara !</button>
           </form>
+        </div>
       </nav>
+      <!-- NAV Bloğu bitti -->
 
+
+      <!-- Karşılama Mesajı -->
       <div class="container">
         <div class="row">
-
           <div class="col-md-10 offset-md-1">
             <div class="jumbotron mt-3 text-center">
               <h1 class="display-4">Telefon Rehberi</h1>
-              <p class="lead">Bu rehber, Teşvik Uygulama ve Yabancı Sermaye Genel Müdürlüğü çalışanları için hazırlanmıştır.
-              Personel Bilgilerindeki güncellemeler için lütfen 8617 nolu telefonu arayınız.</p>
-            <a class="btn btn-success btn-lg" href="#" role="button">Tamam</a>
+              <p class="lead">Bu rehber, XXX Genel Müdürlüğü çalışanları için hazırlanmıştır.<br>Personel Bilgilerindeki güncellemeler için lütfen 1234 nolu telefonu arayınız.</p>
+              <a class="btn btn-success btn-lg" href="#" role="button">Tamam</a>
             </div>
-            </div>
-
           </div>
         </div>
       </div>
 
-      <!-- Kişiler -->
+      <!-- Arama Sonucu Listesi -->
       <div class="container mt-2">
         <h2>Arama Sonucu</h2>
         <hr>
         <div class="row">
+            <!-- Bir Personelin Listelenmesi -->
             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" data-toggle="modal" data-target="#exampleModal">
-                <center style="cursor:pointer">
-                <img src="personel.resimleri/avatar.png" alt="" class="img-rounded" width="150" height="200">
-                <div class="text-muted"><b>Nuri Akman</b></div>
-              </center>
+              <a href='#'>
+                <img src="personel.resimleri/avatar.png" alt="" class="img-rounded" height="200">
+                <div class="text-muted"><center><b>Nuri Akman</b></center></div>
+              </a>
             </div>
+            <!-- Bir Personelin Listelenmesi Bitti -->
 
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" data-toggle="modal" data-target="#exampleModal2">
-                <center style="cursor:pointer">
-                <img src="personel.resimleri/1692.jpg" alt="" class="img-rounded" width="150" height="200">
-                <div class="text-muted"><b>Kemal Mutlu</b></div>
-              </center>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" data-toggle="modal" data-target="#exampleModal">
+              <a href='#'>
+                <img src="personel.resimleri/nophoto.jpg" alt="" class="img-rounded" height="200">
+                <div class="text-muted"><center><b>Kemal Mutlu</b></center></div>
+              </a>
             </div>
         </div>
-      </div>
-        <!-- Kayıt yok burada-->
-      <div class="container mt-2">
-        <h2>Arama Sonucu</h2>
-        <hr>
+
+        <!-- Kayıt yok bölümü -->
         <div class="row">
           <img src="personel.resimleri/norecord.jpg" alt="" class="img-rounded" width="250" height="250">
         </div>
+
       </div>
+      
 
 
-      <!--Modal Burada -->
+      <!-- Modal Penceresi -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Nuri Akman</h5>
+                <h1 class="modal-title" id="exampleModalLabel">Nuri Akman</h1>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
                 <div class="container">
-                <div class="row">
-                  <div class="col-md-3 mt-2">
-              <img src="personel.resimleri/avatar.png" alt="" class="img-rounded" width="150" height="300">
-              </div>
-                <div class="col-md-9">
-                  <table class="table table-striped">
-                  <thead>
-                    <tr class="text-center">
-                        <th colspan="3">Personel Bilgileri</th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Adı Soyadı</td>
-                      <td>Nuri Akman</td>
-                    </tr>
-                    <tr>
-                      <td>Telefon</td>
-                      <td>1992</td>
-                    </tr>
-                    <tr>
-                      <td>Oda No</td>
-                      <td>YBS-2034</td>
-                    </tr>
-                    <tr>
-                      <td>Unvanı</td>
-                      <td>Genel Müdür Yardımcısı</td>
-                    </tr>
-                    <tr>
-                      <td>Dairesi</td>
-                      <td>Genel Müdürlük Makamı</td>
-                    </tr>
-                    <tr>
-                      <td>E-Posta</td>
-                      <td>nuriakman@gmail.com</td>
-                    </tr>
-                  </tbody>
-                </table>
+                  <div class="row">
+                    <!-- Personel Fotoğrafı -->
+                    <div class="col-md-3 mt-2">
+                      <img src="personel.resimleri/avatar.png" alt="" class="img-rounded" width="100%">
+                    </div>
+                    <div class="col-md-9">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr class="text-center">
+                              <th colspan="3">PERSONEL BİLGİ KARTI</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Adı Soyadı</td>
+                            <td>XXXXX</td>
+                          </tr>
+                          <tr>
+                            <td>Telefon</td>
+                            <td>XXXXX</td>
+                          </tr>
+                          <tr>
+                            <td>Oda No</td>
+                            <td>XXXXX</td>
+                          </tr>
+                          <tr>
+                            <td>Unvanı</td>
+                            <td>XXXXX</td>
+                          </tr>
+                          <tr>
+                            <td>Dairesi</td>
+                            <td>XXXXX</td>
+                          </tr>
+                          <tr>
+                            <td>E-Posta</td>
+                            <td>XXXXX</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
-
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Kapat</button>
               </div>
             </div>
           </div>
         </div>
+        <!-- Modal Penceresi Bitti -->
 
 
     <footer class="footer mt-auto py-3 text-center bg-dark">
