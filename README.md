@@ -31,5 +31,5 @@
   * **[Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.populer.md)**
   * **[Composer Kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullanim.composer.md)**
   * **[PHP Sınıf Örneği](https://github.com/kemtake/PHP-Egitimi/blob/master/class.ornegi.md)**
-  * **[CURL](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
+  * **[Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
   * **[Düzenli İfadeler](https://github.com/kemtake/PHP-Egitimi/blob/master/php.regex.md)**
