@@ -6,12 +6,12 @@
 
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
 - **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
-- **Gerekli Ortamların Kurulumu**
-  * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.git.md)**
-  * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.atom.md)**
-  * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md)**
-  * **[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.wamp.md)**
-  * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.adminer.md)**
+- **[Gerekli Ortamların Kurulumu](https://github.com/kemtake/PHP-Egitimi/tree/master/gerekli.ortamlarin.kurulumu)**
+  * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.git.md)**
+  * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.atom.md)**
+  * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.xampp.md)**
+  * **[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.wamp.md)**
+  * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.adminer.md)**
   * **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
   * **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
@@ -31,5 +31,5 @@
   * **[Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.populer.md)**
   * **[Composer Kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullanim.composer.md)**
   * **[PHP Sınıf Örneği](https://github.com/kemtake/PHP-Egitimi/blob/master/class.ornegi.md)**
-  * **[CURL](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
+  * **[Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
   * **[Düzenli İfadeler](https://github.com/kemtake/PHP-Egitimi/blob/master/php.regex.md)**
