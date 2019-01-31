@@ -8,22 +8,20 @@ CSS’in sahip olduğu seçiciler vardır. Bunlar id ve class olarak ikiye ayrı
 
 
 ## CSS'in Yapısı
-
 ![](http://zinzinzibidi.com/Areas/web_tasarim/Content/img/css-yapisi-01.jpg)
-![](http://zinzinzibidi.com/Areas/web_tasarim/Content/img/css-yapisi-02.jpg)
 
 
 ## HTML + CSS + JS = Web Page
 ![](https://cdn-images-1.medium.com/max/1600/1*GMHYx3zVUybjg0qQ2n9QSA.png)
 
 
-## Inline CSS
+## Satıriçi (Inline) CSS
 ```HTML
 <h1 style="color: blue"> Merhaba Dünya! </h1>
 ```
 
 
-## Internal CSS
+## Sayfa İçi (Internal) CSS
 ```HTML
 <head>
     <style>
@@ -35,7 +33,7 @@ CSS’in sahip olduğu seçiciler vardır. Bunlar id ve class olarak ikiye ayrı
 ```
 
 
-## External CSS
+## Dosyadan (External) CSS Kullanımı
 ```HTML
 <head>
     <link rel="stylesheet" href="style.css">
@@ -50,7 +48,7 @@ h1 {
 ```
 
 
-## Element
+## Element İçin CSS Tanımı
 ```CSS
 h1 {
     font-size: 20px;
@@ -64,7 +62,7 @@ div {
 ```
 
 
-## Class
+## Class Tanımı ve Kullanımı
 ```HTML
 <div class='container'>
     <h1> Burası başlıktır </h1>
@@ -79,7 +77,7 @@ div {
 ```
 
 
-## ID
+## ID İle CSS Tanımı ve Kullanımı
 ```HTML
 <div>
     <p id='para1'> Burası bir paragraftır </p>
@@ -109,7 +107,7 @@ div {
 ```
 
 
-## CSS Seçicileri
+## CSS Seçici Tanımları
 ```CSS
   .stil {
       font: 10pt Tahoma, Verdana;

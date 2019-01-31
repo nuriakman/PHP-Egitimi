@@ -11,8 +11,6 @@ HTML belgelerinizde kullanabileceğiniz tüm HTML etiketleri bu sayfada toplanm�
 
 ## HTML Etiketi Yapısı
 ![](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png)
-![](https://tutorial.techaltum.com/images/element.png)
-![](http://www.squalorsurvivors.com/images/html_tag.gif)
 
 
 ## HTML Sayfa Yapısı
@@ -27,26 +25,26 @@ Etiket |Anlamı|
 ```<!DOCTYPE>```|Doküman türü bildirimi tanımlar.
 ```<a>```|Bağlantılı metin (link) tanımlar.
 ```<abbr>```|Kısaltma tanımlar.
-```<acronym>```|Kısaltma tanımlar. (HTML5 desteklenmiyor.)
+```<acronym>```|Kısaltma tanımlar. (HTML5 desteklenmiyor)
 ```<address>```|Belge veya makalenin sahibinin/yazarının iletişim bilgilerini tanımlar.
-```<applet>```|Sayfanıza gömülü uygulamalar tanımlar. (HTML5 desteklenmiyor. )
+```<applet>```|Sayfanıza gömülü uygulamalar tanımlar. (HTML5 desteklenmiyor)
 ```<area>```|Resim haritaları için bir alan tanımlar.
 ```<article>```|Bağımsız, müstakil içerikler tanımlar.
 ```<aside>```|İçerikte geçen bir yerle ilgili açıklama tanımlar.
 ```<audio>```|Ses, müzik veya diğer ses ortamları tanımlar.
 ```<b>```|Kalın metin tanımlar.
 ```<base>```|Belgedeki tüm göreceli URL'lar için URL veya hedef tanımlar.
-```<basefont>```|Başka bir kaynaktan alıntı bölüm tanımlar. (HTML5 desteklenmiyor. )
+```<basefont>```|Başka bir kaynaktan alıntı bölüm tanımlar. (HTML5 desteklenmiyor)
 ```<bdi>```|Metin yönü farklı olan bir metni diğer metinlerden ayırır.
 ```<bdo>```|Geçerli metin yönünü geçersiz kılınmasını tanımlar.
-```<big>```|Büyük metin tanımlar. (HTML5 desteklenmiyor.)
+```<big>```|Büyük metin tanımlar. (HTML5 desteklenmiyor)
 ```<blockquote>```|Nesneyi bir menü ile ilişkilendirir.
 ```<body>```|Belgenin gövdesini tanımlar.
 ```<br>```|Metin içerisinde satır sonu tanımlar.
 ```<button>```|Düğme tanımlar.
 ```<canvas>```|Grafik çizimleri için bir tuval tanımlar.
 ```<caption>```|Tablo başlığı tanımlar.
-```<center>```|Ortalanmış metin tanımlar. (HTML5 desteklenmiyor. )
+```<center>```|Ortalanmış metin tanımlar. (HTML5 desteklenmiyor)
 ```<cite>```|Çalışmanın başlığını tanımlar.
 ```<code>```|Bir parça bilgisayar kodu tanımlar.
 ```<col>```|Sütun için sütun özelliklerini tanımlar.
@@ -57,20 +55,20 @@ Etiket |Anlamı|
 ```<del>```|Silinmiş metin tanımlar.
 ```<details>```|Kullanıcı tarafından gizlenip/görüntülenebilen ek bilgiler tanımlar.
 ```<dfn>```|Terim tanımlar.
-```<dir>```|Dizin başlıkları tanımlar. (HTML5 desteklenmiyor. )
+```<dir>```|Dizin başlıkları tanımlar. (HTML5 desteklenmiyor)
 ```<div>```|Belgede bir bölüm, sektör tanımlar.
 ```<dl>```|Tanım listesi tanımlar.
 ```<dt>```|Tanım listesinde bir öğe tanımlar.
 ```<em>```|Vurgulanmış metin tanımlar.
 ```<embed>```|Harici uygulamalar ve etkileşimli içerikler için taşıyıcı tanımlar.
 ```<fieldset>```|Form içerisindeki ilişkili elemanları gruplandırır.
-```<figcaption>```|<figure> etiketi için başlık tanımlar.
+```<figcaption>```|```<figure>``` etiketi için başlık tanımlar.
 ```<figure>```|Çizimler, fotoğraflar, kod listeleri gibi bağımsız içerik tanımlar.
-```<font>```|Metnin yazı tipini, büyüklüğünü ve rengini tanımlar. (HTML5 desteklenmiyor. )
+```<font>```|Metnin yazı tipini, büyüklüğünü ve rengini tanımlar. (HTML5 desteklenmiyor)
 ```<footer>```|Belge veya bölümün altbilgisini tanımlar.
 ```<form>```|Kullanıcı girişleri için form tanımlar.
-```<frame>```|Çerçeve tanımlar. (HTML5 desteklenmiyor.)
-```<frameset>```|Birden fazla çerçeve içim özellikler tanımlar. (HTML5 desteklenmiyor.)
+```<frame>```|Çerçeve tanımlar. (HTML5 desteklenmiyor)
+```<frameset>```|Birden fazla çerçeve içim özellikler tanımlar. (HTML5 desteklenmiyor)
 ```<h1> ... <h6>```|Başlık tanımlar.
 ```<head>```|Belgenin başlık bölümünü tanımlar.
 ```<header>```|Belge veya bölüm için başlık tanımlar.
@@ -84,8 +82,8 @@ Etiket |Anlamı|
 ```<ins>```|Eklenmiş metin tanımlar.
 ```<kbd>```|Klavye girişi tanımlar.
 ```<keygen>```|Formlar için anahtar çifti tanımlar.
-```<label>```|<input> etiketi için başlık tanımlar.
-```<legend>```|<fieldset> etiketi için başlık tanımlar.
+```<label>```|```<input>``` etiketi için başlık tanımlar.
+```<legend>```|```<fieldset>``` etiketi için başlık tanımlar.
 ```<li>```|Liste öğesi tanımlar.
 ```<link>```|Belge ile harici kaynak arasında ilişkiyi tanımlar.
 ```<map>```|Resim haritası tanımlar.
@@ -94,7 +92,7 @@ Etiket |Anlamı|
 ```<meta>```|Veri hakkında bilgiler tanımlar.
 ```<meter>```|Değer veya ölçü için skala tanımlar.
 ```<nav>```|Navigasyon menüsü tanımlar.
-```<noframes>```|Çerçeve desteklemeyen tarayıcılar için bilgi tanımlar. (HTML5 desteklenmiyor.)
+```<noframes>```|Çerçeve desteklemeyen tarayıcılar için bilgi tanımlar. (HTML5 desteklenmiyor)
 ```<noscript>```|Script desteklemeyen tarayıcılar için alternatif içerik tanımlar.
 ```<object>```|Gömülü nesne tanımlar.
 ```<ol>```|Sıralı liste tanımlar.
@@ -117,11 +115,11 @@ Etiket |Anlamı|
 ```<small>```|Küçük metin tanımlar.
 ```<source>```|Medya tanımları için birden fazla kaynak tanımlar.
 ```<span>```|Satır içi grup tanımlar.
-```<strike>```|Üstü çizili metin tanımlar. (HTML5 desteklenmiyor. )
+```<strike>```|Üstü çizili metin tanımlar. (HTML5 desteklenmiyor)
 ```<strong>```|Güçlü metin tanımlar.
 ```<style>```|HTML belgeleri için stil biçimlendirmeleri tanımlar.
 ```<sub>```|Altsimge metni tanımlar.
-```<summary>```|<details> etiketinin başlığını tanımlar.
+```<summary>```|```<details>``` etiketinin başlığını tanımlar.
 ```<sup>```|Üstsimge metni tanımlar.
 ```<table>```|Tablo tanımlar.
 ```<tbody>```|Tablonun gövde içeriğini gruplandırır.
@@ -134,7 +132,7 @@ Etiket |Anlamı|
 ```<title>```|Belgenin başlığını tanımlar.
 ```<tr>```|Tablo için bir satır tanımlar.
 ```<track>```|Medya nesneleri için metin parçaları tanımlar.
-```<tt>```|Daktilo tipinde metin tanımlar. (HTML5 desteklenmiyor.)
+```<tt>```|Daktilo tipinde metin tanımlar. (HTML5 desteklenmiyor)
 ```<u>```|Normal metinlerden farklı metinlerin açıklamasını tanımlar.
 ```<ul>```|Sırasız liste tanımlar.
 ```<var>```|Değişken tanımlar.
@@ -144,6 +142,7 @@ Etiket |Anlamı|
 
 # HTML Olay Özellikleri
 
+HTML Olayları, JavaScript kodlarının tetiklenmesinin sağlanması için kullanılır.
 
 ## Pencere Olay Özellikleri
 
@@ -180,7 +179,7 @@ Etiket |Anlamı|
 ```onforminput```|Form nesnelerine kullanıcı girişi olduğunda bir script çalıştırır.
 ```oninput```|Nesneye kullanıcı girişi olduğunda bir script çalıştırır.
 ```oninvalid```|Nesneye geçersiz giriş olduğunda bir script çalıştırır.
-```onreset```|Form reset butonuna basıldığında bir script çalıştırır. (HTML5 desteklenmiyor.)
+```onreset```|Form reset butonuna basıldığında bir script çalıştırır. (HTML5 desteklenmiyor)
 ```onselect```|Kullanıcı seçim işlemi yaptığında bir script çalıştırır.
 ```onsubmit```|Form submit butonuna basıldığında bir script çalıştırır.
 
