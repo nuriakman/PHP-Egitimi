@@ -6,7 +6,7 @@
 
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
 - **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
-- **[Gerekli Ortamların Kurulumu](https://github.com/kemtake/PHP-Egitimi/tree/master/gerekli_ortamlarin_kurulumu)**
+- **[Gerekli Ortamların Kurulumu](https://github.com/kemtake/PHP-Egitimi/tree/master/gerekli.ortamlarin.kurulumu)**
   * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.git.md)**
   * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.atom.md)**
   * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.xampp.md)**
