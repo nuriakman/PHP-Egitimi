@@ -5,12 +5,16 @@ HTML (Hyper Text Markup Language) internet üzerinde web sayfası oluşturmak i�
 HTML belgelerinizde kullanabileceğiniz tüm HTML etiketleri bu sayfada toplanmıştır.
 
 
-## HTML DOM Yapısı
-![](https://www.igyaddel.hu/blog-10.png)
-
-
 ## HTML Etiketi Yapısı
 ![](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png)
+
+
+## HTML + CSS + JS = Web Page
+![](https://cdn-images-1.medium.com/max/1600/1*GMHYx3zVUybjg0qQ2n9QSA.png)
+
+
+## HTML DOM Yapısı
+![](https://www.igyaddel.hu/blog-10.png)
 
 
 ## HTML Sayfa Yapısı

@@ -8,6 +8,13 @@ CSS kodları HTML kodlarının içine yazılırlar. Türüne göre body veya hea
 
 Hemen hemen her konuda olduğu gibi CSS konusunda da Microsoft Internet Explorer ve Firefox farklı yorumlar ortaya koyarlar. Bu noktada her iki browser'ın da aynı/benzer yorumlayacağı kodlar yazmak en uygunudur.
 
+## CSS'in Yapısı
+![](http://zinzinzibidi.com/Areas/web_tasarim/Content/img/css-yapisi-01.jpg)
+
+
+## HTML + CSS + JS = Web Page
+![](https://cdn-images-1.medium.com/max/1600/1*GMHYx3zVUybjg0qQ2n9QSA.png)
+
 
 ## LİNK ÖZELLİKLERİ
 
