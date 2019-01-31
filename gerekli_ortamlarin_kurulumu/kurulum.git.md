@@ -1,7 +1,6 @@
 # GİT KURULUMU
 
 ## Adım 1:
-#### [Adresine gidilir.](https://git-scm.com/download/win)
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.git/001.jpg" width=500px height=300px>
 
 ## Adım 2:

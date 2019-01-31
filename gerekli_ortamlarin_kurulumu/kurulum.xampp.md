@@ -1,7 +1,6 @@
 # XAMPP KURULUMU
 
 ## Adım 1:
-#### [Adresine](https://www.apachefriends.org/download.html) gidilir.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.xampp/001.jpg" width=500px height=300px>
 
 ## Adım 2:

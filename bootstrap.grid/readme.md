@@ -25,24 +25,92 @@ Kullanımı ```<div class="col-lg-12">``` şeklindedir.
 #### Extra large
 1200px'den büyük ekranlar için kullanılan ayardır.Kullanımı ```<div class="col-xl-12">```şeklindedir.
 
-Örneğin bir içeriğiniz var ve 1200px ekranlarda 4 parçaya bölünmesini 768px ile 1200px arası ekranlarda 2 parçaya bölünmesini 576px'den küçük ekranlarda tek bir alana yayılmasını istiyorsanız şöyle bir kod yazmalısınız.
+Aşağıdaki örneklerde grid yapısını ve iç içe sütün kullanılınımı inceleyeceğiz.
+
+![alt text](img/bootstrap1.png)
+
+Böyle bir görsel elde etmek şu kodları kullanacağız.Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitimi/blob/master/bootstrap.grid/ornek1.html) inceleyebilirsiniz.
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-12 cizgi">Col-12</div>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12 cizgi">col-12</div>
+            <div class="col-12 cizgi">col-12</div>
+            <div class="col-12 cizgi">col-12</div>
+            <div class="col-12 cizgi">col-12</div>
+            <div class="col-12 cizg">col-12</div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12 cizgi" style="height:145px;">col-12</div>
+            <div class="col-12 cizgi" style="height:145px;">col-12</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 cizgi">col-12</div>
+  </div>
+</div>
+```
+
+![alt text](img/bootstrap2.png)
+
+Böyle bir görsel elde etmek şu kodları kullanacağız.Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitimi/blob/master/bootstrap.grid/ornek2.html) inceleyebilirsiniz.
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-12 cizgi">Col-12</div>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-3">
+          <div class="row">
+            <div class="col-12 cizgi" style="height:100px">Col-12</div>
+            <div class="col-12 cizgi" style="height:100px">Col-12</div>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-12 cizgi" style="height:200px">Col-12</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+    <div class="col-3 cizgi">col-3</div>
+  </div>
+</div>
+```
+![alt text](img/bootstrap3.png)
+
+Böyle bir görsel elde etmek şu kodları kullanacağız.Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitimi/blob/master/bootstrap.grid/ornek3.html) inceleyebilirsiniz.
 
 ```html
 <div class="container">
   <div class="row">
-    <div class="col-12 col-md-6 col-lg-3">İçerik 1</div>
-    <div class="col-12 col-md-6 col-lg-3">İçerik 2</div>
-    <div class="col-12 col-md-6 col-lg-3">İçerik 3</div>
-    <div class="col-12 col-md-6 col-lg-3">İçerik 4</div>
+    <div class="col-12 cizgi">Col-12</div>
+    <div class="col-4 cizgi">Col-12</div>
+    <div class="col-8 cizgi">Col-12</div>
+    <div class="col-8 cizgi">Col-12</div>
+    <div class="col-4 cizgi">Col-12</div>
+    <div class="col-4 cizgi">Col-12</div>
+    <div class="col-8 cizgi">Col-12</div>
+    <div class="col-12 cizgi">Col-12</div>
+    <div class="col-12 cizgi">Col-12</div>
   </div>
 </div>
 ```
-1200px'den yüksek ekranlarda içeriğimiz bu şekilde görüntülecektir.
-![alt text](img/1.png)
-
-768px ile 1200px arası ekranlar bu şekilde görüntülecektir.
-![alt text](img/2.png)
-
-768px'den küçük ekranlarda ise bu şekilde.
-
-![alt text](img/3.png)

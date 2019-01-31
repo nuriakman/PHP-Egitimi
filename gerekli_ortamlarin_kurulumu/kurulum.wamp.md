@@ -1,7 +1,7 @@
 # WAMP KURULUMU
 
 ## Adım 1:
-#### [Adresine](http://www.wampserver.com/en/) gidilir.
+
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.wamp/001.jpg" width=500px height=300px>
 
 ## Adım 2:
