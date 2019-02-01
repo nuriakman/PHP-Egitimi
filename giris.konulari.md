@@ -7,9 +7,7 @@
 
 ### Hyper Text Transfer Protocol - HTTP
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir araçtır.
-
-![alt text](img/giris_konulari/http.jpg "HTTP")
-
+<img src="img/giris_konulari/http.jpg">
 ### World Wide Web - WWW
 World Wide Web belgeler ve diğer web kaynaklarının  URL'ler tarafından tanımlandığı, köprü metin bağlantılarıyla birbirine bağlandığı ve internet
 üzerinden erişilebileceği bir bilgi alanıdır.
@@ -21,9 +19,9 @@ ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kada
 sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz.
 Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
-![alt text](img/giris_konulari/how-dns-works3.png "DNS")
 
-![alt text](img/giris_konulari/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
+<img src="img/giris_konulari/how-dns-works3.png">
+<img src="img/giris_konulari/DNS_Propagation_Process_f_improf_815x260.jpg">
 
 ### İstemci Nedir ?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir
@@ -34,15 +32,14 @@ sonucunda sunucu,istenen verileri istemciye ulaştırır.
 Sunucu ise bu bilgileri tutan bilgisayarlardır. Bunların donanımla,yüksek performansla çalışmaları gerekir.
 Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde
 birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
-
-![alt text](img/giris_konulari/istemci_sunucu.jpg "DNS")
+<img src="img/giris_konulari/istemci_sunucu.jpg">
 
 ### Hyper Text Markup Language - HTML
 Web programlama için gereken en temel dildir. HTML bir programlama dili değil bir betik dilidir. Html kendi başına
 çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar. Html ile yazı,resim ve videoları birbirine
 bağlayıp kullanıcılara sunabiliriz.
 
-![alt text](img/giris_konulari/newsletter-layouts1.png "HTML")
+<img src="img/giris_konulari/newsletter-layouts1.png">
 
 ## HTTP Durum Kodu (Status Code)
 İstemci bir sunucu içeriğine HTTP kullanarak ulaşmaya çalıştığında sunucu yanıtın durumunu belirten bir sayısal kod gönderir. Bazı durumlarda  HTTP durum kodu (HTTP Status Code) istemcinin tarayıcısında da gösterilebilir Örn: 200, 301, 302, 404 ve 500 kodları en yaygın olanlardır.
@@ -63,8 +60,7 @@ yazı,resim, bağlantı, kenar çizgileri vb. HTML öğelerine sitil vermek yani
 CSS kullanımı sayesinde yüzlerce sayfayı tek bir dosya ile biçimlendirebiliriz. Bu sayede hızlı ve esnek web
 sayfaları oluşturabiliriz.
 
-![alt text](img/giris_konulari/css.jpg "CSS")
-
+<img src="img/giris_konulari/css.jpg">
 ### JAVASCRIPT Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese
 de Java ve JavaScript birbirinden farklı teknolojilerdir.
@@ -120,16 +116,16 @@ Neden komut satırını öğrenmek lazım?
 https://medium.com/@atarikguney/neden-komut-sat%C4%B1r%C4%B1n%C4%B1-%C3%B6%C4%9Frenmek-laz%C4%B1m-f7c708bbaa1b
 
 ### Kullanıcı Yetkileri
-![alt text](img/giris_konulari/linux-users-permissions-for-beginners-4-638.jpg)
 
-![alt text](img/giris_konulari/images.jpg)
+<img src="img/giris_konulari/linux-users-permissions-for-beginners-4-638.jpg">
 
-![alt text](img/giris_konulari/Figure2.png)
+<img src="img/giris_konulari/images.jpg">
 
-![alt text](img/giris_konulari/permissions2.png)
+<img src="img/giris_konulari/Figure2.png">
 
-![alt text](img/giris_konulari/permissions1.png)
+<img src="img/giris_konulari/permissions1.png">
 
+<img src="img/giris_konulari/permissions2.png">
 
 ### Developer RoadMap
 https://github.com/kamranahmedse/developer-roadmap
@@ -183,24 +179,25 @@ Databases are useful for storing information categorically. A company may have a
 
 ### 5 Dakikada BOOTSTRAP
 
-![alt text](img/giris_konulari/1_8wu3JgB2Vj1lYzbUQbsAwg.gif)
+<img src="img/giris_konulari/1_8wu3JgB2Vj1lYzbUQbsAwg.gif">
 
-![alt text](img/giris_konulari/responsive-grid.gif)
+<img src="img/giris_konulari/responsive-grid.gif">
+
 
 ## Algoritma Nedir ?
 Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yol anlamına gelir, matematikte ve bilgisayar biliminde bir işi yapmak için tanımlanan, bir başlangıç durumundan başladığında, açıkça belirlenmiş bir son durumunda sonlanan, sonlu işlemler kümesine denir.
 
-![alt text](img/giris_konulari/algoritma.png)
+<img src="img/giris_konulari/algoritma.png">
 
 ## Ağaçlar (tree)
 Bir graf şayet bağlı grafsa ve hiç döngü içermiyorsa bu grafa ağaç adı verilir.
 Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
 
-![alt text](img/giris_konulari/agac.jpg)
+<img src="img/giris_konulari/agac.jpg">
 
 Örneğin yukarıdaki ağaç tasvirinde 7 düğümden (node) oluşan ve yapraklarında (leaf) 4 düğüm bulunan bir ağaç gösterilmiştir. Bu ağacın derinliği (depth) 2 dir ve her seviyenin(level) değeri yanında verilmiştir. Ağaçların 1 tane başlangıç düğümü bulunur ve bu başlangıç düğümüne kök(root) denilir.
 
-Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır. 
+Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır.
 
 ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutulamayacak hiyerarşik veri yoktur ve bu yöntem sıklıkla kullanılır.
 
