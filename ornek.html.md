@@ -98,7 +98,55 @@ HTML bir programlama dili olmadığı için derlenme gibi bir gereksinimi yoktur
         Lorem <mark>ipsum dolor</mark> sit amet, consectetur adipisicing elit. Sapiente, recusandae.
     </p>
 
-    
+    <ul> <!- ul etiketi ile sırasız liste oluştururuz ->
+        <li> <!- li etiketi ile ul etiketinin altında liste elemanlarının ismini yazdık ->
+            <p>Lorem ipsum dolor.</p> <!- liste elemanlarını text olarak yazmak yerine paragraf içine yazdık (daha kullanışlı) ->
+            
+            <ul> <!- Sırasız listenin içine bir alt sırasız liste oluşturduk ->
+                <li>Alt Eleman</li> <!- alt listenin adını yazdık ->
+                <ul> <!- ve en alttaki(içteki) listemiz ->
+                    <li>En alt eleman</li> <!- liste elemanının ismi ->
+                </ul>
+                <li>Alt Eleman</li> <!- 2.alt liste elemanı ->
+            </ul> 
+        </li>
+
+        <li> <!- sırasız liste->
+            <p>Lorem ipsum dolor.</p>
+        </li>
+
+        <li><!- sırasız liste ->
+            <p>Lorem ipsum dolor.</p>
+        </li>
+
+    </ul>
+   
+    <p>&nbsp;</p> <!- bir satır boşluk verme ->
+    <p>&nbsp;</p> <!- bir satır boşluk verme ->
+
+    <ol> <!- ol etiketi ile sırasız liste oluştururuz ->
+        <li> <!- li etiketi ile ol etiketinin altında liste elemanlarının ismini yazdık ->
+            <p>Lorem ipsum dolor.</p> <!- liste elemanlarını text olarak yazmak yerine paragraf içine yazdık (daha kullanışlı) ->
+            
+            <ol> <!- Sırasız listenin içine bir alt sırasız liste oluşturduk ->
+                <li>Alt Eleman</li> <!- alt listenin adını yazdık ->
+                <ol> <!- ve en alttaki(içteki) listemiz ->
+                    <li>En alt eleman</li> <!- liste elemanının ismi ->
+                </ol>
+                <li>Alt Eleman</li> <!- 2.alt liste elemanı ->
+            </ol> 
+        </li>
+
+        <li> <!- sırasız liste->
+            <p>Lorem ipsum dolor.</p>
+        </li>
+
+        <li><!- sırasız liste ->
+            <p>Lorem ipsum dolor.</p>
+        </li>
+
+    </ol>
+   
     
 
 </body>
