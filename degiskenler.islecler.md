@@ -112,7 +112,7 @@ $b = $a . "Dünyalı!"; // $b artık "Merhaba Dünyalı!" içeriyor
 $a = "Merhaba ";
 $a .= "Dünyalı!";     // $a artık "Merhaba Dünyalı!" içeriyor
 ```
-### Mantıksal İşleçler
+### Mantıksal Operatörler
 İşlem |Anlamı|Açıklaması
 ------------|-------------|-------------
 $a and $b |	Ve |  	$a ve $b  her ikisi de doğruysa sonuç doğrudur (TRUE).
@@ -123,7 +123,7 @@ $a && $b |	Ve |	$a ve $b her ikisi de doğruysa sonuç doğrudur.
 $a &#x7c;&#x7c; $b |	Veya 	| $a veya $b doğruysa sonuç doğrudur.
 
 
-### Arttırım ve Eksiltim işleçleri
+### Arttırım ve Eksiltim Operatörleri
 
 İşlem |Anlamı| Açıklaması
 ------------|-------------|-------------
@@ -133,7 +133,7 @@ $a++ |	Sonradan arttırım |	$a döndürüldükten sonra değeri bir arttırıl�
 $a-- |	Sonradan eksiltim |	$a döndürüldükten sonra değeri bir eksiltilir.
 
 
-### Çalıştırma İşleci (Ters Tırnak)
+### Çalıştırma Operatörleri (Ters Tırnak)
 ```PHP
 $output = `ls -al`;
 echo "<pre>$output</pre>";
@@ -143,13 +143,13 @@ echo `ping -n 3 {$host}`;
 ```
 safe_mode etkinse veya shell_exec() işlevi etkin değilse, çalıştırma işleci etkin değildir.
 
-### Hata Denetim İşleçleri
+### Hata Denetim Operatörleri
 ```PHP
 $dosyam = @file('var_olmayan_dosya_adi');
 if(!$dosyam) echo "Dosya açılamadı...";
 ```
 
-### Karşılaştırma İşleçleri
+### Karşılaştırma Operatörleri
 İşlem | Anlamı|Açıklaması
 ------------|-------------|-------------
 $a == $b|    Eşittir   |  Tür dönüşümünden sonra, $a ve $b aynı değere sahipse sonuç TRUE olur.
@@ -163,7 +163,7 @@ $a <= $b|    Küçük veya eşittir | $a, $b'den küçük veya ona eşitse sonu�
 $a >= $b|    Büyük veya eşittir | $a, $b'den büyük veya ona eşitse sonuç TRUE olur.
 
 
-### Bitsel İşleçler
+### Bitsel Operatörleri
 İşlem | Anlamı |Açıklaması
 ------------|-------------|-------------
 $a & $b |    Ve | Hem $a hem de $b'de 1 olan bitler sonuçta 1 yapılır.
@@ -173,7 +173,7 @@ $a ^ $b |    Ayrıcalıklı Veya  |  Hem $a hem de $b'de 0 veya 1 olan bitler so
 $a << $b|    Sola kaydırma |  $a'nın bitleri $b adım sola kaydırılır (her adım ikiyle çarpma işlemine denktir).
 $a >> $b|    Sağa kaydırma |  $a'nın bitleri $b adım sağa kaydırılır (her adım ikiye bölme işlemine denktir).
 
-### Atama İşleçi
+### Atama Operatörü
 ```PHP
 $a = ($b = 4) + 5; // $a'nın değeri 9, $b'nin değeri 4 olur.
 $a = 3;
@@ -182,7 +182,7 @@ $b = "Herkese ";
 $b .= "Merhaba!"; // $b'nin değeri "Herkese Merhaba!" olur.
                   // asıl işlem: $b = $b . "Merhaba!";
 ```
-### Gönderimli Atama İşleçi (by Referance)
+### Gönderimli Atama Operatörü (by Referance)
 ```PHP
 $a = 3;
 $b = &$a; // $b, $a'ya bir gönderimdir
