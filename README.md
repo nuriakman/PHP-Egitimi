@@ -7,11 +7,11 @@
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
 - **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
 - **[Gerekli Ortamların Kurulumu](https://github.com/kemtake/PHP-Egitimi/tree/master/gerekli.ortamlarin.kurulumu)**
-  * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.git.md)**
-  * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.atom.md)**
-  * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.xampp.md)**
-  * **[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.wamp.md)**
-  * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli_ortamlarin_kurulumu/kurulum.adminer.md)**
+  * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.git.md)**
+  * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.atom.md)**
+  * **[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.xampp.md)**
+  * **[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.wamp.md)**
+  * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.adminer.md)**
   * **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
   * **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
