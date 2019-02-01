@@ -16,6 +16,8 @@
   * **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
 - **[Git ve Github](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.git.md)**
+- **[Html Etiketleri](https://github.com/kemtake/PHP-Egitimi/blob/master/etiketler.html.md)**
+- **[Css Etiketleri](https://github.com/kemtake/PHP-Egitimi/blob/master/etiketler.css.md)**
 - **[Bootstrap Grid Yapısı](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap.grid)**
 - **[Bootstrap Örnekleri](https://github.com/kemtake/PHP-Egitimi/tree/master/bootstrap_ornekleri)**
 - **PHP'ye giriş**
@@ -33,3 +35,6 @@
   * **[PHP Sınıf Örneği](https://github.com/kemtake/PHP-Egitimi/blob/master/class.ornegi.md)**
   * **[Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
   * **[Düzenli İfadeler](https://github.com/kemtake/PHP-Egitimi/blob/master/php.regex.md)**
+- **Mysql'e giriş**
+  * **[Mysql Komutları 1]**(https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql1.md)  
+  * **[Mysql Komutları 2]**(https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql2.md)  
