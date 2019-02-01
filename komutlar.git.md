@@ -141,6 +141,15 @@ Komut |Anlamı|
 ```git clone git@github/username/repo.git```|Uzak git depomuzu bulunduğumuz dizin altında proje ismi ilse aynı dizine indirdik
 
 
+## GİT Yardım Komutları
+git help -a
+git help -g
+git help everyday
+git help tutorial
+git help workflows
+
+
+
 ## Faydalı Linkler
 
 - git - Basit Rehber: http://rogerdudler.github.io/git-guide/index.tr.html

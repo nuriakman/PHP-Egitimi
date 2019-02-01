@@ -105,3 +105,4 @@ Transaction, daha küçük parçalara ayrılamayan en küçük işlem yığını
 - MariaDB çifte lisanslı değil, yalnız GPL (özgür yazılım) olarak kullanabilirsiniz.
 - MariaDB 5.3 serisindeyken, MySQL 5.5 serisinde.
 
+KAYNAK: https://topluluk.ozguryazilim.com.tr/wp-content/sunumlar/mariadb-vs-mysql/

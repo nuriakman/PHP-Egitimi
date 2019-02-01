@@ -20,6 +20,43 @@ HTML belgelerinizde kullanabileceğiniz tüm HTML etiketleri bu sayfada toplanm�
 ## HTML Sayfa Yapısı
 ![](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/html5_sectioning_high_level.jpg)
 
+## HTML Form Etiketleri
+Online Bootstrap Form Hazırlama: [](https://bootsnipp.com/forms)
+
+
+
+### Sık Kullanılan HTML Etiketleri
+
+Etiket |Anlamı|
+------------|-------------|
+```<h1>--<h6>```| Başlık Etiketleri
+```<p>```| Paragraf Etiketi
+```<br>```| Satır Atlatma Boşluk Bırakma Etiketi
+```<hr>```| Çizgi Çizme Etiketi
+```<b>```| Bold Kalınlaştırma Etiketi
+```<i>```| İtalic, Eğik Yazı Etiketi
+```<sub>, <sup>```| Alt ve Üst İndis Etiketleri
+```<ins>```| Metnin Altını Çizme Etiketi
+```<del> / <s>```| Metnin Üzerini Çizme Etiketleri
+```<pre>```| Pre Etiketi
+```<table>```| Tablo Oluşturma İşlemleri
+```<ul>, <ol>, <dl>, <li>```| Listeleme ve Tanımlama Etiketleri
+```<img>```| Etiketi Resimlerle Çalışma
+```<a>```| Link Verme Etiketi ve sayfa içi link (anchor)
+
+
+### FORM Etiketleri
+Etiket |Anlamı|
+------------|-------------|
+```<form>```| Form Etiketi
+```<input>```| Veri giriş etiketi
+```<select>```| Listeden seçim etiketi
+```<button>```| Düğme etiketi
+```<radio>```| Çoktan seçmeli etiketi
+```<checkbox>```| Tercihli etiket
+```<file>```| Dosya seçim etiketi
+```<textarea>```| Geniş veri giriş etiketi
+
 
 ## HTML Etiketleri Tam Listesi
 

@@ -75,10 +75,9 @@ mysqli_close($link);
 
 
 
-# MySQL Kopya Kağıdı
+# MySQL Sunucusuna Bağlanma
 
 ```PHP
-<?php
 ## Veritabanına bağlantı kuralım...
 ## Veritabanına bağlantı kuralım...
 $host     = "localhost";
@@ -88,26 +87,10 @@ $database = "";
 $cnnMySQL = mysqli_connect( $host, $user, $password, $database );
 if( mysqli_connect_error() ) die("Veritabanına bağlanılamadı...");
 $temp = mysqli_query($cnnMySQL, "set names 'utf8'");
+```
 
-
-## html select etiketi için tek sutun verinin çekilmesi
-## html select etiketi için tek sutun verinin çekilmesi
-function GetHTMLSelectTagData( $SQL, $SahaAdi ){
-  // Örnek Kullanım:
-  // echo GetHTMLSelectTagData("SELECT DISTINCT marka FROM araclar ORDER BY marka", "marka");
-  global $cnnMySQL;
-  $rows = mysqli_query($cnnMySQL, $SQL);
-  $RowCount = mysqli_num_rows($rows);
-  $SONUC = "";
-  while($row = mysqli_fetch_assoc($rows)){
-    $SONUC .= sprintf("<option value='%s'>%s</option>",
-                $row["$SahaAdi"], $row["$SahaAdi"]  );
-  }
-  return $SONUC;
-} // GetHTMLSelectTagData
-
-
-
+# Kayıt Ekleme
+```PHP
 ## Veritabanına kayıt ekleme
 ## Veritabanına kayıt ekleme
 $val1 = "AAA";
@@ -126,11 +109,12 @@ $SQL = "INSERT INTO araclar SET
             model = '$val2',
             fiyat = '$val3'     ";
 $rows = mysqli_query($cnnMySQL, $SQL);
+```
 
-
+# Kayıt Güncelleme
+```PHP
 ## Veritabanına kayıt güncelleme
 ## Veritabanına kayıt güncelleme
-
 $val1 = "AaAaAa";
 $val2 = "BbBbBb";
 $val3 = 75000;
@@ -147,16 +131,28 @@ $SQL = "UPDATE araclar SET
           fiyat = '$val3'
         WHERE id=1678";
 $rows = mysqli_query($cnnMySQL, $SQL);
+```
 
 
-
+# Kayıt Silme
+```PHP
 ## Veritabanından kayıt silme
 ## Veritabanından kayıt silme
 $SQL = "DELETE FROM araclar WHERE id = 1";
 $rows = mysqli_query($cnnMySQL, $SQL);
+```
 
 
+# Kayıt Getirmeyi Sınırla
+150 nci kayıttan itibaren 20 kayıt getir.
+```PHP
+$SQL = "SELECT * FROM araclar LIMIT 20 OFFSET 150";
+$rows = mysqli_query($cnnMySQL, $SQL);
+```
 
+
+# Kayıt Listeleme - Örnek 1
+```PHP
 ## Veritabanından kayıt çekme ve listeleme örneği
 ## Veritabanından kayıt çekme ve listeleme örneği
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
@@ -173,10 +169,11 @@ if($RowCount == 0) { // Kayıt yok...
     echo "$c -- $marka -- $model <br>";
   } // while
 } // Kayıt var
+```
 
 
-
-
+# Kayıt Listeleme - Örnek 2
+```PHP
 ## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
 ## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
@@ -208,8 +205,7 @@ if($RowCount == 0) { // Kayıt yok...
 ```
 
 
-## MySQL'den Çekilen Verilerin Listelenmesi Örneği
-
+# Kayıt Listeleme - Örnek 3
 ```PHP
 <?php
 $SQL = "SELECT marka, model, fiyat FROM araclar LIMIT 20";
@@ -230,4 +226,38 @@ $rows = mysqli_query($cnnMySQL, $SQL);
    <?php } ?>
 </table>
 ```
+
+# HTML SELECT İçini Veritabanından Doldurma
+```PHP
+<?php
+## html select etiketi için tek sutun verinin çekilmesi
+## html select etiketi için tek sutun verinin çekilmesi
+function GetHTMLSelectTagData( $SQL, $SahaAdi ){
+  global $cnnMySQL;
+  $rows = mysqli_query($cnnMySQL, $SQL);
+  $RowCount = mysqli_num_rows($rows);
+  $SONUC = "";
+  while($row = mysqli_fetch_assoc($rows)){
+    $SONUC .= sprintf("<option value='%s'>%s</option>",
+                $row["$SahaAdi"], $row["$SahaAdi"]  );
+  }
+  return $SONUC;
+} // GetHTMLSelectTagData
+
+$MARKALAR = GetHTMLSelectTagData("SELECT DISTINCT marka FROM araclar ORDER BY marka", "marka");
+$MODELLER = GetHTMLSelectTagData("SELECT DISTINCT model FROM araclar ORDER BY model", "model");
+?>
+
+MARKASI: <select name='marka_sec'> <?php echo $MARKALAR; ?> </select>
+MODELİ : <select name='model_sec'> <?php echo $MODELLER; ?> </select>
+```
+
+
+## Ağaç Yapısı - Tree Structure
+Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
+![alt text](img/giris_konulari/agac.jpg)
+
+Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır. 
+
+ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutulamayacak hiyerarşik veri yoktur ve bu yöntem sıklıkla kullanılır.
 

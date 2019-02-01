@@ -4,7 +4,7 @@
 
 HTML "Hyper Text Markup Language" kelimelerinin kısaltılmasından oluşur. Türkçe anlamı Zengin metin işaretleme dilidir. Web sitesi oluşturmak için kullanılan bir betik dilidir. Uzantısı .html veya .htm şeklinde tanımlanır.
 
-HTML dili tag (etiket) yapısından oluşur. Genel olarak ```<etiket></etiket>`` şeklinde tanımlanmış alanlar arasında işlemler yapılır. Burada dikkat edilmesi gereken nokta, etiketlerin açılması ```<etiket>``` ve kapatılması ```</etiket>``` olayıdır.
+HTML dili tag (etiket) yapısından oluşur. Genel olarak ```<etiket></etiket>``` şeklinde tanımlanmış alanlar arasında işlemler yapılır. Burada dikkat edilmesi gereken nokta, etiketlerin açılması ```<etiket>``` ve kapatılması ```</etiket>``` olayıdır.
 
 İstisnalar olsa da genel anlamda her etiketin kapatılması gerekir.
 
