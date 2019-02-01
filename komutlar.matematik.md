@@ -53,4 +53,4 @@ Komut |Anlamı|
 ```srand``` | Seed the random number generator
 ```tan``` | Tangent
 ```tanh``` | Hyperbolic tangent
-
+```number_format``` |  Sayıyı binlik bölümlere ayırır
