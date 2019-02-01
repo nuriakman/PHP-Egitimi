@@ -122,7 +122,7 @@ https://medium.com/@atarikguney/neden-komut-sat%C4%B1r%C4%B1n%C4%B1-%C3%B6%C4%9F
 
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/giris_konulari/linux-users-permissions-for-beginners-4-638.jpg">
 
-<img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/giris_konulari/images.jpg>
+<img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/giris_konulari/images.jpg">
 
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/giris_konulari/Figure2.png">
 
