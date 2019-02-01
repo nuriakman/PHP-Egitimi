@@ -20,7 +20,7 @@ Komut |Anlamı|
 ```count_chars``` | Bir dizgedeki karakterler hakkında bilgi döndürür
 ```crc32``` | Bir dizgenin crc32 çok terimlisini hesaplar
 ```crypt``` | Tek yönlü dizge şifrelemesi yapar
-```echo``` | Bir veya daha fazla dizgeyi çıktılar
+```echo🚩``` | Bir veya daha fazla dizgeyi çıktılar
 ```explode``` | Bir dizgeyi bir ayraca göre bölüp bir dizi haline getirir
 ```fprintf``` | Biçemli dizgeyi bir akıma yazar
 ```get_html_translation_table``` | htmlspecialchars ve htmlentities tarafından kullanılan dönüşüm tablosunu döndürür
