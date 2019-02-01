@@ -556,5 +556,15 @@ $homepage = file_get_contents('deneme.txt');
 echo $homepage; //deneme.txt dosyasının içeriğini dizge olarak döndürdü.
 ```
 
-###
+### var_dump
+Bir değişkenle ilgili bilgiyi dökümler
+
+```php
+$b = 3.1;
+$c = true;
+var_dump($b, $c);
+// float(3.1)
+// bool(true)
+
+```
 ###
