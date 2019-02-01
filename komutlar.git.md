@@ -1,20 +1,38 @@
 # GİT ve GİT HUB
 
-## Repository – Depo
-
-Repository veya Repo, bir yazılımın proje dosyalarının içerisinde bulundurulduğu sunucudaki URL adresidir. GitHub üzerindeki herkes kolayca ve benzersiz bir Repo oluşturarak bu Repo adresi üzerinden projelerin kaynak kodlarını paylaşabilir. Her proje kendi içerisinde ayrıca benzersiz ve kolayca ulaşılabilen URL’ye sahiptir.
-
-## Fork - Çatallamak
-
-Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler yapma işlemidir. Deponun çatallanması işlemi sayesinde diğer yazılımcılar açık kaynaklı yazılımlar üzerinde değişiklikler gerçekleştirip, yazılımın iyileştirilmesini sağlayabilirler.
-
 ## Git Nedir?
-
 Git bir versiyon kontrol sistemidir.
 
-## Github Nedir?
 
+## Github Nedir?
 Github, versiyon kontrol sistemleri için uzak bir depo hizmeti sağlayan bir servistir. Git ile Github aynı değildir.
+
+
+## Repository – Depo
+Repository veya Repo, bir yazılımın proje dosyalarının içerisinde bulundurulduğu sunucudaki URL adresidir. GitHub üzerindeki herkes kolayca ve benzersiz bir Repo oluşturarak bu Repo adresi üzerinden projelerin kaynak kodlarını paylaşabilir. Her proje kendi içerisinde ayrıca benzersiz ve kolayca ulaşılabilen URL’ye sahiptir.
+
+
+## Fork - Çatallamak
+Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler yapma işlemidir. Deponun çatallanması işlemi sayesinde diğer yazılımcılar açık kaynaklı yazılımlar üzerinde değişiklikler gerçekleştirip, yazılımın iyileştirilmesini sağlayabilirler.
+
+
+## İLK DEFA TANIŞACAKLAR İÇİN GİT KULLANIMI (YEREL DEPO)
+Komut |Anlamı|
+------------|-------------|
+```git config --global user.name "kullaniciadı"```| Bütün Git projelerinizde kullanacağınız kullanıcı adını tanımlar (BİR DEFA YAPILIR!)
+```git config --global user.email eposta@adresi.org```| Bütün Git projelerinizde kullanacağınız kullanıcı mail adresini tanımlar (BİR DEFA YAPILIR!)
+```git init```|Bu komut, bulunduğunuz dizini bir Git Deposu haline getirir ve .git adında bir dizin oluşturur. (BİR DEFA YAPILIR!)
+```git add .```| Belirttiğiniz bir dosyayı ya da tüm projeyi çalışma alanına (stash) ekler. Yani commit‘lenmeye hazır hale getirir. (PROJEDE DEĞİŞİKLİK YAPTIKÇA)
+```git commit -m "değişiklik açıklamaları"```| Değişikliklerin açıklaması (PROJEDE DEĞİŞİKLİK YAPTIKÇA)
+
+
+## İLK DEFA TANIŞACAKLAR İÇİN GİT KULLANIMI (UZAK DEPO)
+Komut |Anlamı|
+------------|-------------|
+```git remote add upstream git@github/username/repo.git```|Uzak depo git reposunu ekler (BİR DEFA YAPILIR!)
+```git push```|Yereldeki değişiklikleri uzak git deposuna (örneğin github) yükler  (PROJEYİ UZAK DEPOYA YÜKLEMEK GEREKTİĞİNDE)
+```git pull```|Uzaktaki git deposundaki dosyaları yerele indirir  (UZAK DEPOYU YERELE İNDİRMEK GEREKTİĞİNDE)
+
 
 
 # Temel Git Komutları
