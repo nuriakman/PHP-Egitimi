@@ -36,5 +36,5 @@
   * **[Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
   * **[Düzenli İfadeler](https://github.com/kemtake/PHP-Egitimi/blob/master/php.regex.md)**
 - **Mysql'e giriş**
-  * **[Mysql Komutları 1]**(https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql1.md)  
+  * **[Mysql Komutları 1](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql1.md)**  
   * **[Mysql Komutları 2]https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql2.md)**  
