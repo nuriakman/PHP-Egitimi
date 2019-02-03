@@ -7,6 +7,7 @@
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
 - **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
 - **[Faydalı Linkler](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.linkler.md)**
+- **[How Web Works](https://github.com/kemtake/PHP-Egitimi/blob/master/how.web.works.md)**
 - **[Gerekli Ortamların Kurulumu](https://github.com/kemtake/PHP-Egitimi/tree/master/gerekli.ortamlarin.kurulumu)**
   * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.git.md)**
   * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.atom.md)**
@@ -15,6 +16,7 @@
   * **[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.adminer.md)**
   * **[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)**
   * **[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)**
+- **[Git Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.git.md)**
 - **[Atom ve Git kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullan%C4%B1m.atom.git.md)**
 - **[Git ve Github](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.git.md)**
 - **[Html Nedir ?](https://github.com/kemtake/PHP-Egitimi/blob/master/ornek.html.md)**
@@ -28,7 +30,7 @@
   * **[Matematiksel Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.matematik.md)**
   * **[String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.dizge.md)**
   * **[Dizi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.diziler.md)**
-  * **[Multi Byte Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.multibyte.md)**
+  * **[Multibyte Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.multibyte.md)**
   * **[Dosya Sistemi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.dosyasistemi.md)**
   * **[Oturum Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.oturum.md)**
   * **[Çıktı Tamponu Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.ciktitamponu.md)**
@@ -45,6 +47,7 @@
   * **[Örnek Veri Tabanları](https://github.com/kemtake/PHP-Egitimi/tree/master/ornek.veritabanlari)**   
 - **Örnekler**
   * **[Html Form](https://github.com/kemtake/PHP-Egitimi/blob/master/ornek.html.form.md)**
+  * **[Örnek Fonksiyonlar](https://github.com/kemtake/PHP-Egitimi/blob/master/ornek.fonksiyonlar.md)**
   * **[Php Örneği 1](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek1.md)**
   * **[Php Örneği 2](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek2.md)**
   * **[Php Örneği 3](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek3.md)**
