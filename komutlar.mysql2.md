@@ -268,17 +268,17 @@ ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutul
    1        0     Ürünler
    2        1     Telefon
    3        1     Bilgisayar
-   4        1     TV
+   4        1     Televizyonlar
    5        2     Cep Telefonu
    6        2     Telsiz Telefonlar
    7        2     Telefon Aksesuarları
-   8        5     Apple
-   9        5     Samsung
-  10        5     Lenovo
-  11        4     LG     
-  12        4     Samsung
-  13        4     Westel
-  14        4     Sony
+   8        5     Apple Telefonlar
+   9        5     Samsung Telefonlar
+  10        5     Lenovo Telefonlar
+  11        4     LG TV
+  12        4     Samsung TV
+  13        4     Westel TV
+  14        4     Sony TV
   15        3     Masaüstü
   16        3     Dizüstü
   17        3     Tablet
