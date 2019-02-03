@@ -43,7 +43,7 @@
   * **[Mysql Komutları 1](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql1.md)**  
   * **[Mysql Komutları 2](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.mysql2.md)**
   * **[Örnek Veri Tabanları](https://github.com/kemtake/PHP-Egitimi/tree/master/ornek.veritabanlari)**   
-- **[Örnekler]**
+- **Örnekler**
   * **[Html Form](https://github.com/kemtake/PHP-Egitimi/blob/master/ornek.html.form.md)**
   * **[Php Örneği 1](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek1.md)**
   * **[Php Örneği 2](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek2.md)**
