@@ -6,6 +6,7 @@
 
 - **[Giriş Konuları](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)**
 - **[Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)**
+- **[Faydalı Linkler](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.linkler.md)**
 - **[Gerekli Ortamların Kurulumu](https://github.com/kemtake/PHP-Egitimi/tree/master/gerekli.ortamlarin.kurulumu)**
   * **[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.git.md)**
   * **[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.atom.md)**
@@ -33,6 +34,7 @@
   * **[Çıktı Tamponu Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.ciktitamponu.md)**
   * **[Tarih ve Zaman Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.tarihzaman.md)**
   * **[Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.populer.md)**
+  * **[Php ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/ayarlar.ini.md)**
   * **[Composer Kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/kullanim.composer.md)**
   * **[PHP Sınıf Örneği](https://github.com/kemtake/PHP-Egitimi/blob/master/class.ornegi.md)**
   * **[Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/curl.ornegi.md)**
