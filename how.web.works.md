@@ -1,4 +1,4 @@
-# Tarayıcı Nasıl Çalışır? - How Browser Work?
+# How Web Works with Dialog
 
 ## Let's go!
 
@@ -63,9 +63,8 @@
 
 # Faydalı Linkler
 
-## Detaylı Anlarım: How web works?
+## Detaylı Anlatım: How web works?
 https://github.com/vasanthk/how-web-works
-
 
 ## What happens when you type google.com into your browser and press enter
 https://github.com/alex/what-happens-when

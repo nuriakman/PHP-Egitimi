@@ -72,6 +72,13 @@ DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ism
 3. Server cevap (response) döner
 4. Cevap render edilir
 
+Faydalı Bağlantılar:
+- [How Web Works with Dialog]( https://github.com/kemtake/PHP-Egitimi/blob/master/how.web.works.md)
+- How web works? / Web Nasıl Çalışır?<br>
+  https://github.com/vasanthk/how-web-works
+- What happens when you type google.com into your browser and press enter / Tarayıcınızda google.com yazın enter bastığınızda neler olur?<br>
+  https://github.com/alex/what-happens-when
+
 ### Domainin IP ‘ye çevrilmesi (DNS)
 Tarayıcıya girilen domain (örneğin: www.google.com.tr) DNS sunucularına sorularak IP adresi bulunur. Eğer tarayıcı daha önce DNS sorgulaması yaptıysa aynı domaine istek yapıldığında DNS sorgusu tekrar yapılmaz. Bu, websitesi hız testlerinde -bir sayfada farklı domainlere yapılan istekler için- DNS lookup time kriteri olarak önümüze çıkar.
 
