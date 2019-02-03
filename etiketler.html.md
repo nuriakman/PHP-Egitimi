@@ -6,18 +6,22 @@ HTML belgelerinizde kullanabileceğiniz tüm HTML etiketleri bu sayfada toplanm�
 
 
 ## HTML Etiketi Yapısı
+
 ![](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png)
 
 
 ## HTML + CSS + JS = Web Page
+
 ![](https://cdn-images-1.medium.com/max/1600/1*GMHYx3zVUybjg0qQ2n9QSA.png)
 
 
-## HTML DOM Yapısı
+## HTML DOM Yapısı<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+
 ![](https://www.igyaddel.hu/blog-10.png)
 
 
 ## HTML Sayfa Yapısı
+
 ![](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/html5_sectioning_high_level.jpg)
 
 ## HTML Form Etiketleri

@@ -261,3 +261,25 @@ Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir 
 
 ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutulamayacak hiyerarşik veri yoktur ve bu yöntem sıklıkla kullanılır.
 
+## Örnek Ağaç Yapısı Tablo Verisi
+
+```
+  ID   PARENTID   LABEL
+   1        0     Ürünler
+   2        1     Telefon
+   3        1     Bilgisayar
+   4        1     TV
+   5        2     Cep Telefonu
+   6        2     Telsiz Telefonlar
+   7        2     Telefon Aksesuarları
+   8        5     Apple
+   9        5     Samsung
+  10        5     Lenovo
+  11        4     LG     
+  12        4     Samsung
+  13        4     Westel
+  14        4     Sony
+  15        3     Masaüstü
+  16        3     Dizüstü
+  17        3     Tablet
+```
