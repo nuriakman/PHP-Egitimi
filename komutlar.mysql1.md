@@ -1,4 +1,5 @@
-# İlişkisel Veritabanı Yönetim Sistemleri (İVTYS) - Relational Database Management Systems (RDBMS)
+# İlişkisel Veritabanı Yönetim Sistemleri (İVTYS)
+# Relational Database Management Systems (RDBMS)
 İlişkisel Veritabanı Yönetim Sistemlerinde(İVTYS) veriler tablolar içerisinde satırlar ve sütunlarda tutulur. Birbiri ile ilişkili verileri tuttuğumuz tablolar arasında ilişki (bağ) kurarak veritabanımızı inşa etmemizi sağlayan sistemlere ise İlişkisel Veritabanı Yönetim Sistemleri denir.
 
 
