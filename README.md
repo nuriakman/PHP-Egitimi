@@ -9,11 +9,11 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 
 
 ## Kurulumlar
-- [Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.git.md)
-- [Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.atom.md)
-- [Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.xampp.md)
-- [Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.wamp.md)
-- [Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/gerekli.ortamlarin.kurulumu/kurulum.adminer.md)
+- [Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.git.md)
+- [Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.atom.md)
+- [Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md)
+- [Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.wamp.md)
+- [Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.adminer.md)
 - [Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.atom.md)
 - [Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/eklentiler.firefox.md)
 

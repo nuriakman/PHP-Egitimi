@@ -1,7 +1,6 @@
 # ADMINER KURULUMU
 
 ## Adım 1:
-
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.adminer/001.jpg" width=500px height=300px>
 
 ## Adım 2:
