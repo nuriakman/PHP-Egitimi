@@ -67,22 +67,15 @@ DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ism
 
 
 ## HTTP Yaşam Döngüsü - HTTP Life Cycle
-1. Girilen domain IP adresine çevrilir (DNS)
-2. IP adresine TCP bağlantısı (request) açılır
-3. Server cevap (response) döner
-4. Cevap render edilir
+1. Domain Adının IP ‘ye çevrilmesi (DNS)
+2. IP adresine TCP isteği (request)
+3. Server‘ın cevabı (response
+4. Cevabın ekrana basılması (render)
 
-**Faydalı Bağlantılar:**
-- [Web nasıl çalışır dialoğu]( https://github.com/kemtake/PHP-Egitimi/blob/master/web.dialogu.md)
-- How web works? / Web Nasıl Çalışır?<br>
-  https://github.com/vasanthk/how-web-works
-- What happens when you type google.com into your browser and press enter / Tarayıcınızda google.com yazın enter bastığınızda neler olur?<br>
-  https://github.com/alex/what-happens-when
-
-### Domainin IP ‘ye çevrilmesi (DNS)
+### 1. Domain Adının IP ‘ye çevrilmesi (DNS)
 Tarayıcıya girilen domain (örneğin: www.google.com.tr) DNS sunucularına sorularak IP adresi bulunur. Eğer tarayıcı daha önce DNS sorgulaması yaptıysa aynı domaine istek yapıldığında DNS sorgusu tekrar yapılmaz. Bu, websitesi hız testlerinde -bir sayfada farklı domainlere yapılan istekler için- DNS lookup time kriteri olarak önümüze çıkar.
 
-### IP adresine TCP isteği (request)
+### 2. IP adresine TCP isteği (request)
 Bulunan IP adresine TCP bağlantısı açılıp (request) girilen domain host header’ı ile gönderilir Bu örnek için gönderilecek bilgiler aşağıdaki gibidir;
 ```
 GET / HTTP/1.1
@@ -90,8 +83,13 @@ Host: www.google.com
 ```
 Burada kullanıcının istediği sayfa anasayfa olduğundan “/” parametresi GET metodu ile gönderilmiştir.
 
-### Server ‘ın cevabı (response)
+### 3. Server‘ın cevabı (response)
 IP adresinde bulunan server, isteği işleyip cevap (response) döner. Server bu isteği işlerken port bilgisine bakarak ilgili web sunucusuna (iis, apache, nginx) yönlendirir. Web sunucusu gelen host header’ı ile hangi siteyi çalıştıracağına karar verip ilgili sitenin kodunu işletir.
 
-### Cevabın ekrana basılması (render)
+### 4. Cevabın ekrana basılması (render)
 Cevabı alan browser gelen cevabı ekrana basar (işleme/render). Browser/Tarayıcı render işleminde html ile layout’u, css ile tasarımı (renk, imaj vd) oluşturur. Javascript ise yukarıdaki işlemler yapıldıktan sonra hem css hem html üzerinde (DOM) değişiklikler yaparak sayfaya dinamik bir yapı kazandırır.
+
+## HTTP Life Cycle İçin Faydalı Bağlantılar
+- [Web nasıl çalışır dialoğu](https://github.com/kemtake/PHP-Egitimi/blob/master/web.dialogu.md)
+- [How web works? / Web Nasıl Çalışır?](https://github.com/vasanthk/how-web-works)
+- [What happens when you type google.com into your browser and press enter / Tarayıcınızda google.com yazın enter bastığınızda neler olur?](https://github.com/alex/what-happens-when)
