@@ -1,12 +1,17 @@
 # GİT ve GİT HUB
 
 ## Git Nedir?
-Git bir versiyon kontrol sistemidir.
+Git bir versiyon (sürüm) takip sistemidir. Git ile bir yazılım geliştirme sırasında bir sistemin yedeğini alıp devam etmek gerekebilir, ya da geliştirmeler bittiğin son son son diye klasörler açabiliriz fakat git ile bu meşakatli işlemleri unutup daha temiz bir sistem ile kod arayüzü ile bu işlemleri yapabiliyoruz. Git ile dilediğimiz zaman istediğimiz geçmiş commit’imize dönebiliriz, çeşitli dallar oluşturarak sürümünüzü yükseltebilirsiniz. Her şey tamamiyle git kontrolünde olacaktır.
 
 
 ## Github Nedir?
 Github, versiyon kontrol sistemleri için uzak bir depo hizmeti sağlayan bir servistir. Git ile Github aynı değildir.
 
+## Branch - Dal
+
+Dal kavramı ile projemizin mevcut halini koruyarak yeni bir sürüm çıkarabilir, hata giderme çalışması yapabilir veya en önemlisi projemize yeni bir özellik ekleme çalışması yapabiliriz.
+
+![Branch - Dal](https://www.kahramaner.com/wp-content/uploads/2017/01/git_branch_merge.png)
 
 ## Repository – Depo
 Repository veya Repo, bir yazılımın proje dosyalarının içerisinde bulundurulduğu sunucudaki URL adresidir. GitHub üzerindeki herkes kolayca ve benzersiz bir Repo oluşturarak bu Repo adresi üzerinden projelerin kaynak kodlarını paylaşabilir. Her proje kendi içerisinde ayrıca benzersiz ve kolayca ulaşılabilen URL’ye sahiptir.
@@ -42,7 +47,7 @@ Komut |Anlamı|
 ------------|-------------|
 ```git config --global user.name "kullaniciadı"```| Bütün Git projelerinizde kullanacağınız kullanıcı adını tanımlar
 ```git config --global user.email eposta@adresi.org```| Bütün Git projelerinizde kullanacağınız kullanıcı mail adresini tanımlar
-```git init```|Bu komut, bulunduğunuz dizini bir Git Deposu haline getirir ve .git adında bir dizin oluşturur. 
+```git init```|Bu komut, bulunduğunuz dizini bir Git Deposu haline getirir ve .git adında bir dizin oluşturur.
 ```git remote add upstream git@github/username/repo.git```|Uzak depo git reposunu ekler
 ```git clone git@github/username/repo.git```|Uzak Git Deposundan bir projeyi bulunulan dizin altına kopyalar
 ```git rm git@github/username/repo.git```|Uzak Git deposunu iptal eder.
@@ -84,7 +89,7 @@ Komut |Anlamı|
 ------------|-------------|
 ```git branch```| mevcut dalları listeler.
 ```git branch YeniDal```| Yeni dal oluşturmak için isim verilir.
-```git checkout YeniDal```| Master dalından YeniDal’a geçtik. 
+```git checkout YeniDal```| Master dalından YeniDal’a geçtik.
 ```git branch -d YeniDal```| oluşturulan yeni dalı siler (Yerelde).
 ```git branch -dr YeniDal```| oluşturulan yeni dalı siler (Yerelde ve uzak depoda). (Silme işlemlerini yaparken master dalında olduğunuzdan emin olun.)
 ```git merge YeniDal```| YeniDal’daki değişiklikler master dalına aktarılıp birleştirildi. (Birleştirme işlemlerini yaparken master dalında olduğunuzdan emin olun.)
@@ -93,12 +98,12 @@ Komut |Anlamı|
 ## Git İle Zamanda Yolculuk
 Komut |Anlamı|
 ------------|-------------|
-```git log -5```| Son 5 
+```git log -5```| Son 5
 ```git checkout LogIDno```| Tüm proje dizin ve dosyalarını belirtilen LogIDno commit zamanına getirir.
 ```git checkout master```| Tüm proje dizin ve dosyalarını en son commit zamanına getirir.
 
 
-## Kopya Kağıdı 1: 
+## Kopya Kağıdı 1:
 Uzak Depoda bulunan projenizi yeni bir bilgisayarda devam ettirmek.
 
 Komut |Anlamı|
@@ -110,7 +115,7 @@ Komut |Anlamı|
 ```git pull -u origin master```|Uzak git depomuzun tüm dosyalarını ve geçmişini bu dizine indirdik
 
 
-## Kopya Kağıdı 2: 
+## Kopya Kağıdı 2:
 Yerel git kullanmadığımız projeyi git deposuna çevirmek.
 
 Komut |Anlamı|
@@ -121,7 +126,7 @@ Komut |Anlamı|
 ```git commit -m "git kullanmaya geçiş"```| İlk commit mesajımızı ekledik
 
 
-## Kopya Kağıdı 3: 
+## Kopya Kağıdı 3:
 Yerelde git kullanarak geliştirdiğimiz projeyi GitHub'a (uzak depoya) yeni bir depo olarak yüklemek.
 
 Komut |Anlamı|
@@ -132,7 +137,7 @@ Komut |Anlamı|
 ```git push -u origin master```|Yereldeki proje dosyamızın GitHub'a yüklenmesini sağladık
 
 
-## Kopya Kağıdı 4: 
+## Kopya Kağıdı 4:
 Uzak Depoda bulunan projeyi yerele indirmek.
 
 Komut |Anlamı|
@@ -157,4 +162,3 @@ git help workflows
 - Orjinal Kaynağından Belge: https://git-scm.com/book/tr/v2
 - GitHub Cheat Sheet (PDF): https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 - Visual Git Cheat Sheet (SVG | PNG): http://ndpsoftware.com/git-cheatsheet.html
-
