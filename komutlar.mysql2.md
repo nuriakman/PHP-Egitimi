@@ -79,7 +79,6 @@ mysqli_close($link);
 
 ```PHP
 ## Veritabanına bağlantı kuralım...
-## Veritabanına bağlantı kuralım...
 $host     = "localhost";
 $user     = "root";
 $password = "root";
@@ -91,7 +90,6 @@ $temp = mysqli_query($cnnMySQL, "set names 'utf8'");
 
 # Kayıt Ekleme
 ```PHP
-## Veritabanına kayıt ekleme
 ## Veritabanına kayıt ekleme
 $val1 = "AAA";
 $val2 = "BBB";
@@ -113,7 +111,6 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 
 # Kayıt Güncelleme
 ```PHP
-## Veritabanına kayıt güncelleme
 ## Veritabanına kayıt güncelleme
 $val1 = "AaAaAa";
 $val2 = "BbBbBb";
@@ -137,7 +134,6 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 # Kayıt Silme
 ```PHP
 ## Veritabanından kayıt silme
-## Veritabanından kayıt silme
 $SQL = "DELETE FROM araclar WHERE id = 1";
 $rows = mysqli_query($cnnMySQL, $SQL);
 ```
@@ -154,7 +150,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 # Kayıt Listeleme - Örnek 1
 ```PHP
 ## Veritabanından kayıt çekme ve listeleme örneği
-## Veritabanından kayıt çekme ve listeleme örneği
+
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
 $rows = mysqli_query($cnnMySQL, $SQL);
 $RowCount = mysqli_num_rows($rows);
@@ -175,7 +171,7 @@ if($RowCount == 0) { // Kayıt yok...
 # Kayıt Listeleme - Örnek 2
 ```PHP
 ## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
-## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
+
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
 $rows = mysqli_query($cnnMySQL, $SQL);
 $RowCount = mysqli_num_rows($rows);
