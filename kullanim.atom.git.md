@@ -1,11 +1,11 @@
 # ATOM EDİTÖRÜ İÇİNDE GİT KULLANIMI
 
 ## Adım 1:
-#### <code>A</code> tuşuna basıp bir dosya oluşturuyoruz.
+#### Ekranın solundaki panele sağ tık yapıp yeni bir dosya oluşturuyoruz.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/001.jpg" width=500px height=300px>
 
 ## Adım 2:
-#### index.php uzantılı bir dosya oluşturduk.
+#### Dosya adını index.php olarak belirliyoruz.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/002.jpg" width=500px height=300px>
 
 ## Adım 3:
@@ -21,7 +21,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/005.jpg" width=500px height=300px>
 
 ## Adım 6:
-#### Git kullanacağımız klasörü seçtik.htdocs içerisinde olduğumuz için orası otomatik olarak geldi.
+#### Git kullanacağımız klasörü seçtik. htdocs içerisinde olduğumuz için orası otomatik olarak geldi.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/006.jpg" width=500px height=300px>
 
 ## Adım 7:
@@ -29,7 +29,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/007.jpg" width=500px height=300px>
 
 ## Adım 8:
-#### Stage All butonuna tıkladığımızda dosyamızı , commit yapmaya hazır hale getirir.
+#### Stage All butonuna tıkladığımızda dosyamızı, commit yapmaya hazır hale getirir.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/008.jpg" width=500px height=300px>
 
 ## Adım 9:
@@ -48,7 +48,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/012.jpg" width=500px height=300px>
 
 ## Adım 13:
-#### Stage All yaparak dosamızı commit için hazır hale getirdik.
+#### Stage All yaparak dosyamızı commit için hazır hale getirdik.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/013.jpg" width=500px height=300px>
 
 ## Adım 14:
@@ -56,14 +56,14 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/014.jpg" width=500px height=300px>
 
 ## Adım 15:
-#### Yaptğımız değişliği açıkladık ve tekrar Commit yaptık.
+#### Yaptığımız değişliği açıkladık ve tekrar Commit yaptık.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/015.jpg" width=500px height=300px>
 
 ## Adım 16:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/016.jpg" width=500px height=300px>
 
 ## Adım 17:
-#### Yeni bir dosya oluşturduk.
+#### Yeni bir dosya oluşturmak istiyoruz.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/017.jpg" width=500px height=300px>
 
 ## Adım 18:
@@ -103,7 +103,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/026.jpg" width=500px height=300px>
 
 ## Adım 27:
-#### Terminale geldik ve Github'dan aldığımız kodu yapıştırdık.
+#### Terminale geldik, c:/xampp/htdocs/ dizinine geçtik ve Github'dan aldığımız kodu yapıştırdık.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/027.jpg" width=500px height=300px>
 
 ## Adım 28:
@@ -115,17 +115,16 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/029.jpg" width=500px height=300px>
 
 ## Adım 30:
-#### Link'e tıklayıp Atom'a izin verdik.
+#### Link'e tıklayıp Atom'daki projemizin GitHub sitesine erişimi için izin verdik.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/030.jpg" width=500px height=300px>
 
 ## Adım 31:
-#### Bize bir token oluşturdu.
+#### Bize bir anahtar (token) oluşturdu.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/031.jpg" width=500px height=300px>
 
 ## Adım 32:
 #### Token'ı kopyaladık ve atom editörüne dönüp kutucuğa yapıştırdık.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/032.jpg" width=500px height=300px>
-
 
 ## Adım 33:
 #### Gitbub bağlantımız başarıyla gerçekleşti.
@@ -136,7 +135,7 @@
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/035.jpg" width=500px height=300px>
 
 ## Adım 35:
-#### Publish butonuna tıkladığımız zaman Github kullanıcı adı ve şifremizi girmemizi istedi.
+#### Publish butonuna tıkladığımız zaman Github kullanıcı adı ve parolarımı girmemizi istedi.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/037.jpg" width=500px height=300px>
 
 ## Adım 36:
@@ -150,3 +149,6 @@
 ## Adım 38:
 #### Dosyalarımızın depomuza yüklendiği gördük.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kullanim.atom.git/040.jpg" width=500px height=300px>
+
+# ÖNEMLİ NOT:
+```Adım 26```'da, ```http```ile başlayan kodu değil ```git``` ile başlayan kodu alırsanız GitHub'a olan yüklemelerinizde size kullanıcı adı ve parola sorulmaz.

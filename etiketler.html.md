@@ -15,7 +15,7 @@ HTML belgelerinizde kullanabileceğiniz tüm HTML etiketleri bu sayfada toplanm�
 ![](https://cdn-images-1.medium.com/max/1600/1*GMHYx3zVUybjg0qQ2n9QSA.png)
 
 
-## HTML DOM Yapısı<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+## HTML DOM Yapısı
 
 ![](https://www.igyaddel.hu/blog-10.png)
 
@@ -289,5 +289,6 @@ Etiket |Anlamı|
 ```onwaiting```|Medya duraklatıldıktan sonra tekrar oynatıldığında bir script çalıştırır.
 
 Kaynak: http://www.m5bilisim.com/webokulu/etiketler/index.php
+
 Kaynak: http://www.m5bilisim.com/webokulu/etiketler/referans-olay.php
 

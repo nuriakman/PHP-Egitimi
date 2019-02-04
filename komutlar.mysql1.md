@@ -10,7 +10,7 @@ Veritabanı (database) en basit şekliyle verilerin tutulduğu, depolandığı b
 
 
 ## İlişkisel Veritabanı Nedir?
-Özetle, İlişkisel veri tabanını çeşitli tablolar arasında organize edilmiş verilerden oluşan veri tabanı olarak açıklanabilir. İlişkisel veritabanlarındaki yapıda veriler tablolar halinde saklanır. Tablolar alanlardan (fields) ve alanlardaki kayıtlardan (records) oluşur. Bir tablodaki alanlar esas anahtar (primary key) olarak tanımlanabilirler. Kayıtlar ise tanımlanan anahtara göre sıralanırlar. Tablolar arasındaki ilişkiler belirtilir ve bunlar matematiksel ilişkilerle (bağıntı) temsil edilir. Bu ilişkiler iki tabloda da ortak bulunan alanlar aracılığıyla sağlanır. 
+Özetle, İlişkisel veri tabanını çeşitli tablolar arasında organize edilmiş verilerden oluşan veri tabanı olarak açıklanabilir. İlişkisel veritabanlarındaki yapıda veriler tablolar halinde saklanır. Tablolar alanlardan (fields) ve alanlardaki kayıtlardan (records) oluşur. Bir tablodaki alanlar esas anahtar (primary key) olarak tanımlanabilirler. Kayıtlar ise tanımlanan anahtara göre sıralanırlar. Tablolar arasındaki ilişkiler belirtilir ve bunlar matematiksel ilişkilerle (bağıntı) temsil edilir. Bu ilişkiler iki tabloda da ortak bulunan alanlar aracılığıyla sağlanır.
 
 
 ## Veritabanı Tablosu Nedir?
@@ -47,13 +47,13 @@ Bir - Bir İlişkisi'nde, Tablo A'da Tablo B'deki her kayıtla eşleşen yalnız
 
 
 ## 1’e Çok (1-n) İlişki
-En fazla rastalanan ilişki türüdür. Bir dershanede öğrenciler ve bu öğrencilere danışmanlık yapan öğretmenleri tutan iki adet tablomuz olsun. Bu iki tablo arasında kurulan ilişki 1’e n ilişki olur. Çünkü bir öğretmen birden fazla öğrenciye danışman olabiliyor ancak bir öğrenci en fazla bir öğretmenden danışmanlık alabiliyor. 
+En fazla rastalanan ilişki türüdür. Bir dershanede öğrenciler ve bu öğrencilere danışmanlık yapan öğretmenleri tutan iki adet tablomuz olsun. Bu iki tablo arasında kurulan ilişki 1’e n ilişki olur. Çünkü bir öğretmen birden fazla öğrenciye danışman olabiliyor ancak bir öğrenci en fazla bir öğretmenden danışmanlık alabiliyor.
 
 ![](http://kod5.org/wp-content/uploads/table21.png)
 
 
 ## Çoktan Çoğa (n-m) İlişki
-Bu ilişki türünde iki tabloda birden fazla bağa sahiptir. Bu yüzden iki tablo bu ilişkiyi açıklamak için yeterli olmaz. Yine bir ilişki türü örneği ile konuya giriş yapalım. Bir üniversitede ders seçimi yapan öğrenciler ile seçilen derslerin kayıtlarının tutulduğunu düşünelim. Bu durumda elimizde iki adet tablo bulunmaktadır:Öğrenci ve dersler. Bir öğrenci birden fazla ders seçebilirken, bir derste birden fazla öğrenci tarafından seçilebilmektedir. Bu durumda aralarında çoktan çoğa bir ilişki oluşmaktadır. Bu durumu tablolaştırırken bir üçüncü tabloya daha ihtiyacımız olmaktadır. Üçüncü tablo seçim tablosu olacak ve burada ders ile öğrencinin id’leri tutulacaktır. 
+Bu ilişki türünde iki tabloda birden fazla bağa sahiptir. Bu yüzden iki tablo bu ilişkiyi açıklamak için yeterli olmaz. Yine bir ilişki türü örneği ile konuya giriş yapalım. Bir üniversitede ders seçimi yapan öğrenciler ile seçilen derslerin kayıtlarının tutulduğunu düşünelim. Bu durumda elimizde iki adet tablo bulunmaktadır:Öğrenci ve dersler. Bir öğrenci birden fazla ders seçebilirken, bir derste birden fazla öğrenci tarafından seçilebilmektedir. Bu durumda aralarında çoktan çoğa bir ilişki oluşmaktadır. Bu durumu tablolaştırırken bir üçüncü tabloya daha ihtiyacımız olmaktadır. Üçüncü tablo seçim tablosu olacak ve burada ders ile öğrencinin id’leri tutulacaktır.
 
 ![](http://kod5.org/wp-content/uploads/table21.png)
 
@@ -119,3 +119,35 @@ Transaction, daha küçük parçalara ayrılamayan en küçük işlem yığını
 - MariaDB 5.3 serisindeyken, MySQL 5.5 serisinde.
 
 KAYNAK: https://topluluk.ozguryazilim.com.tr/wp-content/sunumlar/mariadb-vs-mysql/
+
+
+# Ağaç Yapısı - Tree Structure
+Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
+![alt text](img/giris_konulari/agac.jpg)
+
+Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır.
+
+ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutulamayacak hiyerarşik veri yoktur ve bu yöntem sıklıkla kullanılır.
+
+## Örnek Ağaç Yapısı Tablo Verisi
+
+```
+  ID   PARENTID   LABEL
+   1        0     Ürünler
+   2        1     Telefon
+   3        1     Bilgisayar
+   4        1     Televizyonlar
+   5        2     Cep Telefonu
+   6        2     Telsiz Telefonlar
+   7        2     Telefon Aksesuarları
+   8        5     Apple Telefonlar
+   9        5     Samsung Telefonlar
+  10        5     Lenovo Telefonlar
+  11        4     LG TV
+  12        4     Samsung TV
+  13        4     Westel TV
+  14        4     Sony TV
+  15        3     Masaüstü
+  16        3     Dizüstü
+  17        3     Tablet
+```

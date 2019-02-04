@@ -1,7 +1,8 @@
-# php.ini Ayarları
+# PHP Ayarları
 
-php.ini nerede? phpinfo() komutu içinde php.ini yazarak buldurabilirsin.
+## php.ini Ayarları
 
+phpinfo() komutu çıktısı içinde php.ini yazarak php.ini dosyasının nerede olduğunu bulabiliriz.
 ```
 display_startup_errors = On
 display_errors         = On
@@ -18,30 +19,10 @@ mbstring.internal_encoding = UTF-8
 disable_functions          = exec, passthru, shell_exec, system, proc_open, popen, curl_exec, curl_multi_exec, parse_ini_file, show_source
 ```
 
-NOT: Bu değişikliklerin devreye girmesi için servislerin yeniden başlatılması gerekir.
+**NOT:** Bu değişikliklerin devreye girmesi için servislerin yeniden başlatılması gerekir.
 
+## Apache Servisinin Tekrar Başlatılması
 ```
 service httpd restart
 service apache2 restart
 ```
-
-
-# my.ini Ayarları
-```
-[client]
-default-character-set=utf8
-
-[mysql]
-default-character-set=utf8
-
-[mysqld]
-collation-server     = utf8_unicode_ci
-init-connect         = SET NAMES utf8
-character-set-server = utf8
-max_allowed_packet   = 256M
-max_connections      = 300
-```
-
-
-NOT: Bu MySQL ayarları, max connection ve mysql server gone away hatalarını da önler.
-

@@ -37,7 +37,7 @@ Komut |Anlamı|
 
 # Temel Git Komutları
 
-## Çoğunlukla Bir Defa Kullan Komutlar
+## Çoğunlukla Bir Defa Kullanılan Komutlar
 Komut |Anlamı|
 ------------|-------------|
 ```git config --global user.name "kullaniciadı"```| Bütün Git projelerinizde kullanacağınız kullanıcı adını tanımlar
@@ -70,7 +70,6 @@ Komut |Anlamı|
 ## Diğer Kullanışlı Git Komutları
 Komut |Anlamı|
 ------------|-------------|
-```git branch –merged master | grep -v ‘^*’ | xargs -n 1 git branch -d```|Master ile birleştirilmiş branch’ları kaldır
 ```git branch -d <branchname>```|Yerel bilgisayardaki branch’ı kaldır
 ```git branch -a```|Uzak ve yerel branch’ları listele
 ```git ls-files –others -i –exclude-standard```|Yok sayılan bütün dosyaları göster
@@ -154,6 +153,7 @@ git help workflows
 
 - git - Basit Rehber: http://rogerdudler.github.io/git-guide/index.tr.html
 - Türkçe Git 101 Kitabı: https://aliozgur.gitbooks.io/git101/content/
+- Git Cheat Sheet (PDF): http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf
 - Orjinal Kaynağından Belge: https://git-scm.com/book/tr/v2
 - GitHub Cheat Sheet (PDF): https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 - Visual Git Cheat Sheet (SVG | PNG): http://ndpsoftware.com/git-cheatsheet.html

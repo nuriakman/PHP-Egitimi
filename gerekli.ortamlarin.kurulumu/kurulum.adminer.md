@@ -45,3 +45,6 @@
 ## Adım 12:
 #### Adminer kurulumu tamamlanmıştır.
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.adminer/012.jpg" width=500px height=300px>
+
+## Adım 13:
+#### Adminer-4.7.1.php adlı dosyamızın adını index.php olarak değiştiriyoruz.

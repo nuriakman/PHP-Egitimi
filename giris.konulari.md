@@ -96,17 +96,3 @@ IP adresinde bulunan server, isteği işleyip cevap (response) döner. Server bu
 ### Cevabın ekrana basılması (render)
 Cevabı alan browser gelen cevabı ekrana basar (işleme/render). Browser/Tarayıcı render işleminde html ile layout’u, css ile tasarımı (renk, imaj vd) oluşturur. Javascript ise yukarıdaki işlemler yapıldıktan sonra hem css hem html üzerinde (DOM) değişiklikler yaparak sayfaya dinamik bir yapı kazandırır.
 
-
-# 5 Dakikada Temel Konular
-
-## HTML Giriş
-https://learnxinyminutes.com/docs/tr-tr/html-tr/
-
-## CSS Giriş
-https://learnxinyminutes.com/docs/tr-tr/css-tr/
-
-## PHP Giriş
-https://learnxinyminutes.com/docs/tr-tr/php-tr/
-
-## SQL Giriş
-https://learnxinyminutes.com/docs/sql/

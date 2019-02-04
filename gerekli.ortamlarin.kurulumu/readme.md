@@ -1,11 +1,13 @@
-## Gerekli Ortamların Kurulumu
+## Windows İçin Gerekli Ortamların Kurulumu İçin İlgili Siteler
 
-- Atom editörünü indirmek için : [Tıklayınız](https://atom.io/)
+- Atom editörü: https://atom.io/
 
-- Xampp indirmek için : [Tıklayınız](https://atom.io/)
+- Xampp: https://www.apachefriends.org/tr/
 
-- Wamp indirmek için : [Tıklayınız](http://www.wampserver.com/en/)
+- Wamp: http://www.wampserver.com/en/
 
-- Git indirmek için : [Tıklayınız](https://git-scm.com/download/win)
+- Mamp: https://www.mamp.info/en/downloads/
 
-- Adminer indirmek için : [Tıklayınız](https://www.adminer.org/)
+- Git: https://git-scm.com/download/win
+
+- Adminer: https://www.adminer.org/

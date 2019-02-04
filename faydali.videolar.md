@@ -1,5 +1,9 @@
 # Faydalı Videolar
 
+Bootstrap HTML Site Yapımı
+https://www.youtube.com/watch?v=kLby3L7u-NQ
+
+
 Richard Stallman - Özgür Yazılım HQ Türkçe Altyazılı (14 Dakika)
 https://www.youtube.com/watch?v=_St4bC9fcfA
 
@@ -38,7 +42,7 @@ https://www.youtube.com/watch?v=NB8mCcLRxlg
 
 
 İnternetin tarihi
-[![](http://img.youtube.com/vi/MkW3hILexKE/0.jpg)](http://www.youtube.com/watch?v=MkW3hILexKE "History of the Internet, İnternetin Tarihçesi, Melih Bilgil (TR Sub. Elordian)")
+![](http://img.youtube.com/vi/MkW3hILexKE/0.jpg)](http://www.youtube.com/watch?v=MkW3hILexKE "History of the Internet, İnternetin Tarihçesi, Melih Bilgil (TR Sub. Elordian)")
 
 
 Arduino - Açık Kaynak Yazılım - Açık Kaynak Donanım
