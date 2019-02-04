@@ -79,6 +79,7 @@ mysqli_close($link);
 
 ```PHP
 ## Veritabanına bağlantı kuralım...
+## Veritabanına bağlantı kuralım...
 $host     = "localhost";
 $user     = "root";
 $password = "root";
@@ -90,6 +91,7 @@ $temp = mysqli_query($cnnMySQL, "set names 'utf8'");
 
 # Kayıt Ekleme
 ```PHP
+## Veritabanına kayıt ekleme
 ## Veritabanına kayıt ekleme
 $val1 = "AAA";
 $val2 = "BBB";
@@ -111,6 +113,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 
 # Kayıt Güncelleme
 ```PHP
+## Veritabanına kayıt güncelleme
 ## Veritabanına kayıt güncelleme
 $val1 = "AaAaAa";
 $val2 = "BbBbBb";
@@ -150,6 +153,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 # Kayıt Listeleme - Örnek 1
 ```PHP
 ## Veritabanından kayıt çekme ve listeleme örneği
+## Veritabanından kayıt çekme ve listeleme örneği
 
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
 $rows = mysqli_query($cnnMySQL, $SQL);
@@ -170,6 +174,7 @@ if($RowCount == 0) { // Kayıt yok...
 
 # Kayıt Listeleme - Örnek 2
 ```PHP
+## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
 ## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
 
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
@@ -227,7 +232,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 ```PHP
 <?php
 ## html select etiketi için tek sutun verinin çekilmesi
-## html select etiketi için tek sutun verinin çekilmesi
+
 function GetHTMLSelectTagData( $SQL, $SahaAdi ){
   global $cnnMySQL;
   $rows = mysqli_query($cnnMySQL, $SQL);
@@ -246,4 +251,36 @@ $MODELLER = GetHTMLSelectTagData("SELECT DISTINCT model FROM araclar ORDER BY mo
 
 MARKASI: <select name='marka_sec'> <?php echo $MARKALAR; ?> </select>
 MODELİ : <select name='model_sec'> <?php echo $MODELLER; ?> </select>
+```
+
+
+## Ağaç Yapısı - Tree Structure
+Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
+![alt text](img/giris_konulari/agac.jpg)
+
+Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır.
+
+ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutulamayacak hiyerarşik veri yoktur ve bu yöntem sıklıkla kullanılır.
+
+## Örnek Ağaç Yapısı Tablo Verisi
+
+```
+  ID   PARENTID   LABEL
+   1        0     Ürünler
+   2        1     Telefon
+   3        1     Bilgisayar
+   4        1     Televizyonlar
+   5        2     Cep Telefonu
+   6        2     Telsiz Telefonlar
+   7        2     Telefon Aksesuarları
+   8        5     Apple Telefonlar
+   9        5     Samsung Telefonlar
+  10        5     Lenovo Telefonlar
+  11        4     LG TV
+  12        4     Samsung TV
+  13        4     Westel TV
+  14        4     Sony TV
+  15        3     Masaüstü
+  16        3     Dizüstü
+  17        3     Tablet
 ```

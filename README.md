@@ -101,5 +101,6 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 
 ## Çeşitli Konular
 - [Çeşitli Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/cesitli.konular.md)
+- [How Web Works](https://github.com/kemtake/PHP-Egitimi/blob/master/how.web.works.md)
 - [Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)
 - [Faydalı Linkler](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.linkler.md)
