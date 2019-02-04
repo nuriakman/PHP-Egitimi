@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
 
 <head>
   <!-- Required meta tags -->
@@ -9,21 +9,24 @@
   <!-- Bootstrap CSS -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Title -->
-  <title>Hello, world!</title>
+  <title>Bootstrap ile HTML sayfa yapımı</title>
+  
+  <!-- Sayfada kullanılacak stiller tanımlandı -->
+  <style>
+      body{ background:#f5f8fa }
+      @media (min-width: 1200px) {
+        .container {
+            max-width: 1200px;
+        }
+      }
+  </style>
+
 </head>
 
 <body>
 
-  <style>
-    body{
-      background:#f5f8fa
-      }
-      @media (min-width: 1200px) {
-      .container {
-          max-width: 1200px;
-      }
-     }
-</style>
+
+  <!-- Navbar başlangıç -->
   <!-- Navbar başlangıç -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -61,20 +64,25 @@
     </div>
   </nav>
   <!-- Navbar Bitiş -->
+  <!-- Navbar Bitiş -->
 
-  <!-- Container açarak çalışcağımız alanı belirtiyoruz. -->
+
+
+  <!-- Container açarak çalışacağımız alanı belirtiyoruz. -->
   <div class="container">
     <!-- Hello World yazısını containerimizin içine alıyoruz. -->
     <h1>Hello, world!</h1>
-    <!-- Satır oluşturuyoruz. -->
+
     <div class="row">
-      <!-- Sütun oluşturuyoruz -->
+
+      <!-- Sayfanın 1 nci Sütunu Başladı -->
+      <!-- Sayfanın 1 nci Sütunu Başladı -->
       <div class="col">
         <!-- Card oluşturuyoruz. -->
         <div class="card">
           <img class="card-img-top" src="https://bootstrap-themes.github.io/application/assets/img/instagram_3.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">SOL BLOK BURADA</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <ul class="list-group list-group-flush">
@@ -89,12 +97,20 @@
         </div>
         <!-- Card  burada bitiyor -->
       </div>
-      <!-- 6'lık bir sütun oluşturuyoruz. -->
+      <!-- Sayfanın 1 nci Sütunu bitti -->
+      <!-- Sayfanın 1 nci Sütunu bitti -->
+
+
+
+
+      <!-- Sayfanın 2 nci Sütunu Başladı -->
+      <!-- Sayfanın 2 nci Sütunu Başladı -->
       <div class="col-6">
         <!-- Uyarı(Alert) oluşturduk -->
         <div class="alert alert-success" role="alert">
           This is a success alert—check it out!
         </div>
+
         <!-- Carousel burada başlıyor. -->
         <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
           <div class="carousel-inner">
@@ -118,23 +134,9 @@
           </a>
         </div>
         <!-- Carousel burada bitiyor. -->
-          <!-- Burada bir card oluşturuyoruz -->
-          <div class="card">
-            <div class="card-header">
-              Featured
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-         <!-- Card'ımızı burada bitiriyoruz. -->
-      </div>
-      <!-- Bir sütün oluşturuyoruz -->
-      <div class="col">
-        <!-- Card'ımız burada başlıyor -->
-        <div class="card mb-3">
+
+        <!-- Burada bir card oluşturuyoruz -->
+        <div class="card">
           <div class="card-header">
             Featured
           </div>
@@ -144,7 +146,32 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
+        <!-- Card'ımızı burada bitiriyoruz. -->
+
+      </div>
+      <!-- Sayfanın 2 nci Sütunu Bitti -->
+      <!-- Sayfanın 2 nci Sütunu Bitti -->
+
+
+
+
+      <!-- Sayfanın 3 nci Sütunu Başladı -->
+      <!-- Sayfanın 3 nci Sütunu Başladı -->
+      <div class="col">
+
+        <!-- Card'ımız burada başlıyor -->
+        <div class="card mb-3">
+          <div class="card-header">
+            SAĞ BLOK BURADA
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
         <!-- Cardımız burada bitiyor. -->
+
         <!-- Card'ımız burada başlıyor -->
         <div class="card mb-3">
           <div class="card-header">
@@ -161,7 +188,8 @@
           </div>
         </div>
         <!-- Cardımız burada bitiyor. -->
-          <!-- Card'ımız burada başlıyor -->
+
+        <!-- Card'ımız burada başlıyor -->
         <div class="card mb-3">
           <div class="card-header">
             Featured
@@ -175,9 +203,16 @@
           </div>
         </div>
         <!-- Cardımız burada bitiyor. -->
+
       </div>
-    </div>
-  </div>
+
+      <!-- Sayfanın 3 nci Sütunu Bitti -->
+      <!-- Sayfanın 3 nci Sütunu Bitti -->
+
+    </div> <!-- row bitti-->
+  </div> <!-- container bitti-->
+
+
   <!-- Modal Başlangıç -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">

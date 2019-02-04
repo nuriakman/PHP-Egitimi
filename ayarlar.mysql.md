@@ -16,7 +16,7 @@ max_allowed_packet   = 256M
 max_connections      = 300
 ```
 
-## MySQL Servsinin Tekrar Başlatılması
+## MySQL Servisinin Tekrar Başlatılması
 ```
 service mysql restart
 ```

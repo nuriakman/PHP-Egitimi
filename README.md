@@ -5,7 +5,7 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 # İçindekiler
 
 ## Giriş
-- [İnternet Tarihi ve Temel Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)
+- [Giriş ve Temel Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/giris.konulari.md)
 
 
 ## Kurulumlar
