@@ -59,7 +59,7 @@ DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ism
 
 
 ### DNS Nasıl Çalışır / Özet
-![DNS Nasıl Çalışır](img/giris_konulari/how-dns-works1.jpg "DNS")
+![DNS Nasıl Çalışır](https://www.webhosting.uk.com/blog/wp-content/uploads/2013/07/_d_improd_/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
 
 
 ### DNS Nasıl Çalışır / Detaylı

@@ -5,4 +5,4 @@
 http://sandbox.onlinephpfunctions.com/
 
 ## Kullanıcı Yetkileri
-![alt text](img/giris_konulari/permissions1.png)
+![alt text](http://www.macinstruct.com/images/permissions/permissions1.png)
