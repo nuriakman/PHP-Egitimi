@@ -1,6 +1,6 @@
 # PHP Örnek Çalışmaları
 
-## JSON Formatında Veri Üreten omdbapi.com Siteden Veri Çekme
+## JSON Formatında Veri Üreten omdbapi.com Sitesinden Veri Çekme
 
 ```PHP
 <?php
