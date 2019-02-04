@@ -59,12 +59,12 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 
 
 ## PHP'ye Giriş
+- [PHP'ye Giriş](https://github.com/kemtake/PHP-Egitimi/blob/master/degiskenler.islecler.md)
 - [5 Dakikada PHP](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
 - [Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.populer.md)
 
 
 ## PHP Komutları
-- [Değişkenler ve Operatörler](https://github.com/kemtake/PHP-Egitimi/blob/master/degiskenler.islecler.md)
 - [Matematiksel Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.matematik.md)
 - [String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.dizge.md)
 - [Dizi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/komutlar.diziler.md)

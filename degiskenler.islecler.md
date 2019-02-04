@@ -1,26 +1,20 @@
+# PHP'ye Giriş
 
-# PHP - DEĞİŞKENLER VE İŞLEÇLER
-
-
-### PHP Nedir?
-
+## PHP Nedir?
 PHP muhtemelen internetteki en popüler betik dilidir. Web sayfalarını geliştirmek için kullanılır. PHP ile kullanıcı adı ve şifre giriş sayfaları oluşturma, formdaki ayrıntıları kontrol etme, forumlar oluşturma, resim galerileri, anketler ve daha pek çok şey yapabilirsiniz.
 
 
-### PHP etiketleri
+## PHP etiketleri
 PHP bir dosyayı çözümlerken, hangi bölümü yorumlayıp hangi bölümü yorumlamadan geçeceğine karar vermek için <?php ve ?> açılış ve kapanış etiketlerine bakar. Bu şekilde çözümleme PHP'nin her çeşit farklı belgeye gömülmesini sağlar, çünkü bir çift açılış ve kapanış etiketinin dışındaki her şey PHP çözümleyicisi tarafından gözardı edilir.
-
 PHP ayrıca kısa başlangıç etiketine de ```<?``` izin verir.
-
 Bir dosya saf PHP kodu ise, dosyanın sonunda PHP kapanış etiketini koymamak tercih edilir.
-
 PHP kodları ```php <?php .... ?>```etiketleri arasına yazılır.
 
-### Deyim Ayrımı
+## Deyim Ayrımı
 PHP de deyimlerin birbirlerinden her bir deyimin sonuna konulacak noktalı virgülle ayrılmasını gerektirir.
 
 
-### DEĞİŞKENLER
+# DEĞİŞKENLER
  PHP'de değişkenler dolar işaretini takip eden bir değişken adı ile gösterilir. Değişken adı büyük-küçük harf duyarlıdır. Geçerli bir değişken ismi bir harf veya alt çizgi imi ile başlar, herhangi sayıda harf, sayı veya alt çizgi iminden oluşur.
 ```php
 $var = 'Kemal';
@@ -28,13 +22,13 @@ $Var = 'gel';
 echo "$var, $Var";    // "Kemal, gel" yazdırır
 ```
 
-### SABİT TANIMLAMA
+## SABİT TANIMLAMA
 ```php
 define("KDVORANI", 18);
 $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 ```
 
-### HTML'den Kaçmak
+# HTML'den Kaçmak
 
 ```
 
@@ -43,7 +37,7 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 <p>Bu bölüm de PHP tarafından gözardı edilecek ve tarayıcıda gösterilecek.</p>
 
 ```
-Örnek 1
+Örnek 1:
 ```
 <?php if (ifade == true): ?>
   İfade doğruysa bu gösterilir.
@@ -52,16 +46,16 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 <?php endif; ?>
 
 ```
-Örnek 2
+Örnek 2:
 ```
 <?= $SEHIR; ?> //Ekrana sehir değişkenini yazdırır.
 ```
-Örnek 3
+Örnek 3:
 ```
 <?php echo $SEHIR; ?> //Ekrana sehir değişkenini yazdırır.
 ```
 
-### PHP Kodu içine açıklama eklemek
+## PHP Kodu içine açıklama eklemek
 
 Örnekler:
 ```

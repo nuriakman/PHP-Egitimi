@@ -1,4 +1,4 @@
-# Dizge Komutları
+# Dizge Komutları - String Komutları
 
 Bu işlevlerin hepsi dizgelerde çeşitli yollarla değişiklik yapmak için kullanılır. Daha özelleştirilmiş işlevleri düzenli ifadeler ve URL işlevleri bölümlerinde bulabilirsiniz.
 
