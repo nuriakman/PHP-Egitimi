@@ -73,7 +73,7 @@ DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ism
 4. Cevap render edilir
 
 **Faydalı Bağlantılar:**
-- [How Web Works with Dialog]( https://github.com/kemtake/PHP-Egitimi/blob/master/how.web.works.md)
+- [Web nasıl çalışır dialoğu]( https://github.com/kemtake/PHP-Egitimi/blob/master/web.dialogu.md)
 - How web works? / Web Nasıl Çalışır?<br>
   https://github.com/vasanthk/how-web-works
 - What happens when you type google.com into your browser and press enter / Tarayıcınızda google.com yazın enter bastığınızda neler olur?<br>
