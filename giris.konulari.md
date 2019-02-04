@@ -31,12 +31,12 @@ Sunucu ise bu bilgileri tutan bilgisayarlardır. Bunların donanımla,yüksek pe
 ## Hyper Text Markup Language - HTML
 Web programlama için gereken en temel dildir. HTML bir programlama dili değil bir betik dilidir. HTML kendi başına çalıştırılamaz, çalıştırılabilmesi için bir web tarayıcısına ihtiyac duyar. HTML ile yazı,resim ve videoları birbirine bağlayıp kullanıcılara sunabiliriz.
 
-![Farklı tasarımlarla html sayfaları](img/giris_konulari/newsletter-layouts1.png "HTML")
+![Farklı tasarımlarla html sayfaları](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2011/01/newsletter-layouts1.png "HTML")
 
 ## Duyarlı Tasarım - Responsive Design
 Responsive design/duyarlı tasarım ekran çözünürlüklerine göre özel gösterilen tasarımlar yapmak yerine bu ekran çözünürlüklerine duyarlı olarak görünen tasarımlardır.
 
-![Responsive tasarım](img/giris_konulari/responsive.gif)
+![Responsive tasarım](http://juliabeka.com/img/about-gif.gif)
 
 ![Responsive tasarım](http://www.deltawebsistem.com/userfiles/image/reponsive-tasarim-cozunurlukleri.jpg)
 
@@ -51,7 +51,7 @@ JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermek
 ## Algoritma Nedir ?
 Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yol anlamına gelir, matematikte ve bilgisayar biliminde bir işi yapmak için tanımlanan, bir başlangıç durumundan başladığında, açıkça belirlenmiş bir son durumunda sonlanan, sonlu işlemler kümesine denir.
 
-![Algoritma Nedir](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/LampFlowchart_tr.svg/1200px-LampFlowchart_tr.svg.png)
+![Algoritma Nedir](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/LampFlowchart_tr.svg/300px-LampFlowchart_tr.svg.png)
 
 
 ## Alan Adı Sistemi / Domain Name System (DNS)
