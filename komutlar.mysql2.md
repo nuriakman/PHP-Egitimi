@@ -256,7 +256,8 @@ MODELİ : <select name='model_sec'> <?php echo $MODELLER; ?> </select>
 
 ## Ağaç Yapısı - Tree Structure
 Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
-![alt text](img/giris_konulari/agac.jpg)
+
+![alt text](http://bilgisayarkavramlari.sadievrenseker.com/wp-content/uploads/2008/05/agac.jpg)
 
 Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır.
 

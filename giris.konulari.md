@@ -17,7 +17,7 @@ Bankalar ve alışveriş merkezleri sanal şubelerini açmaya başladı. İlk in
 
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir kurallar zinciridir.
 
-![alt text](img/giris_konulari/http.jpg "HTTP")
+![alt text](http://w3programmers.com/bangla/wp-content/uploads/2017/12/http-request-response.png "HTTP")
 
 ## World Wide Web - WWW
 World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirleriyle bağlantılı hiper-metin dokümanlarından oluşan bir bilgi sistemidir. Bu dokümanların her birine Web sayfası adı verilir ve Web sayfalarına İnternet kullanıcısının bilgisayarında çalışan Web tarayıcısı adı verilen bilgisayar programları aracılığıyla erişilir. Web sayfalarında metin, imaj, video ve diğer multimedya ögeleri bulunabilir ve diğer bağlantı ya da link adı verilen hiper-bağlantılar ile başka Web sayfalarına geçiş yapılabilir.
@@ -43,7 +43,7 @@ Responsive design/duyarlı tasarım ekran çözünürlüklerine göre özel gös
 ## CSS Nedir ?
 CSS (Cascading Style Sheet) basit ve kullanışlı bir işaretleme dilidir. CSS diğer bir adıyla Stil şablonları yazı, resim, bağlantı, kenar çizgileri vb. HTML öğelerine sitil vermek yani biçimlendirmek için kullanılır. CSS kullanımı sayesinde yüzlerce sayfayı tek bir dosya ile biçimlendirebiliriz. Bu sayede hızlı ve esnek web sayfaları oluşturabiliriz.
 
-![CSS Nedir](img/giris_konulari/css.jpg "CSS")
+![CSS Nedir](http://tutorial.techaltum.com/images/html-css.jpg "CSS")
 
 ## JAVASCRIPT Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese de Java ve JavaScript birbirinden farklı teknolojilerdir.
@@ -51,7 +51,7 @@ JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermek
 ## Algoritma Nedir ?
 Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yol anlamına gelir, matematikte ve bilgisayar biliminde bir işi yapmak için tanımlanan, bir başlangıç durumundan başladığında, açıkça belirlenmiş bir son durumunda sonlanan, sonlu işlemler kümesine denir.
 
-![Algoritma Nedir](img/giris_konulari/algoritma.png)
+![Algoritma Nedir](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/LampFlowchart_tr.svg/1200px-LampFlowchart_tr.svg.png)
 
 
 ## Alan Adı Sistemi / Domain Name System (DNS)
@@ -63,7 +63,7 @@ DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ism
 
 
 ### DNS Nasıl Çalışır / Detaylı
-![DNS Nasıl Çalışır](img/giris_konulari/how-dns-works3.png "DNS")
+![DNS Nasıl Çalışır](http://news.constellix.com/wp-content/uploads/2017/10/how-dns-works3-1024x613.png "DNS")
 
 
 ## HTTP Yaşam Döngüsü - HTTP Life Cycle
