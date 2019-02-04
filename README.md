@@ -95,12 +95,11 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 - [Php Örneği 3](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek3.md)
 - [Php Örneği 4](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek4.md)
 - [Php Örneği 5](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek5.md)
-- [Php Örneği 6](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek6.md) 
+- [Php Örneği 6](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek6.md)
 - [Php Örneği 7 ](https://github.com/kemtake/PHP-Egitimi/blob/master/php.ornek7.md) BOŞ
 
 
 ## Çeşitli Konular
 - [Çeşitli Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/cesitli.konular.md)
-- [How Web Works](https://github.com/kemtake/PHP-Egitimi/blob/master/how.web.works.md)
 - [Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.videolar.md)
 - [Faydalı Linkler](https://github.com/kemtake/PHP-Egitimi/blob/master/faydali.linkler.md)
