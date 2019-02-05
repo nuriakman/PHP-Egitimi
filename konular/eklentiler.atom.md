@@ -101,3 +101,9 @@ Kod dosyaları içinde, programcının yapacağını unutmamak amacıyla aldığ
 Mac OSX'de kısayolu: <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>  Windows ve Linux'de kısayolu: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>
 
 ![Todo Show](https://i.github-camo.com/f15ae70a5e4f1078889fba95bcfdfdec75306a28/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d726f64616c67616172642f61746f6d2d746f646f2d73686f772f6d61737465722f73637265656e73686f74732f707265766965772e706e67)
+
+## [Duplicate Line or Selection](https://atom.io/packages/duplicate-line-or-selection)
+
+Seçili satırı <code>ctrl</code>+<code>shift</code>+<code>D</code> kısayolu ile çoğaltır.
+
+![Duplicate Line or Selection](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fviget.com%2Fuploads%2Fimage%2Fblog%2Fduplicate_line_and_selection.gif&f=1)
