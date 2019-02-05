@@ -38,28 +38,28 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitim
 
 ```HTML
 <div class="container">
-  <div class="row">
-    <div class="col-12"> ... </div>
-    <div class="col-12">
-      <div class="row">
-        <div class="col-4">
-          <div class="row">
-            <div class="col-12"> ... </div>
+  <div class="row"> <!-- Satır oluşturduk -->
+    <div class="col-12"> ... </div> <!-- 12 lik bir sutün oluşturduk -->
+    <div class="col-12"> <!-- 12 lik bir sütun oluşturduk ve içine bir satır açtık. -->
+      <div class="row">  <!-- Satır açtık -->
+        <div class="col-4"> <!-- 12 'lik sütunumuzun içinde 4'lük bir sütın oluşturduk. -->
+          <div class="row"> <!-- 4'lük sütunumuzun içinde bir satır oluşturduk -->
+            <div class="col-12"> ... </div> <!-- 4'lük sütunumuzun içine yayılacak şekilde 4 tane sütun oluşturduk.12 lik oldukları için alt alta sıralandılar. -->
             <div class="col-12"> ... </div>
             <div class="col-12"> ... </div>
             <div class="col-12"> ... </div>
             <div class="col-12"> ... </div>
           </div>
         </div>
-        <div class="col-8">
-          <div class="row">
-            <div class="col-12" style="height:400px;"> ... </div>
-            <div class="col-12" style="height:400px;"> ... </div>
+        <div class="col-8"> <!-- 4 lük bir sutun oluşturmuştuk.Geriye 8 lik sutunumuz kalıyor.Hemen yanına 8 lik bir sütun açtık. -->
+          <div class="row"> <!-- 8 lik sütunumuzun içinde bir satır açtık -->
+            <div class="col-12"> ... </div> <!-- Satırımızın içine yayılacak şekilde 2 tane 12'lik sütun oluşturduk. -->
+            <div class="col-12"> ... </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-12"> ... </div>
+    <div class="col-12"> ... </div> <!-- En altta 12'lik bir sütun oluşturduk.-- >
   </div>
 </div>
 ```
@@ -73,29 +73,31 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitim
 
 ```HTML
 <div class="container">
-  <div class="row">
-    <div class="col-12"> ... </div>
-    <div class="col-12">
-      <div class="row">
-        <div class="col-3">
-          <div class="row">
-            <div class="col-12" style="height:200px"> ... </div>
-            <div class="col-12" style="height:200px"> ... </div>
+  <div class="row"> <!-- Satır oluşturduk -->
+    <div class="col-12"> ... </div> <!-- 12 lik bir sütun oluşturduk. -->
+    <div class="col-12"> <!-- 12 lik bir sütun daha oluşturduk. -->
+      <div class="row"> <!-- 23 lik sütun içerisinde bir satır oluşturduk. -->
+        <div class="col-3"> <!-- Bu satırın içerisinde 3'lük bir sütun oluşturduk.-->
+          <div class="row"> <!-- 3'lük sütunun içerisinde bir satır oluşturduk. -->
+            <div class="col-12"> ... </div> <!-- 2 tane 12'lik sütun açarak bu sütunların 3 lük sutunda yayılmasını sağladık.-->
+            <div class="col-12"> ... </div>
           </div>
         </div>
-        <div class="col-9">
-          <div class="row">
-            <div class="col-12" style="height:400px"> ... </div>
+        <div class="col-9"> <!-- 3 lük sütundan sonra yanında boşta kalan 9'luk bir sutun oluşturduk.-->
+          <div class="row"> <!-- Bir satır oluşturduk.-->
+            <div class="col-12"> ... </div> <!-- Satırın içerisinde 12lik bir sütun oluşturduk.-->
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="row"> <!-- Satır oluşturduk -- >
+    <div class="col-3"> ... </div> <!-- Satırın içerisinde 4 tane 3 lük sutun oluşturduk.-->
+    <div class="col-3"> ... </div>
+    <div class="col-3"> ... </div>
+    <div class="col-3"> ... </div>
+  </div>
   <div class="row">
-    <div class="col-3"> ... </div>
-    <div class="col-3"> ... </div>
-    <div class="col-3"> ... </div>
-    <div class="col-3"> ... </div>
     <div class="col-3"> ... </div>
     <div class="col-3"> ... </div>
     <div class="col-3"> ... </div>
@@ -115,16 +117,26 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitim
 
 ```HTML
 <div class="container">
-  <div class="row">
-    <div class="col-12"> ... </div>
-    <div class="col-4"> ... </div>
-    <div class="col-8"> ... </div>
-    <div class="col-8"> ... </div>
-    <div class="col-4"> ... </div>
-    <div class="col-4"> ... </div>
-    <div class="col-8"> ... </div>
-    <div class="col-12"> ... </div>
-    <div class="col-12"> ... </div>
+  <div class="row"> <!-- Satır oluşturduk. -->
+    <div class="col-12">...</div> <!-- 12 lik bir sutun oluşturduk. -->
+  </div>
+  <div class="row"> <!-- Satır oluşturduk -->
+    <div class="col-4">...</div> <!-- Satırın içerisini 12'ye tamamladık 4 lük ve 8 lik sütunlar oluşturarak. -->
+    <div class="col-8">...</div>
+  </div>
+  <div class="row"> <!-- Satır oluşturduk. -->
+    <div class="col-8">...</div> <!-- Satırın içerisini 12'ye tamamladık 8 lik ve 4 lük sütunlar oluşturarak. -->
+    <div class="col-4">...</div>
+  </div>
+  <div class="row"><!-- Satır oluşturduk. -->
+    <div class="col-4">...</div> <!-- Satırın içerisini 12'ye tamamladık 4 lük ve 8 lük sütunlar oluşturarak. -->
+    <div class="col-8">...</div>
+  </div>
+  <div class="row"> <!-- Satır oluşturduk. -->
+    <div class="col-12">...</div>  <!-- 12 lik bir sutun oluşturduk. -->
+  </div>
+  <div class="row"> <!-- Satır oluşturduk. -->
+    <div class="col-12">...</div> <!-- 12 lik bir sutun oluşturduk. -->
   </div>
 </div>
 ```
