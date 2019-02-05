@@ -66,7 +66,7 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitim
 
 ## Grid 2. Örnek:
 
-![Grid Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/bootstrap.grid/img/bootstrap2.png)
+![Grid Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/bootstrap.grid/img/bootstrap3.png)
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
 Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitimi/blob/master/bootstrap.grid/ornek2.html) inceleyebilirsiniz.
@@ -106,7 +106,8 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitim
 
 ## Grid 3. Örnek:
 
-![Grid Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/bootstrap.grid/img/bootstrap3.png)
+![Grid Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/bootstrap.grid/img/bootstrap2.png)
+
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
 Detaylı incelemek isterseniz [adresinden](https://github.com/kemtake/PHP-Egitimi/blob/master/bootstrap.grid/ornek3.html) inceleyebilirsiniz.
