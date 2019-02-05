@@ -5,32 +5,32 @@ Bu dosya, PHP ile Web Programlamaya Giriş konusunda anlatılabilecek başlıkla
 ## HTML
 - Giriş ve Temel Kod Yapısı
 - Yorum Satırlarının Kullanımı
-- 'h1'--'h6' Başlık Etiketleri
-- 'p' Paragraf Etiketi
-- 'br' Satır Atlatma Boşluk Bırakma Etiketi
-- 'hr' Çizgi Çizme Etiketi
-- 'b' Bold Kalınlaştırma Etiketi
-- 'i' İtalic, Eğik Yazı Etiketi
-- 'sub', 'sup' Alt ve Üst İndis Etiketleri
-- 'ins' Metnin Altını Çizme Etiketi
-- 'del' / 's' Metnin Üzerini Çizme Etiketleri
-- 'pre' Pre Etiketi
-- 'table' Tablo Oluşturma İşlemleri
-- 'ul', 'ol', 'dl', 'li' Listeleme ve Tanımlama Etiketleri
-- 'img' Etiketi Resimlerle Çalışma
-- Placeholder Kullanımı ve Hazır Tasarım Resimleri Çekme
+- **h1**--**h6** Başlık Etiketleri
+- **p** Paragraf Etiketi
+- **br** Satır Atlatma Boşluk Bırakma Etiketi
+- **hr** Çizgi Çizme Etiketi
+- **b** Bold Kalınlaştırma Etiketi
+- **i** İtalic, Eğik Yazı Etiketi
+- **sub**, **sup** Alt ve Üst İndis Etiketleri
+- **ins** Metnin Altını Çizme Etiketi
+- **del** / **s** Metnin Üzerini Çizme Etiketleri
+- **pre** Pre Etiketi
+- **table** Tablo Oluşturma İşlemleri
+- **ul**, **ol**, **dl**, **li** Listeleme ve Tanımlama Etiketleri
+- **img** Etiketi Resimlerle Çalışma
+- **Placeholder** Kullanımı ve Hazır Tasarım Resimleri Çekme
 - Form ve İnput İşlemleri - Form Oluşturma ve Gönderim Methodları
-- 'a' Link Verme Etiketi ve sayfa içi link (anchor)
+- **a** Link Verme Etiketi ve sayfa içi link (anchor)
 
 ## HTML FORM Etiketleri
-- 'form'
-- 'input'
-- 'select'
-- 'button'
-- 'radio'
-- 'checkbox'
-- 'file'
-- 'textarea'
+- **form**
+- **input**
+- **select**
+- **button**
+- **radio**
+- **checkbox**
+- **file**
+- **textarea**
 
 ## Çalışma Ortamının Hazırlanması
 - Terminal komutları ile çalışma ortamı kurulumu (Ubuntu)
