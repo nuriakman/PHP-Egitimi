@@ -1,6 +1,6 @@
 # ATOM EDİTÖRÜ KURULUMU
 
-NOT: Bu notlar xampp'in kurulu olduğunu varsayılarak hazırlanmıştır.Xampp kurulu değilse [buradan](https://github.com/kemtake/PHP-Egitimi/blob/master/kurulum.xampp.md) kurunuz.
+NOT: Bu notlar xampp'in kurulu olduğunu varsayılarak hazırlanmıştır.Xampp kurulu değilse [buradan](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) kurunuz.
 
 ## Adım 1:
 <img src="https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/ekranlar/kurulum.atom/001.jpg" width=500px height=300px>
