@@ -93,7 +93,7 @@ Dosyaları elle yazmak yerine, sürekleyerek otomatik sayfaya eklememizi sağlı
 ## [Teletype for Atom](https://atom.io/packages/teletype)
 Geliştiricilerin çalışma alanlarını ekip üyeleriyle paylaşmalarını ve kod üzerinde gerçek zamanlı olarak işbirliği yapmalarını sağlayan bir Atom paketi.
 
-![Teletype for Atom](https://i.github-camo.com/adc3202a16c58d99323771f9bea103467fcafb22/68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f323938382f33323735333136372d64373831626166302d633839392d313165372d386236342d3638336162383464336138632e676966)
+![Teletype for Atom](https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif)
 
 
 ## [Todo Show](https://atom.io/packages/todo-show)
