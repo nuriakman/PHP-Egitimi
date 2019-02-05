@@ -78,14 +78,9 @@ Editördeki aktif satırı vurgular.
 ![Highlight Line](https://i.github-camo.com/6a26903350fa3c42ae7fe60907894196c495bb88/687474703a2f2f692e696d6775722e636f6d2f666133325774722e706e67)
 
 
-## [Git Time Machine Package](https://atom.io/packages/git-time-machine)
-Bu paket, Git kullandığınız projelerinizde zamanda yolculuk etmenizi sağlar.
-
-![Git Time Machine Package](https://i.github-camo.com/62085307dccead1c2f5efdf4d7a40f9cdb777b93/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6c6974746c656265652f6769742d74696d652d6d616368696e652f6d61737465722f7265736f75726365732f74696d656d616368696e652e676966)
-
-
 ## [Drag Relative Path](https://atom.io/packages/drag-relative-path)
 Dosyaları elle yazmak yerine, sürekleyerek otomatik sayfaya eklememizi sağlıyor.
+
 
 ![Drag Relative Path](https://i.github-camo.com/db65d75eee85680ea63a2751aeccad48e7755567/687474703a2f2f692e696d6775722e636f6d2f764865497957322e676966)
 
