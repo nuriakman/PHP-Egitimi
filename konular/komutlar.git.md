@@ -1,11 +1,13 @@
 # GİT ve GİT HUB
 
 ## Git Nedir?
-Git bir versiyon (sürüm) takip sistemidir. Git ile bir yazılım geliştirme sırasında bir sistemin yedeğini alıp devam etmek gerekebilir, ya da geliştirmeler bittiğin son son son diye klasörler açabiliriz fakat git ile bu meşakatli işlemleri unutup daha temiz bir sistem ile kod arayüzü ile bu işlemleri yapabiliyoruz. Git ile dilediğimiz zaman istediğimiz geçmiş commit’imize dönebiliriz, çeşitli dallar oluşturarak sürümünüzü yükseltebilirsiniz. Her şey tamamiyle git kontrolünde olacaktır.
+Git; yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir sürüm kontrol ve kaynak kod yönetim sistemidir. Diğer bir deyişle, Git bir versiyon (sürüm) takip sistemidir. Git ile bir yazılım geliştirme sırasında bir sistemin yedeğini alıp devam etmek gerekebilir, ya da geliştirmeler bittiğin son son son diye klasörler açabiliriz fakat git ile bu meşakatli işlemleri unutup daha temiz bir sistem ile kod arayüzü ile bu işlemleri yapabiliyoruz. Git ile dilediğimiz zaman istediğimiz geçmiş commit’imize dönebiliriz, çeşitli dallar oluşturarak sürümünüzü yükseltebilirsiniz. Her şey tamamiyle git kontrolünde olacaktır.
 
 
 ## Github Nedir?
 Github, versiyon kontrol sistemleri için uzak bir depo hizmeti sağlayan bir servistir. Git ile Github aynı değildir.
+
+![GitHub Projelerine Katkı](https://cdn-images-1.medium.com/max/2560/1*eoZUBYa9VJzPOFVz41M4Vg.jpeg)
 
 ## Branch - Dal
 
@@ -18,7 +20,30 @@ Repository veya Repo, bir yazılımın proje dosyalarının içerisinde bulundur
 
 
 ## Fork - Çatallamak
+Fork, GitHub üzerindeki bir projeyi kendi hesabınıza klonlamanızı sağlar.
+
 Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler yapma işlemidir. Deponun çatallanması işlemi sayesinde diğer yazılımcılar açık kaynaklı yazılımlar üzerinde değişiklikler gerçekleştirip, yazılımın iyileştirilmesini sağlayabilirler.
+
+
+## Clone - İndirmek
+Kendi hesabımıza forkladığımız projeyi bilgisayarımıza indirmemizi sağlar.
+
+
+## Pull Request (PR) - Projeye Katkı Sağlama
+Kendi hesabımıza forkladığımız ve kod iyileştirmesi veya geliştirmesi yaptığımız projemizin, projenin asıl sahibine ait proje ile birleştirilme isteğidir.
+
+## Anlamsal Sürümleme - Semantic Versioning
+BÜYÜK.KÜÇÜK.YAMA diye belirtilen bir sürüm numarasında,
+- Önceki sürümle uyumsuz API değişiklikleri yaptığınızda BÜYÜK sürümü,
+- Önceki sürümle uyumlu bir davranış eklediğinizde KÜÇÜK sürümü, ve
+- Önceki sürümle uyumlu bir hata düzeltmesi yaptığınızda YAMA sürümünü
+arttırın.
+
+**Majör/Büyük:** Programda radikal bir değişiklik yapılırsa majör sayımız artar.
+**Minör/Küçük:** Programa yenilik getirdiğimiz zaman artar.
+**Bug-Fix/Yama:** Hatalar düzeltildiği zaman artar.
+
+![Semantic Versioning](https://nhsconnect.github.io/gpconnect/images/design/semantic-versioning.png)
 
 
 ## İLK DEFA TANIŞACAKLAR İÇİN GİT KULLANIMI (YEREL DEPO)
@@ -102,6 +127,16 @@ Komut |Anlamı|
 ```git checkout LogIDno```| Tüm proje dizin ve dosyalarını belirtilen LogIDno commit zamanına getirir.
 ```git checkout master```| Tüm proje dizin ve dosyalarını en son commit zamanına getirir.
 
+## Forkladığımız Projeleri Güncel Tutmak
+Açık kaynak bir projeyi fork’lamanın en önemli problemi zamanla güncelliğini yitirmesi ve orjinalinden geride kalmasıdır. Orjinal proje linkini yeni remote adresine ekleyerek bu problemi hızlıca çözebiliriz.
+
+Komut |Anlamı|
+------------|-------------|
+```git remote add upstream git@github/username/repo.git```| upstream adını verdiğimiz remote url'i ekleyelim. upstream forkladığınız projenin adresidir.
+```git checkout master```| referans brach’imizi seçelim
+```git pull upstream master```| orjinal projeden değişiklikleri çekelim
+```git push origin master```| forkladığımız yere push'layalım.
+
 
 ## Kopya Kağıdı 1:
 Uzak Depoda bulunan projenizi yeni bir bilgisayarda devam ettirmek.
@@ -156,9 +191,11 @@ git help workflows
 
 ## Faydalı Linkler
 
-- git - Basit Rehber: http://rogerdudler.github.io/git-guide/index.tr.html
-- Türkçe Git 101 Kitabı: https://aliozgur.gitbooks.io/git101/content/
-- Git Cheat Sheet (PDF): http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf
-- Orjinal Kaynağından Belge: https://git-scm.com/book/tr/v2
-- GitHub Cheat Sheet (PDF): https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
-- Visual Git Cheat Sheet (SVG | PNG): http://ndpsoftware.com/git-cheatsheet.html
+- [git - Basit Rehber](http://rogerdudler.github.io/git-guide/index.tr.html)
+- [Anlamsal Sürümleme](https://semver.org/lang/tr/)
+- [Türkçe Git 101 Kitabı](https://aliozgur.gitbooks.io/git101/content/)
+- [Git Cheat Sheet (PDF)](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+- [Orjinal Kaynağından Belge](https://git-scm.com/book/tr/v2)
+- [GitHub Cheat Sheet (PDF)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [Visual Git Cheat Sheet (SVG | PNG)](http://ndpsoftware.com/git-cheatsheet.html)
+- [Yeni Başlayanlar için Git 101](https://medium.com/turkce/yeni-ba%C5%9Flayanlar-i%C3%A7in-git-101-ff7ea5b3eff9)
