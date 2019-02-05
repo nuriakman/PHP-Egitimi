@@ -107,5 +107,3 @@ Mac OSX'de kısayolu: <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>  Windows
 Seçili satırı <code>ctrl</code>+<code>shift</code>+<code>D</code> kısayolu ile çoğaltır.
 
 Eğer, seçim yoksa satırı çoğaltır. Seçim varsa sadece seçimi çoğaltır.
-
-![Duplicate Line or Selection](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcamo.githubusercontent.com%2F0448eec9e166ad07e4045c3233a0d1902552d83e%2F687474703a2f2f6935392e74696e797069632e636f6d2f38786f7538682e6a7067&f=1)
