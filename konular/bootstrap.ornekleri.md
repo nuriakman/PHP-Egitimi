@@ -1,16 +1,16 @@
 # Örnek Bootstrap Modülleri
 
 ## Albüm Örneği
-![Albüm Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/bootstrap_ornekleri/album.png "Albüm")
+![Albüm Örneği](https://getbootstrap.com/docs/4.2/assets/img/examples/album.png "Albüm")
 
 ## Carousel Örneği
-![Carousel Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/bootstrap_ornekleri/carousel.png "Carousel Örneği")
+![Carousel Örneği](https://getbootstrap.com/docs/4.2/assets/img/examples/carousel.png "Carousel Örneği")
 
 ## Jumbotron Örneği
-![Jumbotron](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/bootstrap_ornekleri/jumbotron.png "Jumbotron Örneği")
+![Jumbotron](https://getbootstrap.com/docs/4.2/assets/img/examples/jumbotron.png "Jumbotron Örneği")
 
 ## Login-Page Örneği
 ![Login-Page Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/bootstrap_ornekleri/sign-in.png "Sign-in Örneği")
 
 ## Sticky Footer With Fixed Navbar Örneği
-![Sticky Footer With Fixed Navbar Örneği](https://raw.githubusercontent.com/kemtake/PHP-Egitimi/master/img/bootstrap_ornekleri/sticky-footer-navbar.png "Sticky Footer Örneği")
+![Sticky Footer With Fixed Navbar Örneği](https://getbootstrap.com/docs/4.2/assets/img/examples/sticky-footer-navbar.png "Sticky Footer Örneği")
