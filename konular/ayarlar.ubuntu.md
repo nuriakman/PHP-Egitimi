@@ -17,6 +17,7 @@ git config --global user.name "ADINIZ SOYADINIZ"
 ## Apache Kurulumu
 ```BASH
 sudo apt install apache2 -y
+rm /var/www/html/index.html
 ```
 
 ## PHP Kurulumu
