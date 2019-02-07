@@ -57,7 +57,7 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 
 ## PHP Kodu içine açıklama eklemek
 
-Örnekler:
+### PHP Açıklama Satırı Örnekleri:
 ```
 // This is a single line quote.
 
@@ -81,6 +81,10 @@ $kdv_tutari = $FaturaToplami * KDVORANI / 100;
 * several paragraphs of information.
 */
 ```
+
+## Kod içinde açıklamalar yazmak çok önemlidir :)
+
+![Şimdi sadece O biliyor](https://pics.me.me/when-wrote-this-code-only-god-and-i-understood-what-5800673.png)
 
 
 # PHP'DE Operatörler
