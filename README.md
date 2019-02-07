@@ -2,7 +2,7 @@
 # PHP ve MySQL ile Web Programlamaya Giriş
 Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa Akgül Özgür Yazılım Kış Kampı" çerçevesindeki "PHP ve MySQL ile Web Programlamaya Giriş" eğitimi için kaynak olması amacıyla hazırlanmıştır.
 
-> # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
+
 
 # İçindekiler
 
@@ -130,6 +130,10 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 
 
 ## Çeşitli Konular
+- [WordPress Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/cesitli.wordpress.md)
 - [Çeşitli Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/cesitli.konular.md)
 - [Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/faydali.videolar.md)
 - [Faydalı Linkler](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/faydali.linkler.md)
+
+
+> # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!

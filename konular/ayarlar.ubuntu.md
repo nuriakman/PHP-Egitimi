@@ -24,7 +24,7 @@ sudo apt install apache2 -y
 sudo apt install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
 ```
 
-## MaridDB Kurulumu
+## MariaDB Kurulumu
 Bu bölüm ayrı bir yükleme adımı olarak [MariaDB Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mariadb.md) sayfasında anlatılmıştır.
 
 
