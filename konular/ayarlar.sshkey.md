@@ -3,8 +3,8 @@
 ## ssh key Üretimi
 
 ```BASH
-**cd ~/.ssh**
-**ssh-keygen**
+cd ~/.ssh
+ssh-keygen
 ```
 
 ## ssh key Üretimi Ekranları
