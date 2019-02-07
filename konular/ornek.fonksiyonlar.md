@@ -40,6 +40,27 @@ function KucukHarf($str) {
 
 
 ###########################################################################################
+########### SadeceAdi(string) -- Gelen adın AD bilgisini alır
+###########################################################################################
+function SadeceAdi($str) {
+    $ad = explode(" ", $str);
+    $Sonuc = "";
+    if(count($ad) < 2) {$Sonuc = $str;} else {unset($ad[count($ad)-1]); $Sonuc = implode(" ", $ad);}
+    return trim($Sonuc);
+} // SadeceAdi
+
+###########################################################################################
+########### SadeceSoyadi(string) -- Gelen adın SOYAD bilgisini alır
+###########################################################################################
+function SadeceSoyadi($str) {
+    $ad = explode(" ", $str);
+    $Sonuc = "";
+    if(count($ad) < 2) {$Sonuc = "";} else {$Sonuc = $ad[count($ad)-1];}
+    return trim($Sonuc);
+} // SadeceSoyadi
+
+
+###########################################################################################
 ########### Yaziyla(rakam) -- rakamı yazıyla yazar.
 ###########################################################################################
 function Yaziyla($rakam){
@@ -67,18 +88,18 @@ function Yaziyla($rakam){
 
    $sonuc = "XX " . $sonuc . " TL ".( $ykr[0] ? $onlar[$ykr[0]].$birler[$ykr[1]]." Kuruş " : "" ) . "XX";
    return $sonuc;
-   }
+} // Yaziyla
 
 ###########################################################################################
-########### processing_time  -- İşlemde geçen zamanı hesaplamada kullanılır.
+########### IslemSuresi  -- İşlemde geçen zamanı hesaplamada kullanılır.
 ###########################################################################################
-function processing_time() {
-  //Örnek: processing_time(); ....(İşlemler).... echo "<p>Geçen Süre : <b>" . processing_time() . " Saniye</b></p>";
+function IslemSuresi() {
+  //Örnek: IslemSuresi(); ....(İşlemler).... echo "<p>Geçen Süre : <b>" . IslemSuresi() . " Saniye</b></p>";
 	$an = 6;    // Geçen sürenin hassasiyeti kaç digit olsun?
     static $a;
     if($a == 0) $a = microtime(true);
     else return "islem suresi: " . (string)round((microtime(true)-$a), $an) . " saniye";
-}
+} // IslemSuresi
 
 
 ###########################################################################################
@@ -143,7 +164,7 @@ function getip() {
 
 
 ###########################################################################################
-########### AcikTarih(tarih) -- Belirtilen tarihi şu örneğe göre yazdırır: 07 Aralık
+########### AcikTarih(tarih) -- Belirtilen tarihi şu örneğe göre yazdırır: 09 Şubat 2019
 ###########################################################################################
 function AcikTarih($tarih) {
 	// putenv("TZ=Asia/Istanbul");
@@ -166,7 +187,7 @@ function AcikTarih($tarih) {
 	$yy  = date("y", $tarih);
 	$yyyy= date("Y", $tarih);
 	return "$gg $a $yyyy";
-}
+} // AcikTarih
 
 ###########################################################################################
 ########### TarihinGunAdi(tarih) -- Belirtilen tarihi şu örneğe göre yazdırır: Çarşamba
@@ -183,7 +204,7 @@ function TarihinGunAdi($tarih) {
 	$ggg = $arrGunler3[date("w", $tarih)];
 
 	return "$g";
-}
+} // TarihinGunAdi
 
 
 
@@ -192,7 +213,7 @@ function TarihinGunAdi($tarih) {
 ##########################################################################################
 function ParaYaz0($ParaTutari){
 	return number_format($ParaTutari, 0, '.', ',');
-}
+} // ParaYaz0
 
 
 
@@ -201,7 +222,7 @@ function ParaYaz0($ParaTutari){
 ##########################################################################################
 function ParaYaz2($ParaTutari){
 	return number_format($ParaTutari, 2, '.', ',');
-}
+} // ParaYaz2
 
 
 
@@ -255,6 +276,6 @@ function ParaYaz2($ParaTutari){
 		}else{
 			echo str_replace("\n","<strong><font color=red>*</font></strong><br>\n",$elem);
 		}
-	} 	
+	} // print_nice
 
 ```
