@@ -9,16 +9,22 @@ ssh-keygen
 
 ## ssh key Üretimi Ekranları
 
-```
 Generating public/private rsa key pair.
+
 Enter file in which to save the key (/home/nuri/.ssh/id_rsa): **ENTER BASINIZ**
+
 Enter passphrase (empty for no passphrase): **ENTER BASINIZ**
+
 Enter same passphrase again: **ENTER BASINIZ**
+
 Your identification has been saved in /home/nuri/.ssh/id_rsa.
+
 Your public key has been saved in /home/nuri/.ssh/id_rsa.pub.
 The key fingerprint is:
+
 SHA256:0EOJV1HNjSxnrDqZxiE6B9EyOwpf8w0vlAK5MHV7/Xo nuri@nuri-LIFEBOOK-S751
 The key's randomart image is:
+```
 +---[RSA 2048]----+
 |   ....o.ooo.= o |
 |  o o.=++.  . O .|
