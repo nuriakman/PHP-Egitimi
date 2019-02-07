@@ -26,7 +26,6 @@ sudo mysql_secure_installation
 
 ### Kurulum Ekranı ve Yönlendirme
 
-```
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
       SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
 
@@ -36,14 +35,18 @@ you haven't set the root password yet, the password will be blank,
 so you should just press enter here.
 
 Enter current password for root (enter for none): **ENTER BASINIZ**
+
 OK, successfully used password, moving on...
 
 Setting the root password ensures that nobody can log into the MariaDB
 root user without the proper authorisation.
 
 Set root password? [Y/n] **ENTER BASINIZ**
+
 New password: **YENİ PAROLA GİRİNİZ**
+
 Re-enter new password: **YENİ PAROLA GİRİNİZ**
+
 Password updated successfully!
 Reloading privilege tables..
  ... Success!
@@ -56,12 +59,14 @@ go a bit smoother.  You should remove them before moving into a
 production environment.
 
 Remove anonymous users? [Y/n] **ENTER BASINIZ**
+
  ... Success!
 
 Normally, root should only be allowed to connect from 'localhost'.  This
 ensures that someone cannot guess at the root password from the network.
 
 Disallow root login remotely? [Y/n] **ENTER BASINIZ**
+
 ... Success!
 
 By default, MariaDB comes with a database named 'test' that anyone can
@@ -69,6 +74,7 @@ access.  This is also intended only for testing, and should be removed
 before moving into a production environment.
 
 Remove test database and access to it? [Y/n] **ENTER BASINIZ**
+
  - Dropping test database...
  ... Success!
  - Removing privileges on test database...
@@ -78,6 +84,7 @@ Reloading the privilege tables will ensure that all changes made so far
 will take effect immediately.
 
 Reload privilege tables now? [Y/n] **ENTER BASINIZ**
+
  ... Success!
 
 Cleaning up...
@@ -86,4 +93,3 @@ All done!  If you've completed all of the above steps, your MariaDB
 installation should now be secure.
 
 Thanks for using MariaDB!
-```
