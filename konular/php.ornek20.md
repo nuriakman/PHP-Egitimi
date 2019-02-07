@@ -2,7 +2,7 @@
 
 ## Kelime Frekans Analizi
 
-## analiz.php Dosyasının İçeriği
+## ```analiz.php``` Dosyasının İçeriği
 ```PHP
 <?php
   # NOT: https://wordsift.org/ sitesinden esinlenilmiştir.
@@ -54,7 +54,7 @@
 ?>
 ```
 
-## silinecekler.txt Dosyasının İçeriği
+## ```silinecekler.txt``` Dosyasının İçeriği
 ```TXT
 1
 2
@@ -82,7 +82,7 @@
 )
 ```
 
-## stopwords.txt Dosyasının İçeriği
+## ```stopwords.txt``` Dosyasının İçeriği
 ```TXT
 a
 acaba
@@ -370,7 +370,7 @@ zaten
 zira
 ```
 
-## konusma.txt Dosyası İçeriği
+## ```konusma.txt``` Dosyası İçeriği
 
 ```TXT
 Çocuk İhmal ve İstismarı Sempozyumu Konuşmaları

@@ -38,17 +38,6 @@
     echo nl2br($DosyaIcerigi);
   ?>
 
-
-
-
-
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-
   </body>
 </html>
 ```

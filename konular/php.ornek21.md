@@ -2,7 +2,7 @@
 
 ## Arduino IDE Web Client ve ESP8266 İle PHP Kullanımı
 
-### veri.txt Dosyasında Oluşacak Örnek İçerik
+### ```veri.txt``` Dosyasında Oluşacak Örnek İçerik
 ```
 2019-01-20 14:31:05;22.00;67.00
 2019-01-20 14:31:08;22.00;67.00
@@ -13,7 +13,7 @@
 2019-01-20 14:31:24;22.00;67.00
 ```
 
-### yaz.php Dosyası İçeriği
+###  ```yaz.php``` Dosyası İçeriği
 ```PHP
 <?php
   $OKUNAN_DEGERLER = sprintf("%s;%s;%s", date('Y-m-d H:i:s'), $_GET['ISI'], $_GET['NEM']);
@@ -22,14 +22,14 @@
 ?>
 ```
 
-### oku.php Dosyası İçeriği
+###  ```oku.php``` Dosyası İçeriği
 ```PHP
 <?php
   echo nl2br(file_get_contents('veri.txt'));
 ?>
 ```
 
-### web_isi_nem.ino Dosyası İçeriği
+### ```web_isi_nem.ino``` Dosyası İçeriği
 ```CPP
 #include <DHTesp.h>
 #include <Arduino.h>
@@ -113,6 +113,9 @@ void loop() {
   delay(2150);
 }
 ```
+
+
+
 
 ## Örnek Görseller (Görseller bu projeye ait DEĞİLDİR)
 

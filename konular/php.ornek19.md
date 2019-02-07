@@ -2,7 +2,7 @@
 
 ## PHP'de Oturum Yönetimi Örneği
 
-### index.php Dosyası İçeriği
+### ```index.php``` Dosyası İçeriği
 ```PHP
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -19,7 +19,7 @@
 ```
 
 
-### kontrol.php Dosyası İçeriği
+### ```kontrol.php``` Dosyası İçeriği
 ```PHP
 <?php
   @session_start();
@@ -33,7 +33,7 @@
 ```
 
 
-### oturumukapat.php Dosyası İçeriği
+### ```oturumukapat.php``` Dosyası İçeriği
 ```PHP
 <?php
   @session_start();
@@ -47,7 +47,7 @@
 ```
 
 
-### login.php Dosyası İçeriği
+### ```login.php``` Dosyası İçeriği
 ```PHP
 <?php
   @session_start();
@@ -80,11 +80,6 @@
     <br>
     <input type="submit" value="Giriş Yap">
   </form>
-
-
-
-
-
 
   </body>
 </html>

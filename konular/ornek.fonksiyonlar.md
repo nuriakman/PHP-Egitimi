@@ -3,6 +3,10 @@
 ```PHP
 <?php
 
+
+###########################################################################################
+########### Mutlaka Yazılması Gerekenler
+###########################################################################################
 mb_internal_encoding("UTF-8");
 
 if (function_exists('date_default_timezone_set')) {
@@ -13,20 +17,18 @@ if (function_exists('date_default_timezone_set')) {
 
 
 ###########################################################################################
-########### BuyukHarf(string)            ########### 19.06.2007, Nuri AKMAN ###############
-########### Stringi büyük harflere çevirir
+########### BuyukHarf(string) -- Stringi büyük harflere çevirir
 ###########################################################################################
 function BuyukHarf($str) {
 	$kucuk = array('ğ','ü','ş','i','ö','ç','ı');
 	$buyuk = array('Ğ','Ü','Ş','İ','Ö','Ç','I');
-	$str = trim(str_replace($kucuk, $buyuk, $str)); 
+	$str = trim(str_replace($kucuk, $buyuk, $str));
 	$str = strtoupper($str);
 	return $str;
 } // BuyukHarf
 
 ###########################################################################################
-########### KucukHarf(string)            ########### 19.06.2007, Nuri AKMAN ###############
-########### Stringi küçük harflere çevirir
+########### KucukHarf(string) -- Stringi küçük harflere çevirir
 ###########################################################################################
 function KucukHarf($str) {
 	$kucuk = array('ğ','ü','ş','i','ö','ç','ı');
@@ -38,8 +40,7 @@ function KucukHarf($str) {
 
 
 ###########################################################################################
-########### Yaziyla(rakam)            ########### 26.06.2007, Nuri AKMAN #################
-########### rakamı yazıyla yazar.
+########### Yaziyla(rakam) -- rakamı yazıyla yazar.
 ###########################################################################################
 function Yaziyla($rakam){
    $rakam   = explode(".",$rakam);
@@ -69,12 +70,11 @@ function Yaziyla($rakam){
    }
 
 ###########################################################################################
-########### processing_time            ########### 31.05.2008, Nuri AKMAN #################
-########### İşlemde geçen zamanı hesaplamada kullanılır.
-########### Örnek: processing_time(); .................... echo "<p>Geçen Süre : <b>" . processing_time() . " Saniye</b></p>";
+########### processing_time  -- İşlemde geçen zamanı hesaplamada kullanılır.
 ###########################################################################################
 function processing_time() {
-	$an = 6;    // How much digit return after point - Geçen sürenin hassasiyeti kaç digit olsun?
+  //Örnek: processing_time(); ....(İşlemler).... echo "<p>Geçen Süre : <b>" . processing_time() . " Saniye</b></p>";
+	$an = 6;    // Geçen sürenin hassasiyeti kaç digit olsun?
     static $a;
     if($a == 0) $a = microtime(true);
     else return "islem suresi: " . (string)round((microtime(true)-$a), $an) . " saniye";
@@ -82,8 +82,7 @@ function processing_time() {
 
 
 ###########################################################################################
-########### TemizleTR(string)         ########### 28.11.2011, Nuri AKMAN #################
-########### Sadece TR karakterleri bırakır
+########### TemizleTR(string) -- Sadece TR karakterleri bırakır
 ###########################################################################################
 function TemizleTR($str) {
 	$str = preg_replace("/[^üğşçöıÜĞİŞÇÖ ,:a-zA-Z\.\-]/", "", $str);
@@ -92,19 +91,17 @@ function TemizleTR($str) {
 
 
 ###########################################################################################
-########### TemizleNum(string)         ########### 26.10.2011, Nuri AKMAN #################
-########### Sadece rakamları bırakır
+########### TemizleNum(string) -- Sadece rakamları bırakır
 ###########################################################################################
 function TemizleNum($str) {
 	// $str = preg_replace("/[^0-9.]/", "", $str); // Eğer, sayı içinde NOKTA kalsın istenirse bu kod
-	$str = preg_replace("/[^0-9]/", "", $str); 
+	$str = preg_replace("/[^0-9]/", "", $str);
 	return $str;
 } // TemizleNum
 
 
 ###########################################################################################
-########### GetRandomString(uzunluk)   ########### 22.08.2006, Nuri AKMAN #################
-########### Belirtilen uzunluk kadar rasgele karakter üretir.
+########### GetRandomString(uzunluk) -- Belirtilen uzunluk kadar rasgele karakter üretir.
 ###########################################################################################
 function GetRandomString($length) {
 	settype($template, "string");
@@ -121,25 +118,24 @@ function GetRandomString($length) {
 } // GetRandomString
 
 ###########################################################################################
-########### getip()                ########### 25.11.2005, Nuri AKMAN #####################
-########### Kullanıcının geldiği IP numarasını bulur....
+########### getip() -- Kullanıcının geldiği IP numarasını bulur....
 ###########################################################################################
 function getip() {
      if (getenv("HTTP_CLIENT_IP") && strcasecmp(getenv("HTTP_CLIENT_IP"), "unknown"))
      $ip = getenv("HTTP_CLIENT_IP");
-  
+
      else if (getenv("HTTP_X_FORWARDED_FOR") && strcasecmp(getenv("HTTP_X_FORWARDED_FOR"), "unknown"))
      $ip = getenv("HTTP_X_FORWARDED_FOR");
-  
+
      else if (getenv("REMOTE_ADDR") && strcasecmp(getenv("REMOTE_ADDR"), "unknown"))
      $ip = getenv("REMOTE_ADDR");
-  
+
      else if (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], "unknown"))
      $ip = $_SERVER['REMOTE_ADDR'];
-  
+
      else
      $ip = "unknown";
-  
+
      return(trim($ip));
 } //getip
 
@@ -147,8 +143,7 @@ function getip() {
 
 
 ###########################################################################################
-########### AcikTarih(tarih) ########### 07.12.2010, Nuri AKMAN ###########################
-########### Belirtilen tarihi şu örneğe göre yazdırır: 07 Aralık
+########### AcikTarih(tarih) -- Belirtilen tarihi şu örneğe göre yazdırır: 07 Aralık
 ###########################################################################################
 function AcikTarih($tarih) {
 	// putenv("TZ=Asia/Istanbul");
@@ -174,8 +169,7 @@ function AcikTarih($tarih) {
 }
 
 ###########################################################################################
-########### TarihVeGunAdi(tarih) ########### 05.01.2011, Nuri AKMAN #######################
-########### Belirtilen tarihi şu örneğe göre yazdırır: Çarşamba
+########### TarihinGunAdi(tarih) -- Belirtilen tarihi şu örneğe göre yazdırır: Çarşamba
 ###########################################################################################
 function TarihinGunAdi($tarih) {
 	// putenv("TZ=Asia/Istanbul");
@@ -194,12 +188,17 @@ function TarihinGunAdi($tarih) {
 
 
 ##########################################################################################
-#################### ParaYaz0 ve ParaYaz2 ################################################
+#################### ParaYaz0 -- Rakamın sadece tam sayı kısmını yazdırır. Örnek: 1,234,567
 ##########################################################################################
 function ParaYaz0($ParaTutari){
 	return number_format($ParaTutari, 0, '.', ',');
 }
 
+
+
+##########################################################################################
+#################### ParaYaz2 -- Rakamı 2 hane ondalıklı olarak yazdırır. Örnek: 1,234,567.89
+##########################################################################################
 function ParaYaz2($ParaTutari){
 	return number_format($ParaTutari, 2, '.', ',');
 }
@@ -207,8 +206,7 @@ function ParaYaz2($ParaTutari){
 
 
 ###########################################################################################
-########### print_nice                 ########### 26.12.2010, Nuri AKMAN #################
-########### print_r komutunun renkli çıktısını üretir...
+########### print_nice -- print_r komutunun renkli çıktısını üretir...
 ###########################################################################################
 	function print_nice($elem,$max_level=10,$print_nice_stack=array()){
 		if(is_array($elem) || is_object($elem)){
@@ -259,8 +257,4 @@ function ParaYaz2($ParaTutari){
 		}
 	} 	
 
-
-
 ```
-
-

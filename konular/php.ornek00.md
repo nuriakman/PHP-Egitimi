@@ -1,5 +1,19 @@
 # Örnek HTML Form
 
+## ```test.php``` Dosyasının İçeriği
+
+```PHP
+<?php
+  echo "<pre>";
+  echo '<h1>$_POST Değişkenin Değeri</h1>';
+  print_r($_POST);
+  echo '<h1>$_GET Değişkenin Değeri</h1>';
+  print_r($_GET);
+?>
+```
+
+## ```test.html``` Dosyasının İçeriği
+
 ```HTML
 <!doctype html>
 <html lang="tr">
@@ -24,12 +38,12 @@
 
       <p>
         Kullanıcı: <input type="text" name="username">
-      </p> 
+      </p>
 
       <p>
         Parola: <input type="password" name="password">
       </p>
-   
+
       <!-- ...diğer kişisel bilgiler... -->
      </fieldset>
      <fieldset>
@@ -72,4 +86,3 @@
   </form>
  </html>
  ```
-

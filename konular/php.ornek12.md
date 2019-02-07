@@ -2,7 +2,7 @@
 
 ## Cookie Kullanım Örneği
 
-### index.php Dosyası İçeriği
+### ```index.php``` Dosyası İçeriği
 ```PHP
 <?php
 	//	sitemizdeki içeriklerin kullanıcının tercih ettiği renkte gözükmesini istiyoruz
@@ -48,7 +48,7 @@
 </html>
 ```
 
-### hakkimizda.php Dosyası İçeriği
+### ```hakkimizda.php``` Dosyası İçeriği
 
 ```PHP
 <?php
