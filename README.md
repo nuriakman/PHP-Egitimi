@@ -10,7 +10,7 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 - [Giriş ve Temel Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/giris.konulari.md)
 
 
-## Kurulumlar
+## Yardımcı Programların Kurulumu
 - [Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.git.md)
 - [Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.atom.md)
 - [Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md)
@@ -20,9 +20,15 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 - [Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.firefox.md)
 
 
-## Kurulum sonrasında...
-- [PHP ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.php.md)
-- [MySQL ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mysql.md)
+## Ubuntu İşletim Sistemi Kurulumu Sonrası Yapılacaklar
+- [Çalışma Ortamının Kurulması](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.ubuntu.md)
+- [MariaDB Kurulması](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mariadb.md)
+- [SSH Key Üretme](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.sshkey.md)
+
+
+## php.ini ve my.ini Ayarları
+- [PHP ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.php.ini.md)
+- [MySQL ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mysql.ini.md)
 
 
 ## GİT
