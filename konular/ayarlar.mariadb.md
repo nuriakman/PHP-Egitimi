@@ -5,7 +5,7 @@
 sudo apt install mariadb-server
 ```
 
-## Root Kullanıcısı İçin Parola Sıfırlama
+## Root Kullanıcısı İçin Parola Belirleme
 
 ```SQL
 sudo mysql -u root
