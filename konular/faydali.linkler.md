@@ -26,7 +26,7 @@
 - [Resim Tutucu - Placeholder](https://placeholder.com/)
 - [Resim Tutucu - PlaceImg](http://placeimg.com/)
 - [Resim Tutucu - LoremPixel](http://lorempixel.com/)
-
+- [Git Geçmişi](https://githistory.xyz/)
 
 ## Makaleler
 - [Roadmap to becoming a web developer in 2019](https://github.com/kamranahmedse/developer-roadmap)
