@@ -46,8 +46,8 @@ sudo chown -R $USER:www-data /var/www/html/
 
 ## Masaüzerine HTML klasörü kısayolunun açılması
 ```BASH
-cd ~/Desktop
-cd ~/Masaüstü
+cd ~/Desktop # İngilizce kurulum yapıldıysa bu komut
+cd ~/Masaüstü # Türkçe kurulum yapıldıysa bu Komut
 ln -s /var/www/html/
 ```
 

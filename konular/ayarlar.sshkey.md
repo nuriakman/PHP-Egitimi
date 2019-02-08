@@ -3,7 +3,7 @@
 ## ssh key Üretimi
 
 ```BASH
-cd ~/.ssh
+cd ~/.ssh # Eğer hata verirse sorun yok alt satırdan devam edin.
 ssh-keygen
 ```
 
