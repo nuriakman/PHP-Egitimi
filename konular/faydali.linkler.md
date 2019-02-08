@@ -8,6 +8,7 @@
 - [Algoritma Soruları](http://algoritma-programlama.blogspot.com/search/label/Algoritma)
 - [User Interface: Icons & Symbols](http://uigoodies.com/icons-symbols.html)
 - [Özgür Sunumlar](https://topluluk.ozguryazilim.com.tr/sunumlar/)
+- [Freepik - Ücretsiz Resim](https://freepik.com/)
 - [Pixabay - Ücretsiz Resim](https://pixabay.com/)
 - [Unsplash - Ücretsiz Resim](https://unsplash.com/)
 - [Pexels - Ücretsiz Resim](https://www.pexels.com)
