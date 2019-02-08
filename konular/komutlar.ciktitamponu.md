@@ -5,20 +5,20 @@
 ## Komut Listesi
 Komut |Anlamı|
 ------------|-------------|
-```flush``` |Çıktı tamponunu boşaltır
-```ob_clean``` |Çıktı tamponunu temizler (siler)
-```ob_end_clean``` |Çıktı tamponunu temizler (siler) ve tamponu kapatır
-```ob_end_flush```| Çıktı tamponunu boşaltır (gönderir) ve tamponu kapatır
-```ob_flush```| Çıktı tamponunu boşaltır (gönderir)
-```ob_get_clean```| Geçerli çıktı tamponun içeriğini döndürüp tamponu siler
-```ob_get_contents```| Çıktı tamponunun içeriği ile döner
-```ob_get_flush```| Çıktı tamponunu boşaltır, içeriğini bir dizge olarak döndürür ve çıktı tamponlamasını kapatır
-```ob_get_length```| Çıktı tamponunundaki içeriğin uzunluğunu döndürür
-```ob_get_level```| Çıktı tamponlama mekanizmasının iç içelik seviyesini döndürür
-```ob_get_status```| Çıktı tamponlarının durumu ile döner
-```ob_gzhandler```| Çıktı tamponunu gziplemek için ob_start geriçağırım işlevi
-```ob_implicit_flush``` |Örtük boşaltmayı açar/kapar
-```ob_list_handlers```| Kullanımdaki çıktı eylemcileri listeler
-```ob_start```| Çıktı tamponlamasını başlatır
-```output_add_rewrite_var```| URL yeniden yazım değerlerini ekler
-```output_reset_rewrite_vars```| URL yeniden yazma değerlerini sıfırlar
+[flush](http://php.net/flush)|Çıktı tamponunu boşaltır
+[ob_clean](http://php.net/ob_clean)|Çıktı tamponunu temizler (siler)
+[ob_end_clean](http://php.net/ob_end_clean)|Çıktı tamponunu temizler (siler) ve tamponu kapatır
+[ob_end_flush](http://php.net/ob_end_flush)|Çıktı tamponunu boşaltır (gönderir) ve tamponu kapatır
+[ob_flush](http://php.net/ob_flush)|Çıktı tamponunu boşaltır (gönderir)
+[ob_get_clean](http://php.net/ob_get_clean)|Geçerli çıktı tamponun içeriğini döndürüp tamponu siler
+[ob_get_contents](http://php.net/ob_get_contents)|Çıktı tamponunun içeriği ile döner
+[ob_get_flush](http://php.net/ob_get_flush)|Çıktı tamponunu boşaltır, içeriğini bir dizge olarak döndürür ve çıktı tamponlamasını kapatır
+[ob_get_length](http://php.net/ob_get_length)|Çıktı tamponunundaki içeriğin uzunluğunu döndürür
+[ob_get_level](http://php.net/ob_get_level)|Çıktı tamponlama mekanizmasının iç içelik seviyesini döndürür
+[ob_get_status](http://php.net/ob_get_status)|Çıktı tamponlarının durumu ile döner
+[ob_gzhandler](http://php.net/ob_gzhandler)|Çıktı tamponunu gziplemek için ob_start geriçağırım işlevi
+[ob_implicit_flush ](http://php.net/ob_implicit_flush )|Örtük boşaltmayı açar/kapar
+[ob_list_handlers](http://php.net/ob_list_handlers)|Kullanımdaki çıktı eylemcileri listeler
+[ob_start](http://php.net/ob_start)|Çıktı tamponlamasını başlatır
+[output_add_rewrite_var](http://php.net/output_add_rewrite_var)|URL yeniden yazım değerlerini ekler
+[output_reset_rewrite_vars](http://php.net/output_reset_rewrite_vars)|URL yeniden yazma değerlerini sıfırlar

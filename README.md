@@ -74,7 +74,7 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 
 ## PHP Komutları
 - [Matematiksel Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.matematik.md)
-- [String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.dizge.md)
+- [String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.string.md)
 - [Dizi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.diziler.md)
 - [Multibyte Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.multibyte.md)
 - [Dosya Sistemi Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.dosyasistemi.md)

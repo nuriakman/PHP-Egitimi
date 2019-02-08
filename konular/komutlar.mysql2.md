@@ -1,13 +1,13 @@
 # Temel MySQL Kullanım Komutları
 Komut |Anlamı|
 ------------|-------------|
-```mysqli_connect```| MySQL Veritabanına bağlanma komutudur
-```mysqli_connect_error```| MySQL Veritabanına bağlantı sırasında oluşan hata bilgisini saklar
-```mysqli_real_escape_string```| SQL sorgusunda bulunacak tehlikeli karakterlerin kaçış karakterleri ile güvenli hale getirilmesini sağlar
-```mysqli_query```| SQL sorgusunu çalıştırma komutudur
-```mysqli_fetch_assoc```| SQL sonucunu ilişkisel dizi olarak almak için kullanılır
-```mysqli_num_rows```| SQL sorgusu sonucunda kaç satır geldiğini gösterir
-```mysqli_affected_rows```| SQL sorgusundan kaç satırın etkilendiğini gösterir
+[mysqli_connect](http://php.net/mysqli_connect)|MySQL Veritabanına bağlanma komutudur
+[mysqli_connect_error](http://php.net/mysqli_connect_error)|MySQL Veritabanına bağlantı sırasında oluşan hata bilgisini saklar
+[mysqli_real_escape_string](http://php.net/mysqli_real_escape_string)|SQL sorgusunda bulunacak tehlikeli karakterlerin kaçış karakterleri ile güvenli hale getirilmesini sağlar
+[mysqli_query](http://php.net/mysqli_query)|SQL sorgusunu çalıştırma komutudur
+[mysqli_fetch_assoc](http://php.net/mysqli_fetch_assoc)|SQL sonucunu ilişkisel dizi olarak almak için kullanılır
+[mysqli_num_rows](http://php.net/mysqli_num_rows)|SQL sorgusu sonucunda kaç satır geldiğini gösterir
+[mysqli_affected_rows](http://php.net/mysqli_affected_rows)|SQL sorgusundan kaç satırın etkilendiğini gösterir
 
 
 
