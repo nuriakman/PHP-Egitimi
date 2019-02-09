@@ -93,3 +93,32 @@ All done!  If you've completed all of the above steps, your MariaDB
 installation should now be secure.
 
 Thanks for using MariaDB!
+
+
+## Unutulan Parolanın Sıfırlanması
+
+### MySQL İçin Unutulan Parolanın Sıfırlanması
+```
+sudo service mysql stop
+sudo service mysqld stop
+sudo mysqld_safe --skip-grant-tables &
+mysql -uroot
+use mysql;
+update user set password=PASSWORD("root") where User='root';
+flush privileges;
+quit
+sudo service mysql start
+```
+
+### mariaDB İçin Unutulan Parolanın Sıfırlanması
+```
+sudo service mariadb  stop
+sudo service mariadbd stop
+sudo mysqld_safe --skip-grant-tables --skip-networking &
+mysql -u root
+use mysql;
+update user set password=PASSWORD("root") where User='root';
+flush privileges;
+quit;
+sudo service mariadb start
+```
