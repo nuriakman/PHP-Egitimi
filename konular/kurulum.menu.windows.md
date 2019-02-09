@@ -2,6 +2,7 @@
 
 ## Windows İçin İndirme Bağlantıları
 Windows altında PHP geliştirmek isteyenler şu programları indirip kurabilirler:
+
 Yazılım | Adresi|
 ------------|-------------|
 Atom|[Atom Editör](https://github.com/atom/atom/releases/download/v1.34.0/atom-windows.zip)
