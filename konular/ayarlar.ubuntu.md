@@ -1,6 +1,24 @@
 
 # Yeni Bir Ubuntu Kurulumu Sonrası İlk Yapılacaklar
 
+#### BİLGİ İÇİN : Terminal İçin Bazı Kısayollar :
+Komut | Açıklaması
+------------ | -------------
+<kbd>ctrl</kbd>+<kbd>a</kbd> | Satır başına git
+<kbd>ctrl</kbd>+<kbd>u</kbd> | İmlecin solunu siler
+<kbd>ctrl</kbd>+<kbd>k</kbd> | İmlecin sağını siler
+<kbd>ctrl</kbd>+<kbd>e</kbd> | Satır sonuna gider
+<kbd>ctrl</kbd>+<kbd>r</kbd> | Geçmişte arama yapar
+<kbd>ctrl</kbd>+<kbd>l</kbd> | Sayfayı temizler
+cat | Dosya İçini gösterir.
+find /etc -name “dosya adi” | dosya bulma komutudur.
+sudo atom /etc/php/7.2/apache2/php.ini | php.ini dosyasını atom editöründe açar.
+find /etc -name "php.ini" | etc klasöründe php.ini dosyasını arar.
+touch| komutu bulunduğunuz dizinde yeni dosya oluşturur.
+touch index.php| index.php oluşturdu.
+wc| komutu dosya bilgisi verir.
+
+
 ## Genel Güncelleme İşlemleri
 ```BASH
 sudo apt update -y
