@@ -9,28 +9,52 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 ## Giriş
 - [Giriş ve Temel Konular](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/giris.konulari.md)
 
+## Windows İçin İndirme Bağlantıları
+Windows altında PHP geliştirmek isteyenler şu programları indirip kurabilirler:
+Yazılım | Adresi|
+------------|-------------|
+Atom|[Atom Editör](https://github.com/atom/atom/releases/download/v1.34.0/atom-windows.zip)
+Git|[Git (32 Bit)](https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-32-bit.exe)
+Git|[Git (64 Bit)](https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe)
+XAMPP|[XAMPP (PHP 5.6)](https://www.apachefriends.org/xampp-files/5.6.40/xampp-win32-5.6.40-0-VC11-installer.exe)
+XAMPP|[XAMPP (PHP 7.3)](https://www.apachefriends.org/xampp-files/7.3.1/xampp-win32-7.3.1-0-VC15-installer.exe)
 
 ## Yardımcı Programların Kurulumu
 Yazılım | Adresi|
 ------------|-------------|
 [Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.git.md) |https://git-scm.com/download/win
 [Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.atom.md) | http://atom.io/
-[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) |https://www.apachefriends.org/tr/index.html
-[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.wamp.md) | www.wampserver.com/en/
-[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.adminer.md) | http://adminer.org/
-[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.atom.md) | 
+[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.atom.md) |
 [Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.firefox.md) |
+
+## Apache+PHP+MySQL Kurulumu
+PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
+
+Adı | Açıklaması
+----| -----------
+LAMP|Linux için Apache+MySQL+PHP anlamındadır.
+WAMP|Windows için Apache+MySQL+PHP anlamındadır.
+MAMP|MacOS için Apache+MySQL+PHP anlamındadır. MAMP'ın Windows sürümü de vardır.
+XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anlamındadır.
+
+Yazılım | Adresi|
+------------|-------------|
+[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) |https://www.apachefriends.org/tr/index.html
+[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.wamp.md) | http://www.wampserver.com/en/
+Mamp Kurulumu | https://www.mamp.info/en/downloads/
+
+## MySQL Yönetim Yazılımı Kurulumu
+Aşağıdaki iki yazılımdan birisi seçilerek kurulmalıdır.
+Yazılım | Adresi|
+------------|-------------|
+[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.adminer.md) | http://adminer.org/
+phpMyAdmin | https://www.phpmyadmin.net/
 
 
 ## Ubuntu İşletim Sistemi Kurulumu Sonrası Yapılacaklar
 - [Çalışma Ortamının Kurulması](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.ubuntu.md)
 - [MariaDB Kurulması](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mariadb.md)
 - [SSH Key Üretme](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.sshkey.md)
-
-
-## php.ini ve my.ini Ayarları
-- [PHP ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.php.ini.md)
-- [MySQL ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mysql.ini.md)
 
 
 ## GİT
@@ -74,6 +98,11 @@ Yazılım | Adresi|
 - [Popüler Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.populer.md)
 
 
+## MySQL'e Giriş
+- [Mysql Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.mysql2.md)
+- [Örnek Veritabanları](https://github.com/kemtake/PHP-Egitimi/tree/master/ornek.veritabanlari)   
+
+
 ## PHP Komutları
 - [Matematiksel Komutlar](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.matematik.md)
 - [String Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.string.md)
@@ -91,10 +120,9 @@ Yazılım | Adresi|
 - [Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/curl.ornegi.md)
 - [Düzenli İfadeler](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/php.regex.md)
 
-
-## İlişkisel Veritabanı ve MySQL
-- [Mysql Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.mysql2.md)
-- [Örnek Veritabanları](https://github.com/kemtake/PHP-Egitimi/tree/master/ornek.veritabanlari)   
+## php.ini ve my.ini Ayarları
+- [PHP ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.php.ini.md)
+- [MySQL ayarları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/ayarlar.mysql.ini.md)
 
 
 ## Örnek PHP Uygulamaları
