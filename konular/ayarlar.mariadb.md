@@ -102,7 +102,7 @@ Thanks for using MariaDB!
 sudo service mysql stop
 sudo service mysqld stop
 sudo mysqld_safe --skip-grant-tables &
-mysql -uroot
+mysql -u root
 use mysql;
 update user set password=PASSWORD("root") where User='root';
 flush privileges;
