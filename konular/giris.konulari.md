@@ -53,10 +53,18 @@ Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tas
 
 ![Algoritma Nedir](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/LampFlowchart_tr.svg/300px-LampFlowchart_tr.svg.png)
 
+## Üst Seviye Alan Nedir?
+Üst seviye alan, alan adının en son kısmıdır. Alan adı uzantıları olarak da isimlendirilirler. Burası URL’nizde “nokta”dan sonra gelen kısımdır. Üst seviye uzantılar ülkelere özel üst seviye uzantılar ve jenerik üst seviye uzantılar olarak ikiye ayrılır.
 
+Üst seviye uzantılar şirketin türü, sitenin bulunduğu ülke gibi bazı web sitesi özelliklerini, bu sitenin bir hükümete mi ya da okula mı vs. ait olduğunu tespit etmeye yarar. Üst seviye uzantı  kullanımıyla ilgili düzenlemeler oldukça katıdır. Fakat İnternet Tahsisli İsimler ve Sayılar Kurumu (ICANN) 2010 yılında bu düzenlemeyi jenerik üst seviye uzantılar ve ticari markalar için biraz gevşetmiştir.
+
+## Alan Adı Sistemi
+Alan Adı Sistemi (Domain Name System/DNS) online hizmetlerin, bilgisayarların veya internete bağlı tüm kaynakların isimlendirilme sistemidir. Alan adlarını şirketlerle, web siteleriyle veya hizmetleriyle ilişkilendirmeye yarar. Ayrıca alan adlarını ağ protokollerinin doğru şekilde çalılması için gerekli olan sayısal IP adreslerine dönüştürürler.
 ## Alan Adı Sistemi / Domain Name System (DNS)
 DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz. Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
+## RootName Server
+Name server (NS kısaltmasıyla da kullanılır), alan adları sorgulanmasında kullanılan isim sunucularına deniyor. Yeterli gelmediyse biraz daha derinleşelim: Name server nedir tam olarak? Name server, sahip olunan alan adlarının belirli bir IP adresiyle bağdaştırılmasını sağlar. Böylece hizmete ulaşmak için IP numarası (karışık ve çok basamaklı sayılardan oluşur) yerine alan adını yazarsınız.
 
 ### DNS Nasıl Çalışır / Özet
 ![DNS Nasıl Çalışır](https://www.webhosting.uk.com/blog/wp-content/uploads/2013/07/_d_improd_/DNS_Propagation_Process_f_improf_815x260.jpg "DNS")
@@ -93,3 +101,54 @@ Cevabı alan browser gelen cevabı ekrana basar (işleme/render). Browser/Taray�
 - [Web nasıl çalışır dialoğu](https://github.com/kemtake/PHP-Egitimi/blob/master/web.dialogu.md)
 - [How web works? / Web Nasıl Çalışır?](https://github.com/vasanthk/how-web-works)
 - [What happens when you type google.com into your browser and press enter / Tarayıcınızda google.com yazın enter bastığınızda neler olur?](https://github.com/alex/what-happens-when)
+
+
+## Sanal Sunucu - VPS (Virtual Private Server)
+Virtual Private Server (Sanal özel sunucu) anlamına gelir. Bir sunucu birbirinden bağımsız birden fazla sanal sunucu olarak kullanmaya imkan tanır.
+
+## Paylaşımlı Barındırma - Shared Hosting
+Paylaşımlı web hosting, bir çok kullanıcı arasında bir fiziksel sunucu ve mevcut kaynakların ortak kullanımı anlamına gelir.
+
+
+## İçerik Dağıtım Ağı - Content Delivery Network (CDN)
+Aliexpres örneğinde olduğu gibi elinizde bir
+içerik var dört bir yana paylaşmak istiyorsanız bir cdn firması ile anlaşıyorsunuz benim resimlerimi
+sen post et diyorsun.O cdn girmasının dünyanın çeşitli noktalarında bilgisayarları var.Aliepresdeki bütün resimlerin yedeği var ve herhangi bir kullanıcı bir resme tıklarken resimleri kullanıcıya en yakın sunucudan
+geliyor.Böylece yük azalıyor.Aliexpress e yani çin e hiç gitmemiş oluyoruz.Durum böyle olunca
+aynı anda 100 bin 200 bin kullanıcyı kaldırır.Bu durumda adamların dünya üzerinde bir sürü yerde
+makineleri var.
+https://www.cloudflare.com/ ücretsiz cdn desteği veren bir site.
+
+https://cdn-images-1.medium.com/max/800/1*ZkC_5865Hx-Cgph3iPJghw.png
+
+
+## MarkDown:
+ Markdown, not alma ve yapılacaklar listesi yazılımları içerisinde oluşturulan içeriğin doğrudan HTML’e çevrilmesini sağlayan yazılım özelliğidir.
+
+## İşletim Sistemi Nedir?
+İşletim sistemi, belli kurallar dahilinde programların çalışmasını ve kullanıcı ile bilgisayar arasındaki iletişimi sağlayan komutlardır.
+
+## Dağıtım Nedir ?
+Bir Linux dağıtımı (kısaca dağıtım); Linux çekirdeği, GNU araçları ve bir masaüstü ortamının bir araya gelmesiyle, bu birlikteliği sürdürülebilir şekilde yönetecek bir yapılandırma araçları seti, yazılım güncelleme araçları vb. ile oluşturularak tam teşekküllü bir işletim sistemi haline gelen uygulamalar bütününü ifade eder.
+
+## SPAGETTİ KOD
+<b> Firmalar MVC yöntemini daha çok tercih eder.</b> Spagetti kod HTML kodları arasında yazılan Sunucu ile irtibatta olan kodlarımıza spagetti kod demekteyiz. Kullanımı oldukça karışık olan bu kod yazma stili olan ve günümüzde oldukça sık kullanılan PHP ve ASP kodları genellikle spagetti kod örneğini sık kullanmaktadır. HTML etiketleri arasında yazılan bu kodlar MVC yapısı ile düzenli bir şekile girmiştir.
+
+## MVC (Model-View-Controller)
+front-end tamamen koddan ayrılmış php kodları tamamen ana kodumuzdan ayrılmıştır.Örneğin css dosyasının içinde php,html kodları yok. MVC şunlar ile yapılabilir;
+- Larevel
+- Cake
+- Code ignaither
+
+## NEDEN GITHUB’DA PROJELERE DESTEK VERMELİYİZ ?
+Bu iş sevmekten geçiyor.Yaptığım programın başkası tarafından kullanıdğını görmek beni çok
+mutlu ediyor.Parayla mutluluk bir dakika olur ama bu mutluluk bambaşka.Durum böyle olunca
+gerçekten bu işi seven yazılımı seven hobi içi yapanlar bu işe destek veriyor.Herkes mi bu işi
+seviyor hayır.Sizler bu projelere destek vermek zorundasınız.Üniversiteden mezunsunuz
+diplomanız var ortalamalanıza bakarlar.En büyük hata ortalamalara bakılması ve üniversitelere
+bakılması.Yazılımcılık diploma ile olmaz kod ile olur.İTÜ de okumak sizi adam yapmıyor.Kötü bir
+üniversitede de okmak da sizi gerizekalı yapmıyor.Kendinizi böyle bir sınavda belli etmek yerine github da
+nick alıyorsunuz ve projelere destek veriyorsunuz.Beğendiğiniz bir projeyi inidrin hatasını bulup
+düzeltin.Adama senin projeni beğendim bir kaç hata buldum bunları düzelttim diyin.Sizin profilinizde bu
+tarz yaptığınız her şey kaydediliyor.Merak eden birisi açıp projeyi incelyor.Bunu öğrenciler
+sıklıklıkla yapıyor.Sonra bir yazılım şirkeyinde işe girerken sizden GİTHUB adresinizi istiyor.

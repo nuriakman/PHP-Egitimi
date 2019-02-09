@@ -8,6 +8,13 @@ Veritabanı (database) en basit şekliyle verilerin tutulduğu, depolandığı b
 
 ![](https://www.herturbilgi.com/wp-content/uploads/2015/03/veritabaniyapisi.png)
 
+## SQL Nedir?
+
+Konu bilgisayarlar olunca eldeki veriler ile uğraşmak da zaman geçtikçe daha çok zorlaşıyor. Çünkü hangi konuda çalışırsanız çalışın veriler bir yerden sonra tek başınıza uğraşamayacağınız boyutlara geliyor. Bu noktada devreye girmesi gereken sistem ise SQL’dir.
+
+SQL verileri kolaylıkla yönetebilmeniz için kullanabileceğiniz bir veritabanı sistemidir. Bir kısaltma olan SQL’in açılımı “Structured Query Language”dir. Türkçe olarak çevirirsek de bu “Yapılandırılmış Sorgulama Dili” olacaktır. SQL bilinenin aksine bir programlama dili değildir. SQL bir alt dil olarak veri tabanları içerisinde istediğiniz işlemleri yapmanıza olanak sağlar.
+
+SQL fikri ortaya ilk atıldığında matematiksel bir yapıya sahipmiş. Fakat sonraları insanlar bunları anlamakta ve kullanmakta zorlanabilir diye diğer birçok dilde de olduğu gibi İngilizce belirteçlerin olduğu bir yapıya evrilmiştir.
 
 ## İlişkisel Veritabanı Nedir?
 Özetle, İlişkisel veri tabanını çeşitli tablolar arasında organize edilmiş verilerden oluşan veri tabanı olarak açıklanabilir. İlişkisel veritabanlarındaki yapıda veriler tablolar halinde saklanır. Tablolar alanlardan (fields) ve alanlardaki kayıtlardan (records) oluşur. Bir tablodaki alanlar esas anahtar (primary key) olarak tanımlanabilirler. Kayıtlar ise tanımlanan anahtara göre sıralanırlar. Tablolar arasındaki ilişkiler belirtilir ve bunlar matematiksel ilişkilerle (bağıntı) temsil edilir. Bu ilişkiler iki tabloda da ortak bulunan alanlar aracılığıyla sağlanır.
@@ -151,3 +158,9 @@ ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutul
   16        3     Dizüstü
   17        3     Tablet
 ```
+
+## Virgül İle Ayrılmış Metin Dosyası - CSV Comma Seperated Value
+CSV uzantılı dosyalar, veritabanı kullanıcıları için verileri **virgüller** ile ayırarak belli bir düzende yazıp kaydedilmiş olan dosyalardır. Daha çok Excel ortamında verileri aktarmak istendiğinde bu tür dosyalara ihtiyaç duyulur.
+
+## Sekme(TAB) İle Ayrılmış Metin Dosyası - TSV Tab Seperated Value
+TSV uzantılı dosyalar, veritabanı kullanıcıları için verileri **tab** ile ayırarak belli bir düzende yazıp kaydedilmiş olan dosyalardır. Daha çok Excel ortamında verileri aktarmak istendiğinde bu tür dosyalara ihtiyaç duyulur.
