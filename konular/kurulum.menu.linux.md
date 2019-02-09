@@ -7,6 +7,7 @@
 
 ## MySQL Yönetim Yazılımı Kurulumu
 Aşağıdaki iki yazılımdan birisi seçilerek kurulmalıdır.
+
 Yazılım | Adresi|
 ------------|-------------|
 [Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.adminer.md) | http://adminer.org/
