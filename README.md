@@ -11,13 +11,15 @@ Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa 
 
 
 ## Yardımcı Programların Kurulumu
-- [Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.git.md)
-- [Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.atom.md)
-- [Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md)
-- [Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.wamp.md)
-- [Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.adminer.md)
-- [Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.atom.md)
-- [Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.firefox.md)
+Yazılım | Adresi|
+------------|-------------|
+[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.git.md) |https://git-scm.com/download/win
+[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.atom.md) | http://atom.io/
+[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) |https://www.apachefriends.org/tr/index.html
+[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.wamp.md) | www.wampserver.com/en/
+[Adminer Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.adminer.md) | http://adminer.org/
+[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.atom.md) | 
+[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.firefox.md) |
 
 
 ## Ubuntu İşletim Sistemi Kurulumu Sonrası Yapılacaklar
