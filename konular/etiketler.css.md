@@ -214,3 +214,18 @@ Etiket |Anlamı|
 
 
 Kaynak: http://sanalkurs.net/css-hakkinda-temel-bilgiler-1922.html
+
+```css
+ <style media="print"> /* Print yazım sırasında burası çalışsın.*/
+    #divKAYNAKNOTU { /* Hangi id'de çalıştığını belirttik */
+      display: block; /* Yazım sırasında görünsün */
+    }
+  </style>
+
+  <style media="screen"> /* Ekrandayken yapıcaklarını belirtiyoruz.Yani tarayıcımızda çalışırken */
+    #divKAYNAKNOTU {  /* Hangi id'de çalıştığını belirttik */
+      display: none; /* Ekrandayken görünmemesi sağlamış olduk */
+    }
+  </style>
+```
+Özetle yazıcıdan yazmak istediğimizde belirlediğimiz div class'ı devreye girecek ve çalışacak.Tarayıcıya girdiğimizde ise screen bölümü çalışacaktır.
