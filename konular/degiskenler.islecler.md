@@ -338,7 +338,7 @@ echo 'Sonuç etiketine yönlendik';
 ```
 
 
-### Öntanımlı Değişkenler / Süper küreseller
+## Öntanımlı Değişkenler / Süper küreseller
 
 Süper küreseller — Süper küreseller bütün etki alanlarında daima mevcut olan yerleşik değişkenlerdir
 
@@ -356,3 +356,14 @@ Değişken |Anlamı|
 ```$_SESSION``` | Oturum değişkenleri
 ```$_ENV``` | Ortam değişkenleri
 ```$_COOKIE``` | HTTP Çerezleri
+
+## Sihirli Karakterler:
+```
+* \t : TAB tuşu boşluğu
+* \v : düşey sekme (PHP 5.3 ve sonraki versiyonları için geçerli)
+* \f : sayfa ileri karakteri
+* \r : satır başına alıri bşr sonraki satıra geçirir
+* \n : satır sonu, bir sonraki satıra geçirir
+* \\ : ters bölü işareti yapmak için kullanılır
+* \$ : $ işareti için kullanılır
+```
