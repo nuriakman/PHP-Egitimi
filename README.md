@@ -19,10 +19,11 @@ WAMP|Windows için Apache+MySQL+PHP anlamındadır.
 MAMP|MacOS için Apache+MySQL+PHP anlamındadır. MAMP'ın Windows sürümü de vardır.
 XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anlamındadır.
 
-# Kurulum Bilgileri
+## Kurulum Bilgileri
 - [Windows İçin Kurulum](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.menu.windows.md)
 - [Linux İçin Kurulum](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.menu.linux.md)
 
+# Giriş Konuları
 
 ## GİT
 - [Git, Github ve git komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.git.md)
@@ -81,7 +82,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - [Tarih ve Zaman Komutları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/komutlar.tarihzaman.md)
 
 
-## PHP İleri Konular
+## PHP İleri Konuları
 - [Composer Kullanımı](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kullanim.composer.md)
 - [PHP Sınıf Örneği](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/class.ornegi.md)
 - [Veri Çekme](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/curl.ornegi.md)
