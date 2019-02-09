@@ -9,58 +9,58 @@ Tüm bu veri yapılarının açıklanması bu kılavuzun amacını aşar. Fakat,
 ## Komut Listesi
 Komut |Anlamı|
 ------------|-------------|
-[array_change_key_case](php.net/array_change_key_case)|Bir dizideki tüm anahtarların harf büyüklüğünü değiştirir
-[array_chunk](php.net/array_chunk)|Bir diziyi belli uzunlukta bölümlere ayırır
-[array_column](php.net/array_column)|Return the values from a single column in the input array
-[array_combine](php.net/array_combine)|Anahtarlar için bir dizi, değerler için ise başka bir dizi kullanarak bir ilişkisel dizi oluşturur
-[array_count_values](php.net/array_count_values)|Bir dizideki tüm değerleri sayar
-[array_diff_assoc](php.net/array_diff_assoc)|Dizilerin farkını hesaplarken ek olarak indisleri de karşılaştırır
-[array_diff_key](php.net/array_diff_key)|Dizilerin farkını hesaplarken indisleri karşılaştırır
-[array_diff_uassoc](php.net/array_diff_uassoc)|Dizilerin farkını hesaplarken ek olarak bir geriçağırım işlevi üzerinden indisleri de karşılaştırır
-[array_diff_ukey](php.net/array_diff_ukey)|Karşılaştırma için bir geriçağırım işlevi kullanarak dizilerin farkını hesaplar
-[array_diff](php.net/array_diff)|Dizilerin farkını hesaplar
-[array_fill_keys](php.net/array_fill_keys)|Anahtarları belirtilen diziyi değerlerle doldurur
-[array_fill](php.net/array_fill)|Bir diziyi değerlerle doldurur
-[array_filter](php.net/array_filter)|Bir dizinin elemanlarını bir geriçağırım işleviyle süzgeçten geçirir
-[array_flip](php.net/array_flip)|Bir dizideki anahtarlarla değerleri yer değiştirir
-[array_intersect_assoc](php.net/array_intersect_assoc)|Dizilerin kesişimini hesaplarken ek olarak indisleri de karşılaştırır
-[array_intersect_key](php.net/array_intersect_key)|Karşılaştırma için anahtarları kullanarak dizilerin kesişimini hesaplar
-[array_intersect_uassoc](php.net/array_intersect_uassoc)|Dizilerin kesişimini hesaplarken ek olarak bir geriçağırım işlevi üzerinden indisleri de karşılaştırır
-[array_intersect_ukey](php.net/array_intersect_ukey)|Anahtarları karşılaştırmak için bir geriçağırım işlevi kullanarak dizilerin kesişimini hesaplar
-[array_intersect](php.net/array_intersect)|Dizilerin kesişimini hesaplar
-[array_key_exists](php.net/array_key_exists)|Belirtilen anahtar veya indis dizide var mı diye bakar
-[array_key_first](php.net/array_key_first)|Gets the first key of an array
-[array_key_last](php.net/array_key_last)|Gets the last key of an array
-[array_keys](php.net/array_keys)|Bir dizideki tüm anahtarları veya bir anahtar altkümesini döndürür
-[array_map](php.net/array_map)|Belirtilen dizilerin elemanlarına geriçağırım işlevini uygular
-[array_merge_recursive](php.net/array_merge_recursive)|İki veya daha fazla sayıda diziyi ardarda ekleyerek yeni bir dizi oluşturur
-[array_merge](php.net/array_merge)|Belirtilen dizileri ardarda ekleyerek yeni bir dizi oluşturur
-[array_multisort](php.net/array_multisort)|Çok sayıda diziyi veya çok boyutlu dizileri sıralar
-[array_pad](php.net/array_pad)|Dizi boyutunu belirtilen boyuta çıkarırken, yeni elemanlara belirtilen değeri yerleştirir
-[array_pop](php.net/array_pop)|Dizinin sonundaki elemanı diziden çıkartır
-[array_product](php.net/array_product)|Bir dizideki değerlerin çarpımını bulur
-[array_push](php.net/array_push)|Belli sayıda elemanı dizinin sonuna ekler
-[array_rand](php.net/array_rand)|Bir diziden belli sayıda rasgele eleman döndürür
-[array_reduce](php.net/array_reduce)|Bir geriçağırım işlevini dizinin bütün elemanlarına tek tek uygulayıp sonucu döndürür
-[array_replace_recursive](php.net/array_replace_recursive)|İlk dizinin elemanlarını aktarılan dizilerden ardışık olarak günceller
-[array_replace](php.net/array_replace)|İlk dizinin elemanlarını aktarılan dizilerden günceller
-[array_reverse](php.net/array_reverse)|Diziyi tersine sıralayıp döndürür
-[array_search](php.net/array_search)|Bir dizide belirtilen değeri arar ve bulursa ilgili anahtarı döndürür
-[array_shift](php.net/array_shift)|Dizini başlangıcından bir eleman çeker
-[array_slice](php.net/array_slice)|Bir dizinin belli bir bölümünü döndürür
-[array_splice](php.net/array_splice)|Bir dizinin belli bir bölümünü silip yerine başka şeyler koyar
-[array_sum](php.net/array_sum)|Bir dizideki değerlerin toplamını hesaplar
-[array_udiff_assoc](php.net/array_udiff_assoc)|Veri karşılaştırması için bir geriçağırım işlevi kullanarak diziler arasındaki farkı indislerine de bakarak bulur
-[array_udiff_uassoc](php.net/array_udiff_uassoc)|Veri ve indis karşılaştırması için bir geriçağırım işlevi kullanarak diziler arasındaki farkı indislerine de bakarak bulur|
-[array_udiff](php.net/array_udiff)|Veri karşılaştırması için bir geriçağırım işlevi kullanarak diziler arasındaki farkı bulur
-[array_uintersect_assoc](php.net/array_uintersect_assoc)|Veriyi bir geriçağırım işleviyle karşılaştırarak dizilerin kesişimini hesaplarken ek olarak indislere de bakar
-[array_uintersect_uassoc](php.net/array_uintersect_uassoc)|Veriyi ve indisleri bir geriçağırım işleviyle karşılaştırarak dizilerin kesişimini hesaplarken ek olarak indislere de bakar
-[array_uintersect](php.net/array_uintersect)|Veriyi bir geriçağırım işleviyle karşılaştırarak dizilerin kesişimini hesaplar
-[array_unique](php.net/array_unique)|Diziden yinelenen değerleri siler
-[array_unshift](php.net/array_unshift)|Bir dizinin başlangıcına bir veya daha fazla eleman ekler
-[array_values](php.net/array_values)|Bir dizinin tüm değerlerini döndürür
-[array_walk_recursive](php.net/array_walk_recursive)|Bir dizinin ardışık olarak her üyesine kullanıcı tanımlı bir işlevi uygular
-[array_walk](php.net/array_walk)|Bir dizinin her üyesine kullanıcı tanımlı bir işlevi uygular
+[array_change_key_case](php.net/array-change-key-case)|Bir dizideki tüm anahtarların harf büyüklüğünü değiştirir
+[array_chunk](php.net/array-chunk)|Bir diziyi belli uzunlukta bölümlere ayırır
+[array_column](php.net/array-column)|Return the values from a single column in the input array
+[array_combine](php.net/array-combine)|Anahtarlar için bir dizi, değerler için ise başka bir dizi kullanarak bir ilişkisel dizi oluşturur
+[array_count_values](php.net/array-count-values)|Bir dizideki tüm değerleri sayar
+[array_diff_assoc](php.net/array-diff-assoc)|Dizilerin farkını hesaplarken ek olarak indisleri de karşılaştırır
+[array_diff_key](php.net/array-diff-key)|Dizilerin farkını hesaplarken indisleri karşılaştırır
+[array_diff_uassoc](php.net/array-diff-uassoc)|Dizilerin farkını hesaplarken ek olarak bir geriçağırım işlevi üzerinden indisleri de karşılaştırır
+[array_diff_ukey](php.net/array-diff-ukey)|Karşılaştırma için bir geriçağırım işlevi kullanarak dizilerin farkını hesaplar
+[array_diff](php.net/array-diff)|Dizilerin farkını hesaplar
+[array_fill_keys](php.net/array-fill-keys)|Anahtarları belirtilen diziyi değerlerle doldurur
+[array_fill](php.net/array-fill)|Bir diziyi değerlerle doldurur
+[array_filter](php.net/array-filter)|Bir dizinin elemanlarını bir geriçağırım işleviyle süzgeçten geçirir
+[array_flip](php.net/array-flip)|Bir dizideki anahtarlarla değerleri yer değiştirir
+[array_intersect_assoc](php.net/array-intersect-assoc)|Dizilerin kesişimini hesaplarken ek olarak indisleri de karşılaştırır
+[array_intersect_key](php.net/array-intersect-key)|Karşılaştırma için anahtarları kullanarak dizilerin kesişimini hesaplar
+[array_intersect_uassoc](php.net/array-intersect-uassoc)|Dizilerin kesişimini hesaplarken ek olarak bir geriçağırım işlevi üzerinden indisleri de karşılaştırır
+[array_intersect_ukey](php.net/array-intersect-ukey)|Anahtarları karşılaştırmak için bir geriçağırım işlevi kullanarak dizilerin kesişimini hesaplar
+[array_intersect](php.net/array-intersect)|Dizilerin kesişimini hesaplar
+[array_key_exists](php.net/array-key-exists)|Belirtilen anahtar veya indis dizide var mı diye bakar
+[array_key_first](php.net/array-key-first)|Gets the first key of an array
+[array_key_last](php.net/array-key-last)|Gets the last key of an array
+[array_keys](php.net/array-keys)|Bir dizideki tüm anahtarları veya bir anahtar altkümesini döndürür
+[array_map](php.net/array-map)|Belirtilen dizilerin elemanlarına geriçağırım işlevini uygular
+[array_merge_recursive](php.net/array-merge-recursive)|İki veya daha fazla sayıda diziyi ardarda ekleyerek yeni bir dizi oluşturur
+[array_merge](php.net/array-merge)|Belirtilen dizileri ardarda ekleyerek yeni bir dizi oluşturur
+[array_multisort](php.net/array-multisort)|Çok sayıda diziyi veya çok boyutlu dizileri sıralar
+[array_pad](php.net/array-pad)|Dizi boyutunu belirtilen boyuta çıkarırken, yeni elemanlara belirtilen değeri yerleştirir
+[array_pop](php.net/array-pop)|Dizinin sonundaki elemanı diziden çıkartır
+[array_product](php.net/array-product)|Bir dizideki değerlerin çarpımını bulur
+[array_push](php.net/array-push)|Belli sayıda elemanı dizinin sonuna ekler
+[array_rand](php.net/array-rand)|Bir diziden belli sayıda rasgele eleman döndürür
+[array_reduce](php.net/array-reduce)|Bir geriçağırım işlevini dizinin bütün elemanlarına tek tek uygulayıp sonucu döndürür
+[array_replace_recursive](php.net/array-replace-recursive)|İlk dizinin elemanlarını aktarılan dizilerden ardışık olarak günceller
+[array_replace](php.net/array-replace)|İlk dizinin elemanlarını aktarılan dizilerden günceller
+[array_reverse](php.net/array-reverse)|Diziyi tersine sıralayıp döndürür
+[array_search](php.net/array-search)|Bir dizide belirtilen değeri arar ve bulursa ilgili anahtarı döndürür
+[array_shift](php.net/array-shift)|Dizini başlangıcından bir eleman çeker
+[array_slice](php.net/array-slice)|Bir dizinin belli bir bölümünü döndürür
+[array_splice](php.net/array-splice)|Bir dizinin belli bir bölümünü silip yerine başka şeyler koyar
+[array_sum](php.net/array-sum)|Bir dizideki değerlerin toplamını hesaplar
+[array_udiff_assoc](php.net/array-udiff-assoc)|Veri karşılaştırması için bir geriçağırım işlevi kullanarak diziler arasındaki farkı indislerine de bakarak bulur
+[array_udiff_uassoc](php.net/array-udiff-uassoc)|Veri ve indis karşılaştırması için bir geriçağırım işlevi kullanarak diziler arasındaki farkı indislerine de bakarak bulur|
+[array_udiff](php.net/array-udiff)|Veri karşılaştırması için bir geriçağırım işlevi kullanarak diziler arasındaki farkı bulur
+[array_uintersect_assoc](php.net/array_uintersect-assoc)|Veriyi bir geriçağırım işleviyle karşılaştırarak dizilerin kesişimini hesaplarken ek olarak indislere de bakar
+[array_uintersect_uassoc](php.net/array_uintersect-uassoc)|Veriyi ve indisleri bir geriçağırım işleviyle karşılaştırarak dizilerin kesişimini hesaplarken ek olarak indislere de bakar
+[array_uintersect](php.net/array-uintersect)|Veriyi bir geriçağırım işleviyle karşılaştırarak dizilerin kesişimini hesaplar
+[array_unique](php.net/array-unique)|Diziden yinelenen değerleri siler
+[array_unshift](php.net/array-unshift)|Bir dizinin başlangıcına bir veya daha fazla eleman ekler
+[array_values](php.net/array-values)|Bir dizinin tüm değerlerini döndürür
+[array_walk_recursive](php.net/array-walk-recursive)|Bir dizinin ardışık olarak her üyesine kullanıcı tanımlı bir işlevi uygular
+[array_walk](php.net/array-walk)|Bir dizinin her üyesine kullanıcı tanımlı bir işlevi uygular
 [array](php.net/array)|Bir dizi oluşturur
 [arsort](php.net/arsort)|Bir dizinin değerlerini anahtarlarıyla ilişkilerini bozmadan tersine sıralar
 [asort](php.net/asort)|Bir dizinin değerlerini anahtarlarıyla ilişkilerini bozmadan sıralar
@@ -70,8 +70,8 @@ Komut |Anlamı|
 [each](php.net/each)|Bir diziden, gösterici konumundaki anahtar değer çiftini döndürdükten sonra göstericiyi bir ilerletir
 [end](php.net/end)|Bir dizinin dahili göstericisini sonuncu elemana konumlandırır
 [extract](php.net/extract)|Bir dizideki değişkenleri simge tablosuna dahil eder
-[in_array](php.net/in_array)|Bir dizide bir değerin varlığını araştırır
-[key_exists](php.net/key_exists)|Takma Adı: array_key_exists
+[in_array](php.net/in-array)|Bir dizide bir değerin varlığını araştırır
+[key_exists](php.net/key-exists)|Takma Adı: array_key_exists
 [key](php.net/key)|Bir diziden gösterici konumundaki anahtarı döndürür
 [krsort](php.net/krsort)|Bir diziyi anahtarlarına göre tersine sıralar
 [ksort](php.net/ksort)|Bir diziyi anahtarlarına göre sıralar
@@ -96,7 +96,7 @@ Ayrıca bakınız:
 - [explode](php.net/explode)
 - [implode](php.net/implode)
 - [split](php.net/split)
-- [preg_split](php.net/preg_split)
+- [preg_split](php.net/preg-split)
 - [unset](php.net/unset)
 
 

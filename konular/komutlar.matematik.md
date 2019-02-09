@@ -12,7 +12,7 @@ Komut |Anlamı|
 [atan2](http://www.php.net/atan2)|Arc tangent of two variables
 [atan](http://www.php.net/atan)|Arc tangent
 [atanh](http://www.php.net/atanh)|Inverse hyperbolic tangent
-[base_convert](http://www.php.net/base_convert)|Convert a number between arbitrary bases
+[base_convert](http://www.php.net/base-convert)|Convert a number between arbitrary bases
 [bindec](http://www.php.net/bindec)|Binary to decimal
 [ceil](http://www.php.net/ceil)|Round fractions up
 [cos](http://www.php.net/cos)|Cosine
@@ -29,18 +29,18 @@ Komut |Anlamı|
 [hexdec](http://www.php.net/hexdec)|Hexadecimal to decimal
 [hypot](http://www.php.net/hypot)|Calculate the length of the hypotenuse of a right-angle triangle
 [intdiv](http://www.php.net/intdiv)|Integer division
-[is_finite](http://www.php.net/is_finite)|Finds whether a value is a legal finite number
-[is_infinite](http://www.php.net/is_infinite)|Finds whether a value is infinite
-[is_nan](http://www.php.net/is_nan)|Finds whether a value is not a number
-[lcg_value](http://www.php.net/lcg_value)|Combined linear congruential generator
+[is_finite](http://www.php.net/is-finite)|Finds whether a value is a legal finite number
+[is_infinite](http://www.php.net/is-infinite)|Finds whether a value is infinite
+[is_nan](http://www.php.net/is-nan)|Finds whether a value is not a number
+[lcg_value](http://www.php.net/lcg-value)|Combined linear congruential generator
 [log10](http://www.php.net/log10)|Base-10 logarithm
 [log1p](http://www.php.net/log1p)|Returns log(1 + number), computed in a way that is accurate even when the value of number is close to zero
 [log](http://www.php.net/log)|Natural logarithm
 [max](http://www.php.net/max)|Find highest value
 [min](http://www.php.net/min)|Find lowest value
-[mt_getrandmax](http://www.php.net/mt_getrandmax)|Show largest possible random value
-[mt_rand](http://www.php.net/mt_rand)|Generate a random value via the Mersenne Twister Random Number Generator
-[mt_srand](http://www.php.net/mt_srand)|Seeds the Mersenne Twister Random Number Generator
+[mt_getrandmax](http://www.php.net/mt-getrandmax)|Show largest possible random value
+[mt_rand](http://www.php.net/mt-rand)|Generate a random value via the Mersenne Twister Random Number Generator
+[mt_srand](http://www.php.net/mt-srand)|Seeds the Mersenne Twister Random Number Generator
 [octdec](http://www.php.net/octdec)|Octal to decimal
 [pi](http://www.php.net/pi)|Get value of pi
 [pow](http://www.php.net/pow)|Exponential expression
@@ -53,4 +53,4 @@ Komut |Anlamı|
 [srand](http://www.php.net/srand)|Seed the random number generator
 [tan](http://www.php.net/tan)|Tangent
 [tanh](http://www.php.net/tanh)|Hyperbolic tangent
-[number_format](http://www.php.net/number_format)| Sayıyı binlik bölümlere ayırır
+[number_format](http://www.php.net/number-format)| Sayıyı binlik bölümlere ayırır
