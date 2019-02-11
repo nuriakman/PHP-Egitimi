@@ -1,7 +1,7 @@
 ## Temanın Kodlanması
-- https://getbootstrap.com/ sitesine gidilir.Documentation bölümüne girdim.
-- Starter template başlığı altındaki şablon kopyaladım.
-- Sol tarafta çıkan menude Components bölümüne girdim ve Navbar sekmesine tıkladım ve aşağıdaki şablonu kopyaladım.
+- https://getbootstrap.com/ sitesine gittim.Documentation bölümüne girdim.
+- Starter template başlığı altındaki şablon'u kopyaladım.
+- Sol tarafta çıkan menuden Components bölümüne girdim ve Navbar sekmesine tıkladım.Aşağıdaki şablonu kopyaladım.
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,9 +39,9 @@
     </form>
   </div>
 ```
-- Tasarımda arka planın siyah olduğunu gördüm ve bg-light class'ı yerine style="background-color:#212121; yaptım.Components bölümünde navbar şablonlarını incelerken style verebildiğimi gördüm.
+- Tasarımda navbar'ın arka planın siyah olduğunu gördüm ve bg-light class'ı yerine bg-dark yaptım.
 
--  Tasarımda dropdown buttonlar gördüm.Documentation bölümünde sol tarafta çıkan pencereye dropdown yazdım ve gelen pencerede şu şablonu aldım.
+-  Tasarımda dropdown buttonlar gördüm.Documentation bölümünde sol tarafta çıkan pencerede components/dropdown menusüne girdim ve şu şablonu aldım.
 
 ```html
 <div class="dropdown">
@@ -58,7 +58,7 @@
 ```
 - Yukarıdaki şablonu tasarıma göre düzenlendim.
 
-- Navbar'a kodumu inceledim ve Home,link,dropdown,disabled gibi linkleri kaldırdım.Dropdown button'umu navbar'ıma ekledim.
+- Navbar kodumu inceledim ve Home,link,dropdown,disabled gibi linkleri kaldırdım.Dropdown button'umu navbar'ıma ekledim.
 
 - Tasarımda dropdown menüm sola yaslanmış şekildeydi.```<ul class="navbar-nav mr-auto">```  mr-auto class'ını ml-auto yaptım.
 
@@ -73,7 +73,7 @@
 - Ardından sol tarafta çıkan Layout sekmesi altında Grid başlığına girdim ve bootstrap grid sistemi inceledim.
 - Daha sonra container ile sayfamın kenarlarında boşluk olacak şekilde çalışacağımız bir div açtım.
 - Ardından bir satır oluşturdum.Row class'ı ile.
-- Ardından sütünlarımı hazırladım.Layout bölümünde offset class'ını inceledim ve tek satırlarda sütünları ayarlamayı inceledim ve şu class'ı ekledim: ```<div class="col-md-10 offset-md-1">```.
+- Ardından sütünlarımı hazırladım.Layout bölümünde offset class'ını inceledim ve tek satırlarda sütünları ayarlamayı gördüm ve şu class'ı ekledim: ```<div class="col-md-10 offset-md-1">```.
 - Daha sonra Components bölümünde jumbotron bölümüne girdim ve şu şablonu kopyaladım.
 ```html
 <div class="jumbotron">
@@ -99,7 +99,7 @@
 }
 </style>
 ```
-- Important yazmamızın nedeni bootstrap'in kendi css kodları bizim css kodlarımıza izin vermiyor.İlk o tanımlandığı için.Important yazdığımız zaman bizim kodumuzu geçerli kılıyor.
+- Important yazmamızın nedeni bootstrap'in kendi css kodları bizim css kodlarımıza izin vermiyor.İlk o tanımlandığı için Important yazdığımız zaman bizim kodumuzu geçerli kılıyor.
 
 
 - Daha sonra container oluşturdum ve mt-2 class'ı ile yukardan boşluk verdim.
