@@ -60,6 +60,7 @@ Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tas
 
 ## Alan Adı Sistemi
 Alan Adı Sistemi (Domain Name System/DNS) online hizmetlerin, bilgisayarların veya internete bağlı tüm kaynakların isimlendirilme sistemidir. Alan adlarını şirketlerle, web siteleriyle veya hizmetleriyle ilişkilendirmeye yarar. Ayrıca alan adlarını ağ protokollerinin doğru şekilde çalılması için gerekli olan sayısal IP adreslerine dönüştürürler.
+
 ## Alan Adı Sistemi / Domain Name System (DNS)
 DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz. Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
@@ -120,6 +121,80 @@ makineleri var.
 https://www.cloudflare.com/ ücretsiz cdn desteği veren bir site.
 
 https://cdn-images-1.medium.com/max/800/1*ZkC_5865Hx-Cgph3iPJghw.png
+
+## SEO Nedir?
+“SEO” (Search Engine Optimization), kısaltmasıdır. Arama motorları SEO işlemleri ile web sitelerini daha kolay bir şekilde taraması için yapılan teknik kriter düzenlemelerdir. (Search Engine Optimization) Türkçe de Arama motoru optimizasyonu demektir.
+
+SEO, bir web sitesi hakkında arama motorları için yapılan tüm iyileştirme çalışmaları olarak tanımlanabilir. Arama motoru optimizasyonu yani SEO ile amaç web sitesinin değerini artırarak arama motorunda daha üst sıralara çıkması ve dolayısı ile site ziyaretçi sayısının artırılmasıdır.
+
+SEO’nun temel amacı, açılımı itibariyle “Arama Motoru Optimizasyonu” yani Arama Motorlarında üst sıralarda listelenmektir. Bu amaç da, sitelerde yer alan bilgi, hizmet veya satışların daha fazla ilgili kitleye ulaştırılmasını sağlamaktır.
+
+Örnek Seo Çalışmaları:
+
+Tesisat Firması İçin:
+ - Keçiören tesisatçı iletişim telefon
+ - Keçiören su tesisatçısı usta telefon
+ - Keçiören sıhhi tesisat tamircisi
+ - Keçiören su tesisat tamirci ustası
+ - Keçiören sıhhi su tesisatçısı
+ - Keçiören su tesisatı servisi Ankara
+ - Keçiören genelinde tesisat firmaları
+ - Keçiören kameralı su tesisatçısı
+ - Keçiören kırmadan robotlu tesisatçı
+ - Keçiören cihazlı su tamircisi
+ - Keçiören klozet içine su kaçırıyor
+ - Keçiören klozetin rezervuarı değişecek
+ - Keçiören klozet tamir ustası iletişim
+ - Keçiören klozetimin musluğu bozuldu
+ - Keçiören klozet sifonu arızalandı
+ - Keçiören tahalet çubuğu kırıldı
+ - Keçiören klozetin kapağı değişecek
+ - Keçiören klozetimin altından su çıkıyor
+ - Keçiören klozet içine su doldurmuyor
+ - Keçiören klozetimiz dolduğunda suyu kesmiyor
+ - Keçiören musluk tamiri için usta gerekliyor
+ - Keçiören musluk suyu kapatmıyor damlatıyor
+ - Keçiören mutfak bataryası bozuldu
+ - Keçiören lavabo musluğunun borusu patladı
+ - Keçiören aç kapa bataryanın içi bozuldu
+ - Keçiören banyo musluğu su akıtıyor
+ - Keçiören tuvaletin musluğu su damlatıyor
+ - Keçiören duş bataryasının kolu kırıldı
+ - Keçiören lavabo çeşmesi değişecek
+ - Keçiören musluğun altındaki vana kapanmıyor
+ - Keçiören alt kata su akıntısı başladı
+ - Keçiören üst kattan su damlıyor
+ - Keçiören tesisatımda su kaçağı var
+ - Keçiören su tesisatı borusu patladı
+ - Keçiören cihazla su kaçağı ustası arıyorum
+ - Keçiören kameralı tesisat kaçağı hizmeti
+ - Keçiören robotla su kaçağı yapan tesisatçı
+ - Keçiören fayansların arasından su çıkıyor
+ - Keçiören su saati kendiliğinden yavaş dönüyor
+ - Keçiören kırmadan su kaçağının bulunması
+ - Keçiören lavabo tıkandı su gitmiyor
+ - Keçiören tuvalet gideri tıkalı taşıyor
+ - Keçiören klozetten su gitmiyor borusu tıkalı
+ - Keçiören mutfak lavabosu tıkandı çekmiyor
+ - Keçiören banyo gideri tıkandı acil açılması gerek
+ - Keçiören küvetten su yavaş gidiyor
+ - Keçiören yersüzgeci giderinden su gitmiyor
+ - Keçiören robotla tıkalı gider açan yer arıyorum
+ - Keçiören kamera ile tıkanıklığın açılmasını istiyorum
+ - Keçiören kırmadan tıkanan gideri açan usta
+
+Bir İsim Sözlüğünde Kemal ismi için yapılabilecek Seo çalışması:
+  - Kemal ne anlama geliyor?
+  - Kemal ne demek?
+  - Kemal isminin anlamı?
+  - Kemal isminin anlamı nedir
+  - Kemal kelimesinin anlamı nedir
+  - Kemal nedir?
+  - Kemal isminin manası nedir?
+  - Kemal erkek ismi midir?
+  - Kemal Kız ismi midir?
+  - Kemal erkek adı midir?
+  - Kemal Kız adı midir?
 
 
 ## MarkDown:
