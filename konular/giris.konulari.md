@@ -120,7 +120,7 @@ aynı anda 100 bin 200 bin kullanıcyı kaldırır.Bu durumda adamların dünya 
 makineleri var.
 https://www.cloudflare.com/ ücretsiz cdn desteği veren bir site.
 
-https://cdn-images-1.medium.com/max/800/1*ZkC_5865Hx-Cgph3iPJghw.png
+![cdn](https://cdn-images-1.medium.com/max/800/1*ZkC_5865Hx-Cgph3iPJghw.png)
 
 ## SEO Nedir?
 “SEO” (Search Engine Optimization), kısaltmasıdır. Arama motorları SEO işlemleri ile web sitelerini daha kolay bir şekilde taraması için yapılan teknik kriter düzenlemelerdir. (Search Engine Optimization) Türkçe de Arama motoru optimizasyonu demektir.
