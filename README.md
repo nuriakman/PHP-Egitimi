@@ -3,7 +3,7 @@
 Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa Akgül Özgür Yazılım Kış Kampı" çerçevesindeki "PHP ve MySQL ile Web Programlamaya Giriş" eğitimi için kaynak olması amacıyla hazırlanmıştır.
 
 
-## [Yapılacak İşler]()
+## [Yapılacak İşler](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/yapilacak.isler.md)
 
 # İçindekiler
 
