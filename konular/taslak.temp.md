@@ -6,30 +6,9 @@ Programda radikal bir değişiklik yapılırsa majör sayımız artar.
 ##### Minör:
 Programa yenilik getirdiğimiz zaman artar.
 ##### Bug-Fix:
- Hatalar düzeltildiği zaman artar.
+Hatalar düzeltildiği zaman artar.
 
 
-
-
-
-#### in_array
-#### key_exist
-
-
-
-
-
-
-
-#### Terminal İçin Bazı Kısayollar :
-Komut | Açıklaması
------------- | -------------
-<kbd>ctrl</kbd>+<kbd>a</kbd> | Satır başına git
-<kbd>ctrl</kbd>+<kbd>u</kbd> | İmlecin solunu siler
-<kbd>ctrl</kbd>+<kbd>k</kbd> | İmlecin sağını siler
-<kbd>ctrl</kbd>+<kbd>e</kbd> | Satır sonuna gider
-<kbd>ctrl</kbd>+<kbd>r</kbd> | Geçmişte arama yapar
-<kbd>ctrl</kbd>+<kbd>l</kbd> | Sayfayı temizler
 
 
 ## + Kısa Notlar
@@ -49,25 +28,6 @@ Komut | Açıklaması
 - wetransfer.com : Android ve İOS işletim sistemine sahip cihazlar için hem mobil hem de internet üzerinden kullanılabilen WeTransfer, kısaca kullanıcıların dosyalarını kolay ve zahmetsiz bir şekilde paylaşabilmesini sağlıyor. Uygulamanın bilgisayar sürümünde ise çok daha hızlı ve geniş seçenekler sunulmakta.
 
 
-
-
-
-
-
-
-
-
-# WORDPRESS KURULUMU
-```BASH
-cd ~
-wget --no-check-certificate https://wordpress.org/latest.tar.gz
-tar xzvf latest.tar.gz
-sudo apt-get update
-cd ~/wordpress
-cp wp-config-sample.php wp-config.php
-cd ..
-cp wordpress /var/www/html/wp
-```
 
 
 
@@ -170,6 +130,7 @@ INSERT into tabloadı SET
 SQL için % anlamlı karakterdir.
 _ anlamlı karakterdir.
 
+
 Veri Tabanı Tipleri | Açıklaması
 ------------|-------------
 ```int ```| tam sayı değeri alabilir. -2147483648 ile 2147483647 arası değer alabilir.
@@ -184,47 +145,3 @@ Veri Tabanı Tipleri | Açıklaması
 ```DATETIME``` | YYYY-MM-DD HH:MM:SS (Yıl-Ay-Gün Saat:Dakika:Saniye)
 ```TIMESTAMP``` | YYYYMMDDHHMMSS (YılAyGünSaatDakikaSaniye)
 ```TIME``` | HH:MM:SS (Saat:Dakika:Saniye)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Örnekler
-
-## [Şairler TextDB Örneği:](https://github.com/vedia/SairlerTextDB)
-- Örneğimizde yönetici olarak giriş yapıp , şair ekleme , düzenleme işlemlerini yaptık.
-
-## [SairlerMYSQL Örneği:](https://github.com/vedia/SairlerMySQL)
-- Örneğimizde SairlerTextDB'de olduğu gibi giriş yapıp şair ekledik.Burada ki örneğin en önemli farkı veritabanı işlemleri yaptık.
-
-## [TextAnaliz:](https://github.com/vedia/TextAnaliz)
-- Örneğimizde bir konuşmadan aldığımız metni , kendi belirlediğimiz kurallarla anlamsız karakterleri silip, konuşmanın bir özetini çıkarttık.Konuşmanın konusunu bulduk.  
-
-## [TextDosyadanSozluk:](https://github.com/vedia/TextDosyadanSozluk)
-- Örneğimizde isimler ve anlamları olan bir dosya oluşturup verileri çektik.Kendi belirlediğimiz kuralllarla isimleri , anlamlarını ve cinsiyetlerini ayırdık.Harfe göre isimleri listeledik.İsim arama bölümü yaptık.
-
-## [SessionOrnegi:](https://github.com/vedia/SessionOrnegi)
-- Örneğimizde oturum yönetimine örnek verdik.Session başlatıp , session sonlandırdık.Kullanıcının giriş yapmasını , yaptıktan sonra kontrol etmesini ,  sessionları silerek oturumu sonlandırmasını sağladık.
-
-## [Lyk2018phpsozluk:](https://github.com/vedia/lyk2018phpsozluk)
-- Buradaki örneklerde Glob fonksiyonundan bahsettik.Dosyadaki verileri bölmekten bahsettik.İsimlerin anlamlarını ve cinsiyetlerini böldük.Kutuphane dosyası oluşturup fonksiyonları çağırdık.Seo çalışmasına örnek verdik.
-
-## [Lyk2018php:](https://github.com/vedia/lyk2018php)
-- Örneğimizde github üzerinden ortak bir çalışma yaptık.Konular öğrencilere dağıtıldı ve ortak bir şekilde çalışma yapıldı.
-
-## [Include Örneği:](https://github.com/vedia/include_ornegi)
-- Örneğimizde bootstrap bir temayı parçaladık.
-
-## [LYK2018_Ornekler:](https://github.com/vedia/LYK2018_Ornekler)
-- Buradaki çalışmada resim boyutlandırma , resime yazı yazma , text dosya düzenleme , text dosyaya veri ekleme , dosya yükleme çalışmaları yapıldı.

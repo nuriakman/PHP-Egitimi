@@ -124,3 +124,30 @@ void loop() {
 ![Devre Çizimi](https://thingsboard.io/images/samples/arduino/temperature/schema.png)
 
 ![Devre Çizimi](https://1.bp.blogspot.com/-QhFx2u8QthI/Vr14JYEav3I/AAAAAAAAAyc/tB8zOsV397A/s1600/dsb180_bb.jpg)
+
+
+
+
+# Arduino Öğrenmek İsteyenlere Youtube Video Listeleri
+
+## [Arduino Dersleri](https://www.youtube.com/playlist?list=PLSuhOGv534vS1MNrvdFhBovGIbofssf9r)
+
+Arduino dersleri ve arduino projeleri kapsamındaki online eğitim seti ile arduino kodlama ve proje geliştirmeyi öğreneceksiniz. Arduino ve kodları öğrenmek isteyenler için hazırlanan bu eğitim serisinde yalnızca arduino projelerinin videolarını izlemeyeceksiniz. Hayalinizdeki fikirleri projelere dönüştürmek için gerekli bilgi seviyesine ulaşacaksınız.
+
+Arduino ve gerekli bileşenleri satın alma imkanı bulunmayan, ancak arduino öğrenmek isteyenler için simülasyon üzerinden de anlatım gerçekleştireceğiz. Böylece daha büyük bir kitleye Arduino kodlama öğreteceğiz.
+
+Arduino dersleri oynatma listesi aşağıdaki konularda eğitim videoları içermektedir. Oynatma listesinin ilk videosu ile Arduino nedir? Arduino ne işe yarar? sorularına yanıt arayacağız. Arduino hakkında bilgi verdikten sonra Arduino Uno, Arduino Mega, Arduino Nano ve Arduino Esplora başta olmak üzere Arduino modellerini inceleyeceğiz. Daha sonra bu arduino modelleri ile birlikte kullanılacak sensörler konusunda bilgi paylaşımında bulunacağız. Arduino ürünleri ile yapılabilecek projeler hakkında bilgi vereceğiz.
+
+Daha sonra orijinal Arduino Uno ile Klon Arduino Uno arasındaki farkları, avantaj ve dezavantajları inceleyeceğiz. Böylece orijinal arduino nasıl anlaşılır öğreneceğiz. Oynatma listesinde kullanılacak materyallerle ilgili Arduino başlangıç seti yani arduino malzeme listesi hazırlayacağız.
+
+Arduino projeleri üzerinde çalışırken arduino kartına nasıl usb, pil veya vin girişi ile güç verilir anlatacağız. Temel Elektronik ve Ölçme bilgisine sahip olmayanlar için temel devre elemanları ve kullanımlarından bahsedeceğiz. Bu kapsamda devre nedir? Direnç renk kodu nasıl hesaplanır? sorularına yanıt arayacağız. Sokakta Sayamam Gibi ifadesinden yola çıkarak ve gerekli metodu öğrenerek dirençlerin renk kodlarını kolaylıkla okuyabileceğiz. Daha sonra breadboard üzerine devre kurmayı öğreteceğiz. Fritzing programı yardımı ile devre şemasına breadboard üzerine kolaylıkla oluşturabileceğiz. Böylece elektrik devreleri ve arduino uygulamaları sayesinde projelerimizi kolaylıkla hayata geçirebileceğiz.
+
+Yukarıda bahsi geçen temel bilgileri verdikten sonra Arduino Uno R3 modeli üzerindeki tüm detayları inceleyeceğiz. Bu kapsamda Arduino giriş ve çıkış pinlerinden tüm detayları ile bahsedeceğiz. Digital ve analog giriş çıkış nedir? IOREF nedir? ISCP Nedir? AREF Nedir? SDA SCL Nedir? gibi soruların yanıtlarını vereceğiz. Bir Arduino modeline ve bileşenlerine sahip olmayanlar için Tinkercad uygulaması üzerinden devre kurma, simülasyon ve kodlama işlemlerini anlatacağız. Tinkercad uygulaması sayesinde fiziksel ortam yerine sanal ortamda projelerimizi hayata geçirebileceğiz. Tinkercad yazılımını kullanarak Arduino öğrenme süreçlerini sanal ortamda uygulama imkanı bulacağız.
+
+Daha sonra Arduino için gerekli kütüphaneleri ve kullanımlarını inceleyeceğiz. Yüklü olmayan kütüphanelerin kurulumunu anlattıktan sonra temel arduino fonksiyonlarını anlatacağız. Temel arduino kodları ve anlamlarını öğrendikten sonra arduino kod örnekleri geliştireceğiz. Arduino kodlama bir başka deyişle arduino programlama dersleri kapsamında Programlama Temelleri eğitimleri vereceğiz. Bu kapsamda değişkenler ve veri tipleri, sabitler, if else yapısı, if else if merdiven yapısı, switch case yapısı, for döngüsü, while döngüsü, do while döngüsü konularını anlatacağız.
+
+Ardından diziler ve metotlar gibi programlamanın temel yapı taşı olan konuları anlatacağız. Arduino bluetooth, wireless ve kızılötesi haberşeşme yöntemlerini kullanarak kablosuz uygulamalar geliştireceğiz. Arduino otopark projesi, engelden kaçan robot, akıllı ev otomasyonu, uzaktan kumandalı sistemler üzerinde çalışmalar yapacağız. Arduino ile 7 segment display, 16x2 lcd ekran ve Nokia 5110 ekranları gibi kullanıcı bilgilendirme ekranlarını kullanacağız. Hobi elektronik devreleri ile ilgilenen her yaştaki bireyler bu online eğitim serisinden faydalanacaktır. Basit projelerin yanında eğitimin ilerleyen kısımlarında Arduino Robot Uygulamaları konusunda kapsamlı projeler geliştireceğiz. Arduino ders videolarını izlerken anlaşılmayan hususları yorum satırlarında yazanlara aynı gün içerisinde geri dönüş yapmaya çalışacağız.
+
+## [Evde Elektroniğe Giriş Bölümleri](https://www.youtube.com/playlist?list=PLsH-EmuhVHnaKtNXg_jQ3zgN8BIg6HFYZ)
+
+Bu listedeki bölümler elektroniğe sıfırdan başlamak isteyen herkesin ihtiyaç duyacağı temel bilgileri içermektedir. Kullanılacak alet ve parçaların tanıtımı, fiyat bilgisi ile başlayan anlatımlarım her bir elektronik devre elemanının kullanımı ve özellikleri ile ilgili bilgilerle devam etmektedir. Devre elemanları yanında ARDUINO ve güç modülleri de (Adaptör, Buck - Boost Converter) yine bu listede inceleniyor. İyi seyirler...
