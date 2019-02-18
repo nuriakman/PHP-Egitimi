@@ -26,3 +26,6 @@ disable_functions          = exec, passthru, shell_exec, system, proc_open, pope
 service httpd restart
 service apache2 restart
 ```
+No pull request could be found for the branch master on the repository kemalmutlu/PHP-Egitimi
+
+You can manually pin a Github pull request to the current branch by entering its url
