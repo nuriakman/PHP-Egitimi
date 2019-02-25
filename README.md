@@ -167,5 +167,8 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - [Faydalı Videolar](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/faydali.videolar.md)
 - [Faydalı Linkler](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/faydali.linkler.md)
 
+# Blog Yazıları
+- [Özgür Yazılım Yaz ve Kış Kampları Blog Yazıları](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/blog.yazilari.md)
+
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
