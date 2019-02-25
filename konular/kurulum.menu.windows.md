@@ -14,15 +14,15 @@ XAMPP|[XAMPP (PHP 7.3)](https://www.apachefriends.org/xampp-files/7.3.1/xampp-wi
 ## Yardımcı Programların Kurulumu
 Yazılım | Web Sitesi|
 ------------|-------------|
-[Git Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.git.md) |https://git-scm.com/download/win
-[Atom Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.atom.md) | http://atom.io/
-[Atom Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.atom.md) |
-[Firefox Eklentileri](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/eklentiler.firefox.md) |
+[Git Kurulumu](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/kurulum.git.md) |https://git-scm.com/download/win
+[Atom Kurulumu](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/kurulum.atom.md) | http://atom.io/
+[Atom Eklentileri](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/eklentiler.atom.md) |
+[Firefox Eklentileri](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/eklentiler.firefox.md) |
 
 
 ## Apache+PHP+MySQL Kurulumu
 Yazılım | Adresi|
 ------------|-------------|
-[Xampp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) |https://www.apachefriends.org/tr/index.html
-[Wamp Kurulumu](https://github.com/kemtake/PHP-Egitimi/blob/master/konular/kurulum.wamp.md) | http://www.wampserver.com/en/
+[Xampp Kurulumu](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) |https://www.apachefriends.org/tr/index.html
+[Wamp Kurulumu](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/kurulum.wamp.md) | http://www.wampserver.com/en/
 Mamp Kurulumu | https://www.mamp.info/en/downloads/

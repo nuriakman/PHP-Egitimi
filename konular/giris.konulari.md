@@ -99,7 +99,7 @@ IP adresinde bulunan server, isteği işleyip cevap (response) döner. Server bu
 Cevabı alan browser gelen cevabı ekrana basar (işleme/render). Browser/Tarayıcı render işleminde html ile layout’u, css ile tasarımı (renk, imaj vd) oluşturur. Javascript ise yukarıdaki işlemler yapıldıktan sonra hem css hem html üzerinde (DOM) değişiklikler yaparak sayfaya dinamik bir yapı kazandırır.
 
 ## HTTP Life Cycle İçin Faydalı Bağlantılar
-- [Web nasıl çalışır dialoğu](https://github.com/kemtake/PHP-Egitimi/blob/master/web.dialogu.md)
+- [Web nasıl çalışır dialoğu](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/web.dialogu.md)
 - [How web works? / Web Nasıl Çalışır?](https://github.com/vasanthk/how-web-works)
 - [What happens when you type google.com into your browser and press enter / Tarayıcınızda google.com yazın enter bastığınızda neler olur?](https://github.com/alex/what-happens-when)
 
