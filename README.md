@@ -138,11 +138,12 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 # Çeşitli Örnekler Projeler
 
-## [Şairler TextDB Örneği:](https://github.com/vedia/SairlerTextDB)
- -  Örneğimizde yönetici olarak giriş yapıp, şair ekleme, düzenleme işlemlerini yaptık.
+## [SairlerTextDB:](https://github.com/vedia/SairlerTextDB)
+ -  Şairler ve hayatlarının sunulmaya çalışıldığı proje tamamen metin dosyaları (txt dosyalar) kulanılarak hazırlandı. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
 
-## [SairlerMYSQL Örneği:](https://github.com/vedia/SairlerMySQL)
--  Örneğimizde SairlerTextDB'de olduğu gibi giriş yapıp şair ekledik. Burada ki örneğin en önemli farkı veritabanı işlemleri yaptık.
+## [SairlerMYSQL:](https://github.com/vedia/SairlerMySQL)
+-  Şairler ve hayatlarının sunulmaya çalışıldığı projemizi MySQL ile  hazırladık. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
+
 
 ## [TextAnaliz:](https://github.com/vedia/TextAnaliz)
 - Örneğimizde bir konuşmadan aldığımız metni, kendi belirlediğimiz kurallarla anlamsız karakterleri silip, konuşmanın bir özetini çıkarttık. Konuşmanın konusunu bulduk.  
@@ -164,7 +165,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 ## [LYK2018_Ornekler:](https://github.com/vedia/LYK2018_Ornekler)
 
-- Buradaki çalışmada resim boyutlandırma, resime yazı yazma, text dosya düzenleme, text dosyaya veri ekleme, dosya yükleme çalışmaları yapıldı.
+- Bu depoda resim boyutlandırma, resime yazı yazma, text dosya düzenleme, text dosyaya veri ekleme, dosya yükleme çalışmaları yapıldı.
 
 # Çeşitli Konular
 - [WordPress Kurulumu](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/cesitli.wordpress.md)
@@ -177,3 +178,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjE1MTU5NzkxLDE3NTIyNjk3MTAsLTk3Mj
+cxNjg4NF19
+-->
