@@ -1,11 +1,16 @@
 
 # PHP ve MySQL ile Web Programlamaya Giriş
-Bu proje, 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan "Mustafa Akgül Özgür Yazılım Kış Kampı" çerçevesindeki "PHP ve MySQL ile Web Programlamaya Giriş" eğitimi için kaynak olması amacıyla hazırlanmıştır.
+
+## AMAÇ
+Bu proje, ilk olarak 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan **Mustafa Akgül Özgür Yazılım Kış Kampı** çerçevesindeki *PHP ve MySQL ile Web Programlamaya Giriş* eğitimi için kaynak olması amacıyla hazırlanmıştır.
+
+Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için bir başvuru kaynağı olarak kullanılabilmesi amacıyla geliştirilmeye devam edilmiştir.
+
+- Geliştirilmesine katkıda bulunmak isterseniz [Yapılacak İşler](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/yapilacak.isler.md) sayfamıza bakabilirsiniz.
+- Bu projede yer almasını istediğiniz konular ve önerileriniz için ise  [Öneriler](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/oneriler.md) sayfamızdan bize ulaşabilirsiniz.
 
 
-## [Yapılacak İşler](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/yapilacak.isler.md)
-
-# İçindekiler
+# İÇİNDEKİLER
 
 ## Giriş
 - [Giriş ve Temel Konular](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/giris.konulari.md)
