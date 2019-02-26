@@ -178,3 +178,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjE1MTU5NzkxLDE3NTIyNjk3MTAsLTk3Mj
+cxNjg4NF19
+-->
