@@ -48,6 +48,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - [Css Nedir ?](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/ornek.css.md)
 - [Css Etiketleri](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/etiketler.css.md)
 - [5 Dakikada CSS](https://learnxinyminutes.com/docs/tr-tr/css-tr/)
+- [CSS Seçicileri](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/seciciler.css.md)
 
 
 ## Bootstrap
