@@ -25,3 +25,6 @@ Bu sayfada, yapılacak işler ve tamamlanan işler listelenir. Yapılacak işler
 - [ ] Programların kurulum aşamalarını gösteren resimler projeden ve git geçmişinden silinmeli ve proje kolayca çoğaltılabilir hale getirilmeli. Bu işin nasıl yapıldığının adım adım anlatımı da konular/git.projelerinde.media.temizligi.md sayfasında yapılmalıdır.
 - [ ] Markdown konusuna https://stackedit.io/app sitesinden nasıl faydalanılabileceği eklenmeli.
 - [ ] https://atom.io/packages/project-viewer Atom Eklentisi sayfasına eklenmeli.
+- [ ] Linux başlığı altına "Linux Nedir" eklenmeli.
+- [ ] Linux başlığı altına "Özgür Yazılım Nedir" eklenmeli.
+- [ ] Linux başlığı altına "Açık Kaynak Kod Nedir" eklenmeli.

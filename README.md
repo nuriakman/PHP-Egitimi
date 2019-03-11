@@ -37,11 +37,8 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 
-
-## HTML
-- [Html Nedir, Örnek HTML sayfası](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/ornek.html.md)
-- [Html Etiketleri](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/etiketler.html.md)
-- [5 Dakikada HTML](https://learnxinyminutes.com/docs/tr-tr/html-tr/)
+## LINUX
+- [Temel Linux Koutları](https://github.com/kemalmutlu/PHP-Egitimi/blob/master/konular/linux.temel.komutlar.md)
 
 
 ## CSS
