@@ -264,10 +264,3 @@ koduna aşağıdaki
 :nth-of-type {color: green;}
 ```
 stilini uygularsak tag kullanılmadığı için tüm elementlerin 2.sinin (`p`, `li`, `ul`) rengini yeşil yapar.
-* nth-of-type seçici aşağıdaki şekillerde formüle edilerek de kullanılır: <br>
-`:nth-of-type(even)`<br>
-`:nth-of-type(odd)`<br>
-`:nth-of-type(2)`<br>
-`:nth-of-type(2n)` : <br>
-`:nth-of-type(3n-1)`<br>
-`:nth-of-type(2n+2)`<br>
