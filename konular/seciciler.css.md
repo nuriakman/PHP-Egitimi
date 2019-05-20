@@ -160,10 +160,10 @@ h1~p {background-color: yellow;}
 ```CSS
 div>h1 {text-decoration: underline;}
 ```
-#### Pseudo Seçiciler
-Pseudo elementleri CSS'i destekleyen web tarayıcıları tarafından otomatik olan tanınan özel elementlerdir. Pseudo elementi, bir elementi alt sınıflara (bir paragrafın ilk satırı gibi) böler. [*](https://fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/) <br>
-`HTMLelementi:first-child {}` formundadır. Aşağıda Pseudo seçicileri birer örnekle açıklamaya çalışalım:
-#### first-child Seçici
+#### Pseudo (Sözde) Sınıf Seçiciler
+ elementleri CSS'i destekleyen web tarayıcıları tarafından otomatik olan tanınan özel elementlerdir.  elementi, bir elementi alt sınıflara (bir paragrafın ilk satırı gibi) böler. [*](https://fatihhayrioglu.com/-siniflari-ve--elementleri/) <br>
+`HTMLelementi:first-child {}` formundadır. Aşağıda  seçicileri birer örnekle açıklamaya çalışalım:
+#### :first-child Seçici
 ```html
 <ul>
   <li>un vélo</li>
@@ -177,18 +177,18 @@ HTML kodunda ilk `li` elementinin arkaplan rengini yeşil yapalım:
 ```css
 li:first-child {background-color: green;}
 ```
-#### last-child Seçici
+#### :last-child Seçici
 Yukarıdaki HTML kodunda son `li` elemanının rengini pembe yapalım:
 ```css
 li:last-child {color: pink;}
 ```
-#### only-child Seçici
+#### :only-child Seçici
 Yukarıdaki HTML kodunda `ul` elementinin altındaki tüm elementlerin arkaplan rengini sarı yapalım:
 ```css
 ul:only-child {background-color: yellow;}
 ```
-#### nth-child Seçici
-n ile bildirilen aynı düzeydeki elementleri seçmek için kullanılır. Index numarasına göre seçim yapılır ve index sıfırdan faşlamaz. Bir parent elementin altındaki elementten bahsetmiyorsak tüm body elementleri arasından seçim yapar. Bir parent elementin altındak child elementlerden bahsediyorsak bu parent elementler arasında seçim yapar. [**](http://www.ozturkenes.com/css/2016/08/27/nth-child-ve-nth-of-type-farki/) Örneğin;
+#### :nth-child Seçici
+n ile bildirilen aynı düzeydeki elementleri seçmek için kullanılır. Index numarasına göre seçim yapılır ve index sıfırdan başlamaz. Bir parent elementin altındaki elementten bahsetmiyorsak tüm body elementler arasından seçim yapar. Bir parent elementin altındaki child elementlerden bahsediyorsak bu parent elementler arasında seçim yapar. [**](http://www.ozturkenes.com/css/2016/08/27/nth-child-ve-nth-of-type-farki/) Örneğin;
 ```html
 <div class="container">
   <ul class="list-group">
@@ -208,12 +208,12 @@ n ile bildirilen aynı düzeydeki elementleri seçmek için kullanılır. Index 
   </ul>
 </div>
 ```
-kodunda parent element `container` elementidir.
+kodunda parent element `.container` sınıfının bulunduğu `div` elementidir.
 ```css
 :nth-child(3) {background-color: red;}
 ```
-stilini uygularsak parent elementten sonra indexi 3 olan `li` elementlerinin bulunduğu bölümün arka planını kırmızı yapar.
-#### nth-last-child Seçici
+stilini uygularsak, parent elementten sonra indexi 3 olan `li` elementlerinin bulunduğu bölümün arka planını kırmızı yapar.
+#### :nth-last-child Seçici
 n ile bildirilen sıradaki öğeyi sondan sıralayarak seçer. Örneğin;
 ```HTML
 <div>
@@ -231,12 +231,12 @@ HTML kodunda sondan 2. p elementine `{background-color: white;}` özelliğini at
 p:nth-last-child(2) {background-color: white;}
 ```
 şeklinde bir CSS kodu yazmalıyız.
-#### first-of-type Seçici
+#### :first-of-type Seçici
 Yukarıdaki HTML kodundaki `div` parent elementinin altındaki ilk `p` elementini seçmeye yarar. `first-child` seçiciden farkı, tipi eşleşen ilk elementi seçiyor olmasıdır. Örneğin; yukarıdaki kodda ilk p elementine `{color: red;}` özelliğini atayalım:
 ```css
 p:first-of-type {color: red;}
 ```
-#### nth-of-type Seçici
+#### :nth-of-type Seçici
 HTML elementleri arasından n. elementleri seçmek için kullanılr. Türe göre seçim yapar. Başına parent element tagi koyulmazsa aynı türdeki elementler arasında seçim yapar. [**](http://www.ozturkenes.com/css/2016/08/27/nth-child-ve-nth-of-type-farki/)<br>
 Örnek:
 ```HTML
@@ -264,3 +264,129 @@ koduna aşağıdaki
 :nth-of-type {color: green;}
 ```
 stilini uygularsak tag kullanılmadığı için tüm elementlerin 2.sinin (`p`, `li`, `ul`) rengini yeşil yapar.
+* nth-of-type seçicinin farklı kullanım şekillerini örneklerle açıklayalım:
+Örnek 1:
+```html
+<div>
+  <p>The first paragraph.</p>
+  <p>The second paragraph.</p>
+  <p>The third paragraph.</p>
+  <p>The fourth paragraph.</p>
+
+</div>
+```
+HTML kodu ile yazılmış bir sayfada birinci ve üçüncü yani tek indexli paragraflara `{background-color: pink;}` özelliğini; ikinci ve dördüncü yani çift indexli paragraflara `{background-color: red;}` özelliğini atamak istiyorsak;
+tek indekslileri seçmek için
+```css
+:nth-of-type(odd) {background-color: pink;}
+/** veya :nth-of-type(2n+1) {background-color: pink;} **/
+```
+şeklinde ve çift indexlileri seçmek için
+```CSS
+:nth-of-type(even) {background-color: red;}
+/** veya :nth-of-type(2n) {background-color: red;} **/
+```
+şeklinde yazmalıyız.
+#### :only-of-type Seçici
+`:only-child` seçicisinin aksine sadece bir tane olan nesneleri seçer. Örneğin;
+```Html
+<div>
+  <p>Hello</p>
+  <h1>Bonjour</h1>
+</div>
+```
+HTML kodunda tek bir p elementi var ve bu tek `p` elementini seçip buna `{background-color: red;}` özelliğini atamak istiyorsak
+```Css
+p:only-of-typ{background-color: red;}
+```
+şeklinde yazmalıyız.
+#### :last-of-type Seçici
+`:last-child` seçici HTML kodundaki son elementi seçerken `:last-of-type` seçici, koddaki seçilmek istenen tipin eşleştiği son elementi seçer. Örneğin;
+```HTML
+<div>
+  <p>Bonjour!</p>
+  <p>Bonjour à tous!</p>
+  <h2>Good Morning</h2>
+  <p>Bonne Nuit!</p>
+</div>
+```
+HTML kodundaki son p elementine `{background-color: pink;}` özelliğini atamak için
+````CSS
+p:last-of-type {background-color: pink;}
+````
+şeklinde yazmamız gerekir.
+#### :empty Seçici
+Alt elemanı (çocuk) olmayan elemanları seçmek için kullanılır. Örneğin;
+```HTML
+<div class="box"><!-- I will be green. --></div>
+<div class="box">I will be pink.</div>
+<div class="box">
+    <!-- I will be pink in older browsers because of the whitespace around this comment. -->
+</div>
+```
+HTML kodundaki div elementlerinden child (çocuk) elemanı olmayana `{background-color:green;}` özelliğini atayalım:
+```CSS
+.box:empty{background-color:green;}
+```
+Bu işlemden sonra sınıfı 'box' olan div elementlerinden ilk sırada olan kutucuğun rengi gri olacaktır. Sondaki div elementi gri olmayacak çünkü yorum satırı boşluklar arasına yazılmıştır, dolayısıyla sondaki div elementi bir çocuk elemana sahiptir.
+#### :not Sözde Sınıfı (Pseudo-class)
+`:not(element)` formunda olan `:not`seçici, içine yazılan element dışındaki elementleri seçmeye yarar. </br>
+Örnek:
+```HTML
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<div>This is not a paragraph</div>
+```
+HTML kodundaki p olmayan elementleri seçelim:
+```CSS
+:not(p){
+  color: blue;
+  text-decoration: underline;
+}
+```
+Yukarıdaki CSS koduna göre p olmayan elementlere (yani div elementine) belirtilen özellikler atanmış oldu.
+#### [attribute] Nitelik Seçici
+Nitelik seçicileri, elementlerin özelliklerine ve özellik değerlerine göre öğeleri eşleştiren bir seçici türüdür. Örneğin;
+```HTML
+<input name="name"/>
+<input name="email"/>
+```
+kodunda `name:"email"` özelliği bulunan `input` elementine `font-size:16px` özelliğini atayalım:
+```CSS
+input[name="email"] {
+  font-size: 16px;
+}
+```
+Yukarıdaki `input`elementlerinden name özelliği bulunanların hepsine `{border-radius: 5px;}` özelliğine sahip olmasını istiyoruz diyelim. O zaman aşağıdaki şekilde bu özelliği sağlayabiliriz:
+```CSS
+input[name] {
+  border-radius: 5px;
+}
+```
+Veya
+```HTML
+<a href="https://example.org"/>
+<a href="https://example.com"/>
+<a href="https://basichelloworldpage.com"/>
+```
+kodunda içinnde 'example' geçen `a` elementlerine `{font-style: italic}` özelliği kazandırmak istiyoruz diyelim. Bu durumda aşağıdaki gibi yapmalıyız:
+```CSS
+a[href*="example"] {
+  font-style: italic;
+}
+```
+Nitelik seçiciyi bu kez de 'b' ile başlayan `a` elementine `{background-color: red;}` özelliği vermek için kullanalım:
+```CSS
+a[href^="b"] {
+  background-color: red;
+}
+```
+Şimdi de 'ge' ile biten `a` elementlerine `{color: blue;}` özelliği kazandırmaya çalışalım:
+```CSS
+a[href$="ge"] {
+  color: blue;
+}
+```
+
+
+Bu yazı [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors), [W3](https://www.w3schools.com/cssref/css_selectors.asp), [CSS Selectors](https://medium.com/design-code-repository/css-selectors-cheatsheet-details-9593bc204e3f), [Attribute Selectors](https://fatihhayrioglu.com/ozellik-secicileriattribute-selectors/) sayfalarından yardım alınarak hazırlandı.
