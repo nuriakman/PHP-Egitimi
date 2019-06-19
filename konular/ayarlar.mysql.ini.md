@@ -22,4 +22,5 @@ service mysql restart
 ```
 
 **NOT 1:** Bu değişikliklerin devreye girmesi için servislerin yeniden başlatılması gerekir.
+
 **NOT 2:** Bu MySQL ayarları, max connection ve mysql server gone away hatalarını da önler.

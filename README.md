@@ -98,7 +98,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 
 ## Örnek PHP Uygulamaları
-- [Html Form](./konular/ornek.html.form.md)
+- [HTML Form Örneği](./konular/ornek.html.form.md) TODO: Bu dosya kayıp. Yenisi hazırlanacak
 - [Örnek Fonksiyonlar](./konular/ornek.fonksiyonlar.md)
 - [Php Örneği  1](./konular/php.ornek01.md)
 - [Php Örneği  2](./konular/php.ornek02.md)
@@ -136,32 +136,32 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 # Çeşitli Örnekler Projeler
 
-## [SairlerTextDB:](https://github.com/vedia/SairlerTextDB)
+## [SairlerTextDB:](https://github.com/nuriakman/SairlerTextDB)
  -  Şairler ve hayatlarının sunulmaya çalışıldığı proje tamamen metin dosyaları (txt dosyalar) kulanılarak hazırlandı. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
 
-## [SairlerMYSQL:](https://github.com/vedia/SairlerMySQL)
+## [SairlerMYSQL:](https://github.com/nuriakman/SairlerMySQL)
 -  Şairler ve hayatlarının sunulmaya çalışıldığı projemizi MySQL ile  hazırladık. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
 
 
-## [TextAnaliz:](https://github.com/vedia/TextAnaliz)
+## [TextAnaliz:](https://github.com/nuriakman/TextAnaliz)
 - Örneğimizde bir konuşmadan aldığımız metni, kendi belirlediğimiz kurallarla anlamsız karakterleri silip, konuşmanın bir özetini çıkarttık. Konuşmanın konusunu bulduk.  
 
-## [TextDosyadanSozluk:](https://github.com/vedia/TextDosyadanSozluk)
+## [TextDosyadanSozluk:](https://github.com/nuriakman/TextDosyadanSozluk)
 - Örneğimizde isimler ve anlamları olan bir dosya oluşturup verileri çektik. Kendi belirlediğimiz kuralllarla isimleri, anlamlarını ve cinsiyetlerini ayırdık. Harfe göre isimleri listeledik.İsim arama bölümü yaptık.
 
-## [SessionOrnegi:](https://github.com/vedia/SessionOrnegi)
+## [SessionOrnegi:](https://github.com/nuriakman/SessionOrnegi)
 - Örneğimizde oturum yönetimine örnek verdik. Session başlatıp, session sonlandırdık.Kullanıcının giriş yapmasını, yaptıktan sonra kontrol etmesini, sessionları silerek oturumu sonlandırmasını sağladık.
 
-## [LYK2018phpsozluk:](https://github.com/vedia/lyk2018phpsozluk)
+## [LYK2018phpsozluk:](https://github.com/nuriakman/lyk2018phpsozluk)
 - Buradaki örneklerde Glob fonksiyonundan bahsettik. Dosyadaki verileri bölmekten bahsettik. İsimlerin anlamlarını ve cinsiyetlerini böldük. Kutuphane dosyası oluşturup fonksiyonları çağırdık. Seo çalışmasına örnek verdik.
 
-## [LYK2018php:](https://github.com/vedia/lyk2018php)
+## [LYK2018php:](https://github.com/nuriakman/lyk2018php)
 - Örneğimizde github üzerinden ortak bir çalışma yaptık. Konular öğrencilere dağıtıldı ve ortak bir şekilde çalışma yapıldı.
 
-## [Include Örneği:](https://github.com/vedia/include_ornegi)
+## [Include Örneği:](https://github.com/nuriakman/include_ornegi)
 - Örneğimizde bootstrap bir temayı parçaladık.
 
-## [LYK2018_Ornekler:](https://github.com/vedia/LYK2018_Ornekler)
+## [LYK2018_Ornekler:](https://github.com/nuriakman/LYK2018_Ornekler)
 
 - Bu depoda resim boyutlandırma, resime yazı yazma, text dosya düzenleme, text dosyaya veri ekleme, dosya yükleme çalışmaları yapıldı.
 
