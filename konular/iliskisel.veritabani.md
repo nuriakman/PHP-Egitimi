@@ -25,7 +25,7 @@ Veritabanı oluştururken tabloların doğru tasarlanması önemlidir. Her tablo
 ## Birincil Anahtar - Primary Key (PK)
 Tabloda ki bir kaydı, diğer kayıtlardan ayırmaya yarayan anahtardır. Örneğin öğrenci numarası bir primary key olabilir. Çünkü aynı öğrenci numarasına sahip iki öğrenci olamaz. Fakat öğrenci ismi bir primary key olamaz, çünkü aynı okulda aynı isimde birden fazla öğrenci bulunabilir.
 
-![](https://baskabirkod.com/wp-content/uploads/2018/04/veritaban%C4%B1-foreign-key-1024x342.png)
+![](http://www.querytool.com/help/v8_join.png)
 
 
 ## Yabancı Anahtar - Foreign Key (FK)

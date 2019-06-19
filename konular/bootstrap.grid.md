@@ -144,4 +144,4 @@ Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/grid.ornek3.ht
 
 ## Grid 4. Örnek:
 
-Örneği [buradan](../bootstrap.ornekleri/grid.ornek3.html) inceleyebilirsiniz.
+Örneği [buradan](../bootstrap.ornekleri/grid.ornek4.html) inceleyebilirsiniz.
