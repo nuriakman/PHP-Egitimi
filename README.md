@@ -65,9 +65,9 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 
 ## PHP'ye Giriş
-- [PHP'ye Giriş](./konular/giris.konulari.php.md)
+- [PHP'ye Giriş](./konular/giris.konulari.php.md) TODO: Başlıklar anlaşılabilir biçimde sunulmalı
 - [5 Dakikada PHP](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
-- [Popüler Komutlar](./konular/komutlar.populer.md)
+- [Popüler Komutlar](./konular/komutlar.populer.md) TODO: Her başlık ayrı sayfalara bölünebilir.
 
 
 ## MySQL'e Giriş

@@ -15,29 +15,29 @@ Bir mevcut oturum kimliğinin üçüncü şahıslara ifşa edilmesinin çeşitli
 ## Komut Listesi
 Komut |Anlamı|
 ------------|-------------|
-[session_abort](http://www.php.net/session-abort)|Discard session array changes and finish session
-[session_cache_expire](http://www.php.net/session-cache-expire)|Önbelleğe alınan oturumun ömrünü döndürür
-[session_cache_limiter](http://www.php.net/session-cache-limiter)|Geçerli önbellek sınırlayıcısını döndürür ve/veya tanımlar
-[session_commit](http://www.php.net/session-commit)|session_write_close işlevinin takma adıdır
-[session_create_id](http://www.php.net/session-create-id)|Create new session id
-[session_decode](http://www.php.net/session-decode)|Oturum verisini bir dizgeden elde eder
-[session_destroy](http://www.php.net/session-destroy)|Bir oturumla ilişkilendirilmiş tüm veriyi yokeder
-[session_encode](http://www.php.net/session-encode)|Geçerli oturum verisini bir dizge olarak kodlar
-[session_gc](http://www.php.net/session-gc)|Perform session data garbage collection
-[session_get_cookie_params](http://www.php.net/session-get-cookie-params)|Oturum çerezi değiştirgelerini döndürür
-[session_id](http://www.php.net/session-id)|Geçerli oturum kimliğini döndürür ve/veya tanımlar
-[session_is_registered](http://www.php.net/session-is-registered)|Bir küresel değişkenin oturumda kayıtlı olup olmadığına bakar
-[session_module_name](http://www.php.net/session-module-name)|Geçerli oturum modülünü döndürür ve/veya tanımlar
-[session_name](http://www.php.net/session-name)|Geçerli oturum ismini döndürür ve/veya tanımlar
-[session_regenerate_id](http://www.php.net/session-regenerate-id)|Geçerli oturum kimliğini yenisiyle değiştirir
-[session_register_shutdown](http://www.php.net/session-register-shutdown)|Session shutdown function
-[session_register](http://www.php.net/session-register)|Geçerli oturuma bir veya daha fazla küresel değişkeni kaydeder
-[session_reset](http://www.php.net/session-reset)|Re-initialize session array with original values
-[session_save_path](http://www.php.net/session-save-path)|Geçerli oturum kayıt yolunu tanımlar ve/veya döndürür
-[session_set_cookie_params](http://www.php.net/session-set-cookie-params)|Oturum çerezi değiştirgelerini tanımlar
-[session_set_save_handler](http://www.php.net/session-set-save-handler)|Kullanıcı seviyesi oturum saklama işlevlerini bildirir
-[session_start](http://www.php.net/session-start)|Oturum verisini ilklendirir
-[session_status](http://www.php.net/session-status)|Returns the current session status
-[session_unregister](http://www.php.net/session-unregister)|Geçerli oturumdaki bir küresel değişkeni kayıtdışı yapar
-[session_unset](http://www.php.net/session-unset)|Free all session variables
-[session_write_close](http://www.php.net/session-write-close)|Oturum verisini yazıp oturumu kapatır
+[session_abort](http://php.net/session-abort)|Discard session array changes and finish session
+[session_cache_expire](http://php.net/session-cache-expire)|Önbelleğe alınan oturumun ömrünü döndürür
+[session_cache_limiter](http://php.net/session-cache-limiter)|Geçerli önbellek sınırlayıcısını döndürür ve/veya tanımlar
+[session_commit](http://php.net/session-commit)|session_write_close işlevinin takma adıdır
+[session_create_id](http://php.net/session-create-id)|Create new session id
+[session_decode](http://php.net/session-decode)|Oturum verisini bir dizgeden elde eder
+[session_destroy](http://php.net/session-destroy)|Bir oturumla ilişkilendirilmiş tüm veriyi yokeder
+[session_encode](http://php.net/session-encode)|Geçerli oturum verisini bir dizge olarak kodlar
+[session_gc](http://php.net/session-gc)|Perform session data garbage collection
+[session_get_cookie_params](http://php.net/session-get-cookie-params)|Oturum çerezi değiştirgelerini döndürür
+[session_id](http://php.net/session-id)|Geçerli oturum kimliğini döndürür ve/veya tanımlar
+[session_is_registered](http://php.net/session-is-registered)|Bir küresel değişkenin oturumda kayıtlı olup olmadığına bakar
+[session_module_name](http://php.net/session-module-name)|Geçerli oturum modülünü döndürür ve/veya tanımlar
+[session_name](http://php.net/session-name)|Geçerli oturum ismini döndürür ve/veya tanımlar
+[session_regenerate_id](http://php.net/session-regenerate-id)|Geçerli oturum kimliğini yenisiyle değiştirir
+[session_register_shutdown](http://php.net/session-register-shutdown)|Session shutdown function
+[session_register](http://php.net/session-register)|Geçerli oturuma bir veya daha fazla küresel değişkeni kaydeder
+[session_reset](http://php.net/session-reset)|Re-initialize session array with original values
+[session_save_path](http://php.net/session-save-path)|Geçerli oturum kayıt yolunu tanımlar ve/veya döndürür
+[session_set_cookie_params](http://php.net/session-set-cookie-params)|Oturum çerezi değiştirgelerini tanımlar
+[session_set_save_handler](http://php.net/session-set-save-handler)|Kullanıcı seviyesi oturum saklama işlevlerini bildirir
+[session_start](http://php.net/session-start)|Oturum verisini ilklendirir
+[session_status](http://php.net/session-status)|Returns the current session status
+[session_unregister](http://php.net/session-unregister)|Geçerli oturumdaki bir küresel değişkeni kayıtdışı yapar
+[session_unset](http://php.net/session-unset)|Free all session variables
+[session_write_close](http://php.net/session-write-close)|Oturum verisini yazıp oturumu kapatır

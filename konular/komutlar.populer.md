@@ -718,5 +718,3 @@ var_dump($b, $c);
 
 ```
 
-
-###[](http://php.net/tp)

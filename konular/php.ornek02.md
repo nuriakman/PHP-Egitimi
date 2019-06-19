@@ -26,7 +26,7 @@
 
   echo "<hr>";
 
-  $url = 'http://www.php.net/index.html';
+  $url = 'http://php.net/index.html';
   preg_match('@^(?:http://)?([^/]+)@i' ,$url, $sonuc);
 
   print_r($sonuc);

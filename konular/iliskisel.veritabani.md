@@ -123,7 +123,7 @@ KAYNAK: https://topluluk.ozguryazilim.com.tr/wp-content/sunumlar/mariadb-vs-mysq
 
 # Ağaç Yapısı - Tree Structure
 Bilgisayar bilimlerinin önemli veri tutma yöntemlerinden birisi de ağaçlardır. Buna göre veriler bir ağaç yapısına benzer şekilde (kök gövde yapraklar) tutulur.
-![alt text](img/giris_konulari/agac.jpg)
+![Ağaç Yapısı](https://webshopmanager.com/files/ecommerce-category-tree.png)
 
 Ağaç yapısı, Parent - Child ilişkisi içinde veri saklama için güzel bir örnektir. ROOT çoğunlukla 0 (sıfır) kodu ile anılır.
 
@@ -145,7 +145,7 @@ ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutul
   10        5     Lenovo Telefonlar
   11        4     LG TV
   12        4     Samsung TV
-  13        4     Westel TV
+  13        4     Vestel TV
   14        4     Sony TV
   15        3     Masaüstü
   16        3     Dizüstü
