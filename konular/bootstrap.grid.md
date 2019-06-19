@@ -30,10 +30,10 @@ Aşağıdaki örneklerde grid yapısını ve iç içe sütün kullanılınımı 
 
 ## Grid 1. Örnek:
 
-![Grid Örneği](https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/bootstrap.grid/img/bootstrap1.png)
+![Grid Örneği](https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/bootstrap.ornekleri/img/bootstrap1.png)
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
-Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.grid/ornek1.html) inceleyebilirsiniz.
+Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.ornekleri/ornek1.html) inceleyebilirsiniz.
 
 
 ```HTML
@@ -66,10 +66,10 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egit
 
 ## Grid 2. Örnek:
 
-![Grid Örneği](https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/bootstrap.grid/img/bootstrap3.png)
+![Grid Örneği](https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/bootstrap.ornekleri/img/bootstrap3.png)
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
-Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.grid/ornek2.html) inceleyebilirsiniz.
+Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.ornekleri/ornek2.html) inceleyebilirsiniz.
 
 ```HTML
 <div class="container">
@@ -108,11 +108,11 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egit
 
 ## Grid 3. Örnek:
 
-![Grid Örneği](https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/bootstrap.grid/img/bootstrap2.png)
+![Grid Örneği](https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/bootstrap.ornekleri/img/bootstrap2.png)
 
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
-Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.grid/ornek3.html) inceleyebilirsiniz.
+Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.ornekleri/ornek3.html) inceleyebilirsiniz.
 
 
 ```HTML
@@ -144,4 +144,4 @@ Detaylı incelemek isterseniz [adresinden](https://github.com/nuriakman/PHP-Egit
 
 ## Grid 4. Örnek:
 
-Örneği [buradan](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.grid/ornek3.html) inceleyebilirsiniz.
+Örneği [buradan](https://github.com/nuriakman/PHP-Egitimi/blob/master/bootstrap.ornekleri/ornek3.html) inceleyebilirsiniz.
