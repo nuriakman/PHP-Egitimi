@@ -33,7 +33,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 ## GİT
 - [Git, Github ve git komutları](./konular/komutlar.git.md)
-- [Atom ve Git kullanımı](./konular/kullanim.atom.git.md)
+- [Atom ve Git kullanımı](./konular/kullanim.atom.git.md) TODO:GÜNCELLENMELİ
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 

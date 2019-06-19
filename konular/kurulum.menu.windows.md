@@ -14,8 +14,8 @@ XAMPP|[XAMPP (PHP 7.3)](https://www.apachefriends.org/xampp-files/7.3.1/xampp-wi
 ## Yardımcı Programların Kurulumu
 Yazılım | Web Sitesi|
 ------------|-------------|
-[Git Kurulumu](../konular/kurulum.git.md) |https://git-scm.com/download/win
-[Atom Kurulumu](../konular/kurulum.atom.md) | http://atom.io/
+[Git Kurulumu](../konular/kurulum.git.md) TODO:GÜNCELLENMELİ|https://git-scm.com/download/win
+[Atom Kurulumu](../konular/kurulum.atom.md) TODO:GÜNCELLENMELİ| http://atom.io/
 [Atom Eklentileri](../konular/eklentiler.atom.md) |
 [Firefox Eklentileri](../konular/eklentiler.firefox.md) |
 
@@ -23,6 +23,6 @@ Yazılım | Web Sitesi|
 ## Apache+PHP+MySQL Kurulumu
 Yazılım | Adresi|
 ------------|-------------|
-[Xampp Kurulumu](../konular/kurulum.xampp.md) |https://www.apachefriends.org/tr/index.html
-[Wamp Kurulumu](../konular/kurulum.wamp.md) | http://www.wampserver.com/en/
+[Xampp Kurulumu](../konular/kurulum.xampp.md) TODO:GÜNCELLENMELİ|https://www.apachefriends.org/tr/index.html
+[Wamp Kurulumu](../konular/kurulum.wamp.md) TODO:GÜNCELLENMELİ| http://www.wampserver.com/en/
 Mamp Kurulumu | https://www.mamp.info/en/downloads/

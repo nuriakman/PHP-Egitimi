@@ -30,10 +30,10 @@ Aşağıdaki örneklerde grid yapısını ve iç içe sütün kullanılınımı 
 
 ## Grid 1. Örnek:
 
-![Grid Örneği](../bootstrap.ornekleri/img/bootstrap1.png)
+![Grid Örneği](../bootstrap.ornekleri/grid_images/bootstrap1.png)
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
-Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/ornek1.html) inceleyebilirsiniz.
+Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/grid.ornek1.html) inceleyebilirsiniz.
 
 
 ```HTML
@@ -66,10 +66,10 @@ Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/ornek1.html) i
 
 ## Grid 2. Örnek:
 
-![Grid Örneği](../bootstrap.ornekleri/img/bootstrap3.png)
+![Grid Örneği](../bootstrap.ornekleri/grid_images/bootstrap3.png)
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
-Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/ornek2.html) inceleyebilirsiniz.
+Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/grid.ornek2.html) inceleyebilirsiniz.
 
 ```HTML
 <div class="container">
@@ -108,11 +108,11 @@ Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/ornek2.html) i
 
 ## Grid 3. Örnek:
 
-![Grid Örneği](../bootstrap.ornekleri/img/bootstrap2.png)
+![Grid Örneği](../bootstrap.ornekleri/grid_images/bootstrap2.png)
 
 
 Böyle bir görsel elde etmek şu kodları kullanacağız.
-Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/ornek3.html) inceleyebilirsiniz.
+Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/grid.ornek3.html) inceleyebilirsiniz.
 
 
 ```HTML
@@ -144,4 +144,4 @@ Detaylı incelemek isterseniz [adresinden](../bootstrap.ornekleri/ornek3.html) i
 
 ## Grid 4. Örnek:
 
-Örneği [buradan](../bootstrap.ornekleri/ornek3.html) inceleyebilirsiniz.
+Örneği [buradan](../bootstrap.ornekleri/grid.ornek3.html) inceleyebilirsiniz.

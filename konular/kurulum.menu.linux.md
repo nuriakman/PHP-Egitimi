@@ -10,5 +10,5 @@ Aşağıdaki iki yazılımdan birisi seçilerek kurulmalıdır.
 
 Yazılım | Adresi|
 ------------|-------------|
-[Adminer Kurulumu](../konular/kurulum.adminer.md) | http://adminer.org/
+[Adminer Kurulumu](../konular/kurulum.adminer.md) TODO:GÜNCELLENMELİ | http://adminer.org/
 phpMyAdmin | https://www.phpmyadmin.net/

@@ -310,7 +310,7 @@ p:only-of-typ{background-color: red;}
   <p>Bonne Nuit!</p>
 </div>
 ```
-HTML kodundaki son p elementine `{background-color: pink;}` özelliğini atamak için
+HTML kodundaki son p elementine `{background-color: pink;}` özelliğini atamak için
 ````CSS
 p:last-of-type {background-color: pink;}
 ````
