@@ -1,6 +1,6 @@
 # ATOM EDİTÖRÜ KURULUMU
 
-NOT: Bu notlar xampp'in kurulu olduğunu varsayılarak hazırlanmıştır.Xampp kurulu değilse [buradan](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kurulum.xampp.md) kurunuz.
+NOT: Bu notlar xampp'in kurulu olduğunu varsayılarak hazırlanmıştır.Xampp kurulu değilse [buradan](../konular/kurulum.xampp.md) kurunuz.
 
 - Download butonuna tıklanılır.
 - Ardından bir pencere gelir."Dosyayı Kaydet butonuna tıklanılır".

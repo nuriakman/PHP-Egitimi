@@ -6,14 +6,14 @@ Bu proje, ilk olarak 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak ola
 
 Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için bir başvuru kaynağı olarak kullanılabilmesi amacıyla geliştirilmeye devam edilmiştir.
 
-- Geliştirilmesine katkıda bulunmak isterseniz [Yapılacak İşler](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/yapilacak.isler.md) sayfamıza bakabilirsiniz.
-- Bu projede yer almasını istediğiniz konular ve önerileriniz için ise  [Öneriler](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/oneriler.md) sayfamızdan bize ulaşabilirsiniz.
+- Geliştirilmesine katkıda bulunmak isterseniz [Yapılacak İşler](./konular/yapilacak.isler.md) sayfamıza bakabilirsiniz.
+- Bu projede yer almasını istediğiniz konular ve önerileriniz için ise  [Öneriler](./konular/oneriler.md) sayfamızdan bize ulaşabilirsiniz.
 
 
 # İÇİNDEKİLER
 
 ## Giriş
-- [Giriş ve Temel Konular](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/giris.konulari.md)
+- [Giriş ve Temel Konular](./konular/giris.konulari.md)
 - [Giriş ve Temel Konular](./konular/giris.konulari.md)
 
 ## Apache+PHP+MySQL Kurulumu
@@ -27,32 +27,32 @@ MAMP|MacOS için Apache+MySQL+PHP anlamındadır. MAMP'ın Windows sürümü de 
 XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anlamındadır.
 
 ## Kurulum Bilgileri
-- [Windows İçin Kurulum](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kurulum.menu.windows.md)
-- [Linux İçin Kurulum](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kurulum.menu.linux.md)
+- [Windows İçin Kurulum](./konular/kurulum.menu.windows.md)
+- [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
 
 # Giriş Konuları
 
 ## GİT
-- [Git, Github ve git komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.git.md)
-- [Atom ve Git kullanımı](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kullanim.atom.git.md)
+- [Git, Github ve git komutları](./konular/komutlar.git.md)
+- [Atom ve Git kullanımı](./konular/kullanim.atom.git.md)
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 
 ## LINUX
-- [Temel Linux Koutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/linux.temel.komutlar.md)
+- [Temel Linux Koutları](./konular/linux.temel.komutlar.md)
 
 
 ## CSS
-- [Css Nedir ?](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/ornek.css.md)
-- [Css Etiketleri](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/etiketler.css.md)
+- [Css Nedir ?](./konular/ornek.css.md)
+- [Css Etiketleri](./konular/etiketler.css.md)
 - [5 Dakikada CSS](https://learnxinyminutes.com/docs/tr-tr/css-tr/)
-- [CSS Seçicileri](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/seciciler.css.md)
+- [CSS Seçicileri](./konular/seciciler.css.md)
 
 
 ## Bootstrap
 - [Bootstrap HTML Site Yapımı](https://www.youtube.com/watch?v=kLby3L7u-NQ) (Video)
-- [Bootstrap Grid Yapısı](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/bootstrap.grid.md)
-- [Bootstrap Örnekleri](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/bootstrap.ornekleri.md)
+- [Bootstrap Grid Yapısı](./konular/bootstrap.grid.md)
+- [Bootstrap Örnekleri](./konular/bootstrap.ornekleri.md)
 
 
 ## jQuery
@@ -61,79 +61,79 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 
 ## Veritabanı
-- [İlişkisel Veritabanı ve MySQL'e Giriş](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/iliskisel.veritabani.md)  
+- [İlişkisel Veritabanı ve MySQL'e Giriş](./konular/iliskisel.veritabani.md)  
 - [5 Dakikada SQL](https://learnxinyminutes.com/docs/sql/)  
 
 
 ## PHP'ye Giriş
-- [PHP'ye Giriş](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/giris.konulari.php.md)
+- [PHP'ye Giriş](./konular/giris.konulari.php.md)
 - [5 Dakikada PHP](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
-- [Popüler Komutlar](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.populer.md)
+- [Popüler Komutlar](./konular/komutlar.populer.md)
 
 
 ## MySQL'e Giriş
-- [Mysql Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/giris.konulari.mysql.md)
-- [Örnek Veritabanları](https://github.com/nuriakman/PHP-Egitimi/tree/master/ornek.veritabanlari)   
+- [Mysql Komutları](./konular/giris.konulari.mysql.md)
+- [Örnek Veritabanları](./ornek.veritabanlari)   
 
 
 ## PHP Komutları
-- [Matematiksel Komutlar](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.matematik.md)
-- [String Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.string.md)
-- [Dizi Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.diziler.md)
-- [Multibyte Komutlar](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.multibyte.md)
-- [Dosya Sistemi Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.dosyasistemi.md)
-- [Oturum Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.oturum.md)
-- [Çıktı Tamponu Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.ciktitamponu.md)
-- [Tarih ve Zaman Komutları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/komutlar.tarihzaman.md)
+- [Matematiksel Komutlar](./konular/komutlar.matematik.md)
+- [String Komutları](./konular/komutlar.string.md)
+- [Dizi Komutları](./konular/komutlar.diziler.md)
+- [Multibyte Komutlar](./konular/komutlar.multibyte.md)
+- [Dosya Sistemi Komutları](./konular/komutlar.dosyasistemi.md)
+- [Oturum Komutları](./konular/komutlar.oturum.md)
+- [Çıktı Tamponu Komutları](./konular/komutlar.ciktitamponu.md)
+- [Tarih ve Zaman Komutları](./konular/komutlar.tarihzaman.md)
 
 
 ## PHP İleri Konuları
-- [Composer Kullanımı](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kullanim.composer.md)
-- [PHP Sınıf Örneği](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/class.ornegi.md)
-- [Veri Çekme](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/curl.ornegi.md)
-- [Düzenli İfadeler](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.regex.md)
+- [Composer Kullanımı](./konular/kullanim.composer.md)
+- [PHP Sınıf Örneği](./konular/class.ornegi.md)
+- [Veri Çekme](./konular/curl.ornegi.md)
+- [Düzenli İfadeler](./konular/php.regex.md)
 
 ## php.ini ve my.ini Ayarları
-- [PHP ayarları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/ayarlar.php.ini.md)
-- [MySQL ayarları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/ayarlar.mysql.ini.md)
+- [PHP ayarları](./konular/ayarlar.php.ini.md)
+- [MySQL ayarları](./konular/ayarlar.mysql.ini.md)
 
 
 ## Örnek PHP Uygulamaları
-- [Html Form](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/ornek.html.form.md)
-- [Örnek Fonksiyonlar](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/ornek.fonksiyonlar.md)
-- [Php Örneği  1](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek01.md)
-- [Php Örneği  2](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek02.md)
-- [Php Örneği  3](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek03.md)
-- [Php Örneği  4](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek04.md)
-- [Php Örneği  5](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek05.md)
-- [Php Örneği  6](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek06.md)
-- [Php Örneği  7](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek07.md)
-- [Php Örneği  8](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek08.md)
-- [Php Örneği  9](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek09.md)
-- [Php Örneği 10](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek10.md)
-- [Php Örneği 11](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek11.md)
-- [Php Örneği 12](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek12.md)
-- [Php Örneği 13](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek13.md)
-- [Php Örneği 14](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek14.md)
-- [Php Örneği 15](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek15.md)
-- [Php Örneği 16](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek16.md)
-- [Php Örneği 17](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek17.md)
-- [Php Örneği 18](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek18.md)
-- [Php Örneği 19](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek19.md)
-- [Php Örneği 20](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek20.md)
-- [Php Örneği 21](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek21.md)
-- [Php Örneği 22](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek22.md)
-- [Php Örneği 23](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek23.md)
-- [Php Örneği 24](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek24.md)
-- [Php Örneği 25](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek25.md)
-- [Php Örneği 26](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek26.md)
-- [Php Örneği 27](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek27.md)
-- [Php Örneği 28](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek28.md)
-- [Php Örneği 29](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/php.ornek29.md)
+- [Html Form](./konular/ornek.html.form.md)
+- [Örnek Fonksiyonlar](./konular/ornek.fonksiyonlar.md)
+- [Php Örneği  1](./konular/php.ornek01.md)
+- [Php Örneği  2](./konular/php.ornek02.md)
+- [Php Örneği  3](./konular/php.ornek03.md)
+- [Php Örneği  4](./konular/php.ornek04.md)
+- [Php Örneği  5](./konular/php.ornek05.md)
+- [Php Örneği  6](./konular/php.ornek06.md)
+- [Php Örneği  7](./konular/php.ornek07.md)
+- [Php Örneği  8](./konular/php.ornek08.md)
+- [Php Örneği  9](./konular/php.ornek09.md)
+- [Php Örneği 10](./konular/php.ornek10.md)
+- [Php Örneği 11](./konular/php.ornek11.md)
+- [Php Örneği 12](./konular/php.ornek12.md)
+- [Php Örneği 13](./konular/php.ornek13.md)
+- [Php Örneği 14](./konular/php.ornek14.md)
+- [Php Örneği 15](./konular/php.ornek15.md)
+- [Php Örneği 16](./konular/php.ornek16.md)
+- [Php Örneği 17](./konular/php.ornek17.md)
+- [Php Örneği 18](./konular/php.ornek18.md)
+- [Php Örneği 19](./konular/php.ornek19.md)
+- [Php Örneği 20](./konular/php.ornek20.md)
+- [Php Örneği 21](./konular/php.ornek21.md)
+- [Php Örneği 22](./konular/php.ornek22.md)
+- [Php Örneği 23](./konular/php.ornek23.md)
+- [Php Örneği 24](./konular/php.ornek24.md)
+- [Php Örneği 25](./konular/php.ornek25.md)
+- [Php Örneği 26](./konular/php.ornek26.md)
+- [Php Örneği 27](./konular/php.ornek27.md)
+- [Php Örneği 28](./konular/php.ornek28.md)
+- [Php Örneği 29](./konular/php.ornek29.md)
 
 
 ## Etüd İçin Örnekler
-- [PHP ve Bootstrap Örneği](https://github.com/nuriakman/PHP-Egitimi/blob/master/etud/etud.01.bootstrap.php)
+- [PHP ve Bootstrap Örneği](./etud/etud.01.bootstrap.php)
 
 # Çeşitli Örnekler Projeler
 
@@ -167,17 +167,12 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - Bu depoda resim boyutlandırma, resime yazı yazma, text dosya düzenleme, text dosyaya veri ekleme, dosya yükleme çalışmaları yapıldı.
 
 # Çeşitli Konular
-- [WordPress Kurulumu](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/cesitli.wordpress.md)
-- [Çeşitli Konular](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/cesitli.konular.md)
-- [Faydalı Videolar](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/faydali.videolar.md)
-- [Faydalı Linkler](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/faydali.linkler.md)
+- [WordPress Kurulumu](./konular/cesitli.wordpress.md)
+- [Çeşitli Konular](./konular/cesitli.konular.md)
+- [Faydalı Videolar](./konular/faydali.videolar.md)
+- [Faydalı Linkler](./konular/faydali.linkler.md)
 
 # Blog Yazıları
-- [Özgür Yazılım Yaz ve Kış Kampları Blog Yazıları](https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/blog.yazilari.md)
-
+- [Özgür Yazılım Yaz ve Kış Kampları Blog Yazıları](./konular/blog.yazilari.md)
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1MTU5NzkxLDE3NTIyNjk3MTAsLTk3Mj
-cxNjg4NF19
--->
