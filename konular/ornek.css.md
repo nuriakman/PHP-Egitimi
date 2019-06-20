@@ -10,6 +10,9 @@ CSS’in sahip olduğu seçiciler vardır. Bunlar id ve class olarak ikiye ayrı
 ## CSS'in Yapısı
 ![](http://zinzinzibidi.com/Areas/web_tasarim/Content/img/css-yapisi-01.jpg)
 
+## CSS Seçici Terminolojisi
+![](https://pbs.twimg.com/media/D0RkkjqV4ActkZ8.png:large)
+
 
 ## HTML + CSS + JS = Web Page
 ![](https://cdn-images-1.medium.com/max/1600/1*GMHYx3zVUybjg0qQ2n9QSA.png)

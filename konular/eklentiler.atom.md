@@ -102,3 +102,14 @@ Mac OSX'de kısayolu: <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>  Windows
 Seçili satırı <code>ctrl</code>+<code>shift</code>+<code>D</code> kısayolu ile çoğaltır.
 
 Eğer, seçim yoksa satırı çoğaltır. Seçim varsa sadece seçimi çoğaltır.
+
+
+## [Multi Highlight Selected](https://atom.io/packages/multi-highlight-selected)
+Aktif dosyada çift tıklatılan kelimenin tekrarlarını farklı bir renkle seçer.
+
+![Multi Highlight Selected](https://i.github-camo.com/553be43c1ad14e23f6574d8e2ca0036a9c9e867e/687474703a2f2f672e7265636f726469742e636f2f573953654f4c334470512e676966)
+
+## [Project Viewer](https://atom.io/packages/project-viewer)
+Projeleri eklemenizi, düzenlemenizi ve kaldırmanızı ve aralarında geçiş yapmanızı sağlayan bir proje yöneticisi.
+
+![]()

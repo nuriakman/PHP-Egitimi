@@ -200,3 +200,6 @@ git help workflows
 - [Visual Git Cheat Sheet (SVG | PNG)](http://ndpsoftware.com/git-cheatsheet.html)
 - [Yeni Başlayanlar için Git 101](https://medium.com/turkce/yeni-ba%C5%9Flayanlar-i%C3%A7in-git-101-ff7ea5b3eff9)
 - [Github History İzleme](https://github.com/pomber/github-history)
+- [Git Explorer)](https://gitexplorer.com/)
+- [Sıkışınca Git](https://ohshitgit.com/)
+

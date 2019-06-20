@@ -72,7 +72,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 ## MySQL'e Giriş
 - [Mysql Komutları](./konular/giris.konulari.mysql.md)
-- [Örnek Veritabanları](./ornek.veritabanlari)   
+- [Örnek Veritabanları](./ornek.veritabanlari)   TODO: Yeni repoya taşındı. Link güncellenmeli.
 
 
 ## PHP Komutları
