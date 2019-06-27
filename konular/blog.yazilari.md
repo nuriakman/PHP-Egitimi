@@ -37,6 +37,7 @@
 - https://siberbulten.com/makale-analiz/tadinda-teori-fazlaca-pratik-ve-verimli-bir-etkinlik-linux-yaz-kampi-2016/
 - https://www.hakanuygun.com/blog/linux-yaz-kampi-2012/
 - https://www.mehmetince.net/linux-yaz-kampi-2016-siber-guvenlik-kurslari/
+- https://gurelahmet.com/linux-yaz-kamp%C4%B1-2014-%C3%BCn-ard%C4%B1ndan/
 
 ## Özgür Yazılım - Kış Kampı Blog Yazıları
 - http://adilcanbalcik.blogspot.com/2017/
