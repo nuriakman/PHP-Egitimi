@@ -1,4 +1,4 @@
-# Blog Yazıları
+# Özgür Yazılım Kampını Değerlendiren Blog Yazıları
 
 Özgür Yazılım Yaz/Kış Kampları katılımcılarının yazdığı blog yazılarını burada derlemeye çalıştık
 
