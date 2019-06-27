@@ -3,10 +3,6 @@
 Özgür Yazılım Yaz/Kış Kampları katılımcılarının yazdığı blog yazılarını burada derlemeye çalıştık
 
 ## Özgür Yazılım - Yaz Kampı Blog Yazıları
-- [2019, **Kemal Mutlu**, 2019 Mustafa Akgül Özgür Yazılım Kış Kampı](https://medium.com/@mutlukemal1717/2019-mustafa-akgul-ozgur-yazilim-kis-kampi-ef2cbcb3b36f)
-- [2019, **Çağıl Berrak Yüksel**, AB’19 MUSTAFA AKGÜL ÖZGÜR YAZILIM KIŞ KAMPI](https://blog.linuxturkey.org/2019/02/20/ab19-mustafa-akgul-ozgur-yazilim-kis-kampi/)
-- [2019, **Ebru Sinem Hasırcıoğlu**, Mustafa Akgül Özgür Yazılım Kış Kampı 2019](https://medium.com/@sinemhasircioglu/mustafa-akg%C3%BCl-%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-k%C4%B1%C5%9F-kamp%C4%B1-2019-bec0601e1a43)
-- [2019, **Mihri Nur Gürün**, Mustafa Akgül Özgür Yazılım Kış Kampı](https://medium.com/@mihrinurgrn/mustafa-akg%C3%BCl-%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-k%C4%B1%C5%9F-kamp%C4%B1-a13f68652004)
 - [2018, **Kemal Mutlu**, 2018 Mustafa Akgül Özgür Yazılım Yaz Kampı](https://medium.com/@mutlukemal1717/2018-mustafa-akgul-ozgur-yazilim-yaz-kampi-8ed8bd4ebdf9)
 - [2018, **Edanur Yıldız**, Çölde Vaha: Mustafa Akgül Özgür Yazılım Kampı 2018](https://medium.com/@edanuryildiz/%C3%A7%C3%B6lde-vaha-mustafa-akg%C3%BCl-%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-kamp%C4%B1-2018-625d646cf59d)
 - [2018, **Fatih Erikli**, Özgür Yazılım Kampı 2018](https://medium.com/@fthrkl/%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-kamp%C4%B1-2018-b6b5a0536188)
@@ -41,6 +37,10 @@
 
 ## Özgür Yazılım - Kış Kampı Blog Yazıları
 - [2019, **Yağmur Bali**, Mustafa Akgül Özgür Yazılım Kış Kampı 2019](https://medium.com/@yagmurb/mustafa-akgul-ozgur-yazilim-kis-kampi-2019-f0f46409e5f4)
+- [2019, **Kemal Mutlu**, 2019 Mustafa Akgül Özgür Yazılım Kış Kampı](https://medium.com/@mutlukemal1717/2019-mustafa-akgul-ozgur-yazilim-kis-kampi-ef2cbcb3b36f)
+- [2019, **Çağıl Berrak Yüksel**, AB’19 MUSTAFA AKGÜL ÖZGÜR YAZILIM KIŞ KAMPI](https://blog.linuxturkey.org/2019/02/20/ab19-mustafa-akgul-ozgur-yazilim-kis-kampi/)
+- [2019, **Ebru Sinem Hasırcıoğlu**, Mustafa Akgül Özgür Yazılım Kış Kampı 2019](https://medium.com/@sinemhasircioglu/mustafa-akg%C3%BCl-%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-k%C4%B1%C5%9F-kamp%C4%B1-2019-bec0601e1a43)
+- [2019, **Mihri Nur Gürün**, Mustafa Akgül Özgür Yazılım Kış Kampı](https://medium.com/@mihrinurgrn/mustafa-akg%C3%BCl-%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-k%C4%B1%C5%9F-kamp%C4%B1-a13f68652004)
 - [2018, **Şeyma Akman**, AB2018 Karabük'de Blok Programlama Eğitimi Aldık](https://seymettin.blogspot.com/2018/02/ab2018.html)
 - [2018, **Jiyan Altek**, Akademik Bilişim 2018](https://medium.com/kodcular/akademi%CC%87k-bi%CC%87li%CC%87%C5%9Fi%CC%87m-2018-bf0647d0ecf0)
 - [2018, **Lütfi Dereli**, Akademik Bilişim 2018](https://medium.com/@ltfDre/akademik-bili%C5%9Fim-2018-46e9db33071b)
