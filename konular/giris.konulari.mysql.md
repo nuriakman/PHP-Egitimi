@@ -1,4 +1,4 @@
-# Temel MySQL Kullanım Komutları
+# Temel mysqli Komutları
 Komut |Anlamı|
 ------------|-------------|
 [mysqli_connect](http://php.net/mysqli-connect)|MySQL Veritabanına bağlanma komutudur
@@ -9,9 +9,7 @@ Komut |Anlamı|
 [mysqli_num_rows](http://php.net/mysqli-num-rows)|SQL sorgusu sonucunda kaç satır geldiğini gösterir
 [mysqli_affected_rows](http://php.net/mysqli-affected-rows)|SQL sorgusundan kaç satırın etkilendiğini gösterir
 
-
-
-## Nesne Yönelimli Kullanım Örneği
+## mysqli Nesne Yönelimli Kullanım Örneği
 ```PHP
 <?php
 $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
@@ -42,7 +40,7 @@ $mysqli->close();
 ?>
 ```
 
-## Yordamsal Kullanım Örneği
+## mysqli Yordamsal Kullanım Örneği
 ```PHP
 <?php
 $link = mysqli_connect("localhost", "my_user", "my_password", "world");
@@ -252,3 +250,70 @@ $MODELLER = GetHTMLSelectTagData("SELECT DISTINCT model FROM araclar ORDER BY mo
 MARKASI: <select name='marka_sec'> <?php echo $MARKALAR; ?> </select>
 MODELİ : <select name='model_sec'> <?php echo $MODELLER; ?> </select>
 ```
+
+
+
+# Temel mysql Komutları
+
+Aşağıdaki mysql_* ile başlayan komutlar, PHP 7.0'dan itibarek artık kullanılmamaktadır.
+
+
+|Komut|Açıklama|
+|----|----|
+|mysql_select_db|Sunucudan veritabanı seçer.|
+|mysql_query|Veritabanına sorgu gönderir.|
+|mysql_close|Belirtilen mysql bağlantısını kapatır.|
+|mysql_connect|Sunucuya veritabanı bağlantısı açar.|
+|mysql_error|Bir önceki işlemdeki MySQL hata mesajını verir.|
+|mysql_create_db|MySQL’de veritabanı açar.|
+|mysql_affected_rows|Bir önceki işlemde etkilenen satır sayısı.|
+|mysql_data_seek|Sonuç satırında belirtilen sıraya geçer.|
+|mysql_db_query|MySQL’e sorgu gönderir.|
+|mysql_drop_db|Veritabanını sunucudan siler.|
+|mysql_errno|Bir önceki işlemdeki MySQL hata numarasını verir.|
+|mysql_fetch_array|Sonuçları dizi değişkeni olarak alır.|
+|mysql_fetch_field|Sonuç tablosundaki alan adını nesne olarak alır.|
+|mysql_fetch_lenghts|Sonuç tablosundaki dizi değişkeninin uzunluğunu alır.|
+|mysql_fetch_object|Sonuç satırını nesne olarak alır.|
+|mysql_fetch_row|Sonuç tablosundan dizi değişkeni alır.|
+|mysql_field_name|Sonuç tablosundaki sonucun tablodaki alan adını verir.|
+|mysql_field_seek|Sonuç tablosunda sıra indeksini belirten yere götürür.|
+|mysql_field_table|Alan adı verilen sonucun tablo adını verir.|
+|mysql_field_type|Sonuçtaki alanın hangi tip olduğunu belirtir.|
+|mysql_field_flags|Sonuçtaki alanın hangi tür ekstra parametrelerle tanımlandığını belirtir.|
+|mysql_field_len|Sonuçtaki alanın veritabanındaki uzunluğunu verir.|
+|mysql_free_result|Sonuçlar için atanan hafızayı boşaltır.|
+|mysql_insert_id|Bir önceki veri yerleştirmede oluşan otomatik veri değerini verir.|
+|mysql_list_fields|Sonuçtaki tüm tablo alanlarını listeler.|
+|mysql_list_dbs|Sunucudaki tüm veritabanlarını listeler.|
+|mysql_list_tables|Veritabanındaki tüm tabloları listeler.|
+|mysql_num_fields|Sonuçtaki alan sayısını verir.|
+|mysql_num_rows|Sonuçtaki satır sayısını verir.|
+|mysql_pconnect|Sunucuya kalıcı bir bağlantı tanımlar.|
+|mysql_result|Sorgudan dönen sonuçları alır.|
+|mysql_tablename|Verilen alanın ait olduğu tablonun adını verir.|
+
+Kaynak: https://www.dahiweb.com/mysql-komutlari-fonksiyonlari/
+
+
+
+# mysql ile yazılmış eski uygulamaların PHP7'de çalıştırılması
+
+mysql ile yazılmış eski uygulamaların PHP7'de çalıştırılması için geliştirilmiş faydalı bir proje var: [PHP MySQL to MySQLi: Replace mysql functions using the mysqli extension](https://www.phpclasses.org/package/9199-PHP-Replace-mysql-functions-using-the-mysqli-extension.html)
+
+
+### The problem
+
+PHP has deprecated the mysql extension which will be removed in PHP 7. Even though it was recommended to use the improved extension, mysqli, many developers continued to use mysql.
+
+### The effect
+
+Once PHP 7 is released in mid November of this year, 2015, many hosted servers will upgrade and scripts still relying on the old mysql extension will fail.
+
+There are lot of web sites using legacy packages that are no longer supported by the developer and not all developers have had time to update their current packages to the improved mysqli extension.
+
+### The solution
+
+The PHP mysql to mysqli package was developed to be the stop gap to keep everything working smoothly.
+
+It can be placed in any PHP script, at anytime, and when the mysql extension disappears, it will take over. It works by defining functions using the old mysql function names and passing the arguments to the class methods that will use the improved mysqli extension.
