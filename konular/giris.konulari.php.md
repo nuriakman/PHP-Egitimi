@@ -214,6 +214,10 @@ else:
     echo "a ne 5 ne de 6'dır";
 endif;
 ```
+
+## While? Do While?
+![While ve Do-While](https://preview.redd.it/6wksqjmmyw321.jpg?width=960&crop=smart&auto=webp&s=16cb5ec941f4fb185fd9c96a912afb048ddd1219)
+
 ### while
 
 ```PHP
