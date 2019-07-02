@@ -7,6 +7,7 @@ JS Chart İle Örnek Yapalım
 - https://www.chartjs.org/
 
 # JavaScript
+- [KİTAP - You Don't Know JS - A book series on JavaScript](https://github.com/getify/You-Dont-Know-JS)
 
 https://www.geeksforgeeks.org/javascript-tutorial/
 https://developer.mozilla.org/tr/docs/Web/JavaScript
@@ -474,6 +475,7 @@ SLAVE START;
 - [Git Püf noktaları](https://github.com/vigo/git-puf-noktalari)
 - [Git Branch](https://github.com/vigo/git-puf-noktalari/blob/master/bolum-02/branch-ler-ile-calismak.md)
 - Git Workflow Stratejilerinin örnek resimlerle açıklanması
+- [Git Projelerinde Temizlik](./konular/git.projelerinde.media.temizligi.md)
 
 # Sublime Eklentileri
 * https://packagecontrol.io/browse
@@ -492,3 +494,4 @@ SLAVE START;
 - [Web Architectures](https://is.gd/WoFVlY)
 - [Yeni Yazılımcılara Tavsiyeler](https://denizkilinc.com/2013/10/10/yazilima-ve-programlamaya-yeni-baslayanlar-icin-tavsiyeler/)
 
+- [PHP Eğitimi Taslağı](./konular/taslak.icerik.md)
