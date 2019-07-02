@@ -79,7 +79,7 @@ wget -O index.php https://www.adminer.org/latest.php
 
 ## ATOM Editörü Kurulumu
 ```BASH
-sudo add-apt-repository ppa:webupd8team/atom # Bu satırı tek olarak yapıştırın.
+sudo add-apt-repository ppa:webupd8team/atom -y
 sudo apt update -y
 sudo apt install atom -y
 ```
