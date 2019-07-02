@@ -89,5 +89,5 @@ sudo apt install atom -y
 apm install atom-beautify autoclose-html color-picker drag-relative-path
 apm install duplicate-line-or-selection emmet file-icons highlight-line
 apm install highlight-selected markdown-preview-plus minimap-highlight-selected
-apm install minimap sublime-style-column-selection teletype todo-show
+apm install minimap sublime-style-column-selection teletype todo-show project-viewer
 ```
