@@ -327,3 +327,65 @@ Bu dosya, PHP ile Web Programlamaya Giriş konusunda anlatılabilecek başlıkla
 - PDO ile FIND_IN_SET() Kullanımı
 - PDO ile GROUP BY ve GROUP_CONCAT() Kullanımı
 - PDO ile Son Eklenen Verinin ID'sini Almak
+
+
+# ÖRNEK PROJELER
+
+### ÜYELİK SİSTEMİ
+Genel Bakış, Dosya yapısı ve Veritabanının Oluşturulması
+Bağlantı Dosyaları, Session Manager ve Kayıt Sayfası
+Kullanıcı Kayıt Yapma İşlemi
+Helper Sınıfı Oluşturma
+Kullanıcı Varlığının Kontrolü
+Giriş İşlemi ve Beni Hatırla Yapımı
+Çıkış İşlemi ve Bilgilerin Ekrana Bastırılması
+Profil ve Şifre Düzenleme Yapımı
+Profil Fotoğrafı Yükleme İşlemi
+Şifremi Unuttum Yapımı
+Kullanıcı Haraketlerini Loglama
+Online Üyeler listeleme
+Kullanıcı Detay Sayfası
+
+### ÖRNEK UYGULAMA PROJESİ -- PHP İle Üyeler Arası Mesajlaşma Bölümü Yapımı
+Tabloların Oluşturulması, Bağlantı Kodları, Mesaj Gönderme ve Listeleme Sayfası
+Mesaj Detay Sayfası ve Özel Mesajlaşma Sayfası
+
+### ÖRNEK UYGULAMA PROJESİ -- PHP İle Sık Kullanılan Uygulamalar
+PHP ile Ziyaretçi Defteri Yapımı
+Blog veya Ürünlerinize Oylama Sistemi Yapımı
+Session ve Array Kullanarak Çoklu Dil Eklentisi
+Session Kullanarak Alışveriş Sepeti Yapımı
+Sayfalama Yapımı
+EXCEL Oluşturma
+PDF Oluşturma
+Dosyaları ve Dizinleri Zipleme
+Bir Sitedeki Belirtilen Verileri Alma
+
+### ÖRNEK UYGULAMA PROJESİ -- Link Kısaltma Uygulaması
+Genel Bakış ve Dosya Yapısını Oluşturma
+Anasayfanın Oluşturulması
+Bağlantı Kodlarının Hazırlanması
+Veri Ekleme İşlemi Yapılması
+Veri Kontrol İşleminin Yapılması
+Yönlendirme İşlemlerinin Ayarlanması
+.htaccess Dosyasının Ayarlanması
+Uygulama sonu
+
+### ÖRNEK UYGULAMA PROJESİ -- PHP ile Müşteri Takip Uygulaması
+Tema İndir ve Dosya Yapısı Oluşturma
+Veritabanı Ayarlaması
+HTML Sayfaları PHP Sayfasına Ayarlama
+SessionManager Kodlaması
+Bağlantı Kodlarını Oluşturma
+Giriş Bölümünü Oluşturma
+Müşteri Ekleme / Listeleme Bölümü
+Müşteri Düzenle ve Silme Bölümü
+Müşteriye Ait işlem / Ekleme / Silme / Düzenleme / Listeleme
+İşlem Raporlama Yapımı
+Yapılan İşlemleri Loglama
+Anasayfada Yapılan İşlemleri Gösterme
+Çıkış Bölümünü Oluşturma
+
+```
+
+
