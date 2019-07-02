@@ -1,10 +1,10 @@
 # Git Projelerinde Media Temizliği
 
-Projelerdeki ses, video ve resim dosyalarının silinmesi ve git arsivinden temizlenmesinin nasıl yapılacağı bu sayfada açıklanmalı
+Projelerdeki ses, video ve resim dosyalarının silinmesi ve git arşivinden temizlenmesinin nasıl yapılacağı bu sayfada açıklanmalı
 
 
 ## Bu işin nasıl yapılabileceği ile ilgili araştırma sonuçları
-
+```
 #java -jar ~/bfg.jar --strip-blobs-bigger-than 500K PHP-Egitimi
 
 java -jar ~/bfg.jar --delete-files "*.jpg" PHP-Egitimi
@@ -12,6 +12,7 @@ java -jar ~/bfg.jar --delete-files "*.jpg" PHP-Egitimi
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 
 git push
+```
 
 
 --------
