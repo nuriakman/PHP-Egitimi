@@ -1,7 +1,126 @@
 
+JS FETCH komutu ile ÖRNEK YAPALIM: 
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- https://github.com/typicode/jsonplaceholder
+
+JS Chart İle Örnek Yapalım
+- https://www.chartjs.org/
+
+# JavaScript
+
+https://www.geeksforgeeks.org/javascript-tutorial/
+https://developer.mozilla.org/tr/docs/Web/JavaScript
+
+JavaScript'e Giriş
+Temel söz dizimleri
+Kontrol akışı ve hata yakalama
+Döngüler
+Fonksiyonlar
+Operatörler
+Sayılar ve tarihler
+Metin formatlama
+Diziler
+Nesneler
+
+- [Diziler](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [20 kinds of methods to get to know a JavaScript array operations.](https://github.com/tooto1985/js-array-operations)
+- [20 kinds of methods to get to know a JavaScript array operations example.](https://github.com/tooto1985/js-array-operations/blob/master/example.js)
+
+
+- [Ödeme yapmayan müşterilerinizin web sitelerini her gün biraz daha transparan yapan proje](https://github.com/kleampa/not-paid)
+- [Tablo sutunlarına sıralama yaptırma örneği](https://mottie.github.io/tablesorter/docs/)
+- [Tablo Sayfalama, Süzme Eklentisi / Bootgrid Plugin](http://www.jquery-bootgrid.com/Examples)
+- [jQuery Wizard Eklentisi / Step Plugin](http://www.jquery-steps.com/Examples)
+- [11 Javascript Data Visualization Libraries for 2019](https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727)
+- []()
+
+# SATIŞ SÖZLEŞMESİ OLUŞTURMA ÖRNEĞİ
+- [İstediğim şey tam olarak şu videoda var:](https://www.youtube.com/watch?v=QUca9bCufbo)
+- [Örnek Sözleşmeler:](https://shop.nurus.com/tr/yardim/sozlesme-ve-kurallar/satis-sozlesmesi)
+- [Benim Örnek:](https://codepen.io/vedia/pen/wLweyx)
+
+
+
+# JS Browser Storage IndexedDB - TercihRobotu
+https://flaviocopes.com/indexeddb/
+https://github.com/akashyap2013/IndexDB_CRUD_Operations
+https://www.youtube.com/watch?v=pcelNF8Ckhk
+
+
+# Dosya Paylaşma Projesi Örneği
+- Form Ekranı Öğeleri: Dosya Seç, Alıcı eMail, Açıklama, Gönder!
+- Form Ekranı tasarlanacak
+- Dosya Adı, Alıcı eMail, Açıklama DB'ye kaydedilecek (TextDosya sürümü da hazırlanabilir)
+- Dosya için parola üretilecek
+- Dosya yüklenme zamanı kaydedilecek ve 60 dakika sonra silinmesi sağlanacak
+- Parola ve indirme linki email ile bildirilecek
+- Zaman dolunca dosya silinmelidir
+- 3 indirme sonrasında dosya otomatik silinmelidir.
+- Her indirmede dosya ömrü 60 dakika uzatılacak
+
+
+# Notlar
+- JS, JSON ve AJAX konuları da ayrı bir başlık olarak ele alınacak.
+- PHP INPUT başlığı oluşturulmalı ve içinde GET, PUT, SESSION, COOKIES, FILE, DATABASE gibi başlıklar olmalı. 
+- HTML INPUT başlığı altında FORM, input, anchor, checkbox, select vb başlıklara yer vermeliyiz. Form Validation başlığı da burada yer almalı.
+
+
+- [PHP-PDO ile Sınırsız Kategori Yapımı, İç içe ve Çoklu Kategori Sistemi](https://www.youtube.com/playlist?list=PL_f2F0Oyaj49BJclmJzAV0v1drrtyTI6o)
+
 # İstatistikler
 - Web Technologies of the Year 2018 https://w3techs.com/blog/entry/web_technologies_of_the_year_2018
 - StackOverflow sitesi yeni anket sonucunu yayınladı: Developer Survey Results 2019 Sektördeki eğilimler hakkında bilgi edinmek için bundan daha iyi bir kaynak düşünemiyorum. https://insights.stackoverflow.com/survey/2019
+- [Neden duckduckgo?](https://spreadprivacy.com/why-use-duckduckgo-instead-of-google/?s=T4)
+- [Mobil Uyumluluk Test Sitesi](http://mobiletest.me/)
+
+# API - SOAP - REST - RESTFUL tanımları
+- [rest-soap-api-nedir](https://ceaksan.com/tr/rest-soap-api-nedir/)
+- [api-testing-ve-fake-apiler](https://ceaksan.com/tr/api-testing-ve-fake-apiler/)
+- [HTTP Durum Kodları:](http://www.mesutmurt.com/12727-HTTP-durum-kodlari-HTTP-Status-Code-ve-anlamlari.html)
+- [REST Örneği:](https://reqres.in/)
+- [Token Based Authentication:](https://stackoverflow.com/questions/1592534/what-is-token-based-authentication#1592572)
+- [REST-API ve Ajax ve JSON için harika bir site](https://reqres.in/)
+- [EN MÜKEMMELİ BU:](https://fakerestapi.azurewebsites.net/Help)
+- [Ayrıca, swagger linkinden erişilen harika kullanım var!!!](https://swagger.io/)
+- [Bir API'ı test etmek için beklenen kodlara cevap veren bir uygulama](https://www.mocky.io/)
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+
+# SQLite ve PHP
+- [PHP PDO SQLite Example](https://theonlytutorials.com/php-pdo-sqlite-example-insert-read-search/)
+- [SQLite Browser](https://sqlitebrowser.org/)
+- [SQLite ve PHP:](https://www.tutorialspoint.com/sqlite/sqlite_php.htm)
+- $db = new PDO("sqlite:".DIR."/database.sql");
+
+# Çeşitli Konular
+- [DOM Örneği - TicTacToe](https://github.com/nahroege/tictactoe)
+- [PHP fundamentals project - Harika!!!!](https://github.com/nuriakman/PHP)
+
+- [Git STAGE için resim](https://medium.com/@Galoomba/all-you-need-to-know-about-git-p-1-ac2f29e8ee93)
+- [Git STAGE için resim](https://cdn-images-1.medium.com/max/800/1*diRLm1S5hkVoh5qeArND0Q.png)
+- [Türkçe Kaynaklar](https://github.com/nuriakman/turkcekaynaklar-com)
+- [cosmiclearn - Güzel Bir Eğitim Sitesi / HTML, CSS, JS, MySQL, PHP](https://www.cosmiclearn.com/index.php)
+- [HTML5 Şablonları](https://html5up.net/)
+
+- Trello!'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
+
+# Örnek uygulama Yemek Sepeti
+- [Projeye ilave özellik: 2:04:55 - 2:25:00](https://www.youtube.com/watch?v=-kCLO0bixeM)
+- [Örnek Site](https://salonexpress.com.tr/)
+
+
+
+- [Algoritma Göreselleştiricisi](https://github.com/algorithm-visualizer/algorithm-visualizer)
+- [No More Google](https://nomoregoogle.com/)
+- [0'dan bir web developer neleri bilmeli](https://telegra.ph/0dan-bir-web-developer-neleri-bilmeli-05-18)
+
+- [Command line HTTP client](https://httpie.org/run)
+- [Muhteşem PHP Kütüphaneleri](https://github.com/ziadoz/awesome-php)
+
+# PKI (Public Key Infrastructure)
+- [What is Public Key Infrastructure (PKI)](https://www.youtube.com/watch?v=i-rtxrEz_E8)
+- [Asimetrik Şifreleme Güzel Anlatım:](https://www.youtube.com/watch?v=CR8ZFRVmQLg)
+- [HTTPS Kriptolama:](https://www.youtube.com/watch?v=hExRDVZHhig)
+- [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs)
 
 
 # OnLine HTML Form Builders
@@ -157,7 +276,7 @@ Resimler için:
 Video:
 - https://www.youtube.com/watch?v=s7wmiS2mSXY  (Harika!)
 
-
+- [Türkiye il ve ilçeleri güncel hava durumlarını Meteoroloji Genel Müdürlüğü Sitesinden getiren API Örneği](https://github.com/nuriakman/turkeyweather-api)
 
 
 
@@ -322,7 +441,10 @@ SLAVE START;
 - [Java Script, AJAX, jQuery, Angular.js, Node.js ve Java Scripting Geleceği](https://www.youtube.com/watch?v=td38MEpiOgI&list=LLc3TS7TD5LAun3jXiA_VDUQ&index=200)
 - [POP3 vs IMAP](https://www.youtube.com/watch?v=SBaARws0hy4)
 - [Bilgisayar terimlerinin animasyonlu anlatımı](https://www.youtube.com/channel/UCJQJ4GjTiq5lmn8czf8oo0Q/videos)
-
+- [DNS Konusunda güzel ve tek başına yeten bir video](https://www.youtube.com/watch?v=mpQZVYPuDGU)
+- []()
+- []()
+- []()
 
 
 # CSS Kütüphane Önerileri
@@ -349,456 +471,24 @@ SLAVE START;
 * Open Source Proje Desteği Adımları Eğitimi https://github.com/firstcontributions/first-contributions/blob/master/translations/README.tr.md
 * Git Stash İçin Resim https://medium.com/@Galoomba/all-you-need-to-know-about-git-p-1-ac2f29e8ee93
 * Git Stash İçin Resim https://cdn-images-1.medium.com/max/800/1*diRLm1S5hkVoh5qeArND0Q.png
-
+- [Git Püf noktaları](https://github.com/vigo/git-puf-noktalari)
+- [Git Branch](https://github.com/vigo/git-puf-noktalari/blob/master/bolum-02/branch-ler-ile-calismak.md)
+- Git Workflow Stratejilerinin örnek resimlerle açıklanması
 
 # Sublime Eklentileri
 * https://packagecontrol.io/browse
 * https://www.slant.co/topics/197/~best-plugins-for-sublime-text
 
 # MarkDown Editörleri
-* https://stackedit.io/
-* https://wereturtle.github.io/ghostwriter/
-* https://joplinapp.org/
-* https://inkdrop.app/
-* https://www.mweb.im/
-
-------------------------------------------------
-------------------------------------------------
-------------------------------------------------
-------------------------------------------------
-------------------------------------------------
-------------------------------------------------
-------------------------------------------------
-
-# PHP Ders Programı
-```
-# PHP ile WEB Programlamaya Giriş
-
-### HTML
-Giriş ve Temel Kod Yapısı
-Yorum Satırlarının Kullanımı
-<h1>--<h6> Başlık Etiketleri
-<p> Paragraf Etiketi
-<br> Satır Atlatma Boşluk Bırakma Etiketi
-<hr> Çizgi Çizme Etiketi
-<b> Bold Kalınlaştırma Etiketi
-<i> İtalic, Eğik Yazı Etiketi
-<sub>, <sup> Alt ve Üst İndis Etiketleri
-<ins> Metnin Altını Çizme Etiketi
-<del> / <s> Metnin Üzerini Çizme Etiketleri
-<pre> Pre Etiketi
-<table> Tablo Oluşturma İşlemleri
-<ul>, <ol>, <dl>, <li> Listeleme ve Tanımlama Etiketleri
-<img> Etiketi Resimlerle Çalışma
-Placeholder Kullanımı ve Hazır Tasarım Resimleri Çekme
-Form ve İnput İşlemleri - Form Oluşturma ve Gönderim Methodları
-<a> Link Verme Etiketi ve sayfa içi link (anchor)
-
-### HTML FORM Etiketleri
-<form>
-<input>
-<select>
-<button>
-<radio>
-<checkbox>
-<file>
-<textarea>
-
-### Çalışma Ortamının Hazırlanması
-PHP Nedir?
-Terminal komutları ile çalışma ortamı kurulumu (Ubuntu)
-MAMP Kurulumu (Mac Os X için)
-MAMP Kurulumu (Windows için)
-Xampp Kurulumu ve Host Ayarı ( Mac )
-Xampp Kurulumu ve Host Ayarı ( Windows )
-Xampp Kurulumu ve Host Ayarı ( Linux )
-Wampp Kurulumu (Windows için)
-Editör Seçimi (SublimeText, Atom)
-
-### Dil Başvuru Kılavuzu
-http://php.net/manual/tr/langref.php
-
-### PHP'ye Giriş 
-PHP Nedir? Neden PHP Kullanmalıyız?
-Web geliştiricileri için temel ağ bilgisi (HTTP Yaşam Döngüsü)
-echo - print Ekrana Yazı Yazmak
-Tek Tırnak ve Çift Tırnak Arasında ki Farklar php.net/manual/tr/language.types.string.php
-PHP'ye Başlangıç, Yazım Kuralları (Syntax), Açıklama Satırları 
-PHP'de Değişkenlerin Kullanımı
-PHP'de Veri Türleri http://php.net/manual/tr/language.types.php
-PHP'de Sabit Değişkenler
-
-### PHP'de Operatörler
-Aritmetik Operatörler
-Atama Operatörleri
-Artırma ve Azaltma Operatörleri
-Karşılaştırma Operatörleri
-Mantıksal Operatörler
-
-### Değişkenler
-Değişkenlere Giriş
-Değişkenleri Birleştirme
-Değişkenlerde Toplama, Çıkarma, Bölme ve Çarpma Işlemi
-Değişken Verip Tipi Işlemleri ve Yeni Değer Atama
-
-### Tür Dönüşümleri
-Veri Tiplerinin Başka Bir Veri Tipine Dönüştürülmesi 
-(int), (integer) (bool), (boolean) (float), (double), (real) (string) (array) (object) (unset)
-Veri Tiplerinin Kontrolü
-is_int, is_string gettype empty is_null isset
-
-### Çıktılama
-Kaçış Karakterleri (Sihirli Karakterler)
-
-### Sabitler Ve Yorum Satırı
-Yorum Satırları
-
-### Diziler
-Dizilerin Tanımı ve Dizi Oluşturma
-Dizileri Ekrana Bastırma Işlemleri
-Dizi Eleman Sayısını Bulma ve Diziden Eleman Silme
-PHP'de Dizi Oluşturmak
-PHP'de İç İçe Dizi Oluşturmak
-PHP'de Sabit Değişkenlerde Dizilerin Kullanımı
-list, array_key_exists, array_keys ve array_values
-array_pop, array_rand, array_count_values, array_shift array_search, in_array
-array_sum, array_product, array_shuffle, array_chunk, array_combine
-array_fill, array_fill_keys, array_flip, array_slice, array_unique
-sizeof, array_push, array_unshift, array_map, sort, array_reverse, array_merge, extract
-
-### String Fonksiyonları
-heredoc ve nowdoc  http://php.net/manual/tr/language.types.string.php
-explode, implode, ltrim, rtrim, strlen, strrev, strstr, nl2br
-substr, trim, strtolower, strtoupper, str_replace
-parse_str, ucfirst, ucwords, md5, sha1
-Multibyte nedir? Encoding Nedir? UTF8 vs windows-1254
-
-### Denetim Yapıları
-IF, ELSE IF ve ELSE Kullanımı
-Switch - case Kullanımı
-While ve For Döngüsü
-Include - Require
-Ternary (Üçlü) Operatör Kullanımı (Shorthand if)
-try - catch Bloğu
-
-### PHP'de Döngüler
-For Döngüsü
-Foreach Döngüsü
-While Döngüsü
-Do-While Döngüsü
-break ve continue değimleri
-
-### Fonksiyonlar
-Fonksiyonda Sınırsız Parametre Göndermek
-Fonksiyonda Static Değişken Kullanımı
-PHP7 Parametre ve Return Değişken Türü Dayatması (  :int )
-Fonksiyon Nedir?
-Fonksiyon Oluşturma
-Fonksiyon Oluşturma Toplama İşlemi
-Return ile Değer Döndürme
-Fonksiyonlarda Global Değişken Kullanımı
-Fonksiyonlarda Varsayılan Değer
-Kendin Tekrar Eden Recursive Fonksiyon
-Fonksiyon Varmı - Yokmu Bulma  function_exists()
-Tüm Fonksiyonları Listeleme  get_defined_functions()
-
-### Dosya ve Dizin İşlemleri
-Dosya, Dizin Varlığının Kontrolü ve Dizin Oluşturup Kaldırma işlemi
-Dosya Oluşturma, Dosyaya Içerik Girme ve Dosya Silme
-Dizin Içerisindeki Verilerin Listelenmesi
-Dosya Oluşturmak/Okumak/Silmek
-Dizin Oluşturmak/Silmek
-Dizin/Dosya Olup Olmadığını Kontrol Etmek
-Dosya ve Dizinlerde CHMOD Ayarını Belirlemek
-Dizindeki Dosyaları Listelemek
-Dosya ve Dizin Adlarını Yeniden Adlandırmak / Taşımak
-
-### Ön Tanımlı Değişkenler (Super Globals)
-$_GET, $_POST, $_SERVER, $_REQUEST, $_SESSION, $_COOKIE
-
-### Oturum İşlemleri
-Oturum (Session) Başlatmak/Kullanmak/Silmek
-Çerez (Cookie) Oluşturmak/Kullanmak/Silmek
-
-### Tarih ve Saat
-Strtotime Fonksiyonu ile İleri Geri İşlemleri
-Tarih Fonksiyonları - date(), getdate(), time()
-Yerel Zamanı (Saat Dilimi) Ayarlamak - Ön tanımlı Zaman Dilimini Ayarlamak (Türkçe Tarih)
-
-### Form İşlemleri
-Get ve Post Türündeki Verileri Alma
-Selecbox ve Textarea'dan Gelen Verileri Alma
-Checkbox ve Radio inputlardan Veri Alma
-File Türündeki İnputtan Dosya Bilgilerini Alma
-POST ile Değer Göndermek / Almak
-GET ile Değer Göndermek / Almak
-REQUEST ile Değer Göndermek / Almak
-PHP ile Aynı Sayfada Birden Fazla Form İşlemi
-HEADER komutu ile yönlendirme
-
-### PHP'de Dosya / Resim Yükleme
-Örnek formun oluşturulması
-PHP ile Yüklenen Dosyaların Bilgilerini Almak ($_FILES)
-PHP ile Dosyası Yüklemek
-PHP'de Çoklu Dosya Yüklemek
-
-### Veri Değişim Formatları
-JSON Nedir?
-XML Nedir?
-PHP ve JSON Kullanımı
-file_get_contents / file_put_contents Fonksiyonu Kullanımı
-json_encode ile JSON Formatında Veri Oluşturma
-json_decode ile JSON Formatındaki Veriyi Parçalama
-
-### Faydalı Fonksiyonlar
-str_replace, rand, die
-strpos, trim, floor, ceil, round, abs
-eval, str_word_count, basename, glob
-sort, asort, rsort, arsort, ksort ve krsort
-cal_days_in_month ile Ayın Kaç Gün Olduğunu Bulma
-
-### PHP AJAX	
-Ajax ve jQuery Nedir?
-jQuery'de Ajax Metodları ($.ajax, $.post, $.get)
-PHP/Ajax İl-İlçe Uygulaması
-PHP AJAX Değerlendirme ve Dahil Etme
-PHP AJAX Veritabanına Veri Ekleme
-PHP AJAX Veri Çekme
-PHP AJAX Anlık Veri Çekme
-PHP AJAX JSON Türündeki İşlemler
-PHP AJAX DATATABLE
-
-# Veritabanı İşlemleri
-
-### MySQL
-
-SQL ve MySQL Nedir? Farkları Nelerdir?
-Veritabanı Vedir ? Yeni Bir Veritabanı Oluşturma ve Bağlanma
-Yeni Bir Tablo Oluşturma ve Veri Giriş İşlemi
-Tablodaki Verileri Güncelleme İşlemi
-Tablodaki Verileri Silme İşlemi
-Tekli ve Çoklu Veri Çekme İşlemi
-Tablodaki Verilerin Toplam Sayısını Öğrenme
-Veritabanından Çekilen Verileri Ekrana Yazdırma İşlemi
-Veritabanı (DATABASE) Oluşturmak / Silmek / Listelemek / Seçmek
-Tablo (TABLE) Oluşturmak / Listelemek / Silmek
-Sütun (COLUMN) Oluşturmak / Listelemek / Silmek
-Tablo ve Sütunları Detaylı Listelemek
-MySQL Veri Türleri
-MySQL Rezerve Edilmiş Kelimelerin Kullanımı
-CRUD Nedir?
-Veri Ekleme (INSERT) İşlemi
-Veri Çekme (SELECT) İşlemi
-Veri Güncelleme (UPDATE) İşlemi
-Veri Silme (DELETE) İşlemi
-WHERE Cümleciği
-Verilerde Sıralama (ORDER BY)
-Verilerde Limit (LIMIT)
-Verilerde Gruplama (GROUP BY) ve HAVING Kullanımı
-Verilerde Arama (LIKE)
-Verilerde Arama (IN)
-Verilerde Arama (FIND_IN_SET)
-İki Değer Arasındakileri Seçmek (BETWEEN)
-İlişkili Tablolar (JOIN)
-COUNT(), SUM(), MIN(), MAX() Fonksiyonları
-Bir .SQL Dosyasını Sunucuya Yüklemek
-Foreign Key nedir
-MySQL için adminer kullanımı (adminer.org)
-MySQL için phpmyadmin kullanımı (phpmyadmin.net)
-MySQL'de sorgu optimizasyonu
-MySQL'de backup/restore ve MySQL replication
-
-### Sınıflar /  Nesne Yönelimli Programlama OOO
-(OOP) Object Oriented Programming http://php.net/manual/tr/language.oop5.php
-Yeni Bir Sınıf Tanımlama
-public, private, protected Terimleri ve Method Tanımlama
-Metotlar İçerisine Parametre Gönderme
-Set ve Get Methodları
-Miras Alma İşlemleri ( Extends ) ve inheritance
-Methodlar İçerisinden Veri Döndürme
-Kurucular ( construct ) ve Yıkıcılar ( destruct )
-Self ve Parent Kullanımı
-Namespace Kullanımı
-Zincirleme Method Kullanımı
-Final Deyimi
-Static Deyimi
-(Const) Sabit Değişkenler
-Soyutlama (Abstraction)
-Nesne Arayüzleri (Interface)
-
-
-# BONUS
-
-### TEMEL GİT BİLGİSİ
-Git Nedir?
-GitHub Nedir?
-Birlikte Çalışma Felsefesi
-Proje açma
-Dosya ekleme
-Commit Etme
-Uzak depoya gönderme/indirme
-git help -a ve git help -g Komutları
-git help everyday ve git help tutorial  Komutları
-
-
-
-
-### Karışık Pakt - 1
-Temel HTML, CSS, JS, jQuery, Bootstrap eğitimi
-SweetAlert
-stackoverflow.com sitesinden PHP, MySQL, HTML, CSS ve JQuery etiketlerindeki "en çok okunan sorular" ve "en çok cevaplanan sorular" başlıklarında yer alan ilk 10 soru ve cevabının hızlı özeti
-Cache (önbellekleme) mantığına giriş / text dosya ile basit cache uygulaması
-Temel Linux terminal bilgisi ile DigitalOcean'dan sunucu kiralama ve LAMP kurulumu
-isimtescil.com üzerinden alan adı alma ve kendi sitemizi yapma
-WordPress'e giriş, kurulum, tema yükleme
-CK Editör Entegrasyonu
-MarkDown Editor Entegrasyonu
-Geliştirme ortamı kurulumu için VirtualBox, Vagrant kurulumu ve scotch/box
-OWASP Top 10 için hızlı özet
-
-### PHP'de Hata Yönetimi
-php.ini Nedir? Ne işe yarar?
-Hata Denetim İşleçleri ( @ )
-try - catch Bloğu
-PHP'de Hata Raporlama (error_reporting)
-PHP'de Özel Hata İşleyicisi (Custom Error Handler)
-PHP'de Ölümcül Hataları (Fatal Errors) Yakalamak
-
-### Regular Expressions (Düzenli İfadeler)
-RegEx Desenleri ve Modifier'lar
-PHP ve RegEx, preg_match()
-
-### PHP'de Güvenlik
-Başlamadan Önce
-Dosya ve Dizin Güvenliği
-XSS (Cross-site Scripting) Açığı
-Şifreleme (Hashing)
-httpOnly Cookie
-CSRF (Cross-site Request Forgery) Açığı
-SQL Injection Açığı
-
-### PHP'de cURL (Bot Yapımı)
-Curl'e Giriş
-Curl ile Referer Bilgisi Göndermek
-Curl ile Tarayıcı Bilgisi (User Agent) Göndermek
-Curl ile Post İşlemleri
-Curl ile Dosya Yükleme İşlemi
-Curl ile Üst Bilgileri (Headers) Kullanmak
-Curl ile Dosya İndirme İşlemi
-Curl'de Hataları Yakalamak
-Curl ile Cookie İşlemleri
-
-### PHP Güvenlik İşlemleri
-Gelen Sayısal ve String Türündeki Verilerin Temizlenmesi
-PDO Güzelliği ve is_numeric Kullanımı
-filter_var ile Fltreleme İşlemleri
-
-### PHP'de Veritabanı İşlemleri (PDO)
-PDO ile Veritabanı Bağlantısı Oluşturmak
-PDO ile Veri Ekleme (INSERT) İşlemi
-PDO ile Veri Listeleme (SELECT) İşlemi
-PDO ile Veri Güncelleme (UPDATE) İşlemi
-PDO ile Veri Silme (DELETE) İşlemi
-PDO ile JOIN Kullanımı
-PDO ile LIKE Kullanımı
-PDO ile BETWEEN Kullanımı
-PDO ile FIND_IN_SET() Kullanımı
-PDO ile GROUP BY ve GROUP_CONCAT() Kullanımı
-PDO ile Son Eklenen Verinin ID'sini Almak
-
-# ÖRNEK PROJELER
-
-### ÜYELİK SİSTEMİ
-Genel Bakış, Dosya yapısı ve Veritabanının Oluşturulması
-Bağlantı Dosyaları, Session Manager ve Kayıt Sayfası
-Kullanıcı Kayıt Yapma İşlemi
-Helper Sınıfı Oluşturma
-Kullanıcı Varlığının Kontrolü
-Giriş İşlemi ve Beni Hatırla Yapımı
-Çıkış İşlemi ve Bilgilerin Ekrana Bastırılması
-Profil ve Şifre Düzenleme Yapımı
-Profil Fotoğrafı Yükleme İşlemi
-Şifremi Unuttum Yapımı
-Kullanıcı Haraketlerini Loglama
-Online Üyeler listeleme
-Kullanıcı Detay Sayfası
-
-### ÖRNEK UYGULAMA PROJESİ -- PHP İle Üyeler Arası Mesajlaşma Bölümü Yapımı
-Tabloların Oluşturulması, Bağlantı Kodları, Mesaj Gönderme ve Listeleme Sayfası
-Mesaj Detay Sayfası ve Özel Mesajlaşma Sayfası
-
-### ÖRNEK UYGULAMA PROJESİ -- PHP İle Sık Kullanılan Uygulamalar
-PHP ile Ziyaretçi Defteri Yapımı
-Blog veya Ürünlerinize Oylama Sistemi Yapımı
-Session ve Array Kullanarak Çoklu Dil Eklentisi
-Session Kullanarak Alışveriş Sepeti Yapımı
-Sayfalama Yapımı
-EXCEL Oluşturma
-PDF Oluşturma
-Dosyaları ve Dizinleri Zipleme
-Bir Sitedeki Belirtilen Verileri Alma
-
-### ÖRNEK UYGULAMA PROJESİ -- Link Kısaltma Uygulaması
-Genel Bakış ve Dosya Yapısını Oluşturma
-Anasayfanın Oluşturulması
-Bağlantı Kodlarının Hazırlanması
-Veri Ekleme İşlemi Yapılması
-Veri Kontrol İşleminin Yapılması
-Yönlendirme İşlemlerinin Ayarlanması
-.htaccess Dosyasının Ayarlanması
-Uygulama sonu
-
-### ÖRNEK UYGULAMA PROJESİ -- PHP ile Müşteri Takip Uygulaması
-Tema İndir ve Dosya Yapısı Oluşturma
-Veritabanı Ayarlaması
-HTML Sayfaları PHP Sayfasına Ayarlama
-SessionManager Kodlaması
-Bağlantı Kodlarını Oluşturma
-Giriş Bölümünü Oluşturma
-Müşteri Ekleme / Listeleme Bölümü
-Müşteri Düzenle ve Silme Bölümü
-Müşteriye Ait işlem / Ekleme / Silme / Düzenleme / Listeleme
-İşlem Raporlama Yapımı
-Yapılan İşlemleri Loglama
-Anasayfada Yapılan İşlemleri Gösterme
-Çıkış Bölümünü Oluşturma
-
-
-# FAYDALI LİNKLER
-
-Richard Stallman - Özgür Yazılım HQ Türkçe Altyazılı (14 Dakika)
-https://www.youtube.com/watch?v=_St4bC9fcfA
-
-PHP Usulüne Uygun
-https://kulekci.net/php-the-right-way/
-
-Roadmap to becoming a web developer in 2018
-https://github.com/kamranahmedse/developer-roadmap
-
-The 2018 Web Developer Roadmap
-https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d
-https://medium.freecodecamp.org/a-roadmap-to-becoming-a-web-developer-in-2017-b6ac3dddd0cf
-
-Web Architecture 101
-https://engineering.videoblocks.com/web-architecture-101-a3224e126947
-
-Web Application Architectures Compared
-http://g4tp.com/webarch/
-
-Web Architectures
-https://is.gd/WoFVlY
-
-Yeni Yazılımcılara Tavsiyeler
-https://denizkilinc.com/2013/10/10/yazilima-ve-programlamaya-yeni-baslayanlar-icin-tavsiyeler/
-
-Algoritma Soruları
-http://algoritma-programlama.blogspot.com/search/label/Algoritma
-
-
-İL - İLÇE Listesi
-https://www.nvi.gov.tr/hakkimizda/projeler/mernis/il-ilce-kod-tablosu
-```
-
-
-
+- https://stackedit.io/
+- https://wereturtle.github.io/ghostwriter/
+- https://joplinapp.org/
+- https://inkdrop.app/
+- https://www.mweb.im/
+
+# Çeşitli
+- [Web Architecture 101](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
+- [Web Application Architectures Compared](http://g4tp.com/webarch/)
+- [Web Architectures](https://is.gd/WoFVlY)
+- [Yeni Yazılımcılara Tavsiyeler](https://denizkilinc.com/2013/10/10/yazilima-ve-programlamaya-yeni-baslayanlar-icin-tavsiyeler/)
 
