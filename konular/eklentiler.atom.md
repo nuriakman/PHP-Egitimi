@@ -112,4 +112,4 @@ Aktif dosyada çift tıklatılan kelimenin tekrarlarını farklı bir renkle se�
 ## [Project Viewer](https://atom.io/packages/project-viewer)
 Projeleri eklemenizi, düzenlemenizi ve kaldırmanızı ve aralarında geçiş yapmanızı sağlayan bir proje yöneticisi.
 
-![]()
+(Bu eklentinin ekran görüntüsü bulunamadı)
