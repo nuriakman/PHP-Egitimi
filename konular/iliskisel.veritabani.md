@@ -151,3 +151,7 @@ ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutul
   16        3     Dizüstü
   17        3     Tablet
 ```
+
+## CRUD Nedir?
+CRUD (Create, Read, Update, Delete), herhangi bir veri kaynağın (veritabanı veya dosyaya) veri girmeye, güncellemeye, okumaya ve silmeye verilen isimdir.
+
