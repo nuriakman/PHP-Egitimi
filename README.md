@@ -14,6 +14,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 ## Giriş
 - [Giriş ve Temel Konular](./konular/giris.konulari.md)
+- [Algoritma](./konular/algoritma.md)
 
 ## Apache+PHP+MySQL Kurulumu
 PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
