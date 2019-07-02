@@ -74,6 +74,9 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 ## MySQL'e Giriş
 - [Mysql Komutları](./konular/giris.konulari.mysql.md)
 - [Örnek Veritabanları](https://github.com/nuriakman/Ornek_Veri_Setleri)
+- [MySQL String Komutları](./konular/komutlar.mysql.string.md)
+- [MySQL Tarih Komutları](./konular/komutlar.mysql.tarih.md)
+- [MySQL Functions](./konular/komutlar.mysql.all.md)
 
 
 ## PHP Komutları
