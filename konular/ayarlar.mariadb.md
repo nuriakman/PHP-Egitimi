@@ -5,7 +5,7 @@
 sudo apt install mariadb-server
 ```
 
-## Root Kullanıcısı İçin Parola Belirleme
+## Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
 
 ```SQL
 sudo mysql -u root
@@ -17,14 +17,14 @@ sudo mysql -u root
 ```
 
 
-## Güvenli Kurulum Sihirbazı
+## Root Kullanıcısı İçin Parola Belirleme ve Güvenli Kurulum Sihirbazı
 
 ```BASH
 sudo mysql_secure_installation
 ```
 
 
-### Kurulum Ekranı ve Yönlendirme
+### Yukarıdaki Komutun Çıktı Ekranları ve Cevap Yönergeleri
 
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
       SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
@@ -100,25 +100,23 @@ Thanks for using MariaDB!
 ### MySQL İçin Unutulan Parolanın Sıfırlanması
 ```
 sudo service mysql stop
-sudo service mysqld stop
 sudo mysqld_safe --skip-grant-tables &
 mysql -u root
-use mysql;
-update user set password=PASSWORD("root") where User='root';
-flush privileges;
-quit
+  use mysql;
+  update user set password=PASSWORD("root") where User='root';
+  flush privileges;
+  quit;
 sudo service mysql start
 ```
 
-### mariaDB İçin Unutulan Parolanın Sıfırlanması
+### MariaDB İçin Unutulan Parolanın Sıfırlanması
 ```
 sudo service mariadb  stop
-sudo service mariadbd stop
 sudo mysqld_safe --skip-grant-tables --skip-networking &
 mysql -u root
-use mysql;
-update user set password=PASSWORD("root") where User='root';
-flush privileges;
-quit;
+  use mysql;
+  update user set password=PASSWORD("root") where User='root';
+  flush privileges;
+  quit;
 sudo service mariadb start
 ```
