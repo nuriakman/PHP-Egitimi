@@ -5,6 +5,7 @@ Merhaba !
 **Mustafa Akgül Özgür Yazılım Yaz Kampı, PHP ile Web Programlama 1. Düzey** sınıfımızı tercih ettiğiniz ve kabul edildiğiniz için bu mesajı alıyorsunuz.
 
 Kurs eğitmeniniz olarak ben **Nuri Akman** ve yardımcı eğitmenimiz **Hasan Çiçek** sizlere bildiklerimizi aktarmaya çalışacağız.
+Kurs eğitmeniniz olarak ben **Nuri Akman** ve yardımcı eğitmenimiz **Hasan Çiçek** sizlere, belirli bir program dahilinde PHP ve Web Programlama hakkında bilgi vereceğiz. 15 güne yayılan konuları öğrenebilmeniz için dersleri dikkatli dinlemeniz ve gerekli donanıma sahip olarak gelmeniz gerekmektedir.
 
 19 Temmuz - 3 Ağustos tarihleri arası yapılacak olan kamp öncesi bazı konuları size hatırlatmak ve bilgilendirmek için bu mesajı gönderiyorum.
 
