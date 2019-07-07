@@ -1,10 +1,11 @@
-# PHP ile Web Programlama Kursundan Selamlar!
+# Mesaj 1
+
+### PHP ile Web Programlama Kursundan Selamlar!
 
 Merhaba !  
 
 **Mustafa Akgül Özgür Yazılım Yaz Kampı, PHP ile Web Programlama 1. Düzey** sınıfımızı tercih ettiğiniz ve kabul edildiğiniz için bu mesajı alıyorsunuz.
 
-Kurs eğitmeniniz olarak ben **Nuri Akman** ve yardımcı eğitmenimiz **Hasan Çiçek** sizlere bildiklerimizi aktarmaya çalışacağız.
 Kurs eğitmeniniz olarak ben **Nuri Akman** ve yardımcı eğitmenimiz **Hasan Çiçek** sizlere, belirli bir program dahilinde PHP ve Web Programlama hakkında bilgi vereceğiz. 15 güne yayılan konuları öğrenebilmeniz için dersleri dikkatli dinlemeniz ve gerekli donanıma sahip olarak gelmeniz gerekmektedir.
 
 19 Temmuz - 3 Ağustos tarihleri arası yapılacak olan kamp öncesi bazı konuları size hatırlatmak ve bilgilendirmek için bu mesajı gönderiyorum.
@@ -40,6 +41,36 @@ Kurs eğitmeniniz olarak ben **Nuri Akman** ve yardımcı eğitmenimiz **Hasan �
 -   PHP sınıfımız, kursa katılım, tercihlerin iptali gibi konularda bir sorunuz olursa lütfen [nuriakman@gmail.com](mailto:nuriakman@gmail.com) adresimden bana yazınız.
 
 # Bolu'da görüşmek üzere!
+
+Selamlar,  
+Nuri Akman
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+# Mesaj 2
+
+### PHP ile Web Programlama Kursundan Selamlar!
+ 
+Merhaba !
+
+**Mustafa Akgül Özgür Yazılım Yaz Kampı, PHP ile Web Programlama 1. Düzey** sınıfımızı tercih ettiğiniz ve kabul edildiğiniz için bu mesajı alıyorsunuz.
+
+Kurs eğitmeniniz olarak ben **Nuri Akman** ve yardımcı eğitmenimiz **Hasan Çiçek** sizlere, belirli bir program dahilinde PHP ve Web Programlama hakkında bilgi vereceğiz.
+
+Bazı katılımcılar, kampa seçilmiş olduğunu bildiren email'i alamadıklarını belirttikleri için sizlere bu mesajı gönderiyorum.
+
+#### LÜTFEN BU MESAJIMA CEVAP VERİNİZ:
+
+#### 1.) KAMPA GELEMEME GİBİ BİR DURUMUNUZ VAR MI?
+#### 2.) ŞAYET BELİRSİZLİK VARSA YÜZDE KAÇ İHTİMALLE GELEBİLECEKSİNİZ?
+
+Görüşmek üzere!
+
 
 Selamlar,  
 Nuri Akman
