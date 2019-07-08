@@ -16,21 +16,12 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [Giriş ve Temel Konular](./konular/giris.konulari.md)
 - [Algoritma](./konular/algoritma.md)
 
-## Apache+PHP+MySQL Kurulumu
-PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
-
-Adı | Açıklaması
-----| -----------
-LAMP|Linux için Apache+MySQL+PHP anlamındadır.
-WAMP|Windows için Apache+MySQL+PHP anlamındadır.
-MAMP|MacOS için Apache+MySQL+PHP anlamındadır. MAMP'ın Windows sürümü de vardır.
-XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anlamındadır.
 
 ## Kurulum Bilgileri
 - [Windows İçin Kurulum](./konular/kurulum.menu.windows.md)
 - [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
+- [MacOS İçin Kurulum](./konular/kurulum.menu.macos.md) TODO:GÜNCELLENMELİ
 
-# Giriş Konuları
 
 ## GİT
 - [Git, Github ve git komutları](./konular/komutlar.git.md)
@@ -38,8 +29,9 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 
+
 ## LINUX
-- [Temel Linux Koutları](./konular/linux.temel.komutlar.md)
+- [Temel Linux Komutları](./konular/linux.temel.komutlar.md)
 
 
 ## CSS
@@ -72,7 +64,7 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 
 
 ## MySQL'e Giriş
-- [Mysql Komutları](./konular/giris.konulari.mysql.md)
+- [MySQL Komutları](./konular/giris.konulari.mysql.md)
 - [Örnek Veritabanları](https://github.com/nuriakman/Ornek_Veri_Setleri)
 - [MySQL String Komutları](./konular/komutlar.mysql.string.md)
 - [MySQL Tarih Komutları](./konular/komutlar.mysql.tarih.md)
@@ -101,60 +93,28 @@ XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anla
 - [MySQL ayarları](./konular/ayarlar.mysql.ini.md)
 
 
-## Örnek PHP Uygulamaları
+## PHP Örnekleri
 - [HTML Form Örneği](./konular/ornek.html.form.md) TODO: Bu dosya kayıp. Yenisi hazırlanacak
-- [Örnek Fonksiyonlar](./konular/ornek.fonksiyonlar.md)
-- [Örnek PHP Projeleri](./konular/php.ornekleri.md)
+- [Örnek Kütüphaner](./konular/ornek.kutuphane.md)
+- [PHP Örnekleri](./konular/php.ornekleri.md)
+- [PHP Projeleri](./konular/php.projeleri.md)
 
 
 ## Etüd İçin Örnekler
 - [PHP ve Bootstrap Örneği](./etud/etud.01.bootstrap.php)
 
-# Çeşitli Örnekler Projeler
-
-## [SairlerTextDB:](https://github.com/nuriakman/SairlerTextDB)
- -  Şairler ve hayatlarının sunulmaya çalışıldığı proje tamamen metin dosyaları (txt dosyalar) kulanılarak hazırlandı. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
-
-## [SairlerMYSQL:](https://github.com/nuriakman/SairlerMySQL)
--  Şairler ve hayatlarının sunulmaya çalışıldığı projemizi MySQL ile  hazırladık. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
-
-## [TextAnaliz:](https://github.com/nuriakman/TextAnaliz)
-- Örneğimizde bir konuşmadan aldığımız metni, kendi belirlediğimiz kurallarla anlamsız karakterleri silip, konuşmanın bir özetini çıkarttık. Konuşmanın konusunu bulduk.  
-
-## [TextDosyadanSozluk:](https://github.com/nuriakman/TextDosyadanSozluk)
-- Örneğimizde isimler ve anlamları olan bir dosya oluşturup verileri çektik. Kendi belirlediğimiz kurallarla isimleri, anlamlarını ve cinsiyetlerini ayırdık. Harfe göre isimleri listeledik. İsim arama bölümü yaptık.
-
-## [SessionOrnegi:](https://github.com/nuriakman/SessionOrnegi)
-- Örneğimizde oturum yönetimine örnek verdik. Session başlatıp, session sonlandırdık.Kullanıcının giriş yapmasını, yaptıktan sonra kontrol etmesini, sessionları silerek oturumu sonlandırmasını sağladık.
-
-## [LYK2018phpsozluk:](https://github.com/nuriakman/lyk2018phpsozluk)
-- Buradaki örneklerde Glob fonksiyonundan bahsettik. Dosyadaki verileri bölmekten bahsettik. İsimlerin anlamlarını ve cinsiyetlerini böldük. Kutuphane dosyası oluşturup fonksiyonları çağırdık. Seo çalışmasına örnek verdik.
-
-## [SozlukMySQL:](https://github.com/nuriakman/SozlukMySQL)
-- MySQL ile hazırlanmış isim sözlüğü uygulamasıdır. Yönetim paneli yoktur. Veritabanından alınan isimleri, anlamlarını ve cinsiyetlerini listeler. Harfe göre isimleri listeledik. İsim arama bölümü yaptık.
-
-## [LYK2018php:](https://github.com/nuriakman/lyk2018php)
-- Örneğimizde github üzerinden ortak bir çalışma yaptık. Konular öğrencilere dağıtıldı ve ortak bir şekilde çalışma yapıldı.
-
-## [Include Örneği:](https://github.com/nuriakman/include_ornegi)
-- Örneğimizde bootstrap bir temayı parçaladık.
-
-## [LYK2018_Ornekler:](https://github.com/nuriakman/LYK2018_Ornekler)
-- Bu depoda resim boyutlandırma, resime yazı yazma, text dosya düzenleme, text dosyaya veri ekleme, dosya yükleme çalışmaları yapıldı.
-
-## [Teklif Formu:](https://github.com/nuriakman/teklif)
-- Bu proje ile https://armut.com/ sitesindekine benzer bir form oluşturma çalışmasına başladık. Proje yarım bırakılmıştır.
-
-## [Hava Durumu Türkiye:](https://github.com/nuriakman/turkeyweather-api)
-- Türkiye il ve ilçeleri güncel hava durumlarını Meteoroloji Genel Müdürlüğü Sitesinden getirir. API, CURL ve JSON örneğidir.
-
-# Çeşitli Konular
+## Çeşitli Konular
 - [WordPress Kurulumu](./konular/cesitli.wordpress.md)
 - [Çeşitli Konular](./konular/cesitli.konular.md)
 - [Faydalı Videolar](./konular/faydali.videolar.md)
 - [Faydalı Linkler](./konular/faydali.linkler.md)
-
-# Blog Yazıları
 - [Özgür Yazılım Yaz ve Kış Kampları Blog Yazıları](./konular/blog.yazilari.md)
+
+# Teşekkürler / [Katkıda Bulunanlar](https://github.com/nuriakman/PHP-Egitimi/graphs/contributors)
+* [Kemal MUTLU](https://github.com/kemalmutlu)
+* [Nuri AKMAN](https://github.com/nuriakman)
+* [Hasan ÇİÇEK](https://github.com/yeniceri1453)
+* [Yağmur BALİ](https://github.com/yagmurb)
+
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!

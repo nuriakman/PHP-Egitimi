@@ -119,7 +119,7 @@ Komut|Açıklama
 ```tar -czf homebackup.tar.gz home``` | gzip sıkıştırması kullanılarak arşiv oluşturur
 ```gzip home``` | home.gz olarak arşiv dosyası oluşturur
 ```unzip abc.zip``` | Zip dosyasını çıkartır.
-```zipgrep *.txt abcd.zip```` | Zip içerisinde txt dosyalarını arar
+```zipgrep *.txt abcd.zip``` | Zip içerisinde txt dosyalarını arar
 ```tar xjf archive.tar.bz2``` | tar.bz2 dosyasını çıkartır
 ```tar ztvf home.tar.gz \| grep abc``` | tar.gz içinde arama yapar
 ```gzip -d home.gz``` | gzip dosyasını çıkartır
@@ -131,7 +131,7 @@ Komut|Açıklama
 ```yum install paket adı``` | RHEL tabanlı sistemlerde paketi kur
 ```yum remove paket adı``` | RHEL tabanlı sistemlerde paketi sil
 ```yum info httpd``` | RHEL tabanlı sistemlerde paket hakkında bilgi verir
-```yum groupinstall 'Development Tools'```` | RHEL tabanlı sistemlerde grubu kurar
+```yum groupinstall 'Development Tools'``` | RHEL tabanlı sistemlerde grubu kurar
 ```yum grouplist \| more``` | RHEL tabanlı sistemlerde yum gruplarını listeler
 ```apt-get install paket adı``` | Debian tabanlı sistemlerde paketi kur
 ```apt-get purge paket adı``` | Debian tabanlı sistemlerde paketi sil

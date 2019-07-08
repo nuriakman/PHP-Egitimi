@@ -207,7 +207,7 @@ Bir İsim Sözlüğünde Kemal ismi için yapılabilecek Seo çalışması:
 Bir Linux dağıtımı (kısaca dağıtım); Linux çekirdeği, GNU araçları ve bir masaüstü ortamının bir araya gelmesiyle, bu birlikteliği sürdürülebilir şekilde yönetecek bir yapılandırma araçları seti, yazılım güncelleme araçları vb. ile oluşturularak tam teşekküllü bir işletim sistemi haline gelen uygulamalar bütününü ifade eder.
 
 ## SPAGETTİ KOD
-<b> Firmalar MVC yöntemini daha çok tercih eder.</b> Spagetti kod HTML kodları arasında yazılan Sunucu ile irtibatta olan kodlarımıza spagetti kod demekteyiz. Kullanımı oldukça karışık olan bu kod yazma stili olan ve günümüzde oldukça sık kullanılan PHP ve ASP kodları genellikle spagetti kod örneğini sık kullanmaktadır. HTML etiketleri arasında yazılan bu kodlar MVC yapısı ile düzenli bir şekile girmiştir.
+**Firmalar MVC yöntemini daha çok tercih eder.** Spagetti kod HTML kodları arasında yazılan Sunucu ile irtibatta olan kodlarımıza spagetti kod demekteyiz. Kullanımı oldukça karışık olan bu kod yazma stili olan ve günümüzde oldukça sık kullanılan PHP ve ASP kodları genellikle spagetti kod örneğini sık kullanmaktadır. HTML etiketleri arasında yazılan bu kodlar MVC yapısı ile düzenli bir şekile girmiştir.
 
 ## MVC (Model-View-Controller)
 front-end tamamen koddan ayrılmış php kodları tamamen ana kodumuzdan ayrılmıştır.Örneğin css dosyasının içinde php,html kodları yok. MVC şunlar ile yapılabilir;
@@ -227,3 +227,14 @@ nick alıyorsunuz ve projelere destek veriyorsunuz.Beğendiğiniz bir projeyi in
 düzeltin.Adama senin projeni beğendim bir kaç hata buldum bunları düzelttim diyin.Sizin profilinizde bu
 tarz yaptığınız her şey kaydediliyor.Merak eden birisi açıp projeyi incelyor.Bunu öğrenciler
 sıklıklıkla yapıyor.Sonra bir yazılım şirkeyinde işe girerken sizden GİTHUB adresinizi istiyor.
+
+
+## Apache+MySQL+PHP (AMP) Kurulumu
+PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
+
+Adı | Açıklaması
+----| -----------
+LAMP|Linux için Apache+MySQL+PHP anlamındadır.
+WAMP|Windows için Apache+MySQL+PHP anlamındadır.
+MAMP|MacOS için Apache+MySQL+PHP anlamındadır. MAMP'ın Windows sürümü de vardır.
+XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anlamındadır.

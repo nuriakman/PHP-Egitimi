@@ -1,4 +1,4 @@
-# Örnek PHP Projeleri
+# PHP Örnekleri
 
 - [Php Örneği  1](./php.ornek01.md)
 - [Php Örneği  2](./php.ornek02.md)
