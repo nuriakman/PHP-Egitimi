@@ -99,15 +99,16 @@ Thanks for using MariaDB!
 
 ### MySQL İçin Unutulan Parolanın Sıfırlanması
 ```
-sudo service mysql stop
+sudo service mysql  stop
+sudo service mysqld stop
 sudo mysqld_safe --skip-grant-tables &
 mysql -u root
   use mysql;
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
-sudo service mysql stop
-sudo service mysql start
+sudo service mysql  stop
+sudo service mysqld start
 ```
 
 ### MariaDB İçin Unutulan Parolanın Sıfırlanması
