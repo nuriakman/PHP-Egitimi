@@ -2,7 +2,7 @@
 
 ## Kurulum
 ```BASH
-sudo apt install mariadb-server
+sudo apt install mariadb-server mariadb-client -y
 ```
 
 ## Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
