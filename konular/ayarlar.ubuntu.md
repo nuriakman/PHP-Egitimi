@@ -79,7 +79,8 @@ wget -O index.php https://www.adminer.org/latest.php
 
 ## ATOM Editörü Kurulumu
 ```BASH
-sudo add-apt-repository ppa:webupd8team/atom -y
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 sudo apt update -y
 sudo apt install atom -y
 ```
