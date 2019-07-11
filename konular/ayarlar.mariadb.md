@@ -107,6 +107,7 @@ mysql -u root
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
+mysqladmin -u root shutdown
 sudo service mysql  stop
 sudo service mysqld start
 ```
@@ -120,6 +121,7 @@ mysql -u root
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
+mysqladmin -u root shutdown
 sudo service mariadb stop
 sudo service mariadb start
 ```
