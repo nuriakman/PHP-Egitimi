@@ -1,4 +1,6 @@
 
+- [PHP for Kids Eğitim Sitesi](http://www.phpforkids.com)
+
 JS FETCH komutu ile ÖRNEK YAPALIM: 
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - https://github.com/typicode/jsonplaceholder
