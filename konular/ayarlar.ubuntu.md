@@ -43,6 +43,7 @@ sudo systemctl enable apache2
 ```BASH
 sudo adduser $USER www-data
 sudo chown -R $USER:www-data /var/www/html/
+sudo rm -f /var/www/html/index.html
 ```
 
 ## Masaüzerine HTML klasörü kısayolunun açılması
