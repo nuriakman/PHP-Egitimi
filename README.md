@@ -25,6 +25,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 ## GİT
 - [Git, Github ve git komutları](./konular/komutlar.git.md)
+- [Git İpuçları](./konular/komutlar.git.ipuclari.md)
 - [Atom ve Git kullanımı](./konular/kullanim.atom.git.md) TODO:GÜNCELLENMELİ
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
