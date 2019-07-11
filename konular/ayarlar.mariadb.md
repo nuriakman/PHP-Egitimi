@@ -1,29 +1,10 @@
-# MaridDB Kurulumu
+# MaridDB İçin İpuçları
 
-## Kurulum
-```BASH
-sudo apt install mariadb-server mariadb-client -y
-```
-
-## Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
-
-```SQL
-sudo mysql -u root
-  show databases;
-  use mysql;
-  update user set plugin='' where User='root';
-  flush privileges;
-  exit;
-```
-
-
-## Root Kullanıcısı İçin Parola Belirleme ve Güvenli Kurulum Sihirbazı
+## Güvenli Kurulum Sihirbazı
 
 ```BASH
 sudo mysql_secure_installation
 ```
-
-
 ### Yukarıdaki Komutun Çıktı Ekranları ve Cevap Yönergeleri
 
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
@@ -95,9 +76,20 @@ installation should now be secure.
 Thanks for using MariaDB!
 
 
-## Unutulan Parolanın Sıfırlanması
 
-### MySQL İçin Unutulan Parolanın Sıfırlanması
+## Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
+
+```SQL
+sudo mysql -u root
+  show databases;
+  use mysql;
+  update user set plugin='' where User='root';
+  flush privileges;
+  exit;
+```
+
+
+# Unutulan MySQL Root Parolasının Sıfırlanması
 ```
 sudo service mysql  stop
 sudo service mysqld stop
@@ -107,12 +99,13 @@ mysql -u root
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
-mysqladmin -u root shutdown
 sudo service mysql  stop
+sudo service mysqld stop
 sudo service mysqld start
 ```
 
-### MariaDB İçin Unutulan Parolanın Sıfırlanması
+
+# Unutulan MariaDB Root Parolasının Sıfırlanması
 ```
 sudo service mariadb  stop
 sudo mysqld_safe --skip-grant-tables --skip-networking &
@@ -121,7 +114,5 @@ mysql -u root
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
-mysqladmin -u root shutdown
-sudo service mariadb stop
 sudo service mariadb start
 ```
