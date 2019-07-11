@@ -27,8 +27,9 @@ sudo apt install php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
 ```
 
 ## MariaDB Kurulumu
-Bu bölüm ayrı bir yükleme adımı olarak [MariaDB Kurulumu](../konular/ayarlar.mariadb.md) sayfasında detaylı biçimde anlatılmıştır. Lütfen önce MariadDB sayfasında belirtilen işlem adımlarını uygulayınız.
-
+```BASH
+sudo apt install mariadb-server mariadb-client -y
+```
 
 ## Servislerin Başlatılması
 ```BASH
