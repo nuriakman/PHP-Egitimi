@@ -20,7 +20,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 ## Kurulum Bilgileri
 - [Windows İçin Kurulum](./konular/kurulum.menu.windows.md)
 - [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
-- [MacOS İçin Kurulum](./konular/kurulum.menu.macos.md) TODO:GÜNCELLENMELİ
+- [MacOS İçin Kurulum](./konular/kurulum.menu.macos.md)
 
 ## Faydalı Eklentiler
 - [Atom Eklentileri](./konular/eklentiler.atom.md)  
