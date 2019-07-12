@@ -16,10 +16,11 @@ Böylece, ```/Applications/MAMP/Library/bin/mysql -v``` yerine şu yazılabilir:
 
 
 php.ini'nin sonuna ekle:
-
+```
 display_errors = On
 display_startup_errors = On
 error_reporting = E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED & ~E_WARNING
+```
 
 Apache'yi yeniden başlatmayı unutma!
 
