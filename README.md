@@ -22,6 +22,11 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
 - [MacOS İçin Kurulum](./konular/kurulum.menu.macos.md) TODO:GÜNCELLENMELİ
 
+## Faydalı Eklentiler
+- [Atom Eklentileri](./konular/eklentiler.atom.md)  
+- [Firefox Eklentileri](./konular/eklentiler.firefox.md)  
+- [SublimeText Eklentileri](./konular/eklentiler.sublimetext.md) TODO: Yazılacak
+
 
 ## GİT
 - [Git, Github ve git komutları](./konular/komutlar.git.md)
