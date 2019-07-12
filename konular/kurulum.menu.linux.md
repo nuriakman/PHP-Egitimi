@@ -5,10 +5,11 @@
 - [MaridDB İçin Parola Belirleme / Sıfırlama](../konular/ayarlar.mariadb.md)
 - [GitHub İçin SSH Key Üretme](../konular/ayarlar.sshkey.md)
 
+<br><br><br><br><br><br><br><br><br>
 
+# Eğitmen Ve Yardımcı Eğitmen İçin Notlar
 
-
-## BİLGİ İÇİN: Terminal Ekranı Kısayolları
+## Terminal Ekranı Kısayolları
 Komut | Açıklaması
 ------------ | -------------
 <kbd>ctrl</kbd>+<kbd>a</kbd> | Satır başına git
@@ -19,7 +20,7 @@ Komut | Açıklaması
 <kbd>ctrl</kbd>+<kbd>l</kbd> | Sayfayı temizler
 
 
-## BİLGİ İÇİN: Sık kullanılan Linux Komutları
+## Sık kullanılan Linux Komutları
 Komut | Açıklaması
 ------------ | -------------
 cat dosyaadi| Dosya içeriğini ekrana yazdırır
@@ -34,7 +35,7 @@ rm -rf kuşlar/ kuşlar adlı dizini ve içindeki herşeyi siler
 ls|Bulunulan dizindeki dosyaları listeler
 ls -al  veya ll|Bulunulan dizindeki dosyaları listeler
 
-## BİLGİ İÇİN: Önemli apt-get komutları
+## Paket Yönetimi Komutları
 apt, apt-get ve apt-cache komutlarının alt kümesidir.
 
 apt|apt-get|Görevi
@@ -58,6 +59,7 @@ apt show|apt-cache show|Paketin detay bilgisini verir
 - Ubuntu'da 80 portunu açmak için: ```sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT; sudo apt-get install iptables-persistent```
 - Ubuntu'da bozuk [paket onarımı](https://www.techbrown.com/fix-broken-packages-ubuntu-16-04/)
 
+## Faydalı Komutlar ve Görevleri
 Komut | Açıklaması
 ------------ | -------------
 sudo apt edit-sources|Depo adreslerini gösterir
