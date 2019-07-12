@@ -82,6 +82,8 @@ netstat -tulpn|Hangi program, hangi porttan dinleme yapıyor ```sudo apt-get ins
 sudo hostname AKMAN|Bilgisayarın adını AKMAN olarak değiştirir
 passwd|Aktif kullanıcının parolasını değiştirme
 lsb_release -a|Ubuntu sürümünü gösterir
+axel URL|Belirtilen adresteki dosyayı HIZLI indirir ```sudo apt install axel```
+wget -O DOSYAADI URL|Belirtilen adresteki dosyayı DOSYAADI adıya indirir
 
 
 ## UBUNTU 19.04 Altındaki Bazı Dosyaların Konumları
