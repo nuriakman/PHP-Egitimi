@@ -1,5 +1,5 @@
 
-# Yeni Bir Ubuntu Kurulumu Sonrası İlk Yapılacaklar
+# Ubuntu 19.04 Kurulumu Sonrasında Çalışma Ortamının Hazırlanması
 
 ## Genel Güncelleme İşlemleri
 ```BASH
@@ -76,4 +76,10 @@ apm install atom-beautify autoclose-html color-picker drag-relative-path
 apm install duplicate-line-or-selection emmet file-icons highlight-line
 apm install highlight-selected markdown-preview-plus minimap-highlight-selected
 apm install minimap sublime-style-column-selection teletype todo-show project-viewer
+```
+
+# Hızlı Kurulum
+Yukarıdaki tüm işlemleri bir defada yapmak için:
+```BASH
+wget https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/konular/kurulum.sh -O - | sh
 ```
