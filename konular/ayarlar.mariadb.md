@@ -93,14 +93,14 @@ sudo mysql -u root
 ```
 sudo service mysql  stop
 sudo service mysqld stop
-sudo mysqld_safe --skip-grant-tables &
+sudo mysqld_safe --skip-grant-tables --skip-networking &
 mysql -u root
   use mysql;
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
-sudo service mysql  stop
-sudo service mysqld stop
+sudo kill `sudo cat /var/run/mysqld/mysqld.pid`
+sudo service mysql  start
 sudo service mysqld start
 ```
 
@@ -108,11 +108,12 @@ sudo service mysqld start
 # Unutulan MariaDB Root Parolasının Sıfırlanması
 ```
 sudo service mariadb  stop
-sudo mysqld_safe --skip-grant-tables --skip-networking &
+sudo mysqld_safe --skip-grant-tables --skip-networking --skip-networking &
 mysql -u root
   use mysql;
   update user set password=PASSWORD("root") where User='root';
   flush privileges;
   quit;
+sudo kill `sudo cat /var/run/mysqld/mysqld.pid`
 sudo service mariadb start
 ```
