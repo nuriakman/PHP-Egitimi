@@ -480,9 +480,6 @@ SLAVE START;
 - Git Workflow Stratejilerinin örnek resimlerle açıklanması
 - [Git Projelerinde Temizlik](./konular/git.projelerinde.media.temizligi.md)
 
-# Sublime Eklentileri
-* https://packagecontrol.io/browse
-* https://www.slant.co/topics/197/~best-plugins-for-sublime-text
 
 # MarkDown Editörleri
 - https://stackedit.io/
