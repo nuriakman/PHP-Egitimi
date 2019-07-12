@@ -1,5 +1,5 @@
 
-# Ubuntu 19.04 Kurulumu Sonrasında Çalışma Ortamının Hazırlanması
+# Ubuntu 19.04 Kurulumu Sonrasında<br>Çalışma Ortamının Hazırlanması
 
 ## Genel Güncelleme İşlemleri
 ```BASH
@@ -79,7 +79,7 @@ apm install minimap sublime-style-column-selection teletype todo-show project-vi
 ```
 <br><br><br><br>
 
-# Hızlı Kurulum
+# HIZLI KURULUM
 Yukarıdaki tüm işlemleri bir defada yapmak için:
 ```BASH
 wget https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/konular/kurulum.sh -O - | sh
