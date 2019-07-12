@@ -1,4 +1,4 @@
-# MaridDB İçin İpuçları
+# MaridDB İçin Parola Belirleme / Sıfırlama
 
 ## Güvenli Kurulum Sihirbazı
 
