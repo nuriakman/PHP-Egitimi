@@ -1,4 +1,4 @@
-# MaridDB İçin Parola Belirleme / Sıfırlama
+# MariaDB İçin Parola Belirleme / Sıfırlama
 
 ## Güvenli Kurulum Sihirbazı
 
