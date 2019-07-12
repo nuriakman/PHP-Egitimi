@@ -117,3 +117,6 @@ mysql -u root
 sudo kill `sudo cat /var/run/mysqld/mysqld.pid`
 sudo service mariadb start
 ```
+
+Parola sıfırlaması için [detaylı bilgi burada.](https://www.cloudeos.com/topluluk/mysql-veya-mariadb-root-sifresinin-sifirlanmasi)
+
