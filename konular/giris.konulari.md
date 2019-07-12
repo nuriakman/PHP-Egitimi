@@ -112,13 +112,17 @@ Paylaşımlı web hosting, bir çok kullanıcı arasında bir fiziksel sunucu ve
 
 
 ## İçerik Dağıtım Ağı - Content Delivery Network (CDN)
-Aliexpres örneğinde olduğu gibi elinizde bir
-içerik var dört bir yana paylaşmak istiyorsanız bir cdn firması ile anlaşıyorsunuz benim resimlerimi
-sen post et diyorsun.O cdn girmasının dünyanın çeşitli noktalarında bilgisayarları var.Aliepresdeki bütün resimlerin yedeği var ve herhangi bir kullanıcı bir resme tıklarken resimleri kullanıcıya en yakın sunucudan
-geliyor.Böylece yük azalıyor.Aliexpress e yani çin e hiç gitmemiş oluyoruz.Durum böyle olunca
-aynı anda 100 bin 200 bin kullanıcyı kaldırır.Bu durumda adamların dünya üzerinde bir sürü yerde
-makineleri var.
-https://www.cloudflare.com/ ücretsiz cdn desteği veren bir site.
+CDN Content Delivery Network Terimi’nin kısaltmasından oluşmaktadır. CDN genel olarak talep edilen bir web içeriğinin, kullanıcının coğrafi olarak bulunduğu konuma en uygun, en yakın sunucu tarafından servis edilmesi teknolojisidir.
+
+Bu servis genel olarak yüksek kapasiteli ve global ölçekli web sitelerinin erişim hızını ve verimliliğini arttırmak için kullanılmaktadır. İçeriğin kullanıcının bulunduğu konuma en yakın olan sunucudan aktarılması ile beraber hem içerik kullanıcıya en hızlı şekilde taşınmakta hem de sunucuya dışarıdan yapılacak küçük/büyük ölçekli ataklar CDN sunucuları tarafından önlenmektedir.
+
+CDN sunucular genel olarak gelen ilk talebi, merkezi sunucudan çekip ön belleğe aktararak bundan sonra gelecek talepleri direk ön bellekten hızlıca cevap vermektedir.
+
+CDN’in gelen talebe cevap verme işlemi kullanıcıya tamamen şeffaf bir şekilde verilmektedir, bu sebepten dolayı kullanıcı ilgili içeriğin normal bir sunucu üzerinden mi yoksa CDN sunucu üzerinden mi yüklendiğini bilmeden kullanır.
+
+Hayatın online, digital olmaya başladığı günümüzde, firmalar statik içerikleri, dinamik içerikleri, mobil içerikleri, video, ses, oyun, elektronik ticaret işlemleri ve daha nicelerini hızlandırmak için CDN tercih etmektedirler. [Kaynak](https://www.cloudeos.com/topluluk/cdn-icerik-dagitim-agi-nedir)
+
+https://www.cloudflare.com/ ücretsiz cdn desteği veren bir sitedir.
 
 ![cdn](https://cdn-images-1.medium.com/max/800/1*ZkC_5865Hx-Cgph3iPJghw.png)
 
@@ -229,8 +233,11 @@ tarz yaptığınız her şey kaydediliyor.Merak eden birisi açıp projeyi incel
 sıklıklıkla yapıyor.Sonra bir yazılım şirkeyinde işe girerken sizden GİTHUB adresinizi istiyor.
 
 
-## Apache+MySQL+PHP (AMP) Kurulumu
+## AMP nedir? EMP nedir?
 PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
+
+- AMP, Web sunucusu olarak [Apache](https://apache.org/) kullanan sistemler için kullanılır.
+- EMP, Web sunucusu olarak [Nginx](https://nginx.org/) kullanan sistemler için kullanılır.
 
 Adı | Açıklaması
 ----| -----------
