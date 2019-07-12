@@ -22,10 +22,10 @@ Bankalar ve alışveriş merkezleri sanal şubelerini açmaya başladı. İlk in
 ## World Wide Web - WWW
 World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirleriyle bağlantılı hiper-metin dokümanlarından oluşan bir bilgi sistemidir. Bu dokümanların her birine Web sayfası adı verilir ve Web sayfalarına İnternet kullanıcısının bilgisayarında çalışan Web tarayıcısı adı verilen bilgisayar programları aracılığıyla erişilir. Web sayfalarında metin, imaj, video ve diğer multimedya ögeleri bulunabilir ve diğer bağlantı ya da link adı verilen hiper-bağlantılar ile başka Web sayfalarına geçiş yapılabilir.
 
-## İstemci Nedir ?
+## İstemci/Client Nedir?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun sonucunda sunucu, istenen verileri istemciye ulaştırır.
 
-## Sunucu Nedir ?
+## Sunucu/Server Nedir ?
 Sunucu ise bu bilgileri tutan bilgisayarlardır. Bunların donanımla,yüksek performansla çalışmaları gerekir. Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
 
 ## Hyper Text Markup Language - HTML
@@ -45,7 +45,7 @@ CSS (Cascading Style Sheet) basit ve kullanışlı bir işaretleme dilidir. CSS 
 
 ![CSS Nedir](http://tutorial.techaltum.com/images/html-css.jpg "CSS")
 
-## JAVASCRIPT Nedir ?
+## JavaScript Nedir ?
 JavaScript bize etkileşimli ve dinamik web sayfaları hazırlama imkanı vermektedir. Sözdizimi Java’ya benzese de Java ve JavaScript birbirinden farklı teknolojilerdir.
 
 ## Algoritma Nedir ?
@@ -133,8 +133,7 @@ SEO, bir web sitesi hakkında arama motorları için yapılan tüm iyileştirme 
 
 SEO’nun temel amacı, açılımı itibariyle “Arama Motoru Optimizasyonu” yani Arama Motorlarında üst sıralarda listelenmektir. Bu amaç da, sitelerde yer alan bilgi, hizmet veya satışların daha fazla ilgili kitleye ulaştırılmasını sağlamaktır.
 
-Örnek Seo Çalışmaları:
-
+### Örnek SEO Çalışmaları
 Tesisat Firması İçin:
  - Keçiören tesisatçı iletişim telefon
  - Keçiören su tesisatçısı usta telefon
@@ -187,7 +186,7 @@ Tesisat Firması İçin:
  - Keçiören kamera ile tıkanıklığın açılmasını istiyorum
  - Keçiören kırmadan tıkanan gideri açan usta
 
-Bir İsim Sözlüğünde Kemal ismi için yapılabilecek Seo çalışması:
+## İsim Sözlüğü İçin SEO çalışması:
   - Kemal ne anlama geliyor?
   - Kemal ne demek?
   - Kemal isminin anlamı?
@@ -202,10 +201,12 @@ Bir İsim Sözlüğünde Kemal ismi için yapılabilecek Seo çalışması:
 
 
 ## MarkDown:
- Markdown, not alma ve yapılacaklar listesi yazılımları içerisinde oluşturulan içeriğin doğrudan HTML’e çevrilmesini sağlayan yazılım özelliğidir.
+Yapımcısı John Gruber Markdown’ı 2004’te “web yazarları için bir metinden HTML’ye dönüştürme aracı” şeklinde tanımlamış. “Düz metin biçimlendirme sentaksı…”, “Eposta-stili yazma…” ve “Özellikle ve sadece HTML’ye ön-işlem olsun diye tasarlandı…”
+
+[StackEdit](https://stackedit.io/) ve [diğer bir örnek](https://jbt.github.io/markdown-editor/) gibi online web sitesi ile kolayca deneyebilirsiniz.
 
 ## İşletim Sistemi Nedir?
-İşletim sistemi, belli kurallar dahilinde programların çalışmasını ve kullanıcı ile bilgisayar arasındaki iletişimi sağlayan komutlardır.
+İşletim sistemleri cihazlarda var olan tüm donanımları yöneten ve sistemli bir şekilde çalışmasını sağlayan en temel yazılımdır. İşletim sistemi; bilgisayar, cep telefonu, beyaz eşya, oyun konsolları ve daha birçok cihazda bulunmaktadır. 
 
 ## Dağıtım Nedir ?
 Bir Linux dağıtımı (kısaca dağıtım); Linux çekirdeği, GNU araçları ve bir masaüstü ortamının bir araya gelmesiyle, bu birlikteliği sürdürülebilir şekilde yönetecek bir yapılandırma araçları seti, yazılım güncelleme araçları vb. ile oluşturularak tam teşekküllü bir işletim sistemi haline gelen uygulamalar bütününü ifade eder.
