@@ -9,7 +9,7 @@
 
 
 
-## BİLGİ İÇİN: Terminal İçin Bazı Kısayollar
+## BİLGİ İÇİN: Terminal Ekranı Kısayolları
 Komut | Açıklaması
 ------------ | -------------
 <kbd>ctrl</kbd>+<kbd>a</kbd> | Satır başına git
@@ -20,7 +20,7 @@ Komut | Açıklaması
 <kbd>ctrl</kbd>+<kbd>l</kbd> | Sayfayı temizler
 
 
-## BİLGİ İÇİN: Sık kullanılan Bazı Linux Komutları
+## BİLGİ İÇİN: Sık kullanılan Linux Komutları
 Komut | Açıklaması
 ------------ | -------------
 cat dosyaadi| Dosya içeriğini ekrana yazdırır
