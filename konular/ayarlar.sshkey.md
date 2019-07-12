@@ -1,12 +1,12 @@
-# SSH KEY Üretme
+# GitHub İçin SSH Key Üretme
 
-## ssh key Üretimi
+## SSH Key Üretmek İçin
 
 ```BASH
 ssh-keygen
 ```
 
-## ssh key Üretimi Ekranları
+### Bu komut için cevap verilecek sorular
 
 Generating public/private rsa key pair.
 
