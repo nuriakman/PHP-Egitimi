@@ -2,12 +2,12 @@
 
 ## Kurulacak Programlar
 - [Ubuntu 19.04 Kurulumu Sonrasında Çalışma Ortamının Hazırlanması](../konular/ayarlar.ubuntu.md)
-- [MaridDB İçin Parola Belirleme / Sıfırlama](../konular/ayarlar.mariadb.md)
+- [MariadDB/MySQL İçin Parola Belirleme / Sıfırlama](../konular/ayarlar.mariadb.md)
 - [GitHub İçin SSH Key Üretme](../konular/ayarlar.sshkey.md)
 
 <br><br><br><br><br><br><br><br><br>
 
-# Eğitmen Ve Yardımcı Eğitmen İçin Notlar
+# Eğitmen ve Yardımcı Eğitmen İçin Notlar
 
 ## Terminal Ekranı Kısayolları
 Komut | Açıklaması
