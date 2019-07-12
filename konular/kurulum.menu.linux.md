@@ -54,6 +54,7 @@ apt search|apt-cache search|Depoda paket arar
 apt show|apt-cache show|Paketin detay bilgisini verir
 
 ## Bazı Bilgiler:
+- snap paketleri program deposu [https://snapcraft.io/store](https://snapcraft.io/store)
 - .deb dosyasını yüklemek için: ```sudo apt deb PAKET.deb```
 - sudo apt-get install xclip net-tools
 - Ubuntu'da 80 portunu açmak için: ```sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT; sudo apt-get install iptables-persistent```
@@ -68,13 +69,22 @@ ifconfig|ip bilgilerini gösterir
 hardinfo| Donanım bilgisini verir ```sudo apt-get install hardinfo```
 gzip DOSYAADI|Dosyayı gzip ile sıkıştırır
 gunzip DOSYAADI|Gzip ile sıkıştırılmış dosyayı dışarı çıkartır
-Apache Logları|tail -f /var/log/apache2/access.log
-PHP Hata Logları|tail -f /var/log/apache2/error.log
 netstat -tulpn|hangi program, hangi porttan dinleme yapıyor ```sudo apt-get install net-tools```
 
 
+## UBUNTU 19.04 Altındaki Bazı Dosyaların Konumları
+Dosya | Kullanma Komutu
+------------ | -------------
+Apache Logları|tail -f /var/log/apache2/access.log
+PHP Hata Logları|tail -f /var/log/apache2/error.log
+PHP php.ini Dosyası|sudo gedit /etc/php/7.2/apache2/php.ini
+MySQL my.cnf Dosyası|sudo gedit /etc/mysql/my.cnf
+hosts Dosyası|sudo gedit /etc/hosts
 
 
+## SNAP Nedir?
+Snap yazılımları kısaca bağımlılıkların ve kütüphanelerin birlikte derlenmesi olarak bahsedilebilir. Bir Sandbox ortamında yazılımların çalışması sağlanır. Bu sayede daha kolay ve daha hızlı  bir şekilde kurulum gerçekleşebilir ve en son güncellemeleri, işletim sisteminden ve diğer yazılımlardan bağımsız olarak alabilir. [Snap web sitesi](https://snapcraft.io/store)
 
+Bir yazılım her Linux masaüstü, server, bulut veya cihazlar için paketlenebilir. Bir uygulama geliştiricisi için farklı paket formatlarıyla uğraşmak ve bunları güncellemek sıkıntılı bir durum. Canonical’ın snap uygulamalarıyla yapmak istediği şey de bu durumdan kurtulmak. Görünüşe göre bu yöntem işe yaradı ki artık birçok uygulamanın Snap paketleri de çıkmaya başladı. 
 
-
+DEB veya RPM paketlerle uğraşmak yerine, bütün Linux dağıtımlarındaki snap desteği sayesinde snap paketlerini kullanabilirsiniz. [Kaynak](https://www.sistemlinux.org/2018/05/linux-snap-uygulamalari-nasil-kurulur.html)
