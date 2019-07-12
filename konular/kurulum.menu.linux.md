@@ -54,6 +54,15 @@ apt search|apt-cache search|Depoda paket arar
 apt show|apt-cache show|Paketin detay bilgisini verir
 
 ## Bazı Bilgiler:
+- PHP Sürümü Öğrenme ```php -v```
+- MySQL/MariaDB Sürümü Öğrenme ```mysql --version ``` veya ```mariadb --version ``` 
+- Apache Sürümü Öğrenme ```apache2 -v```
+- Ubuntu Sürümü Öğrenme ```lsb_release -a```
+- Yüklü PHP Kütüphanelerinin listesi: ```php -m```
+- PHP Info: ```php -i```
+- PHP Build-in web Server: ```cd htdocs;  sudo php -S localhost:8000```
+- Python Build-in web Server: ```cd htdocs;  sudo python3 -m http.server 8080```
+
 - snap paketleri program deposu [https://snapcraft.io/store](https://snapcraft.io/store)
 - .deb dosyasını yüklemek için: ```sudo apt deb PAKET.deb```
 - sudo apt-get install xclip net-tools
