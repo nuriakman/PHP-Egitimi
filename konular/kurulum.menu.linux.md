@@ -2,8 +2,8 @@
 
 ## Kurulacak Programlar
 - [Çalışma Ortamının Kurulması](../konular/ayarlar.ubuntu.md)
-- [MariaDB Kurulması](../konular/ayarlar.mariadb.md)
-- [SSH Key Üretme](../konular/ayarlar.sshkey.md)
+- [MaridDB İçin Parola Belirleme / Sıfırlama](../konular/ayarlar.mariadb.md)
+- [GitHub İçin SSH Key Üretme](../konular/ayarlar.sshkey.md)
 
 
 
