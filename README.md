@@ -25,7 +25,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 ## Faydalı Eklentiler
 - [Atom Eklentileri](./konular/eklentiler.atom.md)  
 - [Firefox Eklentileri](./konular/eklentiler.firefox.md)  
-- [SublimeText Eklentileri](./konular/eklentiler.sublimetext.md) TODO: Yazılacak
+- [SublimeText Eklentileri ve Tuş Tanımları](./konular/eklentiler.sublimetext.md)
 
 
 ## GİT
