@@ -1,6 +1,14 @@
-# Algoritma Örnekleri Siteleri ve Önerileri
+# Algoritma
 
-## Kodlamaya Yeni Başlayanlara Örnek Projeler
+Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yol anlamına gelir.
+
+Algoritma, bugünkü programlama dilinin anası, çıkış noktasıdır. Yani algoritmalar bilgisayar programları yazmamızda da işe yararlar. Bilgisayar programı yaparken algoritma, yapılacak olan programın çıkış noktasının ne olacağının ve sonuca nasıl ulaşılacağının adım adım tarifini belirler. Kodlama da bu tarifi kullanarak, tarifin bilgisayar dilinde hazırlanması basamağına girer. Yani özetle programlama yaparken işin zor kısmı kodlama yapmak değil, algoritma yapmaktır. Algoritma hazırsa tarif hazırdır, geriye sadece uygulamak kalır.
+
+İlk algoritma, [El-Harezmi](https://www.ilkkimbuldu.com/harizmi-kimdir/)’nin 6ncı yüzyılda yazdığı ‘Hisab-el Cebir ve El Mukabala’ kitabında sunulmuştur ve algoritma kelimesi de El-Harezmi’nin isminden gelmiştir. Algoritma terimi genellikle matematikte ve bilgisayar bilimlerinde karşımıza çıkmaktadır. [Detaylı bilgi...](https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html)
+
+https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html
+
+## Kodlamaya Yeni Başlayanlara Örnek Algoritma Soruları
 - Zar atma simülasyon 
 - Taş, kağıt, makas
 - Sayı tahmin
