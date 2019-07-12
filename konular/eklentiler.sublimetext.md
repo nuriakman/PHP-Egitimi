@@ -32,9 +32,8 @@ Preferences | Settings Menüsü içine şu ayarları kaydedebilirsiniz:
 # Tuş Tanımları Yapılması (Key Binding)
 
 SublimeText | Preferences | Key Bindings menüsünden girilerek yapılır:
-
+```
 [
-
     { "keys": ["f3"],          "command": "find_next" },
     { "keys": ["f2"],          "command": "next_view" },
     { "keys": ["f1"],          "command": "prev_view" },
@@ -46,7 +45,6 @@ SublimeText | Preferences | Key Bindings menüsünden girilerek yapılır:
     { "keys": ["ctrl+v"],       "command": "paste" },
     { "keys": ["ctrl+z"],       "command": "undo" },
     { "keys": ["ctrl+shift+z"], "command": "redo" },
-
 
     // Beginning/End of the current line.
     { "keys": ["home"],             "command": "move_to", "args": {"to": "bol"} },
@@ -65,6 +63,5 @@ SublimeText | Preferences | Key Bindings menüsünden girilerek yapılır:
     { "keys": ["ctrl+end"],         "command": "move_to", "args": {"to": "eof"} },
     { "keys": ["ctrl+shift+end"],   "command": "move_to", "args": {"to": "eof", "extend": true} },
     { "keys": ["ctrl+shift+home"],  "command": "move_to", "args": {"to": "bof", "extend": true } }
-
 ]
-
+```
