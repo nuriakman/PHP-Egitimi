@@ -233,6 +233,19 @@ düzeltin.Adama senin projeni beğendim bir kaç hata buldum bunları düzelttim
 tarz yaptığınız her şey kaydediliyor.Merak eden birisi açıp projeyi incelyor.Bunu öğrenciler
 sıklıklıkla yapıyor.Sonra bir yazılım şirkeyinde işe girerken sizden GİTHUB adresinizi istiyor.
 
+## Anlamsal Sürümleme - Semantic Versioning
+BÜYÜK.KÜÇÜK.YAMA diye belirtilen bir sürüm numarasında,
+- Önceki sürümle uyumsuz API değişiklikleri yaptığınızda BÜYÜK sürümü,
+- Önceki sürümle uyumlu bir davranış eklediğinizde KÜÇÜK sürümü, ve
+- Önceki sürümle uyumlu bir hata düzeltmesi yaptığınızda YAMA sürümünü
+arttırın.
+
+**Majör/Büyük:** Programda radikal bir değişiklik yapılırsa majör sayımız artar.
+**Minör/Küçük:** Programa yenilik getirdiğimiz zaman artar.
+**Bug-Fix/Yama:** Hatalar düzeltildiği zaman artar.
+
+![Semantic Versioning](https://nhsconnect.github.io/gpconnect/images/design/semantic-versioning.png)
+
 
 ## AMP nedir? EMP nedir?
 PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
