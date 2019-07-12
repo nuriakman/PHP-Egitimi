@@ -1,4 +1,4 @@
-# ATOM EDİTÖRÜ İÇİNDE GİT KULLANIMI
+# Atom Editörü İçinde Git Kullanımı
 
 - Ekranın solundaki panele sağ tık yapıp yeni bir dosya oluşturuyoruz.
 - Dosya adını index.php olarak belirliyoruz.
@@ -36,6 +36,3 @@
 - Dosyalarımızı Github'a yükledik.
 - Depomuza geri döndük ve sayfayı yeniledik.
 - Dosyalarımızın depomuza yüklendiği gördük.
-
-# ÖNEMLİ NOT:
-```Adım 26```'da, ```http```ile başlayan kodu değil ```git``` ile başlayan kodu alırsanız GitHub'a olan yüklemelerinizde size kullanıcı adı ve parola sorulmaz.
