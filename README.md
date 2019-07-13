@@ -109,6 +109,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [Örnek Kütüphaner](./konular/ornek.kutuphane.md)
 - [PHP Örnekleri](./konular/php.ornekleri.md)
 - [PHP Projeleri](./konular/php.projeleri.md)
+- [MySQL Replication](./konular/mysql.replication.md)
 
 
 ## Etüd İçin Örnekler
