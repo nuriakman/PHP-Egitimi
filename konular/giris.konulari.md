@@ -22,6 +22,9 @@ Bankalar ve alışveriş merkezleri sanal şubelerini açmaya başladı. İlk in
 ## World Wide Web - WWW
 World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirleriyle bağlantılı hiper-metin dokümanlarından oluşan bir bilgi sistemidir. Bu dokümanların her birine Web sayfası adı verilir ve Web sayfalarına İnternet kullanıcısının bilgisayarında çalışan Web tarayıcısı adı verilen bilgisayar programları aracılığıyla erişilir. Web sayfalarında metin, imaj, video ve diğer multimedya ögeleri bulunabilir ve diğer bağlantı ya da link adı verilen hiper-bağlantılar ile başka Web sayfalarına geçiş yapılabilir.
 
+## PHP Nedir?
+PHP, **"PHP: Hypertext Preprocessor"** sözcüklerinin baş harfleriyle temsil edilen HTML içine gömülebilir açık kaynak kodlu, genel amaçlı, özellikle site geliştirmeye uygun bir betik dilidir. Dil yapısının önemli bir kısmını C, Java ve Perl gibi dillerden almış, kendisine has özelliklerle bu yapıyı pekiştirmiş, kolay öğrenilen bir dildir. Dilin ana amacı, site geliştiricilerinin devingen sayfalar oluşturmasını çabuklaştırmaksa da PHP ile çok daha fazlasını yapabilirsiniz. ([Kaynak](https://www.php.net/manual/tr/preface.php))
+
 ## İstemci/Client Nedir?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun sonucunda sunucu, istenen verileri istemciye ulaştırır.
 
