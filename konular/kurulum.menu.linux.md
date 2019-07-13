@@ -87,13 +87,13 @@ wget -O DOSYAADI URL|Belirtilen adresteki dosyayı DOSYAADI adıya indirir
 ## UBUNTU 19.04 Altındaki Bazı Dosyaların Konumları
 Dosya | Kullanma Komutu
 ------------ | -------------
-Apache Logları|tail -f /var/log/apache2/access.log
-PHP Hata Logları|tail -f /var/log/apache2/error.log
-PHP php.ini Dosyası|sudo gedit /etc/php/7.2/apache2/php.ini
-MySQL my.cnf Dosyası|sudo gedit /etc/mysql/my.cnf
-hosts Dosyası|sudo gedit /etc/hosts
-DNS Ayarları|sudo gedit /etc/resolv.conf
-PC Adı|sudo gedit /etc/hostname
+Apache Logları|```sudo tail -f /var/log/apache2/access.log```
+PHP Hata Logları|```sudo tail -f /var/log/apache2/error.log```
+PHP php.ini Dosyası|```sudo gedit /etc/php/7.2/apache2/php.ini```
+MySQL my.cnf Dosyası|```sudo gedit /etc/mysql/my.cnf```
+hosts Dosyası|```sudo gedit /etc/hosts```
+DNS Ayarları|```sudo gedit /etc/resolv.conf```
+PC Adı|```sudo gedit /etc/hostname```
 
 
 ## SNAP Nedir?
@@ -106,23 +106,23 @@ DEB veya RPM paketlerle uğraşmak yerine, bütün Linux dağıtımlarındaki sn
 ## Faydalı Snap Uygulamaları
 Program Adı| Paket Adı
 ------------ | -------------
-Snap Store|sudo snap install snap-store
-Postman|sudo snap install postman
-Visual Studio Code|sudo snap install vscode
-Opera Browser|sudo snap install opera
-Chromium Browser|sudo snap install chromium
-Firefox Browser|sudo snap install firefox
-Telegram Desktop|sudo snap install telegram-desktop
-Atom Editör|sudo snap install atom
-Notepad++|sudo snap install notepad-plus-plus
-PHPStorm|sudo snap install phpstorm
-Nextcloud|sudo snap install nextcloud
-Youtube Download|sudo snap install youtube-dl
-Freecad|sudo snap install freecad
-Sweet Home 3D|sudo snap install sweethome3d-homedesign
-Blender|sudo snap install blender --classic
-Sudoku|sudo snap install sudoku-game
-Solitaire|sudo snap install solitaire
+Snap Store|```sudo snap install snap-store```
+Postman|```sudo snap install postman```
+Visual Studio Code|```sudo snap install vscode```
+Opera Browser|```sudo snap install opera```
+Chromium Browser|```sudo snap install chromium```
+Firefox Browser|```sudo snap install firefox```
+Telegram Desktop|```sudo snap install telegram-desktop```
+Atom Editör|```sudo snap install atom```
+Notepad++|```sudo snap install notepad-plus-plus```
+PHPStorm|```sudo snap install phpstorm```
+Nextcloud|```sudo snap install nextcloud```
+Youtube Download|```sudo snap install youtube-dl```
+Freecad|```sudo snap install freecad```
+Sweet Home 3D|```sudo snap install sweethome3d-homedesign```
+Blender|```sudo snap install blender --classic```
+Sudoku|```sudo snap install sudoku-game```
+Solitaire|```sudo snap install solitaire```
 
 
 
