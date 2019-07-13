@@ -21,7 +21,7 @@ sudo apt install apache2 -y
 
 ## PHP Kurulumu
 ```BASH
-sudo apt install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc -y
+sudo apt install php php-pear php-fpm php-dev php-zip php-curl php-xmlrpc -y
 sudo apt install php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
 ```
 
