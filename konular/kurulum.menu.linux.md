@@ -12,12 +12,12 @@
 ## Terminal Ekranı Kısayolları
 Komut | Açıklaması
 ------------ | -------------
-<kbd>ctrl</kbd>+<kbd>a</kbd> | Satır başına git
-<kbd>ctrl</kbd>+<kbd>u</kbd> | İmlecin solunu siler
-<kbd>ctrl</kbd>+<kbd>k</kbd> | İmlecin sağını siler
-<kbd>ctrl</kbd>+<kbd>e</kbd> | Satır sonuna gider
-<kbd>ctrl</kbd>+<kbd>r</kbd> | Geçmişte arama yapar
-<kbd>ctrl</kbd>+<kbd>l</kbd> | Sayfayı temizler
+<kbd>CTRL</kbd>+<kbd>A</kbd> | Satır başına git
+<kbd>CTRL</kbd>+<kbd>U</kbd> | İmlecin solunu siler
+<kbd>CTRL</kbd>+<kbd>K</kbd> | İmlecin sağını siler
+<kbd>CTRL</kbd>+<kbd>E</kbd> | Satır sonuna gider
+<kbd>CTRL</kbd>+<kbd>R</kbd> | Geçmişte arama yapar
+<kbd>CTRL</kbd>+<kbd>L</kbd> | Sayfayı temizler
 
 
 ## Sık kullanılan Linux Komutları
