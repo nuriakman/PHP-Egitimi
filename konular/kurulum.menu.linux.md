@@ -69,6 +69,8 @@ apt show|apt-cache show|Paketin detay bilgisini verir
 - Ubuntu'da bozuk [paket onarımı](https://www.techbrown.com/fix-broken-packages-ubuntu-16-04/)
 - Ubuntu Görünüm İnce Ayarları (Tweak) ```sudo apt-get install gnome-tweak-tool```
 - Ubuntu Başlat çubuğundaki program ikonlarına tıklayınca açılır/kapanır özelliği ```gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'```
+- Ubuntu Başlat çubuğundaki program ikonu üzerinde farenin tekeri çevrilince pencerelerini göstermesi ```gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
+```
 
 ## Faydalı Komutlar ve Görevleri
 Komut | Açıklaması
