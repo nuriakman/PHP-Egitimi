@@ -127,14 +127,6 @@ https://www.youtube.com/watch?v=pcelNF8Ckhk
 - [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs)
 
 
-# OnLine HTML Form Builders
-- https://www.phpformbuilder.pro/index.html
-- https://bootstrapformbuilder.com/
-- https://bootsnipp.com/forms
-- https://getfuelux.com/index.html --- https://github.com/ExactTarget/fuelux
-- https://www.layoutit.com/en
-- https://formoid.com/ -- Paralı?
-
 
 # Örnek Veri Setleri
 - https://github.com/nuriakman/Ornek_Veri_Setleri
