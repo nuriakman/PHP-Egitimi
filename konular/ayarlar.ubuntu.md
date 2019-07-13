@@ -17,7 +17,6 @@ git config --global user.name "ADINIZ SOYADINIZ"
 ## Apache Kurulumu
 ```BASH
 sudo apt install apache2 -y
-rm /var/www/html/index.html
 ```
 
 ## PHP Kurulumu
@@ -44,7 +43,6 @@ sudo systemctl enable apache2
 ```BASH
 sudo adduser $USER www-data
 sudo chown -R $USER:www-data /var/www/html/
-sudo rm -f /var/www/html/index.html
 ```
 
 ## Masaüzerine HTML klasörü kısayolunun açılması
@@ -52,6 +50,7 @@ sudo rm -f /var/www/html/index.html
 cd ~
 cd ~/Masaüstü || cd ~/Desktop
 ln -s /var/www/html/
+sudo rm -f /var/www/html/index.html
 ```
 
 ## Adminer Programı Kurulumu
