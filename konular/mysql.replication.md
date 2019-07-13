@@ -11,7 +11,7 @@ server-id = 1
 ## MASTER Sunucuda Yukarıdaki Ayarlar Sonrası Yapılacaklar
 ```
 Sunucuyu restart et ve aşağıdaki SQL'leri çalıştır:
-GRANT REPLICATION SLAVE ON *.* TO 'slave_user'@'%' IDENTIFIED BY 'sifreniz';
+GRANT REPLICATION SLAVE ON *.* TO 'slave_user'@'%' IDENTIFIED BY 'PAROLANIZ';
 FLUSH PRIVILEGES;
 USE testdb;
 FLUSH TABLES WITH READ LOCK;
@@ -38,7 +38,7 @@ SLAVE STOP;
 CHANGE MASTER TO
         MASTER_HOST='master_mysqlin_ipsi',
         MASTER_USER='slave_user',
-        MASTER_PASSWORD='sifreniz',
+        MASTER_PASSWORD='PAROLANIZ',
         MASTER_LOG_FILE='mysql-bin.000002',
         MASTER_LOG_POS=351;
        
