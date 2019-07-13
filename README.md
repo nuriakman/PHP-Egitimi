@@ -46,8 +46,8 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 
 ## CSS
-- [Css Nedir ?](./konular/ornek.css.md)
-- [Css Etiketleri](./konular/etiketler.css.md)
+- [CSS Nedir ?](./konular/ornek.css.md)
+- [CSS Etiketleri](./konular/etiketler.css.md)
 - [5 Dakikada CSS](https://learnxinyminutes.com/docs/tr-tr/css-tr/)
 - [CSS Seçicileri](./konular/seciciler.css.md)
 
@@ -68,18 +68,18 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [5 Dakikada SQL](https://learnxinyminutes.com/docs/sql/)  
 
 
-## PHP'ye Giriş
-- [PHP'ye Giriş](./konular/giris.konulari.php.md) TODO: Başlıklar anlaşılabilir biçimde sunulmalı
-- [5 Dakikada PHP](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
-- [Popüler Komutlar](./konular/komutlar.populer.md) TODO: Her başlık ayrı sayfalara bölünebilir.
-
-
 ## MySQL'e Giriş
 - [MySQL Komutları](./konular/giris.konulari.mysql.md)
 - [Örnek Veritabanları](https://github.com/nuriakman/Ornek_Veri_Setleri)
 - [MySQL String Komutları](./konular/komutlar.mysql.string.md)
 - [MySQL Tarih Komutları](./konular/komutlar.mysql.tarih.md)
 - [MySQL Functions](./konular/komutlar.mysql.all.md)
+
+
+## PHP'ye Giriş
+- [PHP'ye Giriş](./konular/giris.konulari.php.md) TODO: Başlıklar anlaşılabilir biçimde sunulmalı
+- [5 Dakikada PHP](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
+- [Popüler Komutlar](./konular/komutlar.populer.md) TODO: Her başlık ayrı sayfalara bölünebilir.
 
 
 ## PHP Komutları
@@ -105,7 +105,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 
 ## PHP Örnekleri
-- [HTML Form Örneği](./konular/ornek.html.form.md) TODO: Bu dosya kayıp. Yenisi hazırlanacak
+- [HTML Form Örneği](./konular/ornek.html.form.md)
 - [Örnek Kütüphaner](./konular/ornek.kutuphane.md)
 - [PHP Örnekleri](./konular/php.ornekleri.md)
 - [PHP Projeleri](./konular/php.projeleri.md)
