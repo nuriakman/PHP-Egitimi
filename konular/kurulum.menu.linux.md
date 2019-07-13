@@ -31,9 +31,9 @@ atom . | Aktif dizini atom editöründe açar
 mkdir Resimler| Bulunulan dizine Resimler adında bir klasör oluşturur
 cd Resimler| Bulunulan dizindeki Resimler klasörüne geçiş yapar
 rm Kedi.jpg| Kedi.jpg adlı dosyayı siler
-rm -rf kuşlar/ kuşlar adlı dizini ve içindeki herşeyi siler
+rm -rf kuşlar/|kuşlar adlı dizini ve içindeki herşeyi siler
 ls|Bulunulan dizindeki dosyaları listeler
-ls -al  veya ll|Bulunulan dizindeki dosyaları listeler
+ls -al  veya ll|Bulunulan dizindeki dosyaları sahiplik ve yetkileri ile listeler
 
 ## Paket Yönetimi Komutları
 apt, apt-get ve apt-cache komutlarının alt kümesidir.
