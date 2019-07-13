@@ -22,18 +22,23 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
 - [MacOS İçin Kurulum](./konular/kurulum.menu.macos.md)
 
+
 ## Faydalı Eklentiler
 - [Atom Eklentileri](./konular/eklentiler.atom.md)  
+- [Atom ve Git kullanımı](./konular/kullanim.atom.git.md) TODO:GÜNCELLENMELİ
 - [Firefox Eklentileri](./konular/eklentiler.firefox.md)  
 - [SublimeText Eklentileri ve Tuş Tanımları](./konular/eklentiler.sublimetext.md)
+
+
+## MARKDOWN
+- [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
+- [On-Line Markdown Editörü](https://stackedit.io/)
 
 
 ## GİT
 - [Git, Github ve git komutları](./konular/komutlar.git.md)
 - [Git İpuçları](./konular/komutlar.git.ipuclari.md)
-- [Atom ve Git kullanımı](./konular/kullanim.atom.git.md) TODO:GÜNCELLENMELİ
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
-- [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 
 
 ## LINUX
