@@ -36,3 +36,23 @@
 - Dosyalarımızı Github'a yükledik.
 - Depomuza geri döndük ve sayfayı yeniledik.
 - Dosyalarımızın depomuza yüklendiği gördük.
+
+
+
+# 1 Defa Yapılacaklar:
+- git-scm.com sitesinden git indirilip kurulur.
+- git config --global user.name "nuri"
+- git config --global user.email "nuri@gmail.com"
+- https://github.atom.io/login sayfasına gidilir
+- "Your GitHub token" denilen ekrandaki kod (token) alınır.
+-
+- github'a git,
+- Repo oluştur
+- Adresini kopyala
+-
+- ATOM'a geç
+- Shift-Ctrl-p
+- github:clone
+- YAPIŞTIR
+
+git plus eklentisi???
