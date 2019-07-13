@@ -17,13 +17,15 @@ Bankalar ve alışveriş merkezleri sanal şubelerini açmaya başladı. İlk in
 
 İnternet araçlarıyla bilginin sunucudan kullanıcıya ne şekilde ve nasıl aktarılacağını belirten bir kurallar zinciridir.
 
-![alt text](http://w3programmers.com/bangla/wp-content/uploads/2017/12/http-request-response.png "HTTP")
+![HTTP Nedir](http://w3programmers.com/bangla/wp-content/uploads/2017/12/http-request-response.png "HTTP")
 
 ## World Wide Web - WWW
 World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirleriyle bağlantılı hiper-metin dokümanlarından oluşan bir bilgi sistemidir. Bu dokümanların her birine Web sayfası adı verilir ve Web sayfalarına İnternet kullanıcısının bilgisayarında çalışan Web tarayıcısı adı verilen bilgisayar programları aracılığıyla erişilir. Web sayfalarında metin, imaj, video ve diğer multimedya ögeleri bulunabilir ve diğer bağlantı ya da link adı verilen hiper-bağlantılar ile başka Web sayfalarına geçiş yapılabilir.
 
 ## PHP Nedir?
-PHP, **"PHP: Hypertext Preprocessor"** sözcüklerinin baş harfleriyle temsil edilen HTML içine gömülebilir açık kaynak kodlu, genel amaçlı, özellikle site geliştirmeye uygun bir betik dilidir. Dil yapısının önemli bir kısmını C, Java ve Perl gibi dillerden almış, kendisine has özelliklerle bu yapıyı pekiştirmiş, kolay öğrenilen bir dildir. Dilin ana amacı, site geliştiricilerinin devingen sayfalar oluşturmasını çabuklaştırmaksa da PHP ile çok daha fazlasını yapabilirsiniz. ([Kaynak](https://www.php.net/manual/tr/preface.php))
+<img src='http://brainprick.com/wp-content/uploads/2012/01/Rasmus-Lerdorf.jpg' align='left' alt='Rasmus Lerdorf' title='Rasmus Lerdorf'> PHP, **"PHP: Hypertext Preprocessor"** sözcüklerinin baş harfleriyle temsil edilen HTML içine gömülebilir açık kaynak kodlu, genel amaçlı, özellikle site geliştirmeye uygun bir betik dilidir. Dil yapısının önemli bir kısmını C, Java ve Perl gibi dillerden almış, kendisine has özelliklerle bu yapıyı pekiştirmiş, kolay öğrenilen bir dildir. Dilin ana amacı, site geliştiricilerinin devingen sayfalar oluşturmasını çabuklaştırmaksa da PHP ile çok daha fazlasını yapabilirsiniz. ([Kaynak](https://www.php.net/manual/tr/preface.php))
+
+İlk kez Rasmus Lerdorf tarafından, web üzerinden sayfasını ziyaret edenleri izlemek amacıyla bir dizi Perl betiği kullanılarak geliştirilmişti. Ancak insanlar bununla ilgilenmeye başlayınca, Lerdorf bir betik motoru oluşturmaya karar verdi. Ayrıca formlara da destek verdi ve böylece PHP/F1 biçimlenmiş oldu. Adı duyuldukça kimi geliştiricinin dikkatini çekti ve böylece bir API oluşturuldu: PHP3 meydana geldi. Ardından Zend motoruyla PHP4 geldi. 
 
 ## İstemci/Client Nedir?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun sonucunda sunucu, istenen verileri istemciye ulaştırır.
