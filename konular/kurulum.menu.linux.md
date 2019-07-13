@@ -64,8 +64,7 @@ apt show|apt-cache show|Paketin detay bilgisini verir
 - Python Build-in web Server: ```cd htdocs;  sudo python3 -m http.server 8080```
 
 - snap paketleri program deposu [https://snapcraft.io/store](https://snapcraft.io/store)
-- .deb dosyasını yüklemek için: ```sudo apt deb PAKET.deb```
-- sudo apt-get install xclip net-tools
+- .deb dosyasını yüklemek için: ```sudo dpkg -i  DOSYAADI.deb```
 - Ubuntu'da 80 portunu açmak için: ```sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT; sudo apt-get install iptables-persistent```
 - Ubuntu'da bozuk [paket onarımı](https://www.techbrown.com/fix-broken-packages-ubuntu-16-04/)
 
@@ -74,14 +73,13 @@ Komut | Açıklaması
 ------------ | -------------
 sudo apt edit-sources|Depo adreslerini gösterir
 ls \| xclip -selection clipboard|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
-ifconfig|ip bilgilerini gösterir
+ifconfig|ip bilgilerini gösterir ```sudo apt-get install net-tools```
 hardinfo| Donanım bilgisini verir ```sudo apt-get install hardinfo```
 gzip DOSYAADI|Dosyayı gzip ile sıkıştırır
 gunzip DOSYAADI|Gzip ile sıkıştırılmış dosyayı dışarı çıkartır
 netstat -tulpn|Hangi program, hangi porttan dinleme yapıyor ```sudo apt-get install net-tools```
 sudo hostname AKMAN|Bilgisayarın adını AKMAN olarak değiştirir
 passwd|Aktif kullanıcının parolasını değiştirme
-lsb_release -a|Ubuntu sürümünü gösterir
 axel URL|Belirtilen adresteki dosyayı HIZLI indirir ```sudo apt install axel```
 wget -O DOSYAADI URL|Belirtilen adresteki dosyayı DOSYAADI adıya indirir
 
