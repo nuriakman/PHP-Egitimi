@@ -41,8 +41,8 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
 
 
-## LINUX
-- [Temel Linux Komutları](./konular/linux.temel.komutlar.md)
+## HTML
+- [5 Dakikada HTML](https://learnxinyminutes.com/docs/tr-tr/html-tr/)
 
 
 ## CSS
@@ -80,6 +80,7 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 - [PHP'ye Giriş](./konular/giris.konulari.php.md) TODO: Başlıklar anlaşılabilir biçimde sunulmalı
 - [5 Dakikada PHP](https://learnxinyminutes.com/docs/tr-tr/php-tr/)
 - [Popüler Komutlar](./konular/komutlar.populer.md) TODO: Her başlık ayrı sayfalara bölünebilir.
+- [HTML Form Örneği](./konular/ornek.html.form.md)
 
 
 ## PHP Komutları
@@ -105,7 +106,6 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 
 ## PHP Örnekleri
-- [HTML Form Örneği](./konular/ornek.html.form.md)
 - [Örnek Kütüphaner](./konular/ornek.kutuphane.md)
 - [PHP Örnekleri](./konular/php.ornekleri.md)
 - [PHP Projeleri](./konular/php.projeleri.md)
@@ -113,6 +113,11 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 ## Etüd İçin Örnekler
 - [PHP ve Bootstrap Örneği](./etud/etud.01.bootstrap.php)
+
+
+## LINUX
+- [Temel Linux Komutları](./konular/linux.temel.komutlar.md)
+
 
 ## Çeşitli Konular
 - [WordPress Kurulumu](./konular/cesitli.wordpress.md)
