@@ -73,7 +73,7 @@ apt show|apt-cache show|Paketin detay bilgisini verir
 Komut | Açıklaması
 ------------ | -------------
 sudo apt edit-sources|Depo adreslerini gösterir
-ls | xclip -selection clipboard|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
+ls \| xclip -selection clipboard|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
 ifconfig|ip bilgilerini gösterir
 hardinfo| Donanım bilgisini verir ```sudo apt-get install hardinfo```
 gzip DOSYAADI|Dosyayı gzip ile sıkıştırır
