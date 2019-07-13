@@ -493,5 +493,5 @@ SLAVE START;
 - [Web Application Architectures Compared](http://g4tp.com/webarch/)
 - [Web Architectures](https://is.gd/WoFVlY)
 - [Yeni Yazılımcılara Tavsiyeler](https://denizkilinc.com/2013/10/10/yazilima-ve-programlamaya-yeni-baslayanlar-icin-tavsiyeler/)
-
 - [PHP Eğitimi Taslağı](./konular/taslak.icerik.md)
+- [PHP: Usulüne Uygun](https://kulekci.net/php-the-right-way/) 
