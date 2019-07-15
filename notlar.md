@@ -42,6 +42,8 @@ Nesneler
 - [İstediğim şey tam olarak şu videoda var:](https://www.youtube.com/watch?v=QUca9bCufbo)
 - [Örnek Sözleşmeler:](https://shop.nurus.com/tr/yardim/sozlesme-ve-kurallar/satis-sozlesmesi)
 - [Benim Örnek:](https://codepen.io/vedia/pen/wLweyx)
+- [Harika bir proje!](https://app.termsfeed.com/wizard/terms-conditions)
+- [TermsFeed](https://www.termsfeed.com/)
 
 
 
