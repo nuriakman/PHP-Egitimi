@@ -110,6 +110,7 @@ https://www.youtube.com/watch?v=pcelNF8Ckhk
 - Trello!'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
 
 # Örnek uygulama Yemek Sepeti
+- [Proje Taslağı](./konular/yemek.sepeti.md)
 - [Projeye ilave özellik: 2:04:55 - 2:25:00](https://www.youtube.com/watch?v=-kCLO0bixeM)
 - [Örnek Site](https://salonexpress.com.tr/)
 
