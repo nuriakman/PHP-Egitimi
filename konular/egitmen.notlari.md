@@ -101,14 +101,15 @@ Program Adı| Paket Adı
 ------------ | -------------
 Snap Store|```sudo snap install snap-store```
 Postman|```sudo snap install postman```
+Sublime Text|```sudo snap install sublime-text --classic```
+Atom Editör|```sudo snap install atom```
+Notepad++|```sudo snap install notepad-plus-plus```
 Visual Studio Code|```sudo snap install vscode```
+PHPStorm|```sudo snap install phpstorm```
 Opera Browser|```sudo snap install opera```
 Chromium Browser|```sudo snap install chromium```
 Firefox Browser|```sudo snap install firefox```
 Telegram Desktop|```sudo snap install telegram-desktop```
-Atom Editör|```sudo snap install atom```
-Notepad++|```sudo snap install notepad-plus-plus```
-PHPStorm|```sudo snap install phpstorm```
 Nextcloud|```sudo snap install nextcloud```
 Youtube Download|```sudo snap install youtube-dl```
 Freecad|```sudo snap install freecad```
