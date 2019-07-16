@@ -1,42 +1,24 @@
-
-- [Olağanüstü Bir Eğitim Sitesi: RipTutorial](https://riptutorial.com/)
-- [PHP for Kids Eğitim Sitesi](http://www.phpforkids.com)
-
-JS FETCH komutu ile ÖRNEK YAPALIM: 
-- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-- https://github.com/typicode/jsonplaceholder
-
-JS Chart İle Örnek Yapalım
-- https://www.chartjs.org/
-
 # JavaScript
 - [KİTAP - You Don't Know JS - A book series on JavaScript](https://github.com/getify/You-Dont-Know-JS)
-
-https://www.geeksforgeeks.org/javascript-tutorial/
-https://developer.mozilla.org/tr/docs/Web/JavaScript
-
-JavaScript'e Giriş
-Temel söz dizimleri
-Kontrol akışı ve hata yakalama
-Döngüler
-Fonksiyonlar
-Operatörler
-Sayılar ve tarihler
-Metin formatlama
-Diziler
-Nesneler
-
+- https://www.geeksforgeeks.org/javascript-tutorial/
+- https://developer.mozilla.org/tr/docs/Web/JavaScript
+-- JavaScript'e Giriş
+-- Temel söz dizimleri
+-- Kontrol akışı ve hata yakalama
+-- Döngüler
+-- Fonksiyonlar
+-- Operatörler
+-- Sayılar ve tarihler
+-- Metin formatlama
+-- Diziler
+-- Nesneler
 - [Diziler](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [20 kinds of methods to get to know a JavaScript array operations.](https://github.com/tooto1985/js-array-operations)
 - [20 kinds of methods to get to know a JavaScript array operations example.](https://github.com/tooto1985/js-array-operations/blob/master/example.js)
-
-
-- [Ödeme yapmayan müşterilerinizin web sitelerini her gün biraz daha transparan yapan proje](https://github.com/kleampa/not-paid)
 - [Tablo sutunlarına sıralama yaptırma örneği](https://mottie.github.io/tablesorter/docs/)
 - [Tablo Sayfalama, Süzme Eklentisi / Bootgrid Plugin](http://www.jquery-bootgrid.com/Examples)
 - [jQuery Wizard Eklentisi / Step Plugin](http://www.jquery-steps.com/Examples)
 - [11 Javascript Data Visualization Libraries for 2019](https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727)
-- []()
 
 # SATIŞ SÖZLEŞMESİ OLUŞTURMA ÖRNEĞİ
 - [İstediğim şey tam olarak şu videoda var:](https://www.youtube.com/watch?v=QUca9bCufbo)
@@ -48,12 +30,12 @@ Nesneler
 
 
 # JS Browser Storage IndexedDB - TercihRobotu
-https://flaviocopes.com/indexeddb/
-https://github.com/akashyap2013/IndexDB_CRUD_Operations
-https://www.youtube.com/watch?v=pcelNF8Ckhk
+- https://flaviocopes.com/indexeddb/
+- https://github.com/akashyap2013/IndexDB_CRUD_Operations
+- https://www.youtube.com/watch?v=pcelNF8Ckhk
 
 
-# Dosya Paylaşma Projesi Örneği
+# Dosya Paylaşma Projesi Örneği TODO: Yapılacak
 - Form Ekranı Öğeleri: Dosya Seç, Alıcı eMail, Açıklama, Gönder!
 - Form Ekranı tasarlanacak
 - Dosya Adı, Alıcı eMail, Açıklama DB'ye kaydedilecek (TextDosya sürümü da hazırlanabilir)
@@ -69,8 +51,6 @@ https://www.youtube.com/watch?v=pcelNF8Ckhk
 - JS, JSON ve AJAX konuları da ayrı bir başlık olarak ele alınacak.
 - PHP INPUT başlığı oluşturulmalı ve içinde GET, PUT, SESSION, COOKIES, FILE, DATABASE gibi başlıklar olmalı. 
 - HTML INPUT başlığı altında FORM, input, anchor, checkbox, select vb başlıklara yer vermeliyiz. Form Validation başlığı da burada yer almalı.
-
-
 - [PHP-PDO ile Sınırsız Kategori Yapımı, İç içe ve Çoklu Kategori Sistemi](https://www.youtube.com/playlist?list=PL_f2F0Oyaj49BJclmJzAV0v1drrtyTI6o)
 
 # İstatistikler
@@ -100,26 +80,22 @@ https://www.youtube.com/watch?v=pcelNF8Ckhk
 # Çeşitli Konular
 - [DOM Örneği - TicTacToe](https://github.com/nahroege/tictactoe)
 - [PHP fundamentals project - Harika!!!!](https://github.com/nuriakman/PHP)
-
 - [Git STAGE için resim](https://medium.com/@Galoomba/all-you-need-to-know-about-git-p-1-ac2f29e8ee93)
 - [Git STAGE için resim](https://cdn-images-1.medium.com/max/800/1*diRLm1S5hkVoh5qeArND0Q.png)
 - [Türkçe Kaynaklar](https://github.com/nuriakman/turkcekaynaklar-com)
 - [cosmiclearn - Güzel Bir Eğitim Sitesi / HTML, CSS, JS, MySQL, PHP](https://www.cosmiclearn.com/index.php)
 - [HTML5 Şablonları](https://html5up.net/)
-
-- Trello!'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
+- Trello'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
 
 # Örnek uygulama Yemek Sepeti
 - [Proje Taslağı](./konular/yemek.sepeti.md)
 - [Projeye ilave özellik: 2:04:55 - 2:25:00](https://www.youtube.com/watch?v=-kCLO0bixeM)
 - [Örnek Site](https://salonexpress.com.tr/)
 
-
-
+# Çeşitli
 - [Algoritma Göreselleştiricisi](https://github.com/algorithm-visualizer/algorithm-visualizer)
 - [No More Google](https://nomoregoogle.com/)
 - [0'dan bir web developer neleri bilmeli](https://telegra.ph/0dan-bir-web-developer-neleri-bilmeli-05-18)
-
 - [Command line HTTP client](https://httpie.org/run)
 - [Muhteşem PHP Kütüphaneleri](https://github.com/ziadoz/awesome-php)
 
@@ -139,61 +115,6 @@ https://www.youtube.com/watch?v=pcelNF8Ckhk
 - https://mertcangokgoz.com/gelistirme-ortamlari-icin-statik-web-sunuculari/
 
 
-# Redis Kullanım Örneği -- Bu sayfalardan derlenip hazırlanacak
-- https://packagist.org/packages/predis/predis
-- https://scotch.io/tutorials/getting-started-with-redis-in-php
-- http://aristona.github.io/redis-kullanimi-ve-incelikleri
-- https://www.sitepoint.com/an-introduction-to-redis-in-php-using-predis/
-- https://github.com/phpredis/phpredis
-- https://github.com/nrk/predis/wiki/Quick-tour
-
-Önce composer kurulur. https://getcomposer.org/download/
-```
-sudo apt-get update
-sudo apt-get install redis-server
-sudo snap install redis-desktop-manager
-redis-server
-redis-cli
-composer require predis/predis
-```
-Önce şunu yaparız: ```composer require predis/predis```
-
-## ```redis.get.php``` Dosyası İçeriği
-
-```
-<?php
-require 'vendor/autoload.php';
-Predis\Autoloader::register();
-$client = new Predis\Client();
-$adsoyad = $client->get('adsoyad');
-$zaman   = $client->get('zaman');
-echo "$adsoyad<br>$zaman";
-```
-
-
-## ```redis.set.php``` Dosyası İçeriği
-
-```
-<?php
-require 'vendor/autoload.php';
-Predis\Autoloader::register();
-$client = new Predis\Client();
-$client->set('adsoyad', 'Nuri Akman');
-$client->set('zaman', date("Y-m-d H:i:s") );
-echo "SET işlemi tamam...";
-```
-
-
-
-
-
-
-
-# GİT Deposunda Temizlik  -- Bu sayfalardan derlenip hazırlanacak
-- https://rtyley.github.io/bfg-repo-cleaner/
-- https://git-scm.com/docs/git-filter-branch
-
-
 # PHP Örneklerine eklenecek
 - Dosya Paylaşımı Örneği - http://wetransfer.com/ Detaylar Trello'da var.
 
@@ -203,30 +124,6 @@ https://www.youtube.com/watch?v=SBaARws0hy4&t=29s
 Video sonundaki artı ve eksiler önemli
 
 
-
-# İnternetin Sahibi ve DNS   -- Bu sayfalardan derlenip hazırlanacak
-- http://tr.0wikipedia.org/wiki/DNS
-- https://www.kooplog.com/internetin-sahibi-kimdir/
-- https://mamasfm.de/internet-kime-ait-internetin-anahtari-kimde/
-- https://www.ihs.com.tr/blog/icann-nedir/
-- http://archive.icann.org/tr/turkish.html
-- http://www.bilgedomain.com/icann-nedir/
-- https://social.technet.microsoft.com/wiki/contents/articles/25919.dns-uzerine-detayl-anlatm-tr-tr.aspx
-- https://developer.mozilla.org/tr/docs/%C3%96%C4%9Fren/Getting_started_with_the_web/JavaScript_basics
-- https://www.netnod.se/i-root/what-are-root-name-servers
-- http://www.wikizero.biz/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUm9vdF9uYW1lX3NlcnZlcg
-
-
-
-
-
-
-# ALGORİTMA Nedir?  -- Bu sayfalardan derlenip hazırlanacak
-- https://maker.robotistan.com/algoritma/
-- https://www.yazilimbilisim.net/algoritma/algoritma-ve-akis-diyagrami-ornekleri/
-- https://www.dersmax.com/icerik/29/5524/algoritma_nedir.html
-- https://baskabirkod.com/algoritma-nedir/
-- http://programlamabilgini.blogspot.com/2014/11/algoritma-nedir.html
 
 
 
@@ -372,7 +269,7 @@ ENTER,ENTER
 
 
 # Eğitimde Kullanılan Online Araçlar
-- [Wihiteboard](https://witeboard.com/)
+- [Witeboard](https://witeboard.com/)
 - [Kahoot](https://kahoot.it/)
 - [Tarayıcıdan Erişilebilen Açık Portlar](https://wybiral.github.io/localtoast/)
 
@@ -397,9 +294,6 @@ ENTER,ENTER
 - [POP3 vs IMAP](https://www.youtube.com/watch?v=SBaARws0hy4)
 - [Bilgisayar terimlerinin animasyonlu anlatımı](https://www.youtube.com/channel/UCJQJ4GjTiq5lmn8czf8oo0Q/videos)
 - [DNS Konusunda güzel ve tek başına yeten bir video](https://www.youtube.com/watch?v=mpQZVYPuDGU)
-- []()
-- []()
-- []()
 
 
 # CSS Kütüphane Önerileri
@@ -420,12 +314,12 @@ ENTER,ENTER
 
 
 # Git
-* Self Hosted Git Service: https://gogs.io/
-* Self Hosted Git Service: https://gitea.io/
-* GİT Workflow Strategys 
-* Open Source Proje Desteği Adımları Eğitimi https://github.com/firstcontributions/first-contributions/blob/master/translations/README.tr.md
-* Git Stash İçin Resim https://medium.com/@Galoomba/all-you-need-to-know-about-git-p-1-ac2f29e8ee93
-* Git Stash İçin Resim https://cdn-images-1.medium.com/max/800/1*diRLm1S5hkVoh5qeArND0Q.png
+- Self Hosted Git Service: https://gogs.io/
+- Self Hosted Git Service: https://gitea.io/
+- GİT Workflow Strategys 
+- Open Source Proje Desteği Adımları Eğitimi https://github.com/firstcontributions/first-contributions/blob/master/translations/README.tr.md
+- Git Stash İçin Resim https://medium.com/@Galoomba/all-you-need-to-know-about-git-p-1-ac2f29e8ee93
+- Git Stash İçin Resim https://cdn-images-1.medium.com/max/800/1*diRLm1S5hkVoh5qeArND0Q.png
 - [Git Püf noktaları](https://github.com/vigo/git-puf-noktalari)
 - [Git Branch](https://github.com/vigo/git-puf-noktalari/blob/master/bolum-02/branch-ler-ile-calismak.md)
 - Git Workflow Stratejilerinin örnek resimlerle açıklanması
@@ -446,8 +340,19 @@ ENTER,ENTER
 - [Yeni Yazılımcılara Tavsiyeler](https://denizkilinc.com/2013/10/10/yazilima-ve-programlamaya-yeni-baslayanlar-icin-tavsiyeler/)
 - [PHP Eğitimi Taslağı](./konular/taslak.icerik.md)
 - [PHP: Usulüne Uygun](https://kulekci.net/php-the-right-way/) 
+- [Olağanüstü Bir Eğitim Sitesi: RipTutorial](https://riptutorial.com/)
+- [PHP for Kids Eğitim Sitesi](http://www.phpforkids.com)
+
 
 # OpenSource Video Editing Projects
 - [Shotcut](https://shotcut.org/)
 - [Blender](https://www.blender.org/)
 - [Openshot](https://www.openshot.org/)
+
+
+## TODO: JS FETCH komutu ile ÖRNEK YAPALIM
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- https://github.com/typicode/jsonplaceholder
+
+## TODO: JS Chart İle Örnek Yapalım
+- https://www.chartjs.org/
