@@ -1,6 +1,6 @@
 # MACOS İçin Kurulum
 
-MacOS altında PHP ve MySQL çalışabilmek için sadece [Atom](https://atom.io/) ve [MAMP](https://www.mamp.info/en/) kurulması yeterlidir.
+MacOS altında PHP ve MySQL çalışabilmek için sadece [Atom](https://atom.io/) ve [MAMP](https://www.mamp.info/en/) kurulması yeterlidir. Sanal makine için [Virtualbox](https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-OSX.dmg) Ver 6.0.10
 
 ## Faydalı Ayarlamalar
 
