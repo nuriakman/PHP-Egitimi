@@ -58,16 +58,13 @@ Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tas
 
 ![Algoritma Nedir](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/LampFlowchart_tr.svg/300px-LampFlowchart_tr.svg.png)
 
-## Üst Seviye Alan Nedir?
+## Üst Seviye Alan Nedir? Top Level Domain (TLD) Nedir?
 Üst seviye alan, alan adının en son kısmıdır. Alan adı uzantıları olarak da isimlendirilirler. Burası URL’nizde “nokta”dan sonra gelen kısımdır. Üst seviye uzantılar ülkelere özel üst seviye uzantılar ve jenerik üst seviye uzantılar olarak ikiye ayrılır.
 
 Üst seviye uzantılar şirketin türü, sitenin bulunduğu ülke gibi bazı web sitesi özelliklerini, bu sitenin bir hükümete mi ya da okula mı vs. ait olduğunu tespit etmeye yarar. Üst seviye uzantı  kullanımıyla ilgili düzenlemeler oldukça katıdır. Fakat İnternet Tahsisli İsimler ve Sayılar Kurumu (ICANN) 2010 yılında bu düzenlemeyi jenerik üst seviye uzantılar ve ticari markalar için biraz gevşetmiştir.
 
-## Alan Adı Sistemi
-Alan Adı Sistemi (Domain Name System/DNS) online hizmetlerin, bilgisayarların veya internete bağlı tüm kaynakların isimlendirilme sistemidir. Alan adlarını şirketlerle, web siteleriyle veya hizmetleriyle ilişkilendirmeye yarar. Ayrıca alan adlarını ağ protokollerinin doğru şekilde çalılması için gerekli olan sayısal IP adreslerine dönüştürürler.
-
-## Alan Adı Sistemi / Domain Name System (DNS)
-DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz. Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
+## Alan Adı Sistemi / Domain Name System / DNS
+Alan Adı Sistemi (Domain Name System/DNS) online hizmetlerin, bilgisayarların veya internete bağlı tüm kaynakların isimlendirilme sistemidir. Alan adlarını şirketlerle, web siteleriyle veya hizmetleriyle ilişkilendirmeye yarar. Ayrıca alan adlarını ağ protokollerinin doğru şekilde çalılması için gerekli olan sayısal IP adreslerine dönüştürürler. DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz. Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
 ## RootName Server
 Name server (NS kısaltmasıyla da kullanılır), alan adları sorgulanmasında kullanılan isim sunucularına deniyor. Yeterli gelmediyse biraz daha derinleşelim: Name server nedir tam olarak? Name server, sahip olunan alan adlarının belirli bir IP adresiyle bağdaştırılmasını sağlar. Böylece hizmete ulaşmak için IP numarası (karışık ve çok basamaklı sayılardan oluşur) yerine alan adını yazarsınız.
@@ -78,6 +75,19 @@ Name server (NS kısaltmasıyla da kullanılır), alan adları sorgulanmasında 
 
 ### DNS Nasıl Çalışır / Detaylı
 ![DNS Nasıl Çalışır](http://news.constellix.com/wp-content/uploads/2017/10/how-dns-works3-1024x613.png "DNS")
+
+
+### İnternetin Sahibi, DNS  ---  TODO:Bu sayfalardan derlenip hazırlanacak
+- http://tr.0wikipedia.org/wiki/DNS
+- https://www.kooplog.com/internetin-sahibi-kimdir/
+- https://mamasfm.de/internet-kime-ait-internetin-anahtari-kimde/
+- https://www.ihs.com.tr/blog/icann-nedir/
+- http://archive.icann.org/tr/turkish.html
+- http://www.bilgedomain.com/icann-nedir/
+- https://social.technet.microsoft.com/wiki/contents/articles/25919.dns-uzerine-detayl-anlatm-tr-tr.aspx
+- https://developer.mozilla.org/tr/docs/%C3%96%C4%9Fren/Getting_started_with_the_web/JavaScript_basics
+- https://www.netnod.se/i-root/what-are-root-name-servers
+- http://www.wikizero.biz/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUm9vdF9uYW1lX3NlcnZlcg
 
 
 ## HTTP Yaşam Döngüsü - HTTP Life Cycle
