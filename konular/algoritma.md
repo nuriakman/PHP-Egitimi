@@ -54,7 +54,7 @@ https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html
 
 
 
-## Algoritme Pratiği İçin Güzel Siteler
+## Algoritma Pratiği İçin Güzel Siteler
 - [Algoritma Pratikleri, Kata](http://kata-log.rocks/)
 - [Algoritma Pratikleri, Algoritma](https://www.hackerrank.com/domains/algorithms)
 - [Algoritma Pratikleri, Dashboard](https://www.hackerrank.com/dashboard)
@@ -64,3 +64,12 @@ https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html
 - [App Ideas](https://github.com/florinpop17/app-ideas)
 - [Algoritma Geliştirme yarışmaları](https://www.coderbyte.com/challenges/?a=true)
 - [SÜPER BİR SİTE! Programming, Web Design, Computer Science, Twisting Puzzles, Arduino, BBC micro:bit](http://multiwingspan.co.uk/)
+
+
+# ALGORİTMA Nedir? TODO:Bu sayfalardan derlenip hazırlanacak
+- https://maker.robotistan.com/algoritma/
+- https://www.yazilimbilisim.net/algoritma/algoritma-ve-akis-diyagrami-ornekleri/
+- https://www.dersmax.com/icerik/29/5524/algoritma_nedir.html
+- https://baskabirkod.com/algoritma-nedir/
+- http://programlamabilgini.blogspot.com/2014/11/algoritma-nedir.html
+
