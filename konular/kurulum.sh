@@ -39,6 +39,8 @@ sudo snap install postman
 sudo snap install atom --classic
 sudo snap install vscode --classic
 sudo snap install sublime-text --classic
+axel https://download.sublimetext.com/sublime-merge_build-1116_amd64.deb
+sudo dpkg -i sublime-merge_build-1116_amd64.deb
 ################# ATOM EKLENTİLERİNİN KURULMASI
 apm install atom-beautify autoclose-html color-picker drag-relative-path
 apm install duplicate-line-or-selection emmet file-icons highlight-line
@@ -50,9 +52,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windo
 ################# WWW/HTML KLASÖRÜ İÇİN MASAÜSTÜNE LİNK EKLEYELİM
 cd ~/Masaüstü || cd ~/Desktop
 ln -s /var/www/html/
-bash echo "===================================================="
+
 php -v
 apache2 -v
 mysql --version
-bash echo "===================================================="
+
 
