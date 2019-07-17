@@ -356,3 +356,23 @@ ENTER,ENTER
 
 ## TODO: JS Chart İle Örnek Yapalım
 - https://www.chartjs.org/
+
+
+# HTML Form
+```PHP
+    // strip_tags()
+    //$hakkimda = htmlspecialchars($_POST['hakkimda']);
+    //echo htmlspecialchars_decode($hakkimda);
+
+    function form_filtrele($post) {
+        return is_array($post) ? array_map('form_filtrele', $post) : htmlspecialchars(trim($post));
+    }
+
+    $_POST = array_map('form_filtrele', $_POST);
+
+    function post($name) { if (isset($_POST[$name])) return $_POST[$name]; }
+    function get($name) { if (isset($_GET[$name])) return $_GET[$name]; }
+
+    echo post('hakkimda');
+
+```
