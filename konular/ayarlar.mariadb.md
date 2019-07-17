@@ -77,7 +77,7 @@ Thanks for using MariaDB!
 
 
 
-# Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
+## Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
 
 ```SQL
 sudo mysql -u root
