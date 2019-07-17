@@ -90,3 +90,9 @@ Yukarıdaki tüm işlemleri bir defada yapmak için:
 ```BASH
 wget https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/konular/kurulum.sh -O - | sh
 ```
+Bu işlem bitince şu komut çalıştırılarak kurulum tamamlanır:
+```BASH
+sudo mysql_secure_installation
+```
+
+
