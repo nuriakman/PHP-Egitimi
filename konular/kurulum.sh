@@ -37,7 +37,7 @@ sudo apt  install snapd -y
 sudo snap install snap-store
 sudo snap install postman
 sudo snap install atom --classic
-sudo snap install vscode
+sudo snap install vscode --classic
 sudo snap install sublime-text --classic
 ################# ATOM EKLENTİLERİNİN KURULMASI
 apm install atom-beautify autoclose-html color-picker drag-relative-path
