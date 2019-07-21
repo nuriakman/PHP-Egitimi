@@ -3,7 +3,6 @@ sudo apt update -y
 sudo apt upgrade -y
 ################# MARIADB KURULUMU
 sudo apt install mariadb-server mariadb-client -y
-sudo sudo systemctl enable mariadb -y
 sudo systemctl enable mariadb
 sudo service mariadb restart
 ################# MYSQL ROOT PAROLASI BELİRLENMESİ
