@@ -9,7 +9,7 @@ sudo service mariadb restart
 ##sudo mysql_secure_installation  ## bash içinden çalıştırılamaz. Manuel çalıştırılmalıdır...
 ################# APACHE KURULUMU
 sudo apt install apache2 apache2-utils -y
-rm -f /var/www/html/index.html
+sudo rm -f /var/www/html/index.html
 sudo systemctl enable apache2
 sudo service apache2 restart
 ################# APACHE DİZİNİ AYARLARI
