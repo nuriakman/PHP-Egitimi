@@ -64,7 +64,7 @@ https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html
 - [App Ideas](https://github.com/florinpop17/app-ideas)
 - [Algoritma Geliştirme yarışmaları](https://www.coderbyte.com/challenges/?a=true)
 - [SÜPER BİR SİTE! Programming, Web Design, Computer Science, Twisting Puzzles, Arduino, BBC micro:bit](http://multiwingspan.co.uk/)
-
+- [Oyunlar üzerinden Pseudo kod ile algoritma yazmayı ve çözmeyi sağlayan bir site](https://www.codingame.com/)
 
 # ALGORİTMA Nedir? TODO:Bu sayfalardan derlenip hazırlanacak
 - https://maker.robotistan.com/algoritma/
