@@ -85,14 +85,36 @@ apm install minimap sublime-style-column-selection teletype todo-show project-vi
 ```
 <br><br><br><br>
 
-# HIZLI KURULUM
+# HIZLI KURULUM (TAM)
 Yukarıdaki tüm işlemleri bir defada yapmak için:
 ```BASH
 wget https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/konular/kurulum.sh -O - | sh
 ```
-Bu işlem bitince şu komut çalıştırılarak kurulum tamamlanır:
+
+# HIZLI KURULUM (SADECE GEREKLİ OLANLAR)
+Yukarıdaki tüm işlemleri bir defada yapmak için:
 ```BASH
+wget https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/konular/kurulum.asgari.sh -O - | sh
+```
+
+## KURULUM BİTİNCE YAPILACAKLAR
+
+### Git Ayarları 
+```BASH
+git config --global user.email "epostaadresiniz"
+git config --global user.name  "ad soyad"
+```
+
+### MySQL Ayarlaması ve Root Parolasının Belirlenmesi
+```BASH
+sudo mysql -u root
+  show databases;
+  use mysql;
+  update user set plugin='' where User='root';
+  flush privileges;
+  exit;
 sudo mysql_secure_installation
+
 ```
 
 
