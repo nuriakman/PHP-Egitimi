@@ -28,6 +28,12 @@ sudo apt install php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
 ## MariaDB Kurulumu
 ```BASH
 sudo apt install mariadb-server mariadb-client -y
+sudo mysql -u root
+  show databases;
+  use mysql;
+  update user set plugin='' where User='root';
+  flush privileges;
+  exit;
 sudo mysql_secure_installation
 ```
 
