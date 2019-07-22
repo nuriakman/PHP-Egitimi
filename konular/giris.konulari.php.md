@@ -184,8 +184,9 @@ $b .= "Merhaba!"; // $b'nin değeri "Herkese Merhaba!" olur.
 ```PHP
 $a = 3;
 $b = &$a; // $b, $a'ya bir gönderimdir
-print "$a\n"; // 3 basar
-print "$b\n"; // 3 basar
+$a = 7;
+print "$a<br>"; // 7 basar
+print "$b<br>"; // 7 basar
 ```
 
 # DENETİM YAPILARI
