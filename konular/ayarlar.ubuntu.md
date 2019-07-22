@@ -103,7 +103,7 @@ Yukarıdaki tüm işlemleri bir defada yapmak için:
 wget https://raw.githubusercontent.com/nuriakman/PHP-Egitimi/master/konular/kurulum.asgari.sh -O - | sh
 ```
 
-## KURULUM BİTİNCE YAPILACAKLAR
+# HIZLI KURULUM BİTİNCE YAPILACAKLAR
 
 ### Git Ayarları 
 ```BASH
