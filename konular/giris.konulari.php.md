@@ -260,7 +260,7 @@ foreach ($dizi as $deger) {
 Örnek 2
 ```PHP
 $arr1 = array("a" => 1, "b" => 2, "c" => 3);
-foreach ($arr2 as $key => $val) {
+foreach ($arr1 as $key => $val) {
     echo  "<p>$key elemanının değeri: $val</p>";
 }
 ```
