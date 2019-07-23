@@ -7,8 +7,10 @@
 ### [ceil](http://php.net/ceil)
 Bir rakamı en yakın tam sayıya yuvarlar
 ```php
-$a = 789.89;
-echo ceil($a);
+<?php
+echo ceil(4.3);    // 5
+echo ceil(9.999);  // 10
+echo ceil(-3.14);  // -3
 ```
 
 
