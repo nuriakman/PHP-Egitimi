@@ -1,13 +1,13 @@
 # MarkDown Kodlama
 
-## Git içinde emoji kullanımı :heart:
-[Git içinde kullanılabilecek emoji listesi](https://gist.github.com/rxaviers/7360908)
-
-## GitHub içinde MarkDown kodlaması
+## MarkDown kodları
 
 [MarkDown kodları](https://guides.github.com/features/mastering-markdown/) sayfasında geniş biçimde anlatılmıştır.
 
-## Git içine YouTube video linki yerleştirme
+## MarkDown içinde emoji kullanımı :heart:
+[Git içinde kullanılabilecek emoji listesi](https://gist.github.com/rxaviers/7360908)
+
+## MarkDown içine YouTube videosu yerleştirme
 ```
 [![Video Adı Buraya](http://img.youtube.com/vi/VIDEONUNKODUBURAYA/0.jpg)](http://www.youtube.com/watch?v=VIDEONUNKODUBURAYA)
 ```
