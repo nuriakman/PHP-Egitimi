@@ -31,6 +31,7 @@ sudo chown -R $USER:www-data /var/www/html/
 ```BASH
 sudo apt install php php-pear php-fpm php-dev php-zip php-curl php-xmlrpc -y
 sudo apt install php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
+sudo service apache2 restart
 ```
 
 ## MariaDB Kurulumu
