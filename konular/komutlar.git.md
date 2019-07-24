@@ -174,7 +174,8 @@ git help everyday
 git help tutorial
 git help workflows
 
-
+# Git içinde emoji kullanımı :heart:
+[Git içinde kullanılabilecek emoji listesi](https://gist.github.com/rxaviers/7360908)
 
 ## Faydalı Linkler
 
