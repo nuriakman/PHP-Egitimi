@@ -121,6 +121,8 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 ## LINUX
 - [Temel Linux Komutları](./konular/linux.temel.komutlar.md)
 - [Eğitmen Notları](./konular/egitmen.notlari.md)
+- [Dosya İzinleri](./konular/dosya.izinleri.md)
+
 
 
 ## Çeşitli Konular
