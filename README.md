@@ -42,6 +42,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [Git, Github ve Git komutları](./konular/komutlar.git.md)
 - [Git İpuçları](./konular/komutlar.git.ipuclari.md)
 - [5 Dakikada GIT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
+- [GitHub Projelerine Katkıda Bulunmak](./konular/github.projelerine.katkida.bulunmak.md)
 
 
 ## HTML
