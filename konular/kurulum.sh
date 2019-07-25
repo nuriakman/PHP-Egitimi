@@ -3,14 +3,13 @@ sudo apt update -y
 sudo apt upgrade -y
 ################# MARIADB KURULUMU
 sudo apt install mariadb-server mariadb-client -y
-sudo sudo systemctl enable mariadb -y
 sudo systemctl enable mariadb
 sudo service mariadb restart
 ################# MYSQL ROOT PAROLASI BELİRLENMESİ
 ##sudo mysql_secure_installation  ## bash içinden çalıştırılamaz. Manuel çalıştırılmalıdır...
 ################# APACHE KURULUMU
 sudo apt install apache2 apache2-utils -y
-rm -f /var/www/html/index.html
+sudo rm -f /var/www/html/index.html
 sudo systemctl enable apache2
 sudo service apache2 restart
 ################# APACHE DİZİNİ AYARLARI
@@ -23,6 +22,7 @@ wget -O index.php https://www.adminer.org/latest.php
 ################# PHP KURULUMU
 sudo apt install php php-pear php-fpm php-dev php-zip php-curl php-xmlrpc -y
 sudo apt install php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
+sudo service apache2 restart
 
 ################# GİT KURULUMU
 sudo apt install git -y

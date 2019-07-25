@@ -16,18 +16,29 @@ git config --global user.name "ADINIZ SOYADINIZ"
 
 ## Apache Kurulumu
 ```BASH
-sudo apt install apache2 -y
+sudo apt install apache2 apache2-utils -y
+sudo rm -f /var/www/html/index.html
+sudo systemctl enable apache2
+sudo service apache2 restart
+```
+## Apache Dizin Ayarları
+```BASH
+sudo adduser $USER www-data
+sudo chown -R $USER:www-data /var/www/html/
 ```
 
 ## PHP Kurulumu
 ```BASH
 sudo apt install php php-pear php-fpm php-dev php-zip php-curl php-xmlrpc -y
 sudo apt install php-gd php-mysql php-mbstring php-xml libapache2-mod-php -y
+sudo service apache2 restart
 ```
 
 ## MariaDB Kurulumu
 ```BASH
 sudo apt install mariadb-server mariadb-client -y
+sudo systemctl enable mariadb
+sudo service mariadb restart
 sudo mysql -u root
   show databases;
   use mysql;

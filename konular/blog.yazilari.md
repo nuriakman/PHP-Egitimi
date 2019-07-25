@@ -3,6 +3,7 @@
 Özgür Yazılım Yaz/Kış Kampları katılımcılarının yazdığı blog yazılarını burada derlemeye çalıştık
 
 ## Özgür Yazılım - Yaz Kampı Blog Yazıları
+- [2019, **Batuhan Osman Taşkaya**, 2019 Mustafa Akgül Özgür Yazılım Yaz Kampı](https://isidentical.github.io/lyk-maceralarim.html)
 - [2018, **Kemal Mutlu**, 2018 Mustafa Akgül Özgür Yazılım Yaz Kampı](https://medium.com/@mutlukemal1717/2018-mustafa-akgul-ozgur-yazilim-yaz-kampi-8ed8bd4ebdf9)
 - [2018, **Edanur Yıldız**, Çölde Vaha: Mustafa Akgül Özgür Yazılım Kampı 2018](https://medium.com/@edanuryildiz/%C3%A7%C3%B6lde-vaha-mustafa-akg%C3%BCl-%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-kamp%C4%B1-2018-625d646cf59d)
 - [2018, **Fatih Erikli**, Özgür Yazılım Kampı 2018](https://medium.com/@fthrkl/%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m-kamp%C4%B1-2018-b6b5a0536188)
