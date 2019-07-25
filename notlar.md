@@ -1,3 +1,6 @@
+# Çeşitli Konular
+- [Forklanan Projeyi GÜncel Tutma](https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381)
+
 # JavaScript
 - [KİTAP - You Don't Know JS - A book series on JavaScript](https://github.com/getify/You-Dont-Know-JS)
 - https://www.geeksforgeeks.org/javascript-tutorial/
