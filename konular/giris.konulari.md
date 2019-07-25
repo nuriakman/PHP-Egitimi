@@ -28,7 +28,7 @@ World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirler
 İlk kez Rasmus Lerdorf tarafından, web üzerinden sayfasını ziyaret edenleri izlemek amacıyla bir dizi Perl betiği kullanılarak geliştirilmişti. Ancak insanlar bununla ilgilenmeye başlayınca, Lerdorf bir betik motoru oluşturmaya karar verdi. Ayrıca formlara da destek verdi ve böylece PHP/F1 biçimlenmiş oldu. Adı duyuldukça kimi geliştiricinin dikkatini çekti ve böylece bir API oluşturuldu: PHP3 meydana geldi. Ardından Zend motoruyla PHP4 geldi. 
 
 ## İstemci/Client Nedir?
-İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu(server) dan bir istekte bulunur ve bunun sonucunda sunucu, istenen verileri istemciye ulaştırır.
+İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu (server) dan bir istekte bulunur ve bunun sonucunda sunucu, istenen verileri istemciye ulaştırır.
 
 ## Sunucu/Server Nedir ?
 Sunucu ise bu bilgileri tutan bilgisayarlardır. Bunların donanımla,yüksek performansla çalışmaları gerekir. Tanımını özet olarak yaparsak Sunucu, bir ağdaki bilgiyi kullanıcılara (bilgisayarlara) paylaştıran, üzerinde birçok yazılım çalıştaran, yüksek performansa sahip bilgisayarlardır.
@@ -64,7 +64,7 @@ Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tas
 Üst seviye uzantılar şirketin türü, sitenin bulunduğu ülke gibi bazı web sitesi özelliklerini, bu sitenin bir hükümete mi ya da okula mı vs. ait olduğunu tespit etmeye yarar. Üst seviye uzantı  kullanımıyla ilgili düzenlemeler oldukça katıdır. Fakat İnternet Tahsisli İsimler ve Sayılar Kurumu (ICANN) 2010 yılında bu düzenlemeyi jenerik üst seviye uzantılar ve ticari markalar için biraz gevşetmiştir.
 
 ## Alan Adı Sistemi / Domain Name System / DNS
-Alan Adı Sistemi (Domain Name System/DNS) online hizmetlerin, bilgisayarların veya internete bağlı tüm kaynakların isimlendirilme sistemidir. Alan adlarını şirketlerle, web siteleriyle veya hizmetleriyle ilişkilendirmeye yarar. Ayrıca alan adlarını ağ protokollerinin doğru şekilde çalılması için gerekli olan sayısal IP adreslerine dönüştürürler. DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz. Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
+Alan Adı Sistemi (Domain Name System/DNS) online hizmetlerin, bilgisayarların veya internete bağlı tüm kaynakların isimlendirilme sistemidir. Alan adlarını şirketlerle, web siteleriyle veya hizmetleriyle ilişkilendirmeye yarar. Ayrıca alan adlarını ağ protokollerinin doğru şekilde çalışması için gerekli olan sayısal IP adreslerine dönüştürürler. DNS (Domain Name System) tarayıcınızın adres çubuğuna girdiğiniz site ismini, girmek istediğiniz sitenin gerçekte ikamet ettiği IP adresine çeviren ve internette gezinmeyi tahmin edemeyeceğiniz kadar kolaylaştıran oldukça yararlı bir sistemdir. Örneğin hiç kimse şu anda Google'ın ikamet adresi olan 74.125.224.83 adresini tarayıcısına yazmaz. Onun yerine www.google.com yazar ve DNS sunucusu, bu adresi IP adresine yönlendirir.
 
 ## RootName Server
 Name server (NS kısaltmasıyla da kullanılır), alan adları sorgulanmasında kullanılan isim sunucularına deniyor. Yeterli gelmediyse biraz daha derinleşelim: Name server nedir tam olarak? Name server, sahip olunan alan adlarının belirli bir IP adresiyle bağdaştırılmasını sağlar. Böylece hizmete ulaşmak için IP numarası (karışık ve çok basamaklı sayılardan oluşur) yerine alan adını yazarsınız.
@@ -93,7 +93,7 @@ Name server (NS kısaltmasıyla da kullanılır), alan adları sorgulanmasında 
 ## HTTP Yaşam Döngüsü - HTTP Life Cycle
 1. Domain Adının IP ‘ye çevrilmesi (DNS)
 2. IP adresine TCP isteği (request)
-3. Server‘ın cevabı (response
+3. Server‘ın cevabı (response)
 4. Cevabın ekrana basılması (render)
 
 ### 1. Domain Adının IP ‘ye çevrilmesi (DNS)
@@ -236,17 +236,7 @@ front-end tamamen koddan ayrılmış php kodları tamamen ana kodumuzdan ayrılm
 - Code ignaither
 
 ## NEDEN GITHUB’DA PROJELERE DESTEK VERMELİYİZ ?
-Bu iş sevmekten geçiyor.Yaptığım programın başkası tarafından kullanıdğını görmek beni çok
-mutlu ediyor.Parayla mutluluk bir dakika olur ama bu mutluluk bambaşka.Durum böyle olunca
-gerçekten bu işi seven yazılımı seven hobi içi yapanlar bu işe destek veriyor.Herkes mi bu işi
-seviyor hayır.Sizler bu projelere destek vermek zorundasınız.Üniversiteden mezunsunuz
-diplomanız var ortalamalanıza bakarlar.En büyük hata ortalamalara bakılması ve üniversitelere
-bakılması.Yazılımcılık diploma ile olmaz kod ile olur.İTÜ de okumak sizi adam yapmıyor.Kötü bir
-üniversitede de okmak da sizi gerizekalı yapmıyor.Kendinizi böyle bir sınavda belli etmek yerine github da
-nick alıyorsunuz ve projelere destek veriyorsunuz.Beğendiğiniz bir projeyi inidrin hatasını bulup
-düzeltin.Adama senin projeni beğendim bir kaç hata buldum bunları düzelttim diyin.Sizin profilinizde bu
-tarz yaptığınız her şey kaydediliyor.Merak eden birisi açıp projeyi incelyor.Bunu öğrenciler
-sıklıklıkla yapıyor.Sonra bir yazılım şirkeyinde işe girerken sizden GİTHUB adresinizi istiyor.
+Bu iş sevmekten geçiyor.Yaptığım programın başkası tarafından kullanıdğını görmek beni çok mutlu ediyor. Parayla mutluluk bir dakika olur ama bu mutluluk bambaşka. Durum böyle olunca gerçekten bu işi seven yazılımı seven hobi içi yapanlar bu işe destek veriyor. Herkes mi bu işi seviyor? Hayır. Sizler bu projelere destek vermek zorundasınız. Üniversiteden mezunsunuz diplomanız var ortalamalanıza bakarlar. En büyük hata ortalamalara bakılması ve üniversitelere bakılması. Yazılımcılık diploma ile olmaz kod ile olur. İTÜ de okumak sizi adam yapmıyor. Kötü bir üniversitede olmak da sizi gerizekalı yapmıyor. Kendinizi böyle bir sınavda belli etmek yerine Github'da nick alıyorsunuz ve projelere destek veriyorsunuz. Beğendiğiniz bir projeyi indirin, hatasını bulup düzeltin. Adama senin projeni beğendim bir kaç hata buldum bunları düzelttim diyin. Sizin profilinizde bu tarz yaptığınız her şey kaydediliyor. Merak eden birisi açıp projeyi inceliyor. Bunu öğrenciler sıklıklıkla yapıyor.Sonra bir yazılım şirketinde işe girerken sizden GİTHUB adresinizi istiyor.
 
 ## Anlamsal Sürümleme - Semantic Versioning
 BÜYÜK.KÜÇÜK.YAMA diye belirtilen bir sürüm numarasında,

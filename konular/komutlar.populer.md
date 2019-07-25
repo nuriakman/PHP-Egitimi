@@ -7,8 +7,10 @@
 ### [ceil](http://php.net/ceil)
 Bir rakamı en yakın tam sayıya yuvarlar
 ```php
-$a = 789.89;
-echo ceil($a);
+<?php
+echo ceil(4.3);    // 5
+echo ceil(9.999);  // 10
+echo ceil(-3.14);  // -3
 ```
 
 
@@ -702,6 +704,14 @@ Dosya içeriğinin tamamını bir dizge olarak döndürür.
 ```php
 $homepage = file_get_contents('deneme.txt');
 echo $homepage; //deneme.txt dosyasının içeriğini dizge olarak döndürdü.
+```
+
+### [file](http://php.net/file)
+Dosya içeriğini satır satır okuyup bir diziye okur.
+```php
+$dosya = "kisiler.txt";
+$arrKisiler = file($dosya);
+var_dump($arrKisiler);
 ```
 
 

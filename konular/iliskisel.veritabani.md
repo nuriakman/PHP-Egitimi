@@ -52,7 +52,7 @@ En fazla rastalanan ilişki türüdür. Bir dershanede öğrenciler ve bu öğre
 ![](http://kod5.org/wp-content/uploads/table21.png)
 
 
-## Çoktan Çoğa (n-m) İlişki
+## Çoktan Çoğa (n-n) İlişki
 Bu ilişki türünde iki tabloda birden fazla bağa sahiptir. Bu yüzden iki tablo, bu ilişkiyi açıklamak için yeterli olmaz. Yine bir ilişki türü örneği ile konuya giriş yapalım. Bir üniversitede ders seçimi yapan öğrenciler ile seçilen derslerin kayıtlarının tutulduğunu düşünelim. Bu durumda elimizde iki adet tablo bulunmaktadır:Öğrenciler tablosu ve dersler tablosu. Bir öğrenci birden fazla ders seçebilirken, bir derste birden fazla öğrenci tarafından seçilebilmektedir. Bu durumda aralarında çoktan çoğa bir ilişki oluşmaktadır. Bu durumu tablolaştırırken bir üçüncü tabloya daha ihtiyacımız olmaktadır. Üçüncü tablo seçim tablosu olacak ve burada ders ile öğrencinin id’leri tutulacaktır.
 
 ![](http://kod5.org/wp-content/uploads/table21.png)
