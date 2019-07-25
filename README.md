@@ -33,6 +33,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## MARKDOWN
+- [MarkDown Kodlaması](./konular/markdown.kodlama.md)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 - [On-Line Markdown Editörü](https://stackedit.io/)
 
@@ -121,6 +122,8 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 ## LINUX
 - [Temel Linux Komutları](./konular/linux.temel.komutlar.md)
 - [Eğitmen Notları](./konular/egitmen.notlari.md)
+- [Dosya İzinleri](./konular/dosya.izinleri.md)
+
 
 
 ## Çeşitli Konular
@@ -135,6 +138,6 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 * [Nuri AKMAN](https://github.com/nuriakman)
 * [Hasan ÇİÇEK](https://github.com/yeniceri1453)
 * [Yağmur BALİ](https://github.com/yagmurb)
-
+* [e-Kalem: Talha ÇELİK ](https://github.com/ekalem)
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
