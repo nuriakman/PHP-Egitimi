@@ -8,3 +8,10 @@
 
 
 **NOT:** [XAMPP / PHP 5.6](https://www.apachefriends.org/xampp-files/5.6.40/xampp-win32-5.6.40-0-VC11-installer.exe) Ver 5.6.40 sürümünü kurularak eski PHP projelerinizi çalıştırabileceğiniz ortama kavuşabilirsiniz.
+
+## Kurulum Notları
+- Git kurulumu sırasında **unix programları kurulsun** seçeneği işaretli olarak kurulum tamamlanmalıdır.
+- Git kurulumu bitince ssh-keygen çalıştırılmalıdır.
+- id_rsa.pub dosyası kullanıcı klasörü içinde **.ssh** dizini altındadır.
+- ```type c:\users\user\.ssh\id_rsa.pub``` ile dosya içeriği alınır.
+- ```git clone``` komutu kullanılmadan önce htdoc dizinine şu şekilde geçilmesi gerekir: ```cd c:\xampp\htdocs\```

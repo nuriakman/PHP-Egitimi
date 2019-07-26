@@ -174,8 +174,6 @@ git help everyday
 git help tutorial
 git help workflows
 
-
-
 ## Faydalı Linkler
 
 - [git - Basit Rehber](http://rogerdudler.github.io/git-guide/index.tr.html)

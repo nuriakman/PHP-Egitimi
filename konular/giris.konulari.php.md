@@ -184,8 +184,9 @@ $b .= "Merhaba!"; // $b'nin değeri "Herkese Merhaba!" olur.
 ```PHP
 $a = 3;
 $b = &$a; // $b, $a'ya bir gönderimdir
-print "$a\n"; // 3 basar
-print "$b\n"; // 3 basar
+$a = 7;
+print "$a<br>"; // 7 basar
+print "$b<br>"; // 7 basar
 ```
 
 # DENETİM YAPILARI
@@ -259,7 +260,7 @@ foreach ($dizi as $deger) {
 Örnek 2
 ```PHP
 $arr1 = array("a" => 1, "b" => 2, "c" => 3);
-foreach ($arr2 as $key => $val) {
+foreach ($arr1 as $key => $val) {
     echo  "<p>$key elemanının değeri: $val</p>";
 }
 ```

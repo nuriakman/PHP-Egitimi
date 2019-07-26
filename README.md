@@ -2,9 +2,11 @@
 # PHP ve MySQL ile Web Programlamaya Giriş
 
 ## AMAÇ
-Bu proje, ilk olarak 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılacak olan **Mustafa Akgül Özgür Yazılım Kış Kampı** çerçevesindeki *PHP ve MySQL ile Web Programlamaya Giriş* eğitimi için kaynak olması amacıyla hazırlanmıştır.
+Bu proje, ilk olarak 9-12 Şubat 2019 tarihleri arasında ORDU'da yapılan **Mustafa Akgül Özgür Yazılım Kış Kampı** çerçevesindeki *PHP ve MySQL ile Web Programlamaya Giriş* eğitimi için kaynak olması amacıyla hazırlanmıştır.
 
-Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için bir başvuru kaynağı olarak kullanılabilmesi amacıyla geliştirilmeye devam edilmiştir.
+Daha sonra ise, 19 Temmuz - 3 Ağustos 2019 tarihleri arasında Bolu'da yapılan **Mustafa Akgül Özgür Yazılım Yaz Kampı** çerçevesindeki *PHP ile Web Programlama* eğitiminde kaynak olarak kullanılmış ve geliştirilmiştir.
+
+Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başvuru kaynağı olarak kullanılabilmesi amacıyla geliştirilmeye devam edilecektir.
 
 - Geliştirilmesine katkıda bulunmak isterseniz [Yapılacak İşler](./konular/yapilacak.isler.md) sayfamıza bakabilirsiniz.
 - Bu projede yer almasını istediğiniz konular ve önerileriniz için ise  [Öneriler](./konular/oneriler.md) sayfamızdan bize ulaşabilirsiniz.
@@ -31,14 +33,16 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 
 
 ## MARKDOWN
+- [MarkDown Kodlaması](./konular/markdown.kodlama.md)
 - [5 Dakikada MarkDown](https://learnxinyminutes.com/docs/tr-tr/markdown-tr/)
 - [On-Line Markdown Editörü](https://stackedit.io/)
 
 
-## GİT
-- [Git, Github ve git komutları](./konular/komutlar.git.md)
+## GIT
+- [Git, Github ve Git komutları](./konular/komutlar.git.md)
 - [Git İpuçları](./konular/komutlar.git.ipuclari.md)
-- [5 Dakikada GİT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
+- [5 Dakikada GIT](https://learnxinyminutes.com/docs/tr-tr/git-tr/)
+- [GitHub Projelerine Katkıda Bulunmak](./konular/github.projelerine.katkida.bulunmak.md)
 
 
 ## HTML
@@ -119,6 +123,8 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 ## LINUX
 - [Temel Linux Komutları](./konular/linux.temel.komutlar.md)
 - [Eğitmen Notları](./konular/egitmen.notlari.md)
+- [Dosya İzinleri](./konular/dosya.izinleri.md)
+
 
 
 ## Çeşitli Konular
@@ -133,6 +139,6 @@ Daha sonra ise, **PHP ve MySQL ile Web Programlamaya Giriş** eğitimleri için 
 * [Nuri AKMAN](https://github.com/nuriakman)
 * [Hasan ÇİÇEK](https://github.com/yeniceri1453)
 * [Yağmur BALİ](https://github.com/yagmurb)
-
+* [e-Kalem: Talha ÇELİK ](https://github.com/ekalem)
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
