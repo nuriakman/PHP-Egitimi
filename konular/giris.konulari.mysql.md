@@ -15,7 +15,7 @@ Komut |Anlamı|
 $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
 /* check connection */
-if (mysqli_connect_errno()) {
+if (mysqli_connect_error()) {
     printf("Veritabanı Sunucusuna Bağlantı Hatası: %s\n", mysqli_connect_error());
     exit();
 }
