@@ -19,7 +19,7 @@ Eğer, bu kodlar sizde çalışmazsa **php_gd** kütüphanesini yüklemediğiniz
 <?php
   @unlink("yeni.jpg");
   $RESIM = imagecreatefromjpeg("kedi.jpg");
-  $YENIRESIM = imagescale($RESIM, 300, 250);şekilde boyutlandır.
+  $YENIRESIM = imagescale($RESIM, 300, 250);
   imagejpeg($YENIRESIM, "yeni.jpg");
   imagedestroy($YENIRESIM);
   imagedestroy($RESIM);
