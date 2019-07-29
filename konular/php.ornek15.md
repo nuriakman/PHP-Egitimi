@@ -8,7 +8,7 @@
       $RESIM = imagecreatefromjpeg('kedi.jpg');
 
       // Yazı rengini BEYAZ olarak belirle
-      $BEYAZ = imagecolorallocate($RESIM, 255, 255, 255);
+      $YAZIRENGI = imagecolorallocate($RESIM, 255, 255, 255);
       // Renk Kodları için: https://www.w3schools.com/colors/colors_picker.asp
 
       // Varsayılan font dosyasının adı
@@ -19,10 +19,10 @@
 
 
       // Yazılacak yazının ayarlanması (Varsayılan değer)
-      $YAZI = "Merhaba!";
+      $METIN = "Merhaba!";
 
       // Eğer, URL'de YAZI adlı değişken varsa, onu kullanalım.
-      if(isset($_GET["YAZI"])) $YAZI = $_GET["YAZI"];
+      if(isset($_GET["YAZI"])) $METIN = $_GET["YAZI"];
 
       // Ayarlamalarımız
       $FontBoyutu      = 150; // Px cinsinden değer
@@ -31,7 +31,7 @@
       $BaslamaNoktasiY = 200; // Resmin, sol üst noktasına göre dikeyde yazının başlama noktası (px cinsinden)
 
       // Belirtilen ayarlara göre yazının resim üzerine yazılması
-      imagettftext($RESIM, $FontBoyutu, $YazdirmaAcisi, $BaslamaNoktasiX, $BaslamaNoktasiY, $BEYAZ, $FONTADI, $YAZI);
+      imagettftext($RESIM, $FontBoyutu, $YazdirmaAcisi, $BaslamaNoktasiX, $BaslamaNoktasiY, $YAZIRENGI, $FONTADI, $METIN);
 
       // Üzerinde yazı olan resmin yeni dosya olarak kaydedilmesi
       imagejpeg($RESIM, "kedi_yazili.jpg");
@@ -55,5 +55,4 @@
     <p>
       <img src="kedi_yazili.jpg">
     </p>
-
 ```
