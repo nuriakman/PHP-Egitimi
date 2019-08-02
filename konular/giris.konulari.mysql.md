@@ -274,10 +274,16 @@ SELECT * FROM kullanicilar WHERE id = '' OR  '1' = '1'
 // Oluşan bu değer her zaman için TRUE (Doğru) değeri üreteceği için SQL sorgusu kötü niyetli olarak manipüle edilmiş olacaktır.
 
 // Bu sorunu ortadan kaldırmak için şu komutun uygulanması yeterlidir:
-$KullaniciID = mysql_real_escape_string($_GET['id']);
-
+$KullaniciID = mysqli_real_escape_string($_GET['id'], $db);
+// NOT: mysqli_real_escape_string komutunun çalışabilmesi için bağlantının kurulmuş olması şarttır.
 ```
-# POST ve GET değişkenleri verilerinin otomatik temizlenmesi TODO: Bu Kod Test Edilmedi
+
+# POST ve GET temizliği
+Özellikle POST ve GET verilerinde toplu olarak ```mysqli_real_escape_string``` komutunun uygulanması çalışmaları burada derlenmeye çalışılmıştır.
+
+**NOT:** ```mysqli_real_escape_string``` komutunun çalışabilmesi için bağlantının kurulmuş olması şarttır.
+
+## Yöntem 1 TODO: Test Edilmeli!
 ```PHP
 function GUVENLI_VERI($array, $db) {
    foreach($array as $key=>$value) {
@@ -291,8 +297,31 @@ function GUVENLI_VERI($array, $db) {
 GUVENLI_VERI($_GET, $db);
 GUVENLI_VERI($_POST, $db);
 ```
+## Yöntem 2 TODO: Test Edilmeli!
+```PHP
+array_walk($_POST, function(&$string) use ($db) { 
+  $string = mysqli_real_escape_string($db, $string);
+});
+```
+TODO: POST verisi içinde dizi değişkenleri varsa durumunda nasıl davranıyor? 
 
-# Temel mysql Komutları
+## Yöntem 3 TODO: Test Edilmeli!
+```PHP
+$post = array_map('mysqli_real_escape_string', $_POST);
+$POST = $post;
+```
+TODO: POST verisi içinde dizi değişkenleri varsa durumunda nasıl davranıyor? 
+
+## Yöntem 4 TODO: Test Edilmeli!
+```PHP
+foreach($_POST as $k => $v) {
+    $_POST[$k] = mysqli_real_escape_string($v, $db);
+}
+TODO: POST verisi içinde dizi değişkenleri varsa çalışmaz! 
+```
+
+
+# PHP7'den İtibaren Kaldırılmış Olan Komutlar
 
 Aşağıdaki mysql_* ile başlayan komutlar, PHP 7.0'dan itibarek artık kullanılmamaktadır.
 
