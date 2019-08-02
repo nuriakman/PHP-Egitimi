@@ -22,6 +22,9 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 ## Kurulum Bilgileri
 - [Windows İçin Kurulum](./konular/kurulum.menu.windows.md)
 - [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
+-- [Ubuntu 19.04 Kurulumu Sonrasında Çalışma Ortamının Hazırlanması](../konular/ayarlar.ubuntu.md)
+-- [MariaDB/MySQL İçin Parola Belirleme / Sıfırlama](../konular/ayarlar.mariadb.md)
+-- [GitHub İçin SSH Key Üretme](../konular/ayarlar.sshkey.md)
 - [MacOS İçin Kurulum](./konular/kurulum.menu.macos.md)
 
 
