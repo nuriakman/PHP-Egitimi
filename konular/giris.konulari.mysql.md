@@ -276,7 +276,7 @@ SELECT * FROM kullanicilar WHERE id = '' OR  '1' = '1'
 // Oluşan bu değer her zaman için TRUE (Doğru) değeri üreteceği için SQL sorgusu kötü niyetli olarak manipüle edilmiş olacaktır.
 
 // Bu sorunu ortadan kaldırmak için şu komutun uygulanması yeterlidir:
-$KullaniciID = mysqli_real_escape_string($_GET['id'], $db);
+$KullaniciID = mysqli_real_escape_string($db, $_GET['id']);
 // NOT: mysqli_real_escape_string komutunun çalışabilmesi için bağlantının kurulmuş olması şarttır.
 ```
 
