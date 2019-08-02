@@ -8,6 +8,7 @@ Komut |Anlamı|
 [mysqli_fetch_assoc](http://php.net/mysqli-fetch-assoc)|SQL sonucunu ilişkisel dizi olarak almak için kullanılır
 [mysqli_num_rows](http://php.net/mysqli-num-rows)|SQL sorgusu sonucunda kaç satır geldiğini gösterir
 [mysqli_affected_rows](http://php.net/mysqli-affected-rows)|SQL sorgusundan kaç satırın etkilendiğini gösterir
+[mysqli_insert_id](http://php.net/mysqli_insert_id)|INSERT işlemi sonucunda eklenen yeni kaydın ID bilgisini gösterir
 
 ## mysqli Nesne Yönelimli Kullanım Örneği
 ```PHP
@@ -82,9 +83,9 @@ $host     = "localhost";
 $user     = "root";
 $password = "root";
 $database = "";
-$cnnMySQL = mysqli_connect( $host, $user, $password, $database );
+$db = mysqli_connect( $host, $user, $password, $database );
 if( mysqli_connect_error() ) die("Veritabanına bağlanılamadı...");
-$temp = mysqli_query($cnnMySQL, "set names 'utf8'");
+$temp = mysqli_query($db, "set names 'utf8'");
 ```
 
 # Kayıt Ekleme
@@ -97,16 +98,18 @@ $val3 = 45000;
 
 // SQL içine konulacak değişkenlere MUTLAKA bu işlem uygulanmalıdır.
 // Bunun sebebi GÜVENLİK'tir.
-$val1 = mysqli_real_escape_string($cnnMySQL, $val1);
-$val2 = mysqli_real_escape_string($cnnMySQL, $val2);
-$val3 = mysqli_real_escape_string($cnnMySQL, $val3);
+$val1 = mysqli_real_escape_string($db, $val1);
+$val2 = mysqli_real_escape_string($db, $val2);
+$val3 = mysqli_real_escape_string($db, $val3);
 
 //$SQL = "INSERT INTO araclar (marka, model, fiyat) VALUES ( '$val1', '$val2', '$val3' )";
 $SQL = "INSERT INTO araclar SET
             marka = '$val1',
             model = '$val2',
             fiyat = '$val3'     ";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
+$EklenenID = mysqli_insert_id($db);
+echo "Yeni araç, tabloya $EklenenID kayıt numarası ile eklenmiştir.";
 ```
 
 # Kayıt Güncelleme
@@ -119,16 +122,16 @@ $val3 = 75000;
 
 // SQL içine konulacak değişkenlere MUTLAKA bu işlem uygulanmalıdır.
 // Bunun sebebi GÜVENLİK'tir.
-$val1 = mysqli_real_escape_string($cnnMySQL, $val1);
-$val2 = mysqli_real_escape_string($cnnMySQL, $val2);
-$val3 = mysqli_real_escape_string($cnnMySQL, $val3);
+$val1 = mysqli_real_escape_string($db, $val1);
+$val2 = mysqli_real_escape_string($db, $val2);
+$val3 = mysqli_real_escape_string($db, $val3);
 
 $SQL = "UPDATE araclar SET
           marka = '$val1',
           model = '$val2',
           fiyat = '$val3'
         WHERE id=1678";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
 ```
 
 
@@ -136,7 +139,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 ```PHP
 ## Veritabanından kayıt silme
 $SQL = "DELETE FROM araclar WHERE id = 1";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
 ```
 
 
@@ -144,7 +147,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 150 nci kayıttan itibaren 20 kayıt getir.
 ```PHP
 $SQL = "SELECT * FROM araclar LIMIT 20 OFFSET 150";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
 ```
 
 
@@ -154,7 +157,7 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 ## Veritabanından kayıt çekme ve listeleme örneği
 
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
 $RowCount = mysqli_num_rows($rows);
 if($RowCount == 0) { // Kayıt yok...
   echo "Kayıt bulunamadı..";
@@ -176,7 +179,7 @@ if($RowCount == 0) { // Kayıt yok...
 ## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
 
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
 $RowCount = mysqli_num_rows($rows);
 if($RowCount == 0) { // Kayıt yok...
   echo "Kayıt bulunamadı..";
@@ -208,7 +211,7 @@ if($RowCount == 0) { // Kayıt yok...
 ```PHP
 <?php
 $SQL = "SELECT marka, model, fiyat FROM araclar LIMIT 20";
-$rows = mysqli_query($cnnMySQL, $SQL);
+$rows = mysqli_query($db, $SQL);
 ?>
 <table>
    <tr>
@@ -232,8 +235,8 @@ $rows = mysqli_query($cnnMySQL, $SQL);
 ## html select etiketi için tek sutun verinin çekilmesi
 
 function GetHTMLSelectTagData( $SQL, $SahaAdi ){
-  global $cnnMySQL;
-  $rows = mysqli_query($cnnMySQL, $SQL);
+  global $db;
+  $rows = mysqli_query($db, $SQL);
   $RowCount = mysqli_num_rows($rows);
   $SONUC = "";
   while($row = mysqli_fetch_assoc($rows)){
@@ -251,7 +254,29 @@ MARKASI: <select name='marka_sec'> <?php echo $MARKALAR; ?> </select>
 MODELİ : <select name='model_sec'> <?php echo $MODELLER; ?> </select>
 ```
 
+# SQL Injection Nedir?
 
+Kullanıcıdan gelen değerin özel bir işleme tabi tutulup güvenli hale getirilmemesi durumunda oluşan güvenlik açığına ```SQL injection``` adı verilir.
+
+```PHP
+// GET paramteresi olan gelen değeri alalım:
+$KullaniciID = $_GET["id"];
+
+// Gelen değeri hazırlayacağımız SQL içinde kullanalım:
+$SQL = "SELECT * FROM kullanicilar WHERE id = '$KullaniciID' "; 
+
+// Kullanıcı "id" değeri için şu ifadeyi girmiş olsun:
+' OR '1' = '1
+
+// Oluşan SQL şu şekilde olacaktır:
+SELECT * FROM kullanicilar WHERE id = '' OR  '1' = '1'
+
+// Oluşan bu değer her zaman için TRUE (Doğru) değeri üreteceği için SQL sorgusu kötü niyetli olarak manipüle edilmiş olacaktır.
+
+// Bu sorunu ortadan kaldırmak için şu komutun uygulanması yeterlidir:
+$KullaniciID = mysql_real_escape_string($_GET['id']);
+
+```
 
 # Temel mysql Komutları
 
