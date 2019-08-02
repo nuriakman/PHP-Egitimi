@@ -1,6 +1,6 @@
-# MySQL Komutları ve Örnekleri
+# Temel MySQL Komutları ve Örnekleri
 
-## Temel mysqli Komutları
+## Temel Komutlar
 Komut |Anlamı|
 ------------|-------------|
 [mysqli_connect](http://php.net/mysqli-connect)|MySQL Veritabanına bağlanma komutudur
