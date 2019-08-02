@@ -277,6 +277,20 @@ SELECT * FROM kullanicilar WHERE id = '' OR  '1' = '1'
 $KullaniciID = mysql_real_escape_string($_GET['id']);
 
 ```
+# POST ve GET değişkenleri verilerinin otomatik temizlenmesi TODO: Bu Kod Test Edilmedi
+```PHP
+function GUVENLI_VERI($array, $db) {
+   foreach($array as $key=>$value) {
+      if(is_array($value)) { GUVENLI_VERI($value); }
+      else { $array[$key] = mysqli_real_escape_string($value, $db); }
+   }
+   return $array;
+}
+
+// Kullanım Örneği:
+GUVENLI_VERI($_GET, $db);
+GUVENLI_VERI($_POST, $db);
+```
 
 # Temel mysql Komutları
 
