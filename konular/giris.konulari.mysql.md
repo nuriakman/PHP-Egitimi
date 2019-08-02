@@ -49,7 +49,7 @@ $mysqli->close();
 $link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
 /* check connection */
-if (mysqli_connect_errno()) {
+if (mysqli_connect_error()) {
     printf("Veritabanı Sunucusuna Bağlantı Hatası: %s\n", mysqli_connect_error());
     exit();
 }
