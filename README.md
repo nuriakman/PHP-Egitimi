@@ -73,7 +73,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## MySQL'e Giriş
-- [MySQL Komutları](./konular/giris.konulari.mysql.md)
+- [Temel MySQL Komutları ve Örnekleri](./konular/giris.konulari.mysql.md)
 - [Örnek Veritabanları](https://github.com/nuriakman/Ornek_Veri_Setleri)
 - [MySQL String Komutları](./konular/komutlar.mysql.string.md)
 - [MySQL Tarih Komutları](./konular/komutlar.mysql.tarih.md)
