@@ -34,3 +34,8 @@ Sitelerin temalarını (dark)karanlık görünüme getirir.Gözü yoran beyaz ı
 ## [Google™ Translator](https://addons.mozilla.org/tr/firefox/addon/google-translator-webextension/)
 
 Seçtiğiniz yazının çevirisini yapar.
+
+## [Multithreaded Download Manager](https://addons.mozilla.org/en-US/firefox/addon/multithreaded-download-manager/)
+
+Aynı anda birçok koldan indirme işlemi yapar. İndirme hızlı gerçekleşir.
+
