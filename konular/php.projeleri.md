@@ -1,11 +1,13 @@
 
 # PHP Projeleri
+## [BasitBlog](https://github.com/nuriakman/BasitBlog)
+- Sadece PHP ve MySQL ile yapılmış en temel blog örneği.
 
 ## [SairlerTextDB:](https://github.com/nuriakman/SairlerTextDB)
- -  Şairler ve hayatlarının sunulmaya çalışıldığı proje tamamen metin dosyaları (txt dosyalar) kulanılarak hazırlandı. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
+- Şairler ve hayatlarının sunulmaya çalışıldığı proje tamamen metin dosyaları (txt dosyalar) kulanılarak hazırlandı. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
 
 ## [SairlerMYSQL:](https://github.com/nuriakman/SairlerMySQL)
--  Şairler ve hayatlarının sunulmaya çalışıldığı projemizi MySQL ile  hazırladık. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
+- Şairler ve hayatlarının sunulmaya çalışıldığı projemizi MySQL ile  hazırladık. Kullanıcı adı ve parola ile giriş yapabildiğimiz bir de Yönetim Paneli var. Ekleme, düzeltme ve silme işlemlerini yapabiliyoruz.
 
 ## [TextAnaliz:](https://github.com/nuriakman/TextAnaliz)
 - Örneğimizde bir konuşmadan aldığımız metni, kendi belirlediğimiz kurallarla anlamsız karakterleri silip, konuşmanın bir özetini çıkarttık. Konuşmanın konusunu bulduk.  
