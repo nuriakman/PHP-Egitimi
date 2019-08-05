@@ -89,6 +89,7 @@
 - [cosmiclearn - Güzel Bir Eğitim Sitesi / HTML, CSS, JS, MySQL, PHP](https://www.cosmiclearn.com/index.php)
 - [HTML5 Şablonları](https://html5up.net/)
 - Trello'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
+- [Türkçe Kurallı İfadeler/Regular Expressions](https://github.com/ziishaned/learn-regex/blob/master/translations/README-tr.md)
 
 # Örnek uygulama Yemek Sepeti
 - [Proje Taslağı](./konular/yemek.sepeti.md)
