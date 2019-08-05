@@ -116,6 +116,16 @@ Komut |Anlamı|
 
 ## Forkladığımız Projeleri Güncel Tutmak
 Açık kaynak bir projeyi fork’lamanın en önemli problemi zamanla güncelliğini yitirmesi ve orjinalinden geride kalmasıdır. Orjinal proje linkini yeni remote adresine ekleyerek bu problemi hızlıca çözebiliriz.
+- GitHub hesabınızda forkladığınız projeyi açın.
+
+- Sağ tarafta bulunan **Compare**(Karşılaştır) butonuna tıklayın.
+
+- Karşımıza çıkan ekranda **Try Switching the Base** linkine tıklayın. Bu linke tıkladıktan sonra proje sahibinin siz projeyi forkladıktan sonra yaptığı değişiklikleri göreceksiniz.
+
+- Ekranda **Create Pull Request** (Yeni İstek Oluştur) butonuna tıklayın. Bir sonraki ekranda istek gönderirken **commit**(yorum) yazmak isterseniz buradaki forma yazın ve  **Create Pull Request** butonuna tıklayın.
+
+- Bir sonraki sayfanın aşağısında **Merge Pull Request** ve **Confirm Merge** butonlarına tıkladıktan sonra projeniz güncellenecektir.
+
 
 Komut |Anlamı|
 ------------|-------------|
@@ -187,4 +197,3 @@ git help workflows
 - [Github History İzleme](https://github.com/pomber/github-history)
 - [Git Explorer)](https://gitexplorer.com/)
 - [Sıkışınca Git](https://ohshitgit.com/)
-
