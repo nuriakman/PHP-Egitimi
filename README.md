@@ -72,6 +72,16 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [Shards Dashboard](https://github.com/DesignRevision/shards-dashboard)
 - [Sleek Dashboard](https://github.com/tafcoder/sleek-dashboard)
 - [Purple Fee Admin Template](https://www.bootstrapdash.com/product/purple-free-admin-template/)
+- [AdminLTE Admin Dashboard Template](https://adminlte.io/)
+- [Pixel Lite](https://graygrids.com/item/pixel-lite-free-bootstrap-4-ui-kit/)
+- [Free Bootstrap Templates](https://themefisher.com/free-bootstrap-templates/)
+- [Mobirise Free Templates](https://mobirise.com/free-template/)
+- [Metro UI](https://metroui.org.ua/)
+- [One UI Kit](https://github.com/OssamaZ/One-ui-kit)
+- [CSS Mint](http://arunmichaeldsouza.github.io/CSS-Mint/)
+- [Sport UI Kit](https://w3layouts.com/spot-ui-kit-a-flat-bootstrap-responsive-web-template/)
+- [w3layouts.com](https://w3layouts.com/)
+
 
 
 
