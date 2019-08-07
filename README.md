@@ -94,6 +94,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 ## Veritabanı
 - [İlişkisel Veritabanı ve MySQL'e Giriş](./konular/iliskisel.veritabani.md)  
 - [5 Dakikada SQL](https://learnxinyminutes.com/docs/sql/)  
+- [Temel SQL Komutları](./konular/temel.sql.komutlari.md)
 
 
 ## MySQL'e Giriş
