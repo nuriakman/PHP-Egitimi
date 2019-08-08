@@ -317,7 +317,7 @@ TODO: POST verisi içinde dizi değişkenleri varsa durumunda nasıl davranıyor
 ## Yöntem 4 TODO: Test Edilmeli!
 ```PHP
 foreach($_POST as $k => $v) {
-    $_POST[$k] = mysqli_real_escape_string($v, $db);
+    $_POST[$k] = mysqli_real_escape_string($db, $v);
 }
 TODO: POST verisi içinde dizi değişkenleri varsa çalışmaz! 
 ```
