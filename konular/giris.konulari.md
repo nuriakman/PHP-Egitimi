@@ -27,6 +27,9 @@ World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirler
 
 İlk kez Rasmus Lerdorf tarafından, web üzerinden sayfasını ziyaret edenleri izlemek amacıyla bir dizi Perl betiği kullanılarak geliştirilmişti. Ancak insanlar bununla ilgilenmeye başlayınca, Lerdorf bir betik motoru oluşturmaya karar verdi. Ayrıca formlara da destek verdi ve böylece PHP/F1 biçimlenmiş oldu. Adı duyuldukça kimi geliştiricinin dikkatini çekti ve böylece bir API oluşturuldu: PHP3 meydana geldi. Ardından Zend motoruyla PHP4 geldi. 
 
+## Betik Dili Nedir?
+Betik dili, web sayfalarında dinamik içerik sağlamak ve kullanıcıyla iletişim kurmak için kullanılan, istemci tarafında çalışan bir dildir.
+
 ## İstemci/Client Nedir?
 İstemci dediğimiz şey, sunucudan istekte bulunan, sunucudaki verileri kullanabilen yapılardır. Örnek olarak bir web sayfasını verebiliriz.İstemci konumundaki web sayfası, sunucu (server) dan bir istekte bulunur ve bunun sonucunda sunucu, istenen verileri istemciye ulaştırır.
 
