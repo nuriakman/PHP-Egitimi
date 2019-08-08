@@ -141,7 +141,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [MySQL Replication](./konular/mysql.replication.md)
 
 
-## Etüd İçin Örnekler
+## Etüd İçin Örnekler (Sınıfça yapılabilecek uygulamalar)
 - [PHP ve Bootstrap Örneği](./etud/etud.01.bootstrap.php)
 
 
