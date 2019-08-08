@@ -25,7 +25,7 @@ World Wide Web (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirler
 ## PHP Nedir?
 <img src='http://brainprick.com/wp-content/uploads/2012/01/Rasmus-Lerdorf.jpg' align='left' alt='Rasmus Lerdorf' title='Rasmus Lerdorf'> PHP, **"PHP: Hypertext Preprocessor"** sözcüklerinin baş harfleriyle temsil edilen HTML içine gömülebilir açık kaynak kodlu, genel amaçlı, özellikle site geliştirmeye uygun bir betik dilidir. Dil yapısının önemli bir kısmını C, Java ve Perl gibi dillerden almış, kendisine has özelliklerle bu yapıyı pekiştirmiş, kolay öğrenilen bir dildir. Dilin ana amacı, site geliştiricilerinin devingen sayfalar oluşturmasını çabuklaştırmaksa da PHP ile çok daha fazlasını yapabilirsiniz. ([Kaynak](https://www.php.net/manual/tr/preface.php))
 
-İlk kez Rasmus Lerdorf tarafından, web üzerinden sayfasını ziyaret edenleri izlemek amacıyla bir dizi Perl betiği kullanılarak geliştirilmişti. Ancak insanlar bununla ilgilenmeye başlayınca, Lerdorf bir betik motoru oluşturmaya karar verdi. Ayrıca formlara da destek verdi ve böylece PHP/F1 biçimlenmiş oldu. Adı duyuldukça kimi geliştiricinin dikkatini çekti ve böylece bir API oluşturuldu: PHP3 meydana geldi. Ardından Zend motoruyla PHP4 geldi. 
+İlk kez Rasmus Lerdorf tarafından, web üzerinden sayfasını ziyaret edenleri izlemek amacıyla bir dizi Perl betiği kullanılarak geliştirilmişti. Ancak insanlar bununla ilgilenmeye başlayınca, Lerdorf bir betik motoru oluşturmaya karar verdi. Ayrıca formlara da destek verdi ve böylece PHP/F1 biçimlenmiş oldu. Adı duyuldukça kimi geliştiricinin dikkatini çekti ve böylece bir API oluşturuldu: PHP3 meydana geldi. Ardından Zend motoruyla PHP4 geldi.
 
 ## Betik Dili Nedir?
 Betik dili, web sayfalarında dinamik içerik sağlamak ve kullanıcıyla iletişim kurmak için kullanılan, istemci tarafında çalışan bir dildir.
@@ -224,7 +224,7 @@ Yapımcısı John Gruber Markdown’ı 2004’te “web yazarları için bir met
 [StackEdit](https://stackedit.io/) ve [diğer bir örnek](https://jbt.github.io/markdown-editor/) gibi online web sitesi ile kolayca deneyebilirsiniz.
 
 ## İşletim Sistemi Nedir?
-İşletim sistemleri cihazlarda var olan tüm donanımları yöneten ve sistemli bir şekilde çalışmasını sağlayan en temel yazılımdır. İşletim sistemi; bilgisayar, cep telefonu, beyaz eşya, oyun konsolları ve daha birçok cihazda bulunmaktadır. 
+İşletim sistemleri cihazlarda var olan tüm donanımları yöneten ve sistemli bir şekilde çalışmasını sağlayan en temel yazılımdır. İşletim sistemi; bilgisayar, cep telefonu, beyaz eşya, oyun konsolları ve daha birçok cihazda bulunmaktadır.
 
 ## Dağıtım Nedir ?
 Bir Linux dağıtımı (kısaca dağıtım); Linux çekirdeği, GNU araçları ve bir masaüstü ortamının bir araya gelmesiyle, bu birlikteliği sürdürülebilir şekilde yönetecek bir yapılandırma araçları seti, yazılım güncelleme araçları vb. ile oluşturularak tam teşekküllü bir işletim sistemi haline gelen uygulamalar bütününü ifade eder.
@@ -234,7 +234,7 @@ Bir Linux dağıtımı (kısaca dağıtım); Linux çekirdeği, GNU araçları v
 - Paket kaldırma işlemleri kolaylaşır.
 - Var olan paketlerin güncelleme işlemleri kolaylaşır.
 - Sistemde yüklü olan/olmayan paketleri listeleme işi kolaylaşır.
-- Programların çalışması için gerekli olan diğer programların yönetimi kolaylaşır.
+- Paket bağımlılıklarını yönetir (paketlerin çalışması için gerekli olan diğer paketleri yükler veya gereği halinde kaldırır)
 
 ## SPAGETTİ KOD
 **Firmalar MVC yöntemini daha çok tercih eder.** Spagetti kod HTML kodları arasında yazılan Sunucu ile irtibatta olan kodlarımıza spagetti kod demekteyiz. Kullanımı oldukça karışık olan bu kod yazma stili olan ve günümüzde oldukça sık kullanılan PHP ve ASP kodları genellikle spagetti kod örneğini sık kullanmaktadır. HTML etiketleri arasında yazılan bu kodlar MVC yapısı ile düzenli bir şekile girmiştir.

@@ -1,9 +1,20 @@
+# NOTLAR
+
+Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebileceğini düşündüğüm çeşitli başlıkları not etmeye çalışıyorum.
+
+
 # Git
 - [Git ile Zulamala](http://vigo.github.io/git-tips/ipucu/2013/02/18/git-stash-anlik-mudahale-ya-da-zulalama/)
 - [Git Stash İşlemleri](http://tr.enisozgen.com/git-stash-islemleri/)
 
 # Çeşitli Konular
-- [Forklanan Projeyi GÜncel Tutma](https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381)
+- [Forklanan Projeyi Güncel Tutma](https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381)
+- [Blockly](https://developers.google.com/blockly/) Görsel kodlama
+- [Photopea](https://www.photopea.com/) Web tabanlı PhotoShop
+- [Monolithic / Micro Servis Mimarisi](https://medium.com/batech/monolithic-mimarinin-devri-ge%C3%A7ti-73185ea69baf)
+- [HTTP Nedir?](https://medium.com/@ustamustam/http-nedir-c9858c2b1a4c)
+- [Cookie Nedir?](https://medium.com/@ustamustam/cookie-nedir-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-a46025f16ab8)
+
 
 # JavaScript
 - [KİTAP - You Don't Know JS - A book series on JavaScript](https://github.com/getify/You-Dont-Know-JS)
@@ -56,7 +67,7 @@
 
 # Notlar
 - JS, JSON ve AJAX konuları da ayrı bir başlık olarak ele alınacak.
-- PHP INPUT başlığı oluşturulmalı ve içinde GET, PUT, SESSION, COOKIES, FILE, DATABASE gibi başlıklar olmalı. 
+- PHP INPUT başlığı oluşturulmalı ve içinde GET, PUT, SESSION, COOKIES, FILE, DATABASE gibi başlıklar olmalı.
 - HTML INPUT başlığı altında FORM, input, anchor, checkbox, select vb başlıklara yer vermeliyiz. Form Validation başlığı da burada yer almalı.
 - [PHP-PDO ile Sınırsız Kategori Yapımı, İç içe ve Çoklu Kategori Sistemi](https://www.youtube.com/playlist?list=PL_f2F0Oyaj49BJclmJzAV0v1drrtyTI6o)
 
@@ -173,7 +184,7 @@ RESİMLER:
 - https://sosyalmedya.co/api-nedir/
 - https://blog.koddit.com/yazilim/api-nedir-ne-ise-yarar-orneklerle-inceleyelim/
 
-Resimler için: 
+Resimler için:
 - https://sosyalmedya.co/api-nedir/
 - https://4.bp.blogspot.com/-7DLByI2_wgo/WkUVweSxIoI/AAAAAAAAUvo/WNy2KEqGFMEF3efx3AR_gp25D9uBWZ0JQCLcBGAs/s1600/apis.png
 
@@ -209,7 +220,7 @@ ENTER,ENTER
 ```
 
 **Link için DOWNLOAD özelliği**
-- The download attribute, when used on an anchor tag, will tell a browser to directly download the linked resource, rather than navigate to it. Here's how to put it into practice: 
+- The download attribute, when used on an anchor tag, will tell a browser to directly download the linked resource, rather than navigate to it. Here's how to put it into practice:
 - *download* özelliği bağlantı etiketi üzerinde kullanıldığında, indirme özelliği bir tarayıcıya yönlendirmek yerine doğrudan bağlı kaynağı indirmesini söyleyecektir. İşte uygulamaya koymanın yolu:
 <a href="/data_2019.csv" download="2019 Data (CSV)"> Download data </a>
 
@@ -324,7 +335,7 @@ ENTER,ENTER
 # Git
 - Self Hosted Git Service: https://gogs.io/
 - Self Hosted Git Service: https://gitea.io/
-- GİT Workflow Strategys 
+- GİT Workflow Strategys
 - Open Source Proje Desteği Adımları Eğitimi https://github.com/firstcontributions/first-contributions/blob/master/translations/README.tr.md
 - Git Stash İçin Resim https://medium.com/@Galoomba/all-you-need-to-know-about-git-p-1-ac2f29e8ee93
 - Git Stash İçin Resim https://cdn-images-1.medium.com/max/800/1*diRLm1S5hkVoh5qeArND0Q.png
@@ -347,7 +358,7 @@ ENTER,ENTER
 - [Web Architectures](https://is.gd/WoFVlY)
 - [Yeni Yazılımcılara Tavsiyeler](https://denizkilinc.com/2013/10/10/yazilima-ve-programlamaya-yeni-baslayanlar-icin-tavsiyeler/)
 - [PHP Eğitimi Taslağı](./konular/taslak.icerik.md)
-- [PHP: Usulüne Uygun](https://kulekci.net/php-the-right-way/) 
+- [PHP: Usulüne Uygun](https://kulekci.net/php-the-right-way/)
 - [Olağanüstü Bir Eğitim Sitesi: RipTutorial](https://riptutorial.com/)
 - [PHP for Kids Eğitim Sitesi](http://www.phpforkids.com)
 
@@ -421,7 +432,3 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ```
 - SQL Injection engellemek için MUTLAKA $db->prepare ve $db->execute kullanılmalı
-
-
-
-
