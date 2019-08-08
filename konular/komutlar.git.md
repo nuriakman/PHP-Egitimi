@@ -30,7 +30,24 @@ Kendi hesabımıza forkladığımız projeyi bilgisayarımıza indirmemizi sağl
 
 
 ## Pull Request (PR) - Projeye Katkı Sağlama
-Kendi hesabımıza forkladığımız ve kod iyileştirmesi veya geliştirmesi yaptığımız projemizin, projenin asıl sahibine ait proje ile birleştirilme isteğidir.
+GitHub'ta bir projeye katkıda bulunmak için o projenin sahibine Pull Request oluşturmak gerekir.
+**Pull Request nedir?** Pull Request kendi hesabımıza forkladığımız ve kod iyileştirmesi veya geliştirmesi yaptığımız projemizin, projenin asıl sahibine ait proje ile birleştirilme isteğidir.
+
+### Pull Request Nasıl Oluşturulur?
+- İlk olarak katkıda bulunmak istediğimiz projeyi **forklamak**(Çatallamak) gerekir. Proje sahibinin GitHub profiline gidip, katkıda bulunmak istediğimiz projeyi bulup FORK butonuna tıklayarak bu işlemi yapabiliriz.Projeyi forklama işlemini tamamladıktan sonra, aynı repositoriyi kendi profilimizde de göreceğiz.
+- Bu adımda kendi profilimizde forkladığımız projenin adıyla oluşan projeye tıklayıp kendi bilgisayarımıza indirmemiz gerekmektedir. Proje sayfasında sağ tarafta bulunan **Clone or Download**(Klonla ya da İndir) butonuna tıklayarak projenin adresini kopyalayalım.
+- Sonra projeyi bilgisayarımızda indirmek istediğimiz dizinin içerisinde Terminal'i çalıştıralım.Terminali çalıştırdıktan sonra ```git clone```komutunu yazarak kopyaladığımız proje urlsini yapıştıralım. Bu komut GitHub hesabınızda bulunan bir projeyi bilgisayarınıza indirmenize yarayacaktır.
+- Projeyi bilgisayara indirdikten sonra bir kod editörü(Atom vs.) yardımıyla projeyi açalım ve yapmak istediğimiz değişiklikleri burada projeye ekleyelim.
+- Değişiklikleri yapıp kaydettikten sonra Örn:Atom ekranında sağ alt köşede yaptığınız değişikliklerin kaydedildiğini göreceksiniz. Projeyi indirdiğiniz andan itibaren herhangi bir şeyi değiştirmeniz durumunda sağ alt tarafta bulunan Git() yazısının içerisinde değiştirdiğiniz dosyanın sayısı yazacaktır.
+- Sağ alt köşede bulunan bu Git yazısına tıkladığımızda editörün sağ tarafında yeni bir kısım açılacak ve burada hangi dosyada nereleri değiştirdiğimizi görebileceğiz. Yeni açılan kısımda sağ üst tarafta **Stage All**(Hepsini Ekle) butonuna tıklayalım. Ya da hangi dosyaları eklemek istiyorsanız onları çift tık yardımıyla ekleyebilirsiniz.
+- Dosyaları ekledikten sonra alt kısımda bulunan **Commit**(Yorum) kısmına yaptığınız değişikliği özet olarak ekleyebilirsiniz. Bu yorum siz projeyi pushladığınızda GitHub hesabınızda gözükecektir o yüzden özenli yazmaya dikkat ediniz.
+- Commit ekleyip **Commit to Master** butonuna tıkladıktan sonra ekranın alt kısmında çıkan **Push** (Gönder) butonuna tıklayalım. Böylece yeni güncellemeler projeye eklenmiş olur.
+- Daha sonra GitHub üzerinden forkladığımız projeye giderek **Pull Request**(Çekme Talebi) butonuna tıklıyoruz.Bu sayfada **New Pull Request**(Yeni Çekme Talebi) butonuna tıklıyoruz. Açılan sayfada yaptığınız değişiklikleri görebilirsiniz. Tekrar commit girerek **Create Pull Request**(Çekme Talebi Oluştur) butonuna tıklayalım. Bu butona tıklayarak projenin gerçek sahibine bir istekte bulunmuş olursunuz.
+- Gönderdiğiniz bu talebi aynı zamanda gerçek projenin sayfasına gittiğinizde **Pull Requests** (Çekme Talepleri) kısmında yorumunuzla birlikte görebilirsiniz.
+- Proje sahibi yaptığınız güncellemeleri görüp sizin isteğinizi onayladıktan ve kendi projesiyle **Merge** (Birleştirmek) ettikten sonra artık kendi yaptığınız güncellemeleri de projenin orjinal sayfasında görebilirsiniz.
+- Projeye katkı sağladığınız için projenin **Contributors**(Tamamlayıcılar) kısmında kendi adınızı ve profilinizi görebilirsiniz.
+
+
 
 ## Forklanan Bir Projeyi Güncel Tutmak
 
