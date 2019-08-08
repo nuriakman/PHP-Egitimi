@@ -32,6 +32,20 @@ Kendi hesabımıza forkladığımız projeyi bilgisayarımıza indirmemizi sağl
 ## Pull Request (PR) - Projeye Katkı Sağlama
 Kendi hesabımıza forkladığımız ve kod iyileştirmesi veya geliştirmesi yaptığımız projemizin, projenin asıl sahibine ait proje ile birleştirilme isteğidir.
 
+## Forklanan Bir Projeyi Güncel Tutmak
+
+- GitHub hesabınızda forkladığınız projeyi açın.
+- Sağ tarafta bulunan **Compare** (Karşılaştır) butonuna tıklayın.
+- Karşımıza çıkan ekranda **Try Switching the Base** linkine tıklayın.
+- Bu linke tıkladıktan sonra proje sahibinin siz projeyi forkladıktan sonra yaptığı değişiklikleri göreceksiniz.
+- Ekranda **Create Pull Request** (Yeni İstek Oluştur) butonuna tıklayın.
+- Bir sonraki ekranda, istek gönderirken **commit** (yorum) yazmak isterseniz buradaki forma yazın
+- **Create Pull Request** butonuna tıklayın.
+- Bir sonraki sayfanın aşağısında **Merge Pull Request** düğmesine tıklayın
+- **Confirm Merge** butonlarına tıklatın!
+
+Hepsi bu kadar! Artık, forkladığınız orjinal proje ile sizdeki kopya aynı :)
+
 
 ## İLK DEFA TANIŞACAKLAR İÇİN GİT KULLANIMI (YEREL DEPO)
 Komut |Anlamı|
@@ -49,7 +63,6 @@ Komut |Anlamı|
 ```git remote add upstream git@github/username/repo.git```|Uzak depo git reposunu ekler (BİR DEFA YAPILIR!)
 ```git push```|Yereldeki değişiklikleri uzak git deposuna (örneğin github) yükler  (PROJEYİ UZAK DEPOYA YÜKLEMEK GEREKTİĞİNDE)
 ```git pull```|Uzaktaki git deposundaki dosyaları yerele indirir  (UZAK DEPOYU YERELE İNDİRMEK GEREKTİĞİNDE)
-
 
 
 # Temel Git Komutları
@@ -187,4 +200,3 @@ git help workflows
 - [Github History İzleme](https://github.com/pomber/github-history)
 - [Git Explorer)](https://gitexplorer.com/)
 - [Sıkışınca Git](https://ohshitgit.com/)
-
