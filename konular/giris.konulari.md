@@ -226,6 +226,13 @@ Yapımcısı John Gruber Markdown’ı 2004’te “web yazarları için bir met
 ## Dağıtım Nedir ?
 Bir Linux dağıtımı (kısaca dağıtım); Linux çekirdeği, GNU araçları ve bir masaüstü ortamının bir araya gelmesiyle, bu birlikteliği sürdürülebilir şekilde yönetecek bir yapılandırma araçları seti, yazılım güncelleme araçları vb. ile oluşturularak tam teşekküllü bir işletim sistemi haline gelen uygulamalar bütününü ifade eder.
 
+## Paket yöneticileri (apt, yum, packman, dnf, pkg)
+- Paket yükleme işlemleri kolaylaşır.
+- Paket kaldırma işlemleri kolaylaşır.
+- Var olan paketlerin güncelleme işlemleri kolaylaşır.
+- Sistemde yüklü olan/olmayan paketleri listeleme işi kolaylaşır.
+- Programların çalışması için gerekli olan diğer programların yönetimi kolaylaşır.
+
 ## SPAGETTİ KOD
 **Firmalar MVC yöntemini daha çok tercih eder.** Spagetti kod HTML kodları arasında yazılan Sunucu ile irtibatta olan kodlarımıza spagetti kod demekteyiz. Kullanımı oldukça karışık olan bu kod yazma stili olan ve günümüzde oldukça sık kullanılan PHP ve ASP kodları genellikle spagetti kod örneğini sık kullanmaktadır. HTML etiketleri arasında yazılan bu kodlar MVC yapısı ile düzenli bir şekile girmiştir.
 
