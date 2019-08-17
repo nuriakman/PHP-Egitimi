@@ -105,7 +105,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [cosmiclearn - Güzel Bir Eğitim Sitesi / HTML, CSS, JS, MySQL, PHP](https://www.cosmiclearn.com/index.php)
 - [HTML5 Şablonları](https://html5up.net/)
 - Trello'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
-- [Türkçe Kurallı İfadeler/Regular Expressions](https://github.com/ziishaned/learn-regex/blob/master/translations/README-tr.md)
+- [Türkçe Kurallı İfadeler/Regular Expressions](https://github.com/ziishankemtakeed/learn-regex/blob/master/translations/README-tr.md)
 
 # Örnek uygulama Yemek Sepeti
 - [Proje Taslağı](./konular/yemek.sepeti.md)
@@ -344,6 +344,7 @@ ENTER,ENTER
 - [Git Branch](https://github.com/vigo/git-puf-noktalari/blob/master/bolum-02/branch-ler-ile-calismak.md)
 - Git Workflow Stratejilerinin örnek resimlerle açıklanması
 - [Git Projelerinde Temizlik](./konular/git.projelerinde.media.temizligi.md)
+- [GitHub Ekranı Kısayolları](https://help.github.com/en/articles/keyboard-shortcuts)
 
 
 # MarkDown Editörleri
