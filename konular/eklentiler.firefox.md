@@ -39,3 +39,6 @@ Seçtiğiniz yazının çevirisini yapar.
 
 Aynı anda birçok koldan indirme işlemi yapar. İndirme hızlı gerçekleşir.
 
+## [Json Lite](https://addons.mozilla.org/tr/firefox/addon/json-lite/)
+
+Json formatındaki verileri okunabilir hale getirir.
