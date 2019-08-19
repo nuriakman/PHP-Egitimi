@@ -405,27 +405,27 @@ ENTER,ENTER
 
 - Klasördeki dosyalara erişimi engeller
 - deny from all
--
+
 - Dizin içeriğinin listelenmesini engelleme
 - Options -Indexes
--
+
 - Çıktı kaynaklı JS XSS'i engelleme
 - htmlspecialchars()
 - htmlspecialchars_decode()
--
+
 - Parola Hashleme
 - $HASH = password_hash($parola, PASSWORD_DEFAULT)
 - password_verify($parola, $HASH)
--
+
 - httpOnly Cookies
 - setcookie("degisken", "değer", strtotime("+1 day"), '/', null, null, true);
--
+
 - CSRF Konusu
 - Bizim sitemize başka bir siteden form POST edilmesi durumudur
--
+
 - TOKEN OLUŞTURMA: bin2hex(random_bytes(20))
 - TOKEN OLUŞTURMA: uniqid()
--
+
 - Önce bir TOKEN oluşturulup SESSION değişkenine kaydedilir.
 - Form'a bir saha eklenir ve TOKEN basılır
 ```
@@ -434,3 +434,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ```
 - SQL Injection engellemek için MUTLAKA $db->prepare ve $db->execute kullanılmalı
+
+## Videolar
+- [Xeroploit: For Man-In-The-Middle Attack #tutorial](https://www.youtube.com/watch?v=9kUk6Yu7xVI)
+- [Cross-Site Request Forgery (CSRF) in Low/high level security & Prevention tutorial](https://www.youtube.com/watch?v=zFCB6XyLzmk)
+- [SQL Injection in MySQL Database & Prevention tutorial](https://www.youtube.com/watch?v=VEgERAOnnG8)
+
+
