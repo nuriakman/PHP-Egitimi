@@ -15,6 +15,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [HTTP Nedir?](https://medium.com/@ustamustam/http-nedir-c9858c2b1a4c)
 - [Cookie Nedir?](https://medium.com/@ustamustam/cookie-nedir-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-a46025f16ab8)
 - [AlaSQL](https://alasql.org/) Javascipt SQL veritabanı 
+- [Güzel bir eğitim sitesi - QuacKit](https://www.quackit.com/)
 
 
 # JavaScript
