@@ -15,7 +15,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [HTTP Nedir?](https://medium.com/@ustamustam/http-nedir-c9858c2b1a4c)
 - [Cookie Nedir?](https://medium.com/@ustamustam/cookie-nedir-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-a46025f16ab8)
 - [AlaSQL](https://alasql.org/) Javascipt SQL veritabanı 
-- [Güzel bir eğitim sitesi - QuacKit](https://www.quackit.com/)
+- [Güzel bir eğitim sitesi - QuacKit](https://www.quackit.com/) HTML, CSS, JS, jQuery, MySQL, JSON, Sass, Flexbox vb
 
 
 # JavaScript
@@ -441,4 +441,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - [Cross-Site Request Forgery (CSRF) in Low/high level security & Prevention tutorial](https://www.youtube.com/watch?v=zFCB6XyLzmk)
 - [SQL Injection in MySQL Database & Prevention tutorial](https://www.youtube.com/watch?v=VEgERAOnnG8)
 
+## Boostrap
+- [Bootstrap Kişiselleştirme ve Tema Oluşturucusu](https://themestr.app/)
+- [Açık Kaynak, Ücretsiz Bootstrap Şablonları](https://themesguide.github.io/top-hat/dist/)
+- [Ücretsiz Bootstrap Şablonları](http://themes.guide/#freebies)
+- [Bootstrap Bavuru Kaynakları](http://bootstrap4.guide/)
+- [Bootstrap Tasarımcıları İçin Araçlar](http://bootstrap4.guide/cn/tools) (Themestr.app, Bootstrap Cheatsheet, Bootply, Bootsnipp, Bootstrap Build, MD Bootstrap, Reactstrap, Bootlint, Bootstrap Customizer, Bootstrap 4 Test Page)
+- [Free, open source Bootstrap 4 themes](https://github.com/ThemesGuide/bootstrap-themes/)
+- [Yeni ve Popüler Açık Kaynak Projeler](http://icodedis.tool.cards/)
 
