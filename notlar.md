@@ -7,6 +7,9 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Git ile Zulamala](http://vigo.github.io/git-tips/ipucu/2013/02/18/git-stash-anlik-mudahale-ya-da-zulalama/)
 - [Git Stash İşlemleri](http://tr.enisozgen.com/git-stash-islemleri/)
 
+# Veritabanı
+- [Veritabanına Giriş](https://erdemoflaz.com/veritabani-cesitleri-ve-kullanildiklari-alanlar/) - Notlarımız bu sayfaya göre güncellenebilir.
+
 # Çeşitli Konular
 - [Forklanan Projeyi Güncel Tutma](https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381)
 - [Blockly](https://developers.google.com/blockly/) Görsel kodlama
