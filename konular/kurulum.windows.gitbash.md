@@ -19,9 +19,8 @@
 ```git init```
 
 ###### Not: Bu kodların hepsi ve daha fazlası açıklamalarıyla birlikte [burada](./komutlar.git.md) mevcut. 
-5. Şimdi ise projemizi klonlamamız gerek. Normalde Linux'da SSH kodu ile klonlarız ama Windows'ta HTTPS kullanarak klonlamamız gerekiyor. Bunun için projemize geliyor, "Clone or Download"a basıyor ve oradan HTML kodunu kopyalıyoruz. 
-6. Devamında ```git clone kopyaladigimiz-hmtl-linki```'ni yazıp enter'a basıyoruz. 
-##### Önemli: Kopyaladığınız repository eğer 'private' ise sizden bir defalığına mahsus olmak üzere GitHub hesabınıza giriş yapmanızı isteyecektir.
+5. Şimdi ise projemizi klonlamamız gerek. Bunun için projemize geliyor, "Clone or Download"a basıyor ve oradan SSH key'ini kopyalıyoruz. 
+6. Devamında ```git clone kopyaladigimiz-ssh-keyi```'ni yazıp enter'a basıyoruz. 
 7. Ve artık hazırsınız! 
 ## Yaptığımız Değişiklikleri Commit'leyip Push'lamak
 * Yaptığınız değişiklikleri Push'lamak için iki seçeneğiniz var: 
