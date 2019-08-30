@@ -1,5 +1,4 @@
-# Windows'ta Gitbash
-## Kurulumu
+# Windows'ta Gitbash Kurulumu
 Öncelikle [buradan](https://git-scm.com/downloads) "Git For Windows"u indiriyoruz.
 
  1. Kurulumu yaparken "Select Components" başlığı altında bulunan "Windows Explorer Integration (Git bash ve Git GUI)"ın işaretli olmasına dikkat ediyoruz. 
@@ -13,7 +12,7 @@
 ##  Yerel Repo Konfigürasyonu
 1. Dilerseniz masaüstünüze dilerseniz de "Belgeler" klasörüne yeni bir klasör oluşturun. 
 2. Bu yeni klasörü açın, içinde sağ tıklayın ve "Git Bash Here" seçeneğine basın. 
-3. Öncelikle SSH key üretmemiz ve bunu GitHub'da tanımlamamız gerekiyor. Bunun nasıl yapılacağına [buradan bakabilirsiniz](./ayarlar.ssh.key.md).
+3. Öncelikle SSH key üretmemiz ve bunu GitHub'da tanımlamamız gerekiyor. Bunun nasıl yapılacağına [buradan bakabilirsiniz](./ayarlar.sshkey.md).
 4. Devamında komut penceresine aşağıdaki komutları yazın:
 ```git config --global user.name "kullaniciadı"```
 ```git config --global user.email eposta@adresi.com```
