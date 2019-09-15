@@ -66,6 +66,9 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [Bootstrap Örnekleri](./konular/bootstrap.ornekleri.md)
 
 ## Bootstrap İle Hazır Site Şablonları
+<details>
+<summary>Site şablonlarını göster</summary>
+
 - [Tabler](https://tabler.io/)
 - [Modern Bussiness](https://startbootstrap.com/templates/modern-business/)
 - [SB Admin](https://startbootstrap.com/templates/sb-admin/)
@@ -84,6 +87,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [Sport UI Kit](https://w3layouts.com/spot-ui-kit-a-flat-bootstrap-responsive-web-template/)
 - [w3layouts.com](https://w3layouts.com/)
 
+</details>
 
 
 
