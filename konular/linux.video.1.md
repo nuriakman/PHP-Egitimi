@@ -7,13 +7,14 @@ Video: [Linux Komut Satırı Yardımı İle Veri Toplama](https://www.youtube.co
 
 Komut | Açıklama
 ---|---
-`mkdir` | Klasör oluşturma
-`cd` | Klasör değiştirme
+`mkdir` | Klasör oluşturur
+`cd` | Klasör değiştirir
 `ls` | Klasördeki dosyaları listeler
-`mv` | Dosya taşıma komutudur
-`wget` | Bir internet sayfasının kaynak kodunu indirir. Dosya ise, dosyayı indirir)
+`mv` | Dosyaları başka bir hedefe taşır. Dosya adı değiştirmek için de kullanılır
+`wget` | Bir internet sayfasının kaynak kodunu indirir. Dosya ise, dosyayı indirir
 `cat` | Dosya içeriğini ekrana göserir
 `grep` | Dosya içinden istediğimiz satırları süzer
+`sed` | Dosya içinden istediğimiz ifadeyi bir diğer ifade ile değiştirir
 `wc` | Dosyanın satır, kelime ve harf sayısını verir
 `tr` | Karakter silme veya değiştirme işini yapar
 `head` | Dosyanın sadece ilk N satırının alınmasını sağlar
