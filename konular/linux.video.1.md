@@ -29,7 +29,7 @@ Komut | Açıklama
 ## ÖRNEK 1; Döviz Kurlarını çekme
 ```bash
 wget -O kur.txt https://kur.doviz.com/serbest-piyasa
-cat kur.txt | tr -d '\r' | tr -d '\n' |  sed "s|</table>|\n\n|g" | sed "s/<tr/\n\n<tr/g" | grep "time" | sed -e 's/<[^>]*>/\t/g' | tr -s ' ' | cut -f 6,9,11,19 | tr '\t' ';' > sonuc.txt
+cat kur.txt | tr -d '\r' | tr -d '\n' |  sed "s|</table>|\n\n|g" | sed "s/<tr/\n\n<tr/g" | grep "time" | sed -e 's/<[^>]*>/\t/g' | tr -s ' ' | cut -f 6,9,11,19 | tr '\t' ';' > kurlar.txt
 ```
 
 ## ÖRNEK 2; eTicaret Sitesinden ürün adı ve fiyatlarını çekme
