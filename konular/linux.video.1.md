@@ -20,7 +20,7 @@ Komut | Açıklama
 `head` | Dosyanın sadece ilk N satırının alınmasını sağlar
 `cut` | Dosya içeriğini belirli ayıraçlara göre böler ve istenilen sutunları alır
 `rm` | Dosya siler
-`paste` | Birden fazla dosyayı YAN YANA birlştirip tek dosya yapar
+`paste` | Birden fazla dosyayı YAN YANA birleştirip tek dosya yapar
 `crontab` | Sistemin belirli zamanlarda belirli komutları çalıştırmasını sağlar
 `seq` | İstenilen aralıkta sayı üretir
 `xargs` | Bir önceki komutun her bir çıktısını almak ve kullanmak işlevini görür
