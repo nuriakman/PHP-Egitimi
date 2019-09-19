@@ -12,7 +12,7 @@ Komut | Açıklama
 `ls` | Klasördeki dosyaları listeler
 `mv` | Dosyaları başka bir hedefe taşır. Dosya adı değiştirmek için de kullanılır
 `wget` | Bir internet sayfasının kaynak kodunu indirir. Dosya ise, dosyayı indirir
-`cat` | Dosya içeriğini ekrana göserir
+`cat` | Dosya içeriğini ekrana gösterir
 `grep` | Dosya içinden istediğimiz satırları süzer
 `sed` | Dosya içinden istediğimiz ifadeyi bir diğer ifade ile değiştirir
 `wc` | Dosyanın satır, kelime ve harf sayısını verir
