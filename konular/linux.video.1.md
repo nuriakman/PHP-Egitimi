@@ -35,8 +35,8 @@ cat kur.txt | tr -d '\r' | tr -d '\n' |  sed "s|</table>|\n\n|g" | sed "s/<tr/\n
 ## ÖRNEK 2; eTicaret Sitesinden ürün adı ve fiyatlarını çekme
 ```bash
 wget -O 1.txt https://www.migros.com.tr/ariel-b-35f/camasir-yikama-c-86
-cat 1.txt | grep "data-product-name" | grep "product-card" | sed $'s/data-product-name/\\\nXXX/g'  | grep "XXX" | cut -d \" -f 2 > AD.txt
-cat 1.txt | grep "data-monitor-name" | grep "product-card" | sed $'s/data-monitor-price/\\\nXXX/g' | grep "XXX" | cut -d \" -f 2 > FIYAT.txt
+cat 1.txt | grep "data-product-name" | sed $'s/data-product-name/\\\nXXX/g'  | grep "XXX" | cut -d \" -f 2 > AD.txt
+cat 1.txt | grep "data-monitor-name" | sed $'s/data-monitor-price/\\\nXXX/g' | grep "XXX" | cut -d \" -f 2 > FIYAT.txt
 paste FIYAT.txt AD.txt
 ```
 
