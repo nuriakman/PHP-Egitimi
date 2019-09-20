@@ -1,6 +1,6 @@
 
 # PHP Projeleri
-## [BasitBlog](https://github.com/nuriakman/BasitBlog)
+## [BasitBlog:](https://github.com/nuriakman/BasitBlog)
 - Sadece PHP ve MySQL ile yapılmış en temel blog örneği.
 
 ## [SairlerTextDB:](https://github.com/nuriakman/SairlerTextDB)
@@ -39,5 +39,5 @@
 ## [Hava Durumu Türkiye:](https://github.com/nuriakman/turkeyweather-api)
 - Türkiye il ve ilçeleri güncel hava durumlarını Meteoroloji Genel Müdürlüğü Sitesinden getirir. API, CURL ve JSON örneğidir.
 
-## [CRUD ile Telefon Rehberi](https://github.com/nuriakman/CRUD)
+## [CRUD ile Telefon Rehberi:](https://github.com/nuriakman/CRUD)
 - PHP ve MySQL için basit CRUD örneği. Ordu'da düzenlenen eğitim sırasında yapılan PHP MySQL ile CRUD örneğidir. Örnek, en sade kod ile yazılmıştır.
