@@ -453,3 +453,23 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - [Free, open source Bootstrap 4 themes](https://github.com/ThemesGuide/bootstrap-themes/)
 - [Yeni ve Popüler Açık Kaynak Projeler](http://icodedis.tool.cards/)
 
+
+
+
+## MySQLi - PDO
+- [MySQLi](https://websitebeaver.com/prepared-statements-in-php-mysqli-to-prevent-sql-injection)
+- [PDO](https://websitebeaver.com/php-pdo-prepared-statements-to-prevent-sql-injection)
+- [MySQLi vs PDO](https://websitebeaver.com/php-pdo-vs-mysqli)
+
+
+## PHP İÇİN GÜZEL ve UZUN BİR SUNUM
+- https://www.slideshare.net/oguzhantas/php-sunum-14286830
+- http://www.oguzhantas.com/php/28-php-web-programlama-diline-giris-ve-orta-seviye.html
+
+
+## SUNUMLAR
+- [Pardus Linux ve Temel Komutlar/143](https://www.slideshare.net/oguzhantas/linux-sunum)
+- [PHP ile Profesyonel Web Programlama/148](https://www.slideshare.net/oguzhantas/php-sunum-14286830)
+- [javascript](https://www.slideshare.net/oguzhantas/java-script-17450735)
+- [Ubuntu Linux](https://www.slideshare.net/oguzhantas/ubuntu-linux-56394879)
+- [Özgür Yazılım ve Linux](https://www.slideshare.net/leucjo/zgr-yazlm-ve-linux-39064239)
