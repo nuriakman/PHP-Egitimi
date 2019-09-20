@@ -140,7 +140,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## PHP Örnekleri
-- [Örnek Kütüphaner](./konular/ornek.kutuphane.md)
+- [Örnek Kütüphane](./konular/ornek.kutuphane.md)
 - [PHP Örnekleri](./konular/php.ornekleri.md)
 - [PHP Projeleri](./konular/php.projeleri.md)
 - [MySQL Replication](./konular/mysql.replication.md)
