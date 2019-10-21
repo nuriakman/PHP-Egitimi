@@ -33,7 +33,7 @@ server-id=2
 ## SLAVE Sunucuda Yukarıdaki Ayarlar Sonrası Yapılacaklar
 Sunucuyu restart et
 ```
-SLAVE STOP;
+STOP SLAVE;
 
 CHANGE MASTER TO
         MASTER_HOST='master_mysqlin_ipsi',
@@ -42,5 +42,5 @@ CHANGE MASTER TO
         MASTER_LOG_FILE='mysql-bin.000002',
         MASTER_LOG_POS=351;
        
-SLAVE START;
+START SLAVE;
 ```
