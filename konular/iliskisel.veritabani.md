@@ -155,3 +155,27 @@ ID - ParentID - Etiket'den oluşan 3 sutunlu bir veri tablosu yapısı ile tutul
 ## CRUD Nedir?
 CRUD (Create, Read, Update, Delete), herhangi bir veri kaynağın (veritabanı veya dosyaya) veri girmeye, güncellemeye, okumaya ve silmeye verilen isimdir.
 
+
+# MySql Veri Tipleri ve Özellikleri
+
+Veri Tipi|Kullanım Alanı|Sınırları
+---|---|---
+INT|Tam sayılar | -2.147.483.648 ile 2.147.483.647 arası ya da 0 ile 4.294.967.295 arası
+TINYINT |Tam sayılar| -128 ile 127 arası ya da 0 ile 255 arası
+SMALLINT|Tam sayılar| -32.768 ile 32.767 arası ya da 0 ile 65.535 arası
+MEDIUMINT|Tam sayılar| -8.388.608 ile 8.388.607 arası ya da 0 ile 16.777.215 arası
+BIGINT|Tam sayılar| -9.223.372.036.854.775.808 ile 9.223.372.036.854.775.807 arası yada 0 ile 18.446.744.073.709.551.615 arası
+FLOAT|Ondalıklı Sayılar| + ya da -1,5*10-45 ile + ya da - 3,4*1038 arası
+DOUBLE|Ondalıklı Sayılar| + ya da - 5,0*10-324 ile + ya da - 1,7*10308 arası
+DECIMAL|Ondalıklı Sayılar| + ya da - 1,0*10-28 ile + ya da - 7,9*1028 arası
+CHAR | Text| 0 ile 255 arası
+VARCHAR|Text| 0 ile 255 arası
+TINYTEXT |Text| 0 ile 255
+TEXT |Text| 0 ile 65535 arası
+MEDIUMTEXT |Text| 0 ile 16.777.215 arası
+LONGTEXT |Text| 0 ile 4.294.967.295 arası
+DATE |Zaman| YYYY-MM-DD formatında veri tutulur.
+DATETIME |Zaman| YYYY-MM-DD HH:MM:SS formatında veri tutulur.
+TIMESTAMP |Zaman| YYYYMMDDHHMMSS formatında veri tutulur.
+TIME|Zaman| HH:MM:SS
+
