@@ -481,3 +481,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - [javascript](https://www.slideshare.net/oguzhantas/java-script-17450735)
 - [Ubuntu Linux](https://www.slideshare.net/oguzhantas/ubuntu-linux-56394879)
 - [Özgür Yazılım ve Linux](https://www.slideshare.net/leucjo/zgr-yazlm-ve-linux-39064239)
+
+
+# Veri Kaynakları
+- [sozlukler](https://www.dilbilgisi.net/sozlukler/)
+
