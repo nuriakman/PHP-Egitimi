@@ -485,4 +485,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 # Veri Kaynakları
 - [sozlukler](https://www.dilbilgisi.net/sozlukler/)
+- [virtualbox-ubuntu-18-04-kurulumu](https://www.sysnettechsolutions.com/virtualbox/virtualbox-ubuntu-18-04-kurulumu/)
 
