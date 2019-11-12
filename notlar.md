@@ -464,7 +464,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-## MySQLi - PDO
+## MySQL, MySQLi, PDO
+- [MySQL CLI](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
 - [MySQLi](https://websitebeaver.com/prepared-statements-in-php-mysqli-to-prevent-sql-injection)
 - [PDO](https://websitebeaver.com/php-pdo-prepared-statements-to-prevent-sql-injection)
 - [MySQLi vs PDO](https://websitebeaver.com/php-pdo-vs-mysqli)
