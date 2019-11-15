@@ -488,3 +488,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - [sozlukler](https://www.dilbilgisi.net/sozlukler/)
 - [virtualbox-ubuntu-18-04-kurulumu](https://www.sysnettechsolutions.com/virtualbox/virtualbox-ubuntu-18-04-kurulumu/)
 
+
+# Laravel
+- [Laravel or Pure PHP](https://stackoverflow.com/questions/41583731/laravel-or-pure-php#41586215)
