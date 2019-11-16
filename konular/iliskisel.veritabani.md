@@ -33,6 +33,8 @@ Tabloda ki bir kaydı, diğer kayıtlardan ayırmaya yarayan anahtardır. Örne�
 
 ![](https://www.dijitalders.com/rs/ic/veri_tabanlarinda_anahtar_kavrami_birincil_ve_yabanci_anahtar_ikincil_anahtar_kavrami_2621_15122012032105_tefbt.jpg)
 
+# Join - Left Join - Right Join - Outer Join
+- [Visual JOIN / Görsel JOIN](https://joins.spathon.com/)
 
 ## İlişki - Relation
 
