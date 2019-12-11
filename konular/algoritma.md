@@ -6,7 +6,7 @@ Algoritma, bugünkü programlama dilinin anası, çıkış noktasıdır. Yani al
 
 İlk algoritma, [El-Harezmi](https://www.ilkkimbuldu.com/harizmi-kimdir/)’nin 6ncı yüzyılda yazdığı ‘Hisab-el Cebir ve El Mukabala’ kitabında sunulmuştur ve algoritma kelimesi de El-Harezmi’nin isminden gelmiştir. Algoritma terimi genellikle matematikte ve bilgisayar bilimlerinde karşımıza çıkmaktadır. [Detaylı bilgi...](https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html)
 
-https://teknokoliker.com/2014/01/algoritma-nedir-ve-algoritma-cesitleri.html
+Okuma tavsiyes: [Algoritma Nedir? Algoritma Örnekleri 2020](https://teknotower.com/algoritma-nedir-algoritma-ornekleri-teknotower/amp/)
 
 ## Kodlamaya Yeni Başlayanlara Örnek Algoritma Soruları
 - Zar atma simülasyon 
