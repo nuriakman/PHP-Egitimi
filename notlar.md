@@ -44,6 +44,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [11 Javascript Data Visualization Libraries for 2019](https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727)
 - [wysiwyg editör: summernote](https://summernote.org/)
 - [A curated list of awesome WYSIWYG editors](https://github.com/JefMari/awesome-wysiwyg)
+- [Basit MarkDown editör scriptleri](https://www.cssscript.com/?s=markdown)
 
 # SATIŞ SÖZLEŞMESİ OLUŞTURMA ÖRNEĞİ
 - [İstediğim şey tam olarak şu videoda var:](https://www.youtube.com/watch?v=QUca9bCufbo)
