@@ -42,6 +42,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Tablo Sayfalama, Süzme Eklentisi / Bootgrid Plugin](http://www.jquery-bootgrid.com/Examples)
 - [jQuery Wizard Eklentisi / Step Plugin](http://www.jquery-steps.com/Examples)
 - [11 Javascript Data Visualization Libraries for 2019](https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727)
+- [wysiwyg editör: summernote](https://summernote.org/)
 
 # SATIŞ SÖZLEŞMESİ OLUŞTURMA ÖRNEĞİ
 - [İstediğim şey tam olarak şu videoda var:](https://www.youtube.com/watch?v=QUca9bCufbo)
