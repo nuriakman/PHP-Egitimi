@@ -110,6 +110,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [cosmiclearn - Güzel Bir Eğitim Sitesi / HTML, CSS, JS, MySQL, PHP](https://www.cosmiclearn.com/index.php)
 - [HTML5 Şablonları](https://html5up.net/)
 - Trello'dan Bahsedelim: Fikirler, Yapılacaklar, Yapılmakta Olanlar, Yapılmış
+- [json, csv vb dumy data oluşturma sitesi: mockaroo](https://mockaroo.com/)
 
 # Kurallı İfade Araçları, Görselleştiricileri
 - [Regex101](https://regex101.com/)
