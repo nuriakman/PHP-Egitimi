@@ -468,13 +468,18 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - [Bootstrap Toggle](www.bootstraptoggle.com)
 
 
-
-
 ## MySQL, MySQLi, PDO
 - [MySQL CLI](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
 - [MySQLi](https://websitebeaver.com/prepared-statements-in-php-mysqli-to-prevent-sql-injection)
 - [PDO](https://websitebeaver.com/php-pdo-prepared-statements-to-prevent-sql-injection)
 - [MySQLi vs PDO](https://websitebeaver.com/php-pdo-vs-mysqli)
+
+
+## MySQL Lock Yöntemleri
+- [MySQL OPTIMISTIC LOCKING](https://stackoverflow.com/questions/17431338/optimistic-locking-in-mysql)
+- [MySQL Pessimistic perspective: locking_user_id and locking_timestamp fields](https://stackoverflow.com/questions/15012314/php-mysql-jquery-pessimistic-locking-of-record)
+- [MySQL Pessimistic lock with Locked field](https://www.codesd.com/item/how-to-implement-pessimistic-locking-in-a-php-mysql-web-application.html)
+- [Lock on Laravel](https://www.bladephp.co/pessimistic-locking-laravel5)
 
 
 ## PHP İÇİN GÜZEL ve UZUN BİR SUNUM
