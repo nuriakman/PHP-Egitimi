@@ -512,3 +512,30 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - DELETE – Bir kaynağı kaldırma ya da silme
 
 
+## Bazı Linux Komutları
+```
+sudo apt-get install hardinfo
+sudo apt autoremove
+gzip DOSYAADI
+gunzip DOSYAADI
+
+sudo apt install net-tools  
+```
+Detayı: https://www.mankier.com/package/net-tools
+
+
+## Log Dosyaları:
+/var/log/apache2/access.log
+/var/log/apache2/error.log
+
+
+
+## Güzel Yazılar
+- [mysql-veya-mariadb-root-sifresinin-sifirlanmasi](https://www.cloudeos.com/topluluk/mysql-veya-mariadb-root-sifresinin-sifirlanmasi)
+- [cdn-icerik-dagitim-agi-nedir](https://www.cloudeos.com/topluluk/cdn-icerik-dagitim-agi-nedir)
+- [hangi-isletim-sistemi-secmelisiniz](https://www.cloudeos.com/topluluk/hangi-isletim-sistemi-secmelisiniz)
+- [wich_linux_based_os_should_i_go_for](https://www.reddit.com/r/linux4noobs/comments/59m6c3/wich_linux_based_os_should_i_go_for/)
+- [linux-dagitimlarin-kod-isimlerinin-ilginc-hikayeleri](https://www.cloudeos.com/topluluk/linux-dagitimlarin-kod-isimlerinin-ilginc-hikayeleri)
+- [isletim-sistemleri](https://www.cloudeos.com/topluluk/bilgi-bankasi/isletim-sistemleri)
+- [isletim-sistemleri/linux](https://www.cloudeos.com/topluluk/bilgi-bankasi/isletim-sistemleri/linux)
+
