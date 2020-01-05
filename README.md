@@ -100,6 +100,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [İlişkisel Veritabanı ve MySQL'e Giriş](./konular/iliskisel.veritabani.md)  
 - [5 Dakikada SQL](https://learnxinyminutes.com/docs/sql/)  
 - [Temel SQL Komutları](./konular/temel.sql.komutlari.md)
+- PHP [ezSql](https://github.com/ezSQL/ezsql/wiki) [Veritabanı Sınıfı Kullanımı](https://scetinkaya.com/php-ezsql-veritabani-sinifi-kullanimi/)
 
 
 ## MySQL'e Giriş
