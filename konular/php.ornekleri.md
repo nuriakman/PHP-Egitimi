@@ -27,6 +27,6 @@
 - [Php Örneği 25 : Redis Kullanım Örneği](./php.ornek25.md)
 - [Php Örneği 26 : Örnek HTML Form](./php.ornek26.md)
 - [Php Örneği 27 : PHP ile ePosta Gönderme (yandex ve gmail) ](./php.ornek27.md)
-- [Php Örneği 28 : Örnek - Siz de Ekleyin](./php.ornek28.md)
+- [Php Örneği 28 : DOMPDF ile PDF üretme örneği](./php.ornek28.md)
 - [Php Örneği 29 : Örnek - Siz de Ekleyin](./php.ornek29.md)
 - [Php Örneği 30 : Örnek - Siz de Ekleyin](./php.ornek30.md)
