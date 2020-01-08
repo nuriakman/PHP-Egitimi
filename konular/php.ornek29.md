@@ -1,44 +1,9 @@
 # PHP Örnek Çalışmaları
 
-## Gelen Ham Veri
-
-{
-  "ip": "193.25.125.49",
-  "city": "Çankaya",
-  "region": "Ankara",
-  "country": "TR",
-  "loc": "39.9150,32.8108",
-  "org": "AS31274 Turkish Treasury",
-  "postal": "06510",
-  "timezone": "Europe/Istanbul",
-  "readme": "https://ipinfo.io/missingauth"
-}
-
-json_decode İle JSON'a Çevrilmiş Veri
-
-stdClass Object
-(
-    [ip] => 193.25.125.49
-    [city] => Çankaya
-    [region] => Ankara
-    [country] => TR
-    [loc] => 39.9150,32.8108
-    [org] => AS31274 Turkish Treasury
-    [postal] => 06510
-    [timezone] => Europe/Istanbul
-    [readme] => https://ipinfo.io/missingauth
-)
-
-Veriye Tek Tek Erişim
-
-IP Adresi: 193.25.125.49
-Ülke: TR
-Şehir: Ankara
-Bölge: Çankaya
-Koordinat: 39.9150,32.8108
-
+## `curl` ile dış kaynaktan JSON veri alma
 
 ### `json_veri_getir.php` adlı dosyanın içeriği
+
 ```PHP
 <?php
 
