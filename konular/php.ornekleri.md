@@ -30,4 +30,5 @@
 - [Php Örneği 28 : DOMPDF ile PDF üretme örneği](./php.ornek28.md)
 - [Php Örneği 29 : `curl` ile dış kaynaktan JSON veri alma](./php.ornek29.md)
 - [Php Örneği 30 : PHP ile 2D Barkod Üretme](./php.ornek30.md)
-- [Php Örneği 31 : PHP ile 3D Barkod Üretme](./php.ornek31.md)
+- [Php Örneği 31 : PHP ile 3D Barkod Üretme 1](./php.ornek31.md)
+- [Php Örneği 32 : PHP ile 3D Barkod Üretme 2](./php.ornek32.md)
