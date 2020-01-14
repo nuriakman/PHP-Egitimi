@@ -65,14 +65,17 @@
 
 
 # HTML Input Etiketi
-- [HTML Input Turleri](https://www.w3schools.com/html/html_form_input_types.asp)
-- [HTML Input Attributes](https://www.w3schools.com/htmL/html_form_attributes.asp
+- [HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
+- [HTML Input Attributes](https://www.w3schools.com/htmL/html_form_attributes.asp)
 - [HTML5 New Attributes](https://html5doctor.com/html5-forms-introduction-and-new-attributes/)
+- [HTML5 Input](https://www.trustingeeks.com/html5-input/)
+
+# HTML5 Input Örnekleri
 
 ```HTML
 <form method="post">
 
-	<p>Renk Seçin:<br>
+<p>Renk Seçin:<br>
 <input type="color" name="favcolor" value="#ff0000"><br><br></p>
 
 <p>Tarih Girin:<br>
