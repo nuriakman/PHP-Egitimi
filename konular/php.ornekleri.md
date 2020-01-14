@@ -32,4 +32,5 @@
 - [Php Örneği 30 : PHP ile 2D Barkod Üretme](./php.ornek30.md)
 - [Php Örneği 31 : PHP ile 3D Barkod Üretme 1](./php.ornek31.md)
 - [Php Örneği 32 : PHP ile 3D Barkod Üretme 2](./php.ornek32.md)
-- [Php Örneği 33 : PHP ile Excell'e veri aktarma](./php.ornek33.md)
+- [Php Örneği 33 : PHP ile Excell'e Veri Aktarma (Basit Liste)](./php.ornek33.md)
+- [Php Örneği 34 : PHP ile Excell'e Veri Aktarma (İleri Seviye)](./php.ornek34.md)
