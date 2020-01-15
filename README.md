@@ -162,11 +162,13 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## Çeşitli Konular
+- [Bower Paket Yöneticisi](./konular/bower.md)
 - [WordPress Kurulumu](./konular/cesitli.wordpress.md)
 - [Çeşitli Konular](./konular/cesitli.konular.md)
 - [Faydalı Videolar](./konular/faydali.videolar.md)
 - [Faydalı Linkler](./konular/faydali.linkler.md)
 - [Özgür Yazılım Yaz ve Kış Kampları Blog Yazıları](./konular/blog.yazilari.md)
+
 
 # Teşekkürler / [Katkıda Bulunanlar](https://github.com/nuriakman/PHP-Egitimi/graphs/contributors)
 * [Kemal MUTLU](https://github.com/kemalmutlu)
