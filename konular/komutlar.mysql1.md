@@ -29,12 +29,11 @@ SQL fikri ortaya ilk atıldığında matematiksel bir yapıya sahipmiş. Fakat s
 Veritabanı oluştururken tabloların doğru tasarlanması önemlidir. Her tablo birbiriyle alakalı özellikleri içermelidir ve mümkün olduğunca bir işi yapmalıdır. Tıpkı metotlarda olduğu gibi. Yukarıdaki örnekte bir tabloda hem müşteri bilgileri hem aldığı personel bilgileri tutulmaktadır. Olması gereken ise iki farklı tabloda bu bilgileri tutup daha sonra bu tablolar arasında ilişki oluşturmaktır. Buna normalizasyon denir.
 
 
+## ➊ Birincil Anahtar, ➋ Yabancı Anahtar
+![](https://support.content.office.net/tr-tr/media/2b3f79b2-7629-44f8-a0c5-2c6f72bfd935.gif)
+
 ## Birincil Anahtar - Primary Key (PK)
 Tabloda ki bir kaydı, diğer kayıtlardan ayırmaya yarayan anahtardır. Örneğin öğrenci numarası bir primary key olabilir. Çünkü aynı öğrenci numarasına sahip iki öğrenci olamaz. Fakat öğrenci ismi bir primary key olamaz, çünkü aynı okulda aynı isimde birden fazla öğrenci bulunabilir.
-
-![](https://support.content.office.net/tr-tr/media/2b3f79b2-7629-44f8-a0c5-2c6f72bfd935.gif)
-`➊` Birincil Anahtar, `➋` İkincil Anahtar
-
 
 ## Yabancı Anahtar - Foreign Key (FK)
 İki tablo arasında ki ilişkinin tanımlanmasında kullanılan, ana tabloda ki Primary Key alanına karşılık gelen anahtardır.
