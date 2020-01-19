@@ -19,6 +19,8 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Cookie Nedir?](https://medium.com/@ustamustam/cookie-nedir-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-a46025f16ab8)
 - [AlaSQL](https://alasql.org/) Javascipt SQL veritabanı 
 - [Güzel bir eğitim sitesi - QuacKit](https://www.quackit.com/) HTML, CSS, JS, jQuery, MySQL, JSON, Sass, Flexbox vb
+- [Ücretsiz Fotoğraflar - pexels](https://www.pexels.com)
+- [Ücretsiz Fotoğraflar - freepik](https://www.freepik.com/)
 
 
 # JavaScript
