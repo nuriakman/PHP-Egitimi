@@ -541,3 +541,7 @@ Detayı: https://www.mankier.com/package/net-tools
 - [isletim-sistemleri](https://www.cloudeos.com/topluluk/bilgi-bankasi/isletim-sistemleri)
 - [isletim-sistemleri/linux](https://www.cloudeos.com/topluluk/bilgi-bankasi/isletim-sistemleri/linux)
 
+## Font Siteleri
+- [GlukFonts](http://www.glukfonts.pl/index.php)
+- [DaFont](https://www.dafont.com/)
+
