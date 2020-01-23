@@ -20,6 +20,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## Kurulum Bilgileri
+- [Eskişehir](./konular/eskisehir.md)
 - [Windows İçin Kurulum](./konular/kurulum.menu.windows.md)
    - [Windows İçin Git Bash Kurulumu](./konular/kurulum.windows.gitbash.md)
 - [Linux İçin Kurulum](./konular/kurulum.menu.linux.md)
