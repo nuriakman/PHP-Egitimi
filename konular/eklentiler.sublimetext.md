@@ -4,14 +4,7 @@ Bu konuda şu sayfada yer alan [eklentiler ve bilgiler](http://labs.sahibinden.c
 
 [PackageControl](https://packagecontrol.io/browse/popular) sayfasında popüler eklentileri görebilirsiniz. İlave olarak şunları da sıralayabiliriz:
 
-- sublime-text-git
-- SublimeLinter-html-tidy
-- SublimeLinter-php
-- SublimeLinter-bandit
-- SublimeLinter-annotations
 - SideBarEnhancements
-- Project PHP ClassBrowser
-- Phpcs
 - jQuery
 - HTMLBeautify
 - Emmet
@@ -19,7 +12,6 @@ Bu konuda şu sayfada yer alan [eklentiler ve bilgiler](http://labs.sahibinden.c
 - BracketHighlighter
 
 # Ayar İşlemleri
-
 
 Preferences | Settings Menüsü içine şu ayarları kaydedebilirsiniz:
 ```
