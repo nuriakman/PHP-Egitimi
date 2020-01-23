@@ -26,8 +26,27 @@
 - `Title` başlığına bir isim verilir
 - `Key` başlığı altına da yukarıda kopyalanan değer yapıştırılır
 
-## Yardımcı Bazı Komutlar
+## Git Bash Hatası
+`git clone` yaparken şu hata alınabilir:
+
+`Permission denied (publickey). fatal: Could not read from remote repository.`
+
+Öncelikle, size özel `SSH Key` oluşturmuş olmalısınız.
+
+Bu işlemin yaılabilmesi için unutulmaması gereken nokta: `Git Bash` programı `yönetici` rolü ile çalıştırmalıdır.
+
+Sorunun çözümü için `/etc/ssh/ssh_config` dosyası sonuna şu satırlar eklenir:
 ```
+nano /etc/ssh/ssh_config
+
+host github.com
+     IdentityFile ~/.ssh/id_rsa
+```
+
+
+
+## Yardımcı Bazı Komutlar
+```BASH
 cd c:\xampp\htdocs\
 php --ini
 npm install -g bower
@@ -38,7 +57,7 @@ npm install -g bower
 - Aşağıdaki ayarları `c:\xampp\php\php.ini` dosyasının sonuna yapıştırabilirsiniz. 
 - Bunu yaptıktan sonra `Apache` servisini yeniden başlatmanız gerekir.
 
-```
+```PHP
 display_startup_errors = On
 display_errors         = On
 short_open_tag         = On
@@ -59,7 +78,7 @@ mbstring.internal_encoding = UTF-8
 KAYNAK: https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kurulum.sh
 
 ## Paket Kurulumları
-```
+```BASH
 sudo apt update
 sudo apt upgrade
 sudo apt install git apache2 mysql-server mysql-client php php-mbstring php-gd php-imagick php-bcmath php-dom php-zip php-soap -y
@@ -71,65 +90,72 @@ php composer-setup.php
 mv composer.phar /usr/local/sbin/composer
 sudo mv composer.phar /usr/local/sbin/composer
 
-
 git config --global user.name "Ad Soyad"
 git config --global user.email eposta@adresiniz.com
 
 ```
 
 ## Access denied for user 'root'@'localhost' Uyarısını Kaldırmak
-```
+```MYSQL
 sudo mysql -u root
   use mysql;
   update user set plugin='' where User='root';
   flush privileges;
   exit;
-```
 
-```
 sudo mysql_secure_installation
 ```
 
 
 ## Servislerin Başlatılması
+```BASH
 sudo service apache2 restart
 sudo service mariadb restart
+```
 
 
 ## Apache Dizin Ayarları
-
+```BASH
 sudo adduser $USER www-data
 sudo chown -R $USER:www-data /var/www/html/
-
+```
 
 ## html dizini için yetkilendirme
-
+```BASH
 sudo adduser $USER www-data
 sudo chown -R $USER:www-data /var/www/html/
+```
+
 
 ## Masaüzerine HTML klasörü kısayolunun açılması
-
+```BASH
 cd ~
 cd ~/Masaüstü || cd ~/Desktop
 ln -s /var/www/html/
 sudo rm -f /var/www/html/index.html
+```
 
 ## Adminer Programı Kurulumu
-
+```BASH
 cd /var/www/html
 mkdir adminer
 cd adminer
 wget -O index.php https://www.adminer.org/latest.php
+```
+
 
 ## Ubuntu Masaüstü İçin Ayarlar
+```BASH
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
-
+```
 
 ## Kurulum Kontrolü
-
+```BASH
 php -v
 apache2 -v
 mysql --version
+```
+
 
 
