@@ -12,69 +12,6 @@ Komut |Anlamı|
 [mysqli_affected_rows](http://php.net/mysqli-affected-rows)|SQL sorgusundan kaç satırın etkilendiğini gösterir
 [mysqli_insert_id](http://php.net/mysqli_insert_id)|INSERT işlemi sonucunda eklenen yeni kaydın ID bilgisini gösterir
 
-## mysqli Nesne Yönelimli Kullanım Örneği
-```PHP
-<?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
-
-/* check connection */
-if (mysqli_connect_error()) {
-    printf("Veritabanı Sunucusuna Bağlantı Hatası: %s\n", mysqli_connect_error());
-    exit();
-}
-
-$mysqli->query("CREATE TABLE DUKKANLAR (DUKKANADI varchar(100));");
-
-$DukkanAdi = "Ayşe'nin Ev Yemekleri";
-
-/* Bu sorgu hatalıu çalışır */
-if (!$mysqli->query("INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
-    printf("Error: %s\n", $mysqli->sqlstate);
-}
-
-$DukkanAdi = $mysqli->real_escape_string($DukkanAdi);
-
-/* Bu sorgu düngün çalışır */
-if ($mysqli->query("INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
-    printf("%d Satır eklendi.\n", $mysqli->affected_rows);
-}
-
-$mysqli->close();
-?>
-```
-
-## mysqli Yordamsal Kullanım Örneği
-```PHP
-<?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
-
-/* check connection */
-if (mysqli_connect_errno()) {
-    printf("Veritabanı Sunucusuna Bağlantı Hatası: %s\n", mysqli_connect_error());
-    exit();
-}
-
-mysqli_query($link, "CREATE TABLE DUKKANLAR (DUKKANADI varchar(100));");
-
-$DukkanAdi = "Ayşe'nin Ev Yemekleri";
-
-/* Bu sorgu hatalıu çalışır */
-if (!mysqli_query($link, "INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
-    printf("Error: %s\n", mysqli_sqlstate($link));
-}
-
-$DukkanAdi = mysqli_real_escape_string($link, $DukkanAdi);
-
-/* Bu sorgu düngün çalışır */
-if (mysqli_query($link, "INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
-    printf("%d Satır eklendi.\n", mysqli_affected_rows($link));
-}
-
-mysqli_close($link);
-?>
-```
-
-
 
 # MySQL Sunucusuna Bağlanma
 
@@ -84,10 +21,18 @@ mysqli_close($link);
 $host     = "localhost";
 $user     = "root";
 $password = "root";
-$database = "";
-$db = mysqli_connect( $host, $user, $password, $database );
+$database = "DBADIBURAYA";
+$DB = mysqli_connect( $host, $user, $password, $database );
 if( mysqli_connect_error() ) die("Veritabanına bağlanılamadı...");
-$temp = mysqli_query($db, "set names 'utf8'");
+$temp = mysqli_query($DB, "set names 'utf8'"); // Türkçe karakterlerle ilgili sorun yaşamamak için
+```
+
+# Fonksiyon Kullanimi
+```PHP
+function Temizle($DB, $val) {
+  $val = mysqli_real_escape_string($DB, $val);
+  return $val;
+}
 ```
 
 # Kayıt Ekleme
@@ -100,17 +45,17 @@ $val3 = 45000;
 
 // SQL içine konulacak değişkenlere MUTLAKA bu işlem uygulanmalıdır.
 // Bunun sebebi GÜVENLİK'tir.
-$val1 = mysqli_real_escape_string($db, $val1);
-$val2 = mysqli_real_escape_string($db, $val2);
-$val3 = mysqli_real_escape_string($db, $val3);
+$val1 = mysqli_real_escape_string($DB, $val1);
+$val2 = mysqli_real_escape_string($DB, $val2);
+$val3 = mysqli_real_escape_string($DB, $val3);
 
 //$SQL = "INSERT INTO araclar (marka, model, fiyat) VALUES ( '$val1', '$val2', '$val3' )";
 $SQL = "INSERT INTO araclar SET
             marka = '$val1',
             model = '$val2',
             fiyat = '$val3'     ";
-$rows = mysqli_query($db, $SQL);
-$EklenenID = mysqli_insert_id($db);
+$rows = mysqli_query($DB, $SQL);
+$EklenenID = mysqli_insert_id($DB);
 echo "Yeni araç, tabloya $EklenenID kayıt numarası ile eklenmiştir.";
 ```
 
@@ -124,16 +69,16 @@ $val3 = 75000;
 
 // SQL içine konulacak değişkenlere MUTLAKA bu işlem uygulanmalıdır.
 // Bunun sebebi GÜVENLİK'tir.
-$val1 = mysqli_real_escape_string($db, $val1);
-$val2 = mysqli_real_escape_string($db, $val2);
-$val3 = mysqli_real_escape_string($db, $val3);
+$val1 = mysqli_real_escape_string($DB, $val1);
+$val2 = mysqli_real_escape_string($DB, $val2);
+$val3 = mysqli_real_escape_string($DB, $val3);
 
 $SQL = "UPDATE araclar SET
           marka = '$val1',
           model = '$val2',
           fiyat = '$val3'
         WHERE id=1678";
-$rows = mysqli_query($db, $SQL);
+$rows = mysqli_query($DB, $SQL);
 ```
 
 
@@ -141,7 +86,7 @@ $rows = mysqli_query($db, $SQL);
 ```PHP
 ## Veritabanından kayıt silme
 $SQL = "DELETE FROM araclar WHERE id = 1";
-$rows = mysqli_query($db, $SQL);
+$rows = mysqli_query($DB, $SQL);
 ```
 
 
@@ -149,7 +94,7 @@ $rows = mysqli_query($db, $SQL);
 150 nci kayıttan itibaren 20 kayıt getir.
 ```PHP
 $SQL = "SELECT * FROM araclar LIMIT 20 OFFSET 150";
-$rows = mysqli_query($db, $SQL);
+$rows = mysqli_query($DB, $SQL);
 ```
 
 
@@ -159,7 +104,7 @@ $rows = mysqli_query($db, $SQL);
 ## Veritabanından kayıt çekme ve listeleme örneği
 
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
-$rows = mysqli_query($db, $SQL);
+$rows = mysqli_query($DB, $SQL);
 $RowCount = mysqli_num_rows($rows);
 if($RowCount == 0) { // Kayıt yok...
   echo "Kayıt bulunamadı..";
@@ -181,7 +126,7 @@ if($RowCount == 0) { // Kayıt yok...
 ## Veritabanından kayıt çekme ve TABLE ile listeleme örneği
 
 $SQL = "SELECT marka, model FROM araclar LIMIT 20";
-$rows = mysqli_query($db, $SQL);
+$rows = mysqli_query($DB, $SQL);
 $RowCount = mysqli_num_rows($rows);
 if($RowCount == 0) { // Kayıt yok...
   echo "Kayıt bulunamadı..";
@@ -213,7 +158,7 @@ if($RowCount == 0) { // Kayıt yok...
 ```PHP
 <?php
 $SQL = "SELECT marka, model, fiyat FROM araclar LIMIT 20";
-$rows = mysqli_query($db, $SQL);
+$rows = mysqli_query($DB, $SQL);
 ?>
 <table>
    <tr>
@@ -237,8 +182,8 @@ $rows = mysqli_query($db, $SQL);
 ## html select etiketi için tek sutun verinin çekilmesi
 
 function GetHTMLSelectTagData( $SQL, $SahaAdi ){
-  global $db;
-  $rows = mysqli_query($db, $SQL);
+  global $DB;
+  $rows = mysqli_query($DB, $SQL);
   $RowCount = mysqli_num_rows($rows);
   $SONUC = "";
   while($row = mysqli_fetch_assoc($rows)){
@@ -276,7 +221,7 @@ SELECT * FROM kullanicilar WHERE id = '' OR  '1' = '1'
 // Oluşan bu değer her zaman için TRUE (Doğru) değeri üreteceği için SQL sorgusu kötü niyetli olarak manipüle edilmiş olacaktır.
 
 // Bu sorunu ortadan kaldırmak için şu komutun uygulanması yeterlidir:
-$KullaniciID = mysqli_real_escape_string($db, $_GET['id']);
+$KullaniciID = mysqli_real_escape_string($DB, $_GET['id']);
 // NOT: mysqli_real_escape_string komutunun çalışabilmesi için bağlantının kurulmuş olması şarttır.
 ```
 
@@ -287,22 +232,22 @@ $KullaniciID = mysqli_real_escape_string($db, $_GET['id']);
 
 ## Yöntem 1 TODO: Test Edilmeli!
 ```PHP
-function GUVENLI_VERI($array, $db) {
+function GUVENLI_VERI($array, $DB) {
    foreach($array as $key=>$value) {
       if(is_array($value)) { GUVENLI_VERI($value); }
-      else { $array[$key] = mysqli_real_escape_string($value, $db); }
+      else { $array[$key] = mysqli_real_escape_string($value, $DB); }
    }
    return $array;
 }
 
 // Kullanım Örneği:
-GUVENLI_VERI($_GET, $db);
-GUVENLI_VERI($_POST, $db);
+GUVENLI_VERI($_GET, $DB);
+GUVENLI_VERI($_POST, $DB);
 ```
 ## Yöntem 2 TODO: Test Edilmeli!
 ```PHP
-array_walk($_POST, function(&$string) use ($db) { 
-  $string = mysqli_real_escape_string($db, $string);
+array_walk($_POST, function(&$string) use ($DB) { 
+  $string = mysqli_real_escape_string($DB, $string);
 });
 ```
 TODO: POST verisi içinde dizi değişkenleri varsa durumunda nasıl davranıyor? 
@@ -317,7 +262,7 @@ TODO: POST verisi içinde dizi değişkenleri varsa durumunda nasıl davranıyor
 ## Yöntem 4 TODO: Test Edilmeli!
 ```PHP
 foreach($_POST as $k => $v) {
-    $_POST[$k] = mysqli_real_escape_string($db, $v);
+    $_POST[$k] = mysqli_real_escape_string($DB, $v);
 }
 TODO: POST verisi içinde dizi değişkenleri varsa çalışmaz! 
 ```
@@ -387,3 +332,68 @@ There are lot of web sites using legacy packages that are no longer supported by
 The PHP mysql to mysqli package was developed to be the stop gap to keep everything working smoothly.
 
 It can be placed in any PHP script, at anytime, and when the mysql extension disappears, it will take over. It works by defining functions using the old mysql function names and passing the arguments to the class methods that will use the improved mysqli extension.
+
+
+
+## mysqli Nesne Yönelimli Kullanım Örneği
+```PHP
+<?php
+$DB = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* check connection */
+if (mysqli_connect_error()) {
+    printf("Veritabanı Sunucusuna Bağlantı Hatası: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$DB->query("CREATE TABLE DUKKANLAR (DUKKANADI varchar(100));");
+
+$DukkanAdi = "Ayşe'nin Ev Yemekleri";
+
+/* Bu sorgu hatalıu çalışır */
+if (!$DB->query("INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
+    printf("Error: %s\n", $DB->sqlstate);
+}
+
+$DukkanAdi = $DB->real_escape_string($DukkanAdi);
+
+/* Bu sorgu düngün çalışır */
+if ($DB->query("INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
+    printf("%d Satır eklendi.\n", $DB->affected_rows);
+}
+
+$DB->close();
+?>
+```
+
+## mysqli Yordamsal Kullanım Örneği
+```PHP
+<?php
+$DB = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Veritabanı Sunucusuna Bağlantı Hatası: %s\n", mysqli_connect_error());
+    exit();
+}
+
+mysqli_query($DB, "CREATE TABLE DUKKANLAR (DUKKANADI varchar(100));");
+
+$DukkanAdi = "Ayşe'nin Ev Yemekleri";
+
+/* Bu sorgu hatalıu çalışır */
+if (!mysqli_query($DB, "INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
+    printf("Error: %s\n", mysqli_sqlstate($DB));
+}
+
+$DukkanAdi = mysqli_real_escape_string($DB, $DukkanAdi);
+
+/* Bu sorgu düngün çalışır */
+if (mysqli_query($DB, "INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
+    printf("%d Satır eklendi.\n", mysqli_affected_rows($DB));
+}
+
+mysqli_close($DB);
+?>
+```
+
