@@ -36,5 +36,8 @@
 ## [Teklif Formu:](https://github.com/nuriakman/teklif)
 - Bu proje ile https://armut.com/ sitesindekine benzer bir form oluşturma çalışmasına başladık. Proje yarım bırakılmıştır.
 
-## [CRUD ile Telefon Rehberi:](https://github.com/nuriakman/CRUD)
+## [mysqli ile CRUD Telefon Rehberi:](https://github.com/nuriakman/CRUD)
 - PHP ve MySQL için basit CRUD örneği. Ordu'da düzenlenen eğitim sırasında yapılan PHP MySQL ile CRUD örneğidir. Örnek, en sade kod ile yazılmıştır.
+
+## [PDO ile CRUD Telefon Rehberi:](https://github.com/nuriakman/crud-pdo)
+- Eskişehir'de düzenlenen eğitim sırasında yapılan PHP MySQL PDO ile CRUD örneğidir. Örnek, en sade kod ile yazılmıştır.
