@@ -69,3 +69,9 @@ DELETE FROM esanlam
     HAVING COUNT(*) > 1 )
    AS SILINECEKLER )
 ```
+
+![](https://wizardzines.com/zines/sql/samples/from_hubaaee4376fc25a30df939bb116bd608b_463708_500x0_resize_box_2.png)
+
+![](https://wizardzines.com/zines/sql/samples/null-surprises_hud873901b5af88e2351714d3d7b817101_466537_500x0_resize_box_2.png)
+
+
