@@ -25,3 +25,6 @@ Bu sayfada, 25-28 Ocak 2020 tarihleri arasında Eskişehir'de düzenlenen **Must
 - https://github.com/misterunknown/ifm
 - https://github.com/kalcaddle/KodExplorer
 
+
+# Katılımcılardan Gelenler
+- https://goalkicker.com/ Yazılım dünyasından bir çok konuda ücretsiz PDF kitap / Ahmet Tosun
