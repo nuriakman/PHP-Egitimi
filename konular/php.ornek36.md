@@ -2,12 +2,73 @@
 
 ## Basit CHAT uygulaması
 
-KAYNAK: [kenanatmaca.com](https://kenanatmaca.com/php-ile-ajax-chat-scripti/)
+Bu örnek için [kenanatmaca.com](https://kenanatmaca.com/php-ile-ajax-chat-scripti/) ayfasındaki kod değiştirilerek uyarlanmıştır. Örnek toplam 3 adet dosyadan oluşmaktadır.
+
 
 # Örnek Kod
 
-### `home.php` Dosyası İçeriği
-```HTML
+
+## `sohbet.php` Dosyası İçeriği
+```PHP
+<?php
+if(isset($_GET["islem"])) {
+
+	$DOSYA="sohbet.txt";
+
+	/* =============================== */
+	/* =============================== */
+	if($_GET["islem"] == 1) {
+
+		$count=count(file("sohbet.txt"));
+		
+		if ($count>20) {
+
+			$SohbetDosyasi=fopen($DOSYA,"w");
+			fwrite($SohbetDosyasi,"");
+			fclose($SohbetDosyasi);
+
+		} else {
+
+			$SohbetDosyasi=fopen("$DOSYA","r");
+
+			while (!feof($SohbetDosyasi)){
+				echo fgets($SohbetDosyasi)."<br>";
+			}
+
+			fclose($SohbetDosyasi);
+
+		}
+
+	} // if($_GET["islem"] == 1) {
+
+
+	/* =============================== */
+	/* =============================== */
+	if($_GET["islem"] == 2) {
+
+	    if (isset($_POST['txt'])) {
+
+	        $TXT  =$_POST['txt'];
+	        $ADI  =$_POST['adi'];
+	        $DOSYA="sohbet.txt";
+
+	        if (!empty($TXT)){
+
+	            $SohbetDosyasi=fopen("$DOSYA","a");
+	            $SAAT = date("d.m.Y H:i:s");
+	            fwrite($SohbetDosyasi,"\n$SAAT <b>$ADI:</b> {$TXT}\r");
+	            fclose($SohbetDosyasi);
+
+	        }
+
+	    }
+
+	} // if($_GET["islem"] == 1) {
+
+	die();
+
+} // if(isset($_GET["islem"])) {
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +100,7 @@ KAYNAK: [kenanatmaca.com](https://kenanatmaca.com/php-ile-ajax-chat-scripti/)
 			if (TusKodu=='13') {
 
 				// ENTER basılırsa mesajı POST et
-				$.post("ajax.php", {txt:deger, adi:kullanici}, function(cevap) {});
+				$.post("sohbet.php?islem=2", {txt:deger, adi:kullanici}, function(cevap) {});
 
 				// Mesaj yazma sahasını boşalt
 				$(this).val("");
@@ -59,7 +120,7 @@ KAYNAK: [kenanatmaca.com](https://kenanatmaca.com/php-ile-ajax-chat-scripti/)
 	$.loader=function(){
 		var d=5;
 
-		$.get("verick.php", {dd:d}, function(cevap){
+		$.get("sohbet.php?islem=1", {dd:d}, function(cevap){
 			$(".yazilar").html(cevap);
 		});
 
@@ -84,59 +145,4 @@ KAYNAK: [kenanatmaca.com](https://kenanatmaca.com/php-ile-ajax-chat-scripti/)
 
 </body>
 </html>
-```
-
-### `verick.php` Dosyası İçeriği
-```PHP
-<?php 
-
-	if ($_GET) {
-
-		$count=count(file("sohbet.txt"));
-		$DOSYA="sohbet.txt";
-
-		if ($count>100) {
-
-			$SohbetDosyasi=fopen($DOSYA,"w");
-			fwrite($SohbetDosyasi,"");
-			fclose($SohbetDosyasi);
-
-		} else {
-
-			$SohbetDosyasi=fopen("$DOSYA","r");
-
-			while (!feof($SohbetDosyasi)){
-				echo fgets($SohbetDosyasi)."<br>";
-			}
-
-			fclose($SohbetDosyasi);
-
-		}
-
-	}
-
- ?>
-```
-
-### `ajax.php` Dosyası İçeriği
-```PHP
-<?php 
-
-    if ($_POST){
-
-        $TXT  =$_POST['txt'];
-        $ADI  =$_POST['adi'];
-        $DOSYA="sohbet.txt";
-
-        if (!empty($TXT)){
-
-            $SohbetDosyasi=fopen("$DOSYA","a");
-            fwrite($SohbetDosyasi,"\n<b>$ADI:</b> {$TXT}\r");
-            fclose($SohbetDosyasi);
-
-        }
-
-    }
-
-?>
 ```
