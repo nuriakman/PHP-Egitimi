@@ -27,4 +27,6 @@ Bu sayfada, 25-28 Ocak 2020 tarihleri arasında Eskişehir'de düzenlenen **Must
 
 
 # Katılımcılardan Gelenler
-- https://goalkicker.com/ Yazılım dünyasından bir çok konuda ücretsiz PDF kitap / Ahmet Tosun
+- [Goalkicker](https://goalkicker.com/) Yazılım dünyasından bir çok konuda ücretsiz PDF kitap By:Ahmet Tosun
+- [Overapi](http://overapi.com/) Tüm Kopya Kağıtları tek bir noktada By:Ahmet Tosun
+- [Overapi Developer Tools](http://overapi.com/developer-tools/) Geliştiriciler için faydalı siteler By:Ahmet Tosun
