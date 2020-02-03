@@ -33,15 +33,16 @@ Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler y
 ## Clone - İndirmek
 Kendi hesabımıza forkladığımız projeyi bilgisayarımıza indirmemizi sağlar.
 
+
 ## TAG - Etiketleme
-Github üzerinde paylaştığınız repolara versiyon ekleyebilirsiniz. Yazmış olduğunuz repoları pod tarafına eklediğiniz zaman mecburen versiyonlama yapmanız gerekir. Reponuzu git üzerinden ara versiyonlar ve ana versiyonlar yayınlayabilirsiniz.
+Github üzerinde paylaştığınız repolara versiyon ekleyebilirsiniz. Reponuzu git üzerinden ara versiyonlar ve ana versiyonlar yayınlayabilirsiniz.
 
 Reponuz için tag yayınlama işlemi:
 ```BASH
 git tag
 git tag 1.0
 git push –tags
-```BASH
+```
 veya repo push ile birlikte gönderebilirsiniz:
 ```BASH
 git push -u origin master –tags
