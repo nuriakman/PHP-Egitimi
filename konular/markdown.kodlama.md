@@ -6,7 +6,8 @@
 - [Daha Fazla MarkDown kodu](https://paperhive.org/help/markdown)
 
 ## MarkDown içinde emoji kullanımı :heart:
-[Git içinde kullanılabilecek emoji listesi](https://gist.github.com/rxaviers/7360908)
+- [Kopyala-yapıştır ile Emoji Kullanın](https://getemoji.com/)
+- [Git içinde kullanılabilecek emoji listesi](https://gist.github.com/rxaviers/7360908)
 
 ## MarkDown içine YouTube videosu yerleştirme
 ```
