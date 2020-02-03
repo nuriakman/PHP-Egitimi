@@ -35,6 +35,7 @@
 - [Php Örneği 33 : PHP ile Excell'e Veri Aktarma (Basit Liste)](./php.ornek33.md)
 - [Php Örneği 34 : PHP ile Excell'e Veri Aktarma (İleri Seviye)](./php.ornek34.md)
 - [Php Örneği 35 : SOAP ile Veri Çekme](./php.ornek35.md)
+- [Php Örneği 36 : PHP ve Ajax ile Sohbet Odası](./php.ornek36.md)
 
 
 # CSS Örnekleri
