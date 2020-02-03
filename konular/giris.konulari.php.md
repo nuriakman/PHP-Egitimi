@@ -216,6 +216,16 @@ else:
 endif;
 ```
 
+### try-catch
+```PHP
+try {
+   // Hata alınması muhtemel kod buraya yazılır
+} catch(Exception $e) {
+   // Hata alınması halinde çalıştırılacak kod buraya yazılır
+}
+```
+
+
 ## While? Do While?
 ![While ve Do-While](https://preview.redd.it/6wksqjmmyw321.jpg?width=960&crop=smart&auto=webp&s=16cb5ec941f4fb185fd9c96a912afb048ddd1219)
 
