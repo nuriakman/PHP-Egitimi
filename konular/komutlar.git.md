@@ -33,6 +33,27 @@ Forking, açık olan bir projeye sizin de katılarak üzerinde değişiklikler y
 ## Clone - İndirmek
 Kendi hesabımıza forkladığımız projeyi bilgisayarımıza indirmemizi sağlar.
 
+## TAG - Etiketleme
+Github üzerinde paylaştığınız repolara versiyon ekleyebilirsiniz. Yazmış olduğunuz repoları pod tarafına eklediğiniz zaman mecburen versiyonlama yapmanız gerekir. Reponuzu git üzerinden ara versiyonlar ve ana versiyonlar yayınlayabilirsiniz.
+
+Reponuz için tag yayınlama işlemi:
+```BASH
+git tag
+git tag 1.0
+git push –tags
+```BASH
+veya repo push ile birlikte gönderebilirsiniz:
+```BASH
+git push -u origin master –tags
+```
+
+Yayınlamış olduğunuz versiyonları kaldırabilirsiniz:
+```BASH
+git tag -d 1.0
+git push origin :refs/tags/1.0
+```
+
+
 
 ## Pull Request (PR) - Projeye Katkı Sağlama
 GitHub'ta bir projeye katkıda bulunmak için o projenin sahibine Pull Request oluşturmak gerekir.
@@ -203,11 +224,14 @@ Komut |Anlamı|
 
 
 ## GİT Yardım Komutları
+```BASH
 git help -a
 git help -g
 git help everyday
 git help tutorial
 git help workflows
+```
+
 
 ## Faydalı Linkler
 
