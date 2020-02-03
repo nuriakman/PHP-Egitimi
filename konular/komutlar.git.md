@@ -9,6 +9,11 @@ Github, versiyon kontrol sistemleri için uzak bir depo hizmeti sağlayan bir se
 
 ![GitHub Projelerine Katkı](https://cdn-images-1.medium.com/max/2560/1*eoZUBYa9VJzPOFVz41M4Vg.jpeg)
 
+## Git Yaşam Döngüsü
+
+![Git Yaşam Döngüsü](https://kenanatmaca.com/wp-content/uploads/2019/01/gitgit-1024x630.png)
+
+
 ## Branch - Dal
 
 Dal kavramı ile projemizin mevcut halini koruyarak yeni bir sürüm çıkarabilir, hata giderme çalışması yapabilir veya en önemlisi projemize yeni bir özellik ekleme çalışması yapabiliriz.
