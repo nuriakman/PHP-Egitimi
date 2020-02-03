@@ -43,7 +43,11 @@ host github.com
      IdentityFile ~/.ssh/id_rsa
 ```
 
-
+## Windows XAMPP'da MySQL Parolası Değiştirme
+```
+cd c:\xampp\mysql\bin
+mysqladmin -u root password "YENİPAROLA"
+```
 
 ## Yardımcı Bazı Komutlar
 ```BASH
