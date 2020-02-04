@@ -166,7 +166,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 * [Kemal MUTLU](https://github.com/kemalmutlu)
 * [Nuri AKMAN](https://github.com/nuriakman)
 * [Hasan ÇİÇEK](https://github.com/yeniceri1453)
-* [Yağmur BALİ](https://github.com/yagmurb)
+* [Yağmur BALİ](https://github.com/yagmurbali)
 * [e-Kalem: Talha ÇELİK ](https://github.com/ekalem)
 
 > # YAPMANIZ GEREKEN TEK ŞEY: BAŞLAMAK!
