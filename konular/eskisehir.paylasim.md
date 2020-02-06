@@ -8,6 +8,7 @@ Bu sayfada, 25-28 Ocak 2020 tarihleri arasında Eskişehir'de düzenlenen **Must
 ### Ücretsiz Resim Siteleri
 - https://www.pexels.com/
 - https://www.freepik.com/
+- https://dummyimage.com/  BOŞ resim üreticisi (image placeholder)
 
 
 ### Ücretsiz HTML ADMIN Şablonları / HTML ADMIN Templates
