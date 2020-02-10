@@ -62,7 +62,8 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## Bootstrap
-- [Bootstrap HTML Site Yapımı](https://www.youtube.com/watch?v=kLby3L7u-NQ) (Video)
+- [Bootstrap HTML Site Yapımı](https://www.youtube.com/watch?v=kLby3L7u-NQ) (Bir Video)
+- [Bootstrap Eğitim Seti](https://www.youtube.com/playlist?list=PLsB7NoPcJGyyGsG-wopLSqZ_1DVEVxLWY) *Mutlaka izlemelisiniz
 - [Bootstrap Grid Yapısı](./konular/bootstrap.grid.md)
 - [Bootstrap Örnekleri](./konular/bootstrap.ornekleri.md)
 
