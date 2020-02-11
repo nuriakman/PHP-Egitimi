@@ -91,6 +91,52 @@ GitHub'ta bir projeye katkıda bulunmak için o projenin sahibine Pull Request o
 Hepsi bu kadar! Artık, forkladığınız orjinal proje ile sizdeki kopya aynı :)
 
 
+
+
+
+# HTTPS ile CLON alırken
+
+### HTTPS ile CLON alırken Server Certificate hatası alınırsa
+
+"Server Certificate Verification Failed" hatası
+
+`git config --global http.sslVerify true`
+
+veya
+
+`git config --global http.sslVerify false`
+
+
+
+
+### Yanlışlıkla SSH yerine HTTPS seçilmişse
+
+Yanlışlıkla SSH yerine HTTPS adresi ile CLON yapılmış proje kaydının düzeltilmesi
+
+ADIM 1: Github proje sayfasına gidilir, SSH'lı clonlama adresi kopyalanır, aşağıdaki komut kullanılır:
+
+ADIM 2: `git remote set-url origin git@github.com:KULLANICIADI/REPOADI.git`
+
+
+
+### HTTPS kullanımı ve Parola sormayı engelleme
+
+HTTPS ile Depo erişimi kullanıldığında, PUSH sırasında sürekli kullanıcı adı ve parola sormaması için `.git/config` dosyasında yapılması gereken düzenleme:
+
+Github kullanıcı adınızı ve parolanızı şu şekilde kaydedebilirsiniz:
+
+url = https://KULLANICIADI:PAROLANIZ@github.com/nuriakman/anket.git
+
+veya terminalden şu yazılır:
+
+`git remote set-url origin https://KULLANICIADI:PAROLANIZ@github.com/nuriakman/anket.git`
+
+DİKKAT! Parolanızda özel karakterler olursa (örneğin: ünlem işareti) bunu \ karakteri ile escape etmeniz gerekir.
+
+
+
+
+
 ## İLK DEFA TANIŞACAKLAR İÇİN GİT KULLANIMI (YEREL DEPO)
 Komut |Anlamı|
 ------------|-------------|
@@ -105,6 +151,7 @@ Komut |Anlamı|
 Komut |Anlamı|
 ------------|-------------|
 ```git remote add upstream git@github/username/repo.git```|Uzak depo git reposunu ekler (BİR DEFA YAPILIR!)
+```git remote -v```|Projenin uzak git deposunu gösterir
 ```git push```|Yereldeki değişiklikleri uzak git deposuna (örneğin github) yükler  (PROJEYİ UZAK DEPOYA YÜKLEMEK GEREKTİĞİNDE)
 ```git pull```|Uzaktaki git deposundaki dosyaları yerele indirir  (UZAK DEPOYU YERELE İNDİRMEK GEREKTİĞİNDE)
 
