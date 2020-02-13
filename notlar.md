@@ -137,6 +137,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [0'dan bir web developer neleri bilmeli](https://telegra.ph/0dan-bir-web-developer-neleri-bilmeli-05-18)
 - [Command line HTTP client](https://httpie.org/run)
 - [Muhteşem PHP Kütüphaneleri](https://github.com/ziadoz/awesome-php)
+- [w3resource - HARİKA KAYNAKLAR](https://www.w3resource.com/)
 
 # PKI (Public Key Infrastructure)
 - [What is Public Key Infrastructure (PKI)](https://www.youtube.com/watch?v=i-rtxrEz_E8)
