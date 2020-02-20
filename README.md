@@ -170,7 +170,8 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [Faydalı Videolar](./konular/faydali.videolar.md)
 - [Faydalı Linkler](./konular/faydali.linkler.md)
 - [Özgür Yazılım Yaz ve Kış Kampları Blog Yazıları](./konular/blog.yazilari.md)
-
+- [Resim Boyutlandırma](./konular/faydali.resizeimage.md)
+- [Git Depo Boyutunu Küçültme / Git Shrink](./konular/faydali.gitshrink.md)
 
 # Teşekkürler / [Katkıda Bulunanlar](https://github.com/nuriakman/PHP-Egitimi/graphs/contributors)
 * [Kemal MUTLU](https://github.com/kemalmutlu)
