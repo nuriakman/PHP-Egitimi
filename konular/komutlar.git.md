@@ -270,6 +270,14 @@ Komut |Anlamı|
 ------------|-------------|
 ```git clone git@github/username/repo.git```|Uzak git depomuzu bulunduğumuz dizin altında proje ismi ilse aynı dizine indirdik
 
+## .gitignore Eklenmeden Önceki Dosyaları Temizleme
+NOT: Aşağıdaki işlemleri yapmadan önce, değişiklikleriniz varsa commit etmeyi unutmayın.
+```BASH
+git rm -r --cached .
+git add .
+git commit -m ".gitignore fix"
+git push
+```
 
 ## GİT Yardım Komutları
 ```BASH
