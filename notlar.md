@@ -550,3 +550,11 @@ Detayı: https://www.mankier.com/package/net-tools
 
 ## Referans Siteler
 - [HQMit: HTML-CSS-JS-DB](https://www.qhmit.com/)
+
+
+## FAYDALI BİLGİLER
+- [Alan adınızın yenilenmemesi nedeniyle durdurulması](https://www.natro.com/blog/alan-adi-suresi-dolduktan-sonra-ne-yapilmalidir/)
+- [MUTLAKA BİLİNMESİ GEREKEN CSS SEÇİCİLERİ](https://code.tutsplus.com/tr/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+
+
+
