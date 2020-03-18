@@ -558,3 +558,7 @@ Detayı: https://www.mankier.com/package/net-tools
 
 
 
+
+**Design Patterns:** "Tried and True Techniques for solving common programming problems." 
+
+ 
