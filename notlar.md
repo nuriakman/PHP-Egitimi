@@ -21,6 +21,9 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Güzel bir eğitim sitesi - QuacKit](https://www.quackit.com/) HTML, CSS, JS, jQuery, MySQL, JSON, Sass, Flexbox vb
 - [Ücretsiz Fotoğraflar - pexels](https://www.pexels.com)
 - [Ücretsiz Fotoğraflar - freepik](https://www.freepik.com/)
+- [Ücretsiz vektör grafikler - vecteezy](https://www.vecteezy.com/)
+- [Açık Kaynak Çizimler - undraw](https://undraw.co/) Web sitelerinde ve bloglarda kullanılabilecek HARİKA ÇİZİMLER!
+- [İnsan Resimleri - humaaans](https://www.humaaans.com/) Humaaans, insanların resimlerini karıştırmak ve eşleştirmek için ücretsiz bir kütüphanedir. Harika sahneler oluşturmak için konumlarını, kıyafetlerini, renklerini ve saç stillerini özelleştirebilirsiniz. Arka planlar ekleyebilir ve kitaplıkların gücünü kendiniz yapmak için kullanabilirsiniz.
 
 
 # JavaScript
