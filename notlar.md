@@ -354,7 +354,8 @@ ENTER,ENTER
 # JS
 * [Ödeme yapmayan müşterilerinizin web sitelerini her gün biraz daha transparan yapan proje](https://github.com/kleampa/not-paid)
 * [JSON verilerinde, nerede, sınırla, seç, sırala gibi yöntemler kullanmanıza izin verir](https://github.com/aykutkardas/Json-Function)
-* [Küçük projeler ile JvaScript öğrenme](https://github.com/bradtraversy/vanillawebprojects)
+* [Küçük projeler ile JavaScript öğrenme](https://github.com/bradtraversy/vanillawebprojects)
+* [JavaScript ile sayfaya konfeti ekleme](https://codepen.io/a-mt/pen/NLOGpP)
 
 
 # Git
