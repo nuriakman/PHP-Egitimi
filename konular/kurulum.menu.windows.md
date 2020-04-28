@@ -5,6 +5,9 @@
 - [Git (32 Bit)](https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-32-bit.exe) Ver 2.20.1 (32 Bit) **veya** [Git (64 Bit)](https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe) Ver 2.20.1 (64 Bit)
 - [Git Bash Kurulumu (Alternatif olarak)](./kurulum.windows.gitbash.md)
 - [XAMPP / PHP 7.3](https://www.apachefriends.org/xampp-files/7.3.1/xampp-win32-7.3.1-0-VC15-installer.exe) Ver 7.3.1
+- [XAMPP Sıkça Sorulan Sorular - Windows](https://www.apachefriends.org/faq_windows.html)
+- [XAMPP Sıkça Sorulan Sorular - Linux](https://www.apachefriends.org/faq_linux.html)
+- [XAMPP Sıkça Sorulan Sorular - MacOS](https://www.apachefriends.org/faq_osx.html)
 - [Virtualbox](https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe) Ver 6.0.10
 
 
