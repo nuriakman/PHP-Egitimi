@@ -66,7 +66,8 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [Bootstrap Eğitim Seti](https://www.youtube.com/playlist?list=PLsB7NoPcJGyyGsG-wopLSqZ_1DVEVxLWY) *Mutlaka izlemelisiniz
 - [Bootstrap Grid Yapısı](./konular/bootstrap.grid.md)
 - [Bootstrap Örnekleri](./konular/bootstrap.ornekleri.md)
-- [Renk Şablonları - BootSwatch](https://github.com/thomaspark/bootswatch)
+- [Renk Şablonları - BootSwatch](https://github.com/thomaspark/bootswatch) Ücretsiz
+- [Tasarım Blokları - Froala](https://github.com/froala/design-blocks) Ücretsiz
 
 
 ## Bootstrap İle Hazır Site Şablonları
