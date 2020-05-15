@@ -262,7 +262,7 @@ arttırın.
 ![Semantic Versioning](https://nhsconnect.github.io/gpconnect/images/design/semantic-versioning.png)
 
 
-## AMP nedir? EMP nedir?
+## LAMP/WAMP/LEMP vb nedir?
 PHP Çalışabilmek için, Apache+MySQL+PHP yazılımlarının bilgisayara kurulumu gerekmete. Ancak, bu konuda üçü bir arada hazır yazılımlar mevcut ve yoğun biçimde kullanılmaktadır.
 
 - AMP, Web sunucusu olarak [Apache](https://apache.org/) kullanan sistemler için kullanılır.
@@ -274,3 +274,7 @@ LAMP|Linux için Apache+MySQL+PHP anlamındadır.
 WAMP|Windows için Apache+MySQL+PHP anlamındadır.
 MAMP|MacOS için Apache+MySQL+PHP anlamındadır. MAMP'ın Windows sürümü de vardır.
 XAMP|Linux-Macos-Window işletim sistemlerinin hepsi için Apache+MySQL+PHP anlamındadır.
+
+## Öğrendiklerimizin Akılda Kalması
+Aşağıdaki piramitten görülebileceği gibi, etkin öğrenmenin yolu anlatma ve uygulamadan geçmektedir.
+![Öğrendiklerimizin Akılda Kalması](https://etikedanismanlik.com/images/2017/01/03/piramit-renme-edgar-dale-1.jpg)
