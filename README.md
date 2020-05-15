@@ -157,6 +157,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 
 ## LINUX
+Dünya üzerindeki [500 Süper Bilgisayarın tamamı linux kullanmaktadır.](https://www.top500.org/statistics/details/osfam/1)
 - [Temel Linux Komutları - Özet](./konular/linux.temel.komutlar.md)
 - [Temel Linux Komutları - Tam](./konular/linux.temel.komutlar.fazlasi.md)
 - [Linux Test Soruları - 1](./konular/linux.test.sorulari-1.md)
