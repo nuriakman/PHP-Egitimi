@@ -83,4 +83,4 @@ Ajaxpost için açıklamalar yorum satırı olarak belirtildi.
 </html>
 ```
 
-Evet, ajax ile post işlemimizi gerçekleştirdik. Eğer veri tabanına kayıt yapmak isterseniz yapacağınız işlem formu gönderdiğiniz sayfadan post verilerini almak.
+Evet, ajax ile post işlemimizi gerçekleştirdik. Eğer veri tabanına kayıt yapmak isterseniz, yapacağınız işlem formu gönderdiğiniz sayfadan $_POST ya da $_GET ile gelen verilerini almak ve işlemek. 
