@@ -4,7 +4,7 @@ AJAX internet sayfalarında JavaScript ve XMLHttpRequest kullanımı ile etkile�
 
 ### Nerelerde kullanılır?
 
-Formlarda, Oylama ve Sıralama işlemlerinde, Captcha kontrolleri, Chat uygulamaları vb. alanlarda kullanılır. Ajax ile formlarla post ve get işlemleri yapabiliriz.
+Formlar, oylama ve sıralama işlemleri, Captcha kontrolleri, Chat uygulamaları vb. alanlarda kullanılır. Ajax ile formlarla post ve get işlemleri yapabiliriz.
 
 ### Örnek Kullanım:
 
