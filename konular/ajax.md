@@ -9,7 +9,8 @@ Formlar, oylama ve sıralama işlemleri, Captcha kontrolleri, Chat uygulamaları
 ### Örnek Kullanım:
 
 Aşağıda ki örnekte **ajax'ın jquery ile kullanımını** anlatacağım.
-Bootstrap ve Jquery kütüphanelerini projemize dahil ettik. Ardından basit bir form tasarımı oluşturduk ve forma id olarak ajaxTest yazdık.
+
+Bootstrap ve Jquery kütüphanelerini projemize dahil ettikden sonra basit bir form tasarımı oluşturduk. Form elemanımızın ID'sini ajaxTest olarak ekledik.
 Bu ID'yi formumuzu post ederken kullanacağız. Ad ve soyad için input alanlarımızı oluşturduk ve ID'lerini tanımladık. 
 
 Ajaxpost için açıklamalar yorum satırı olarak belirtildi.
