@@ -98,6 +98,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 
 ## jQuery
 - jQuery ve Ajax ve JSON (Yapılacak)
+- [Ajax](./konular/ajax.md)
 - [5 Dakikada jQuery](https://learnxinyminutes.com/docs/jquery/)
 
 
@@ -164,7 +165,6 @@ Dünya üzerindeki [500 Süper Bilgisayarın tamamı linux kullanmaktadır.](htt
 - [Linux Test Soruları - 2](./konular/linux.test.sorulari-2.md)
 - [Eğitmen Notları](./konular/egitmen.notlari.md)
 - [Dosya İzinleri](./konular/dosya.izinleri.md)
-
 
 
 ## Çeşitli Konular
