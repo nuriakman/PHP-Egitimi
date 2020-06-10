@@ -32,7 +32,7 @@
   hoş bir şekilde açılan pencere içinden gösterilmesini sağlar.
 -->
 
-<script src="lightbox/jquery-3.3.1.min.js"></script>
+<script src="lightbox/jquery-3.5.1.min.js"></script>
 <link href="lightbox/lightbox.css" rel="stylesheet">
 <script src="lightbox/lightbox.js"></script>
 
