@@ -85,8 +85,7 @@ KAYNAK: https://github.com/nuriakman/PHP-Egitimi/blob/master/konular/kurulum.sh
 ```BASH
 sudo apt update
 sudo apt upgrade
-sudo apt install git apache2 mysql-server mysql-client php -y
-sudo apt install php-mbstring php-gd php-imagick php-bcmath php-dom php-zip php-soap -y
+sudo apt install git apache2 mariadb-server mariadb-client php php-sqlite3 php-mbstring php-gd php-imagick php-bcmath php-dom php-zip php-soap -y
 snap install atom --classic
 snap install sublime-text --classic
 
