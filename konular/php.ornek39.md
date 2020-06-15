@@ -13,9 +13,9 @@ Dosyanın başına şu CSS ve JS dosyaları eklenir, `<table>` etiketi içinde I
 	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
 	<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 
-  <script>
+	<script>
 	  $(document).ready(function() {
-		  $('#myTable').DataTable();
+	    $('#myTable').DataTable();
 	  });
 	</script>
 
