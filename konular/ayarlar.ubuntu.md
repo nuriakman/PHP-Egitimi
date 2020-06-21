@@ -14,14 +14,6 @@ git config --global user.email "xxx@gmail.com"
 git config --global user.name "ADINIZ SOYADINIZ"
 ```
 
-# `tasksel` Yardımı İle Hızlı Kurulum
-```BASH
-sudo apt-get install tasksel
-sudo tasksel install lamp-server
-```
-NOT: `sudo tasksel` Yazarak kurulabilir diğer program setleri görülebilir
-
-
 ## Apache Kurulumu
 ```BASH
 sudo apt install apache2 apache2-utils -y
