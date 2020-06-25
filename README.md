@@ -114,6 +114,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [MySQL String Komutları](./konular/komutlar.mysql.string.md)
 - [MySQL Tarih Komutları](./konular/komutlar.mysql.tarih.md)
 - [MySQL Functions](./konular/komutlar.mysql.all.md)
+- [SQLi Zaafiyeti / SQL Injection](./konular/SQLi.md)
 
 
 ## PHP'ye Giriş
