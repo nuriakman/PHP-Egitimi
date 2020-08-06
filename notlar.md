@@ -533,6 +533,8 @@ sudo apt install net-tools
 ```
 Detayı: https://www.mankier.com/package/net-tools
 
+Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
+
 
 ## Log Dosyaları:
 /var/log/apache2/access.log
