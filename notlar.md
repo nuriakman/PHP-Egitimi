@@ -564,7 +564,9 @@ Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
 - [Alan adınızın yenilenmemesi nedeniyle durdurulması](https://www.natro.com/blog/alan-adi-suresi-dolduktan-sonra-ne-yapilmalidir/)
 - [MUTLAKA BİLİNMESİ GEREKEN CSS SEÇİCİLERİ](https://code.tutsplus.com/tr/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
-
+## Renk Paletleri
+- [flatuicolors.com](https://flatuicolors.com/)
+- [coolors.co](https://coolors.co/)
 
 
 **Design Patterns:** "Tried and True Techniques for solving common programming problems." 
