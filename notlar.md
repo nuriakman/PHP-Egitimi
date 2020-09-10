@@ -26,6 +26,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Açık Kaynak Çizimler - undraw](https://undraw.co/) Web sitelerinde ve bloglarda kullanılabilecek HARİKA ÇİZİMLER!
 - [İnsan Resimleri - humaaans](https://www.humaaans.com/) Humaaans, insanların resimlerini karıştırmak ve eşleştirmek için ücretsiz bir kütüphanedir. Harika sahneler oluşturmak için konumlarını, kıyafetlerini, renklerini ve saç stillerini özelleştirebilirsiniz. Arka planlar ekleyebilir ve kitaplıkların gücünü kendiniz yapmak için kullanabilirsiniz.
 - [Google Chrome Book](https://www.google.com/googlebooks/chrome/big_00.html)
+- [what-is-dns-and-how-does-dns-lookup-wor](https://blog.nlogn.co/what-is-dns-and-how-does-dns-lookup-work)
 
 
 # JavaScript
