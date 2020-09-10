@@ -551,6 +551,7 @@ Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
 - [linux-dagitimlarin-kod-isimlerinin-ilginc-hikayeleri](https://www.cloudeos.com/topluluk/linux-dagitimlarin-kod-isimlerinin-ilginc-hikayeleri)
 - [isletim-sistemleri](https://www.cloudeos.com/topluluk/bilgi-bankasi/isletim-sistemleri)
 - [isletim-sistemleri/linux](https://www.cloudeos.com/topluluk/bilgi-bankasi/isletim-sistemleri/linux)
+- [12 Bilinmeyen HTML etiketi](https://jatinrao.dev/12-html-tags-you-dont-know)
 
 ## Font Siteleri
 - [GlukFonts](http://www.glukfonts.pl/index.php)
