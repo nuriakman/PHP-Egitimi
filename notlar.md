@@ -105,6 +105,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Bir API'ı test etmek için beklenen kodlara cevap veren bir uygulama](https://www.mocky.io/)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 - [Yapay Zeka İle Yüz Üretme](https://generated.photos/faces)
+- [Rest API Tutorial - Terminoloji ve Kullanım Prensipleri](https://www.restapitutorial.com/) Sadece 1-2 sayfada her şey özetlenmiş :)
 
 # SQLite ve PHP
 - [PHP PDO SQLite Example](https://theonlytutorials.com/php-pdo-sqlite-example-insert-read-search/)
