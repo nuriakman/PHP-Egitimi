@@ -477,7 +477,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 - [Bootstrap Tasarımcıları İçin Araçlar](http://bootstrap4.guide/cn/tools) (Themestr.app, Bootstrap Cheatsheet, Bootply, Bootsnipp, Bootstrap Build, MD Bootstrap, Reactstrap, Bootlint, Bootstrap Customizer, Bootstrap 4 Test Page)
 - [Free, open source Bootstrap 4 themes](https://github.com/ThemesGuide/bootstrap-themes/)
 - [Yeni ve Popüler Açık Kaynak Projeler](http://icodedis.tool.cards/)
-- [Bootstrap Toggle](www.bootstraptoggle.com)
+- [Bootstrap Toggle](http://www.bootstraptoggle.com)
 - [Bootstrap Renk Teması Galerisi ve Oluşturma](https://bootstrap.build/themes)
 
 
