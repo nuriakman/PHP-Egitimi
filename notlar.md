@@ -575,4 +575,7 @@ Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
 
 **Design Patterns:** "Tried and True Techniques for solving common programming problems." 
 
-Buradaki Dizi Sıralama notlara ve örneklere eklenmeli: https://www.tutorialspoint.com/sort-multidimensional-array-by-multiple-keys-in-php
+- Buradaki Dizi Sıralama notlara ve örneklere eklenmeli: https://www.tutorialspoint.com/sort-multidimensional-array-by-multiple-keys-in-php
+- What is stdClass in PHP? https://www.geeksforgeeks.org/what-is-stdclass-in-php/
+- PHP class (sınıf) yapısı:  https://www.phpr.org/php-class-sinif-yapisi/ 
+
