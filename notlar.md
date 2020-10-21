@@ -578,4 +578,5 @@ Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
 - Buradaki Dizi Sıralama notlara ve örneklere eklenmeli: https://www.tutorialspoint.com/sort-multidimensional-array-by-multiple-keys-in-php
 - What is stdClass in PHP? https://www.geeksforgeeks.org/what-is-stdclass-in-php/
 - PHP class (sınıf) yapısı:  https://www.phpr.org/php-class-sinif-yapisi/ 
+- Simple CRUD application with PHP and JSON:  https://www.youtube.com/watch?v=DWHZSkn5paQ Project Code: https://github.com/thecodeholic/PHPSimpleCRUD-FS
 
