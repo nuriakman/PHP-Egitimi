@@ -259,7 +259,7 @@ arttırın.
 **Minör/Küçük:** Programa yenilik getirdiğimiz zaman artar.
 **Bug-Fix/Yama:** Hatalar düzeltildiği zaman artar.
 
-![Semantic Versioning](https://nhsconnect.github.io/gpconnect/images/design/semantic-versioning.png)
+Türkçe Kaynak: https://semver.org/lang/tr/
 
 
 ## LAMP/WAMP/LEMP vb nedir?
