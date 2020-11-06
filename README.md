@@ -169,6 +169,7 @@ Dünya üzerindeki [500 Süper Bilgisayarın tamamı linux kullanmaktadır.](htt
 
 
 ## Çeşitli Konular
+- [Web Projesi Yapıyorum, Nasıl Çalışıyor Bilmiyorum](https://turerkan.medium.com/web-projesi-yap%C4%B1yorum-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1yor-bilmiyorum-592b639c79a1)
 - [Bower Paket Yöneticisi](./konular/bower.md)
 - [WordPress Kurulumu](./konular/cesitli.wordpress.md)
 - [Çeşitli Konular](./konular/cesitli.konular.md)
