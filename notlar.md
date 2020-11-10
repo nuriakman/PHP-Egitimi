@@ -580,3 +580,7 @@ Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
 - PHP class (sınıf) yapısı:  https://www.phpr.org/php-class-sinif-yapisi/ 
 - Simple CRUD application with PHP and JSON:  https://www.youtube.com/watch?v=DWHZSkn5paQ Project Code: https://github.com/thecodeholic/PHPSimpleCRUD-FS
 
+## History of Web
+- HTML was initially released in 1993.
+- CSS was initially released in 1996.
+- JavaScript was initially released in 1995.
