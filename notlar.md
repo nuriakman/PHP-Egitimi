@@ -7,6 +7,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 - [Git ile Zulamala](http://vigo.github.io/git-tips/ipucu/2013/02/18/git-stash-anlik-mudahale-ya-da-zulalama/)
 - [Git Stash İşlemleri](http://tr.enisozgen.com/git-stash-islemleri/)
 - [Git How To](https://githowto.com/)
+- [ohshitgit](https://ohshitgit.com/tr)
 
 # Veritabanı
 - [Veritabanına Giriş](https://erdemoflaz.com/veritabani-cesitleri-ve-kullanildiklari-alanlar/) - Notlarımız bu sayfaya göre güncellenebilir.
