@@ -1,6 +1,10 @@
 
 # Drag and Drop
 
+- https://www.yusufsezer.com.tr/html5-surukle-birak/
+- https://gelecegiyazanlar.turkcell.com.tr/konu/web-programlama/egitim/201-html5-css/html5te-surukle-birak-drag-drop
+- https://medium.com/@john.pickett/vue-draggable-drop-and-drop-sorting-for-vue-js-100222dcff65
+
 ```HTML
 <!DOCTYPE html>
 <html lang=en>
