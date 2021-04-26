@@ -11,6 +11,7 @@ Bu dosya ile, internette gezerken beğendiğim ve eğitim notlarına eklenebilec
 
 # Veritabanı
 - [Veritabanına Giriş](https://erdemoflaz.com/veritabani-cesitleri-ve-kullanildiklari-alanlar/) - Notlarımız bu sayfaya göre güncellenebilir.
+- [Common MySQL Queries](http://www.artfulsoftware.com/infotree/queries.php) Farklı konularda MySQL için örnek SQL kodları
 
 # Çeşitli Konular
 - [Forklanan Projeyi Güncel Tutma](https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381)
