@@ -4,7 +4,7 @@ Bu sayfada Linux sistemlerde kullanılabilecek temel komutlar ve tuş komutları
 
 ## Komut satırı kısayol tuşları
 
-Bash, zsh, sh vb. GNU işletim sistemi için bir kabuk ya da başka bir deyişle komut dili yorumlayıcılarıdır. Aşağıdaki kısayol tuşlarının bazıları komut dili yorumlayıcılarında farklılık gösterebilir. Kısa`yol *tuşlarından çalışmayan olursa şu yöntemi deneyebilirsiniz:* Terminal alanı sağ tık -> Tercihler -> Kısayol atamaları(tam ismi aklıma gelmiyor.) olan kısmı seçerseniz, çalışmayan kısayol tuşunuzla çakışan var mı diye bakabilirsiniz. Başka sebebi de olabilir.
+Bash, zsh, sh vb. GNU işletim sistemi için bir kabuk ya da başka bir deyişle komut dili yorumlayıcılarıdır. Aşağıdaki kısayol tuşlarının bazıları komut dili yorumlayıcılarında farklılık gösterebilir. *Kısayol tuşlarından çalışmayan olursa şu yöntemi deneyebilirsiniz:* Terminal alanı sağ tık -> Tercihler -> Kısayol atamaları(tam ismi aklıma gelmiyor.) olan kısmı seçerseniz, çalışmayan kısayol tuşunuzla çakışan var mı diye bakabilirsiniz. Başka sebebi de olabilir.
 
 KOMUT|AÇIKLAMA
 ----|----
@@ -35,7 +35,7 @@ KOMUT|AÇIKLAMA
 `Ctrl + P`| Geçmişte kullanılan komutları geriye doğru komut satırına getirir. Yukarı tuşu ile aynı işlevi görür.
 `Ctrl + N`| Komut geçmişinde ileri doğru gitmemizi sağlar. Aşağı tuşu ile aynı işlevi görür.
 `Ctrl + L`| Ekranı temizler. Clear komutu ile aynı işlev.
-`Ctrl + Alt + F7`| Daha önceden açmış olduğunuz sonra CTRL + Alt + F1 ile çıktığınız X oturumuna geri döner. Burada önemli nokta bunun altı konsollu bir sistemde geçerli olmasıdır. Eğer sisteminizde ört konsol varsa büyük ihtimalle bu işin tuşu F7 değil F5 olacaktır.
+`Ctrl + Alt + F7`| Daha önceden açmış olduğunuz sonra CTRL + Alt + F1 ile çıktığınız X oturumuna geri döner. Burada önemli nokta bunun altı konsollu bir sistemde geçerli olmasıdır. Eğer sisteminizde dört konsol varsa büyük ihtimalle bu işin tuşu F7 değil F5 olacaktır.
 `Ctrl + Alt + Fn (n=7-12)`| n numaralı X terminaline geçer. Birden fazla X kullanmak mümkün olduğu için bunlar arasında geçiş yapabilirsiniz.
 `Tab (sekme)`| Yazmakta olduğunuz komutu tamamlar (text terminalde). Mesela README dosyasını okutmak için more RE yazıp TAB'a basarsanız o anda bulunduğunu dizindeki RE ile başlayan dosyaların istesini görürsünüz, eğer tek dosya varsa satır tamamlanır. Aynı şey komut isimleri için de geçerlidir, bas yazıp taba bastığınızda hemen basename diye komutun tamamlandığını görürsünüz <Yukarı-aşağı ok> Daha önceden girilmiş komutlar arasında gidip gelmenizi sağlar.
 `Tab Tab`| Tab'la eşleştirme olmadığında bir daha tıklarsanız olası komutları gösterir.
@@ -75,7 +75,7 @@ KOMUT|AÇIKLAMA
 `uname -a`| Sistem hakkında çekirdek sürümünü, işlemci türü gibi bilgiler.
 `free`| Bellek kullanımını gösterir.
 `df -h`| Bağlı sabit disk bölümlerinin doluluk oranlarını gösterir.
-`du -sk [dizin]`| Belirtilen dizin in (belirtilmezse bulunduğunuz dizinin) içeriğinin diskte kapladığı alanın kB cinsinden boyutunu verir.
+`du -sk [dizin]`| Belirtilen dizinin (belirtilmezse bulunduğunuz dizinin) içeriğinin diskte kapladığı alanın kB cinsinden boyutunu verir.
 `cat /proc/interrupts`| Çekirdek tarafından tanımlanmış sistem kesmelerinin listesi.
 `cat /proc/version`| Linux çekirdeğinin sürüm bilgileri.
 `cat /proc/filesystems`| Çekirdekte tanımlı kullanılabilecek dosya sistemlerinin listesi.
@@ -98,7 +98,7 @@ KOMUT|AÇIKLAMA
 - `mcopy kaynak hedef` DOS'tan Unix'e ya da tersine (disketi bağlamanız şart değil) bir dosyayı başka bir yere kopyalar.Aynı mantıkta çalışan mdir,mcd,mren,mmove,mdel,mmd,mrd,mformat gibi komutlar da vardır.
 - `ln hedef [isim]` Sözkonusu hedef e sabit bağ oluşturur. Sözkonusu dosyalar iki yerde de var gibi gözükür, herhangibir değişiklik diğerini de etkiler,biri silindiğinde diğeri kalır. Sabit bağların kısıtlamaları, bağ dosyası ile asıl dosyanın aynı dosya sistemi içinde olması gerekliliği ve  dizinlerle özel dosyalara sabit bağ verilememesidir.
 - `ln -s hedef [isim]` hedef 'e bir sembolik bağ dosyası (isim verilmezse hedef ile aynı isimde) oluşturur.  Sembolik bağda hedef 'in nerede bulunacağının bilgisi vardır. Sembolik bağlar dizinler için de kullanılabilir. Tek sorunu hedef silindiğinde bağ bozulmuş olur.
-- `rm dosya ...` Verilen dosya ları siler. Sileceğiniz dosyanın sahibi olmanız gerekir.
+- `rm dosya ...` Verilen dosyaları siler. Sileceğiniz dosyanın sahibi olmanız gerekir.
 - `mkdir dizin` dizin dizinini oluşturur.
 - `rmdir dizin` Belirtilen dizin 'ler boşsa silinir.
 - `rm -r dosya` Dosya ve dizinleri ve dizinlerin içindeki dizinleri ardarda siler. Root olarak kullanırken dikkat edin, çünkü herşeyi silebilirsiniz!.
@@ -129,7 +129,7 @@ KOMUT|AÇIKLAMA
 - `tar -zxvf arsiv.tar.gz -C dizin` Sıkıştırılmış arşiv dosyasını belirtilen dizine açar.
 - `tar -jxvf arsiv.tar.bz2 -C dizin` Bzip2 ile sıkıştırılmış arşiv dosyasını belirtilen dizin e açar. (Eski sürümlerde -Ixvf kullanılırdı.)
 - `tar -zcvf arsiv.tar.gz dizin1 dizin2 ... dosya1 dosya2 ...` Belirtilen dizin ve/veya dosya ları arsiv.tar dosyası haline getirir ve ardından gzip ile sıkıştırıp arsiv.tar.gz haline getirir.
-- `unzip arsiv.zip -d dizin` arsiv.zip zip arşivini belirtilen dizin e açar.
+- `unzip arsiv.zip -d dizin` arsiv.zip zip arşivini belirtilen dizine açar.
 - `unarj e arsiv.arj` arsiv.arj arj arşivini açar.
 - `uudecode -o hedef kaynak` uuencode ile kodlanmış (genelde eposta ekleri) dosyayı açar.
 
