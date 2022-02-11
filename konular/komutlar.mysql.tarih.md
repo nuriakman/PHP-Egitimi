@@ -68,7 +68,7 @@ SELECT DATEDIFF('2011-07-24 12:00','2011-05-16') # '69'
 ### DAYNAME(date)
 Tarihin gün ismini döndürür.
 ```
-SELECT DAYNAME('2011-07-24') # 'Saturday'
+SELECT DAYNAME('2011-07-24') # 'Sunday'
 ```
 Eğer gün isminin türkçe görünmesini istiyorsanız sorguyu aşağıdaki gibi yapmalısınız.
 ```
@@ -130,7 +130,7 @@ SELECT STR_TO_DATE('10.31.2003',GET_FORMAT(DATE,'USA')) # '2003-10-31'
 ### HOUR(time)
 Bir zamanın saat bilgisini döndürür.
 ```
-SELECT OUR('10:05:03') # '10'
+SELECT HOUR('10:05:03') # '10'
 ```
 
 ### LAST_DAY(date)
@@ -173,7 +173,7 @@ SELECT MONTH('2011-02-03') # '2'
 ### MONTHNAME(date)
 Bir tarihe ait ayın ismini döndürür.
 ```
-SELECT MONTHNAME('2008-02-03') # 'Şubat'
+SELECT MONTHNAME('2008-02-03') # 'February'
 ```
 
 ### NOW()
@@ -275,7 +275,7 @@ SELECT TIMESTAMPDIFF(MINUTE,'2003-02-01','2003-05-01 12:05:55')
 ```
 
 ### TIME_FORMAT(time,format)
-Kullanımı DATE_FORMAT() fonksiyonu ile benzerdir. Fakat sadece saat ile ile ilgili formatı kabul eder.
+Kullanımı DATE_FORMAT() fonksiyonu ile benzerdir. Fakat sadece saat ile ilgili formatı kabul eder.
 ```
 SELECT TIME_FORMAT('100:00:00', '%H %k %h %I %l') # '100 100 04 04 4'
 ```
