@@ -3,7 +3,7 @@
 Saldırganlar, uygulama güvenlik önlemlerini atlatmak için SQL Injection açığından faydalanabilir. SQL Injection (SQLi), en basit anlatımıyla bilgi ifşasına sebep olacak SQL ifadelerinin yürütülmesini mümkün kılan bir saldırı türüdür. Zararlı SQL sorgularını çalıştırdıktan sonra saldırgan, bir web sayfasında ya da web uygulamasında yetkili kullanıcı gibi işlemler yapabilir veya veritabanı içeriğini alabilir. Ayrıca veritabanına kayıt ekleyebilir, değiştirebilir veya silebilir. SQL Injection zafiyeti, MySQL, Oracle, SQL Server veya diğerleri gibi SQL veritabanı kullanan herhangi bir web sitesi veya web uygulamasını etkileyebilir. Saldırgan, hassas verilerinize yetkisiz erişim sağlayabilir. Başarılı SQL Injection saldırısı müşteri bilgileri, kişisel veriler, ticari sırlar, fikri mülkiyet gibi hassas bilgilerin ifşalarına sebep olur. SQL Injection saldırıları en eski, en yaygın ve en tehlikeli web uygulaması güvenlik açıklarından biridir. OWASP Top 10 2017’de Injection saldırıları listede 1 numaradadır. Saldırganın veritabanına erişebilmesini ya da sistemde değişiklik yapabilmesini kolaylaştıran çeşitli açık kaynak araçlar vardır. Geliştiricilerin, uygulamada SQL sorguları yazmak için güvenli kodlama adımlarını izleyerek bu zafiyetten kaçınabilirler.
 
 **Örnek**
-http://sunucuadi.com/index.php?modul=uyelik&islem=kontrol&uyeno=123 parametresi aşağıdaki payload kullanılarak istismar dilebilir olup ilgili veritabanı kullanıcısı ile komut çalıştırılarak ilgili kullanıcının yetkili olduğu tüm veritabanı kayıtlarına erişilebilir:
+http://sunucuadi.com/index.php?modul=uyelik&islem=kontrol&uyeno=123 parametresi aşağıdaki payload kullanılarak istismar edilebilir olup ilgili veritabanı kullanıcısı ile komut çalıştırılarak ilgili kullanıcının yetkili olduğu tüm veritabanı kayıtlarına erişilebilir:
 
 `http://sunucuadi.com/index.php?modul=uyelik&islem=kontrol&uyeno=(SELECT 7282 FROM (SELECT(SLEEP(14)))TMP)`
 
@@ -27,7 +27,7 @@ Parametreli sorgular, WHERE, INSERT, UPDATE ifadesindeki değerler de dahil olma
 SQLi Açığı İçeren Kod:
 ```
 $insert = mysql_query("INSERT INTO uyeler SET
-uye_kadi  = 'Kemal',
+uye_adi  = 'Kemal',
 uye_sifre = '123456',
 uye_eposta = 'kemal@gmail.com'");
 if ( $insert ){
@@ -39,7 +39,7 @@ if ( $insert ){
 SQLi İçermeyen GÜVENLİ Kod:
 ```
 $query = $db->prepare("INSERT INTO uyeler SET
-uye_kadi = ?,
+uye_adi = ?,
 uye_sifre = ?,
 uye_eposta = ?");
 $insert = $query->execute(array(
