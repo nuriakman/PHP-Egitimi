@@ -39,7 +39,7 @@ SELECT CONCAT_WS(',','php','mysql','apache') # 'php,mysql,apache'
 ```
 
 ### ELT(N,str1,str2,str3,...) 
-Örneğimiz üzerinden haretket ederek bu fonksiyonu açıklayalım. İlk parametre  dönderilecek olan stringin indexidir. Eğer index 1 girilseydi çıktı php, 2 girilseydi css olacaktı.
+Örneğimiz üzerinden hareket ederek bu fonksiyonu açıklayalım. İlk parametre  dönderilecek olan stringin indexidir. Eğer index 1 girilseydi çıktı php, 2 girilseydi css olacaktı.
 ```
 SELECT ELT(3, 'php','css' ,'mysql', 'apache') # 'mysql'
 ```
