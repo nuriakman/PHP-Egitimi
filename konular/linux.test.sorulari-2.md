@@ -102,10 +102,10 @@
 - c.) hda6
 - d.) hda7
 
-- 18. Aşağıdakilerden hangisi Secondary Master(İkincil Ana.) IDE sürücüsü adıdır?
-- - a.) dev/hdab
-- - b.) dev/hdc
-- - c.) dev/hdd
+18. Aşağıdakilerden hangisi Secondary Master(İkincil Ana.) IDE sürücüsü adıdır?
+- a.) dev/hdab
+- b.) dev/hdc
+- c.) dev/hdd
 - d.) dev/hdc
 
 19. Aşağıdakilerden hangisi birincil bölüm değildir?
@@ -148,7 +148,8 @@
 - a.) list
 - b.) ls
 - c.) dir E)showd
-- 26. Aşağıdakilerden hangisi klasör değiştirmek için kullanılır?
+
+26. Aşağıdakilerden hangisi klasör değiştirmek için kullanılır?
 - a.) rm
 - b.) mkdir
 - c.) mv
@@ -406,7 +407,7 @@
 - c.) master
 - d.) root
 
-69. Sisteme girş yaparken yazılan kullanıcı adını veren komut aşağıdakilerden hangisidir?
+69. Sisteme giriş yaparken yazılan kullanıcı adını veren komut aşağıdakilerden hangisidir?
 - a.) who
 - b.) hostname
 - c.) whoami
@@ -434,7 +435,7 @@ KAYNAK: http://www.oguzhantas.com/linux/332-linux-test-sorulari.html
 
 31)B   32)C   33)A   34)C   35)D   36)B   37)A   38)A   39)C   40)B
 
-41)B   42)A   43)A   44)A   45)C   46)D   47)C   48)B   49)A   50)D
+41)B   42)A   43)A   44)B   45)C   46)D   47)C   48)B   49)A   50)D
 
 51)C   52)A   53)B   54)A   55)C   56)C   57)C   58)B   59)B   60)B
 
