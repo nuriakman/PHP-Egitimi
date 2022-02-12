@@ -17,7 +17,7 @@ Komut | Açıklaması
 ```cat dosyaadi```| Dosya içeriğini ekrana yazdırır
 ```find /etc -name "php.ini" ```| etc klasöründe php.ini dosyasını arar
 ```touch README.md```| Bulunduğunuz dizinde README.md adında yeni dosya oluşturur
-```wc dosyaadı```| Dosya içindeki satır, kelimve harf sayısını verir
+```wc dosyaadı```| Dosya içindeki satır, kelime ve harf sayısını verir
 ```atom . ```| Aktif dizini atom editöründe açar
 ```mkdir Resimler```| Bulunulan dizine Resimler adında bir klasör oluşturur
 ```cd Resimler```| Bulunulan dizindeki Resimler klasörüne geçiş yapar
@@ -39,7 +39,7 @@ apt|apt-get|Görevi
 ```apt purge```|```apt-get purge```|Paketi, ayar dosyalarıyla birlikte kaldırır
 ```apt update```|```apt-get update```|Depo indexini günceller
 ```apt upgrade```|```apt-get upgrade```|Yükseltilebilir tüm paketleri günceller
-```apt autoremove```|```apt-get autoremove```|İstenmeyen kapetleri kaldırır
+```apt autoremove```|```apt-get autoremove```|İstenmeyen paketleri kaldırır
 ```apt full-upgrade```|```apt-get dist-upgrade```|Bağımlılıkları ile birlikte paketleri günceller
 ```apt search```|```apt-cache search```|Depoda paket arar
 ```apt show```|```apt-cache show```|Paketin detay bilgisini verir
@@ -65,7 +65,7 @@ apt|apt-get|Görevi
 Komut | Açıklaması
 ------------ | -------------
 ```sudo apt edit-sources```|Depo adreslerini gösterir
-```ls \```| xclip -selection clipboard```|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
+```ls \```| ```xclip -selection clipboard```|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
 ```ifconfig```|ip bilgilerini gösterir ```sudo apt-get install net-tools```
 ```hardinfo```| Donanım bilgisini verir ```sudo apt-get install hardinfo```
 ```gzip DOSYAADI```|Dosyayı gzip ile sıkıştırır
