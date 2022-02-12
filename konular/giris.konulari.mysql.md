@@ -350,14 +350,14 @@ $DB->query("CREATE TABLE DUKKANLAR (DUKKANADI varchar(100));");
 
 $DukkanAdi = "Ayşe'nin Ev Yemekleri";
 
-/* Bu sorgu hatalıu çalışır */
+/* Bu sorgu hatalı çalışır */
 if (!$DB->query("INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
     printf("Error: %s\n", $DB->sqlstate);
 }
 
 $DukkanAdi = $DB->real_escape_string($DukkanAdi);
 
-/* Bu sorgu düngün çalışır */
+/* Bu sorgu düzgün çalışır */
 if ($DB->query("INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
     printf("%d Satır eklendi.\n", $DB->affected_rows);
 }
@@ -381,14 +381,14 @@ mysqli_query($DB, "CREATE TABLE DUKKANLAR (DUKKANADI varchar(100));");
 
 $DukkanAdi = "Ayşe'nin Ev Yemekleri";
 
-/* Bu sorgu hatalıu çalışır */
+/* Bu sorgu hatalı çalışır */
 if (!mysqli_query($DB, "INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
     printf("Error: %s\n", mysqli_sqlstate($DB));
 }
 
 $DukkanAdi = mysqli_real_escape_string($DB, $DukkanAdi);
 
-/* Bu sorgu düngün çalışır */
+/* Bu sorgu düzgün çalışır */
 if (mysqli_query($DB, "INSERT into DUKKANLAR (DUKKANADI) VALUES ('$DukkanAdi')")) {
     printf("%d Satır eklendi.\n", mysqli_affected_rows($DB));
 }
