@@ -65,7 +65,7 @@ apt|apt-get|Görevi
 Komut | Açıklaması
 ------------ | -------------
 ```sudo apt edit-sources```|Depo adreslerini gösterir
-```ls \```| xclip -selection clipboard```|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
+```ls \```| ```xclip -selection clipboard```|Komut çıktısını panoya kopyalar ```sudo apt-get install xlicp```
 ```ifconfig```|ip bilgilerini gösterir ```sudo apt-get install net-tools```
 ```hardinfo```| Donanım bilgisini verir ```sudo apt-get install hardinfo```
 ```gzip DOSYAADI```|Dosyayı gzip ile sıkıştırır
