@@ -13,7 +13,7 @@
 - c.) userdel
 - d.) delgroup
 
-3. oguzhan isimli kullanıının şifresini hangisi değiştirir?
+3. oguzhan isimli kullanıcının şifresini hangisi değiştirir?
 - a.) passwd oguzhan
 - b.) pass oguzhan
 - c.) change password oguzhan
