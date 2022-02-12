@@ -49,9 +49,9 @@ Bir - Bir İlişkisi'nde, Tablo A'da Tablo B'deki her kayıtla eşleşen yalnız
 
 
 ## 1’e Çok (1-n) İlişki
-En fazla rastalanan ilişki türüdür. Bir dershanede öğrenciler ve bu öğrencilere danışmanlık yapan öğretmenleri tutan iki adet tablomuz olsun. Bu iki tablo arasında kurulan ilişki 1’e n ilişki olur. Çünkü bir öğretmen birden fazla öğrenciye danışman olabiliyor ancak bir öğrenci en fazla bir öğretmenden danışmanlık alabiliyor.
+En fazla rastalanan ilişki türüdür. Bir okuldaki öğrenciler ve bu öğrencilerin ait olduğu sınıfları tutan iki adet tablomuz olsun. Bu iki tablo arasında kurulan ilişki 1’e n ilişki olur. Çünkü bir sınıfta birden fazla öğrenci olabiliyor ancak bir öğrenci en fazla bir sınıfa ait olabiliyor.
 
-![](http://kod5.org/wp-content/uploads/table21.png)
+![](http://teknikakil.com/wp-content/uploads/2017/11/bire-cok-iliski-teknikakil.png)
 
 
 ## Çoktan Çoğa (n-n) İlişki
