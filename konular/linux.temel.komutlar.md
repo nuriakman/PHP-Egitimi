@@ -179,7 +179,7 @@ Komut|Açıklama
 ```df -i``` | boş inode durumu görüntülenir
 ```fdisk -l``` | disk tipleri ve boyutlarını görüntüler
 ```du -ah``` | dizinlerin kullandıkları alanı okunaklı olarak gösterir
-```du -sh``` | dizinin kullandığı toplan alanı gösterir
+```du -sh``` | dizinin kullandığı toplam alanı gösterir
 ```findmnt``` | dosya sistemindeki bağlı tüm dizinleri detaylı bir şekilde gösterir
 ```mount /dev/sda /mnt``` | diski /mnt ye bağlar
 
