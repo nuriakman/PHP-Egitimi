@@ -116,7 +116,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [MySQL Tarih Komutları](./konular/komutlar.mysql.tarih.md)
 - [MySQL Functions](./konular/komutlar.mysql.all.md)
 - [SQLi Zaafiyeti / SQL Injection](./konular/SQLi.md)
-
+- [MySQL MyIsam vs InnoDB](./konular/mysql.engines.md)
 
 ## PHP'ye Giriş
 - [PHP'ye Giriş](./konular/giris.konulari.php.md) TODO: Başlıklar anlaşılabilir biçimde sunulmalı
