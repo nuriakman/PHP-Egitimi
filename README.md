@@ -141,6 +141,7 @@ Bundan sonra da **PHP ve MySQL ile Web Programlama** eğitimleri için bir başv
 - [PHP Sınıf Örneği](./konular/class.ornegi.md)
 - [Veri Çekme](./konular/curl.ornegi.md)
 - [Düzenli İfadeler](./konular/php.regex.md)
+- [Namespace / İsim uzayı](./konular/php.namespace.md)
 
 ## php.ini ve my.ini Ayarları
 - [PHP ayarları](./konular/ayarlar.php.ini.md)
