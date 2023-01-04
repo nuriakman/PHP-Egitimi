@@ -586,3 +586,14 @@ Linux İçin Kitap: https://github.com/nuriakman/linux_kitap
 - HTML was initially released in 1993.
 - CSS was initially released in 1996.
 - JavaScript was initially released in 1995.
+
+
+## Şunlar da içeriğe eklenmeli
+- https://www.php.net/manual/tr/function.setcookie.php
+- https://www.php.net/manual/tr/function.header.php
+- https://www.php.net/manual/en/filter.filters.validate.php
+- https://www.php.net/manual/en/filter.examples.validation.php
+- https://www.php.net/manual/en/filter.filters.sanitize.php
+- https://www.php.net/manual/en/filter.examples.sanitization.php
+- https://kodlamaklazim.com/kategori/php
+- https://kodlamaklazim.com/blog/yazilima-nasil-basladim
