@@ -58,6 +58,10 @@ Uygulama, veritabanı kullanıcısının, yükseltilmiş ayrıcalıklar gerektir
 ### 4. Ek Güvenlik Seviyeleri
 WAF gibi çözümler, SQL Injection saldırısına karşı ek olarak koruma önlemi olabilir. WAF’lar trafiği uygulama düzeyinde inceler ve bunun kötü olup olmadığını belirleyebilir. WAF için güncelleme, bakım gereklidir, aksi takdirde güncellenmemiş sistemler için saldırganlar atlatma yolunu bulabilir.
 
+
+## Canlı Canlı SQL Injection uygulaması
+[PHP GUVENLİK - XSS Açığı , SQL INJECTION Açığı ve SQLMAP Kullanımı](https://www.youtube.com/watch?v=UgRvV5Wd61c&ab_channel=MertBuldur)
+
 ## Kaynaklar
 - http://unixwiz.net/techtips/sql-injection.html
 - https://securiteam.com/securityreviews/5DP0N1P76E
