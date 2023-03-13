@@ -37,6 +37,7 @@
 - [2012, **Hidayet Doğan**, Linux Yaz Kampı'nın ardından](https://hi.do/2012/07/07/linux-yaz-kampinin-ardindan/)
 
 ## Özgür Yazılım - Kış Kampı Blog Yazıları
+- [2023, **Osman Kayı**, Mustafa Akgül Özgür Yazılım Kış Kampı 2023](https://medium.com/@osmankayi06/oyk-2023-ki%C5%9F-22a025be18e5)
 - [2019, **Yağmur Bali**, Mustafa Akgül Özgür Yazılım Kış Kampı 2019](https://medium.com/@yagmurb/mustafa-akgul-ozgur-yazilim-kis-kampi-2019-f0f46409e5f4)
 - [2019, **Kemal Mutlu**, 2019 Mustafa Akgül Özgür Yazılım Kış Kampı](https://medium.com/@mutlukemal1717/2019-mustafa-akgul-ozgur-yazilim-kis-kampi-ef2cbcb3b36f)
 - [2019, **Çağıl Berrak Yüksel**, AB’19 MUSTAFA AKGÜL ÖZGÜR YAZILIM KIŞ KAMPI](https://blog.linuxturkey.org/2019/02/20/ab19-mustafa-akgul-ozgur-yazilim-kis-kampi/)
