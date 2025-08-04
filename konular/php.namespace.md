@@ -1,5 +1,67 @@
 # PHP Namespace / İsim Uzayı
 
+## Namespace'in Çakışmayı Engellemesine Canlı Örnek
+
+Aynı isimdeki sınıfların farklı namespace'lerde nasıl kullanılabileceğini gösteren bir örnek:
+
+```php
+<?php
+
+// Birinci namespace (Database bağlantısı için)
+namespace Database;
+
+class Connection {
+    public function connect() {
+        return "Veritabanı bağlantısı kuruldu (Database\Connection)";
+    }
+}
+
+// İkinci namespace (Network bağlantısı için)
+namespace Network;
+
+class Connection {
+    public function connect() {
+        return "Ağ bağlantısı kuruldu (Network\Connection)";
+    }
+}
+
+// Üçüncü namespace (Uygulamamızın ana kodu)
+namespace App;
+
+use Database\Connection as DBConnection;
+use Network\Connection as NetConnection;
+
+// Kullanım örnekleri
+$db = new DBConnection();
+echo $db->connect() . "\n";
+// Çıktı: Veritabanı bağlantısı kuruldu (Database\Connection)
+
+$net = new NetConnection();
+echo $net->connect() . "\n";
+// Çıktı: Ağ bağlantısı kuruldu (Network\Connection)
+
+// Namespace kullanmasaydık ne olurdu?
+// Aynı dosyada iki tane Connection sınıfı tanımlayamazdık!
+// Fatal error: Cannot redeclare class Connection
+```
+
+## Senaryo Açıklaması:
+
+1. **Database** namespace'i altında bir `Connection` sınıfı oluşturduk (veritabanı bağlantısı için)
+2. **Network** namespace'i altında yine `Connection` sınıfı oluşturduk (ağ bağlantısı için)
+3. **App** namespace'i içinde her ikisini de `use` ve `as` anahtar kelimeleriyle farklı isimlerle kullandık
+4. Eğer namespace kullanmasaydık, aynı isimde iki sınıf tanımlayamayacağımız için hata alırdık
+
+## Gerçek Dünya Örneği:
+
+Örneğin bir projede:
+- `App\Mail\Message` (Uygulamamızın mail sınıfı)
+- `Vendor\Package\Message` (Yüklediğimiz bir kütüphanenin mail sınıfı)
+
+Namespace olmasaydı, bu iki `Message` sınıfı çakışacak ve ikisini aynı projede kullanamayacaktık.
+
+## Diğer Notlar
+
 #### Simple use of namespace
 ```PHP
 //food.php
